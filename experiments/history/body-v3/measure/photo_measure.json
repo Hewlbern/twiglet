@@ -1,0 +1,140 @@
+{
+ "landmarks_px": {
+  "head_left": 525,
+  "head_right": 720,
+  "head_cy": 285,
+  "collar_top": 343,
+  "collar_bot": 355,
+  "torso_bot_side": 407,
+  "torso_bot_front": 427,
+  "kilt_hem": 505,
+  "knee_far": 520,
+  "knee_near": 533,
+  "ankle_far": 560,
+  "ankle_near": 585,
+  "sole_far": 618,
+  "sole_near": 650,
+  "sh_left": 548,
+  "sh_right": 722,
+  "torso_left": 575,
+  "torso_right": 690,
+  "leg_far_x": 580,
+  "leg_near_x": 695,
+  "boot_left": 528,
+  "boot_right": 738,
+  "waist_ellipse_halfw": 57,
+  "waist_ellipse_sag": 20
+ },
+ "rows_px": {
+  "head_top": 187.5,
+  "head_c": 285,
+  "collar_top": 343,
+  "torso_top": 355,
+  "waist": 407,
+  "kilt_hem": 505,
+  "knee": 526.5,
+  "ankle": 572.5,
+  "floor": 634.0
+ },
+ "raw": {
+  "D_px": 195,
+  "total_px": 446.5,
+  "seg_px": {
+   "neck_collar": 12,
+   "torso": 52,
+   "kilt": 98,
+   "waist_to_knee": 119.5,
+   "shin": 46.0,
+   "foot_boot": 61.5
+  },
+  "seg_over_D_uncorrected": {
+   "neck_collar": 0.062,
+   "torso": 0.267,
+   "kilt": 0.503,
+   "waist_to_knee": 0.613,
+   "shin": 0.236,
+   "foot_boot": 0.315
+  },
+  "head_over_height_uncorrected": 0.437,
+  "head_over_shoulder_uncorrected": 1.121
+ },
+ "corrected_nominal": {
+  "hfov": 70,
+  "alpha_waist_deg": 24.381,
+  "alpha_head_deg": 16.746,
+  "alpha_floor_deg": 38.124,
+  "cam_dist_head_mm": 796.833,
+  "total_mm": 454.235,
+  "seg_mm": {
+   "head": 138.748,
+   "neck_collar": 11.454,
+   "torso": 51.026,
+   "kilt": 102.773,
+   "waist_to_knee": 126.567,
+   "shin": 52.532,
+   "foot_boot": 73.909
+  },
+  "seg_over_D": {
+   "head": 0.816,
+   "neck_collar": 0.067,
+   "torso": 0.3,
+   "kilt": 0.605,
+   "waist_to_knee": 0.745,
+   "shin": 0.309,
+   "foot_boot": 0.435
+  },
+  "head_over_height": 0.374,
+  "shoulder_mm": 155.723,
+  "torso_w_mm": 102.92,
+  "leg_spacing_mm": 112.913,
+  "boot_outer_mm": 222.854
+ },
+ "corrected_range": {
+  "head_over_height": [
+   0.342,
+   0.393
+  ],
+  "total_mm_if_head_170": [
+   432.485,
+   497.595
+  ],
+  "head_over_D": [
+   0.807,
+   0.832
+  ],
+  "neck_collar_over_D": [
+   0.065,
+   0.071
+  ],
+  "torso_over_D": [
+   0.29,
+   0.32
+  ],
+  "kilt_over_D": [
+   0.571,
+   0.669
+  ],
+  "waist_to_knee_over_D": [
+   0.701,
+   0.828
+  ],
+  "shin_over_D": [
+   0.284,
+   0.359
+  ],
+  "foot_boot_over_D": [
+   0.393,
+   0.521
+  ],
+  "alpha_head_deg": [
+   11.399,
+   23.784
+  ],
+  "alpha_floor_deg": [
+   31.997,
+   46.317
+  ]
+ },
+ "head_over_shoulder": 1.092,
+ "note": "Camera model: pinhole, HFOV 60-80 deg (phone main camera ~70), view elevation from the torso-bottom ellipse (torso depth/width 0.7-1.0). Head size from the wooden-ball silhouette (hair hides the extreme edges). The photo looks like a render / concept of the robot, so the head/eye geometry does not exactly match head A; treat ratios as +-5-8 %."
+}

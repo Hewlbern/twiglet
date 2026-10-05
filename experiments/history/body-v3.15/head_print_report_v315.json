@@ -1,0 +1,228 @@
+{
+ "info": {
+  "clumps": 14,
+  "strands": 25,
+  "dome": {
+   "T0": 12.0,
+   "TH_A": 30.0,
+   "TH_B": 52.0
+  },
+  "pins": [
+   [
+    20.0,
+    30.0
+   ],
+   [
+    20.0,
+    150.0
+   ],
+   [
+    20.0,
+    270.0
+   ]
+  ],
+  "parts_before_keep": 1,
+  "dropped_mm3": [],
+  "watertight": true,
+  "extents": [
+   220.1,
+   269.9,
+   173.4
+  ],
+  "volume_cm3": 664.5,
+  "area_cm2": 1457.2,
+  "sim_g": 198.9,
+  "moment_gmm": 1734,
+  "old_sim_g": 166.9,
+  "old_moment_gmm": 2458,
+  "eye_cover": {
+   "L": 0.088,
+   "R": 0.169
+  },
+  "eye_cover_v314": {
+   "L": 0.106,
+   "R": 0.122
+  },
+  "head_upper_holes_removed_mm3": 0.0,
+  "overlaps_mm3": {
+   "head_upper": 0.0,
+   "head_lower": 0.0,
+   "snout": 0.0,
+   "eye_bezel_L": 0.0,
+   "eye_bezel_R": 0.0,
+   "chin_collar_L": 0.0,
+   "chin_collar_R": 0.0,
+   "display_carrier_L": 0.0,
+   "display_carrier_R": 0.0
+  },
+  "clearance_mm": {
+   "seat_vertices": 16003,
+   "p5": 0.333,
+   "p50": 0.438,
+   "p95": 0.908,
+   "min": 0.301
+  },
+  "min_gap_by_part_mm": {
+   "head_upper": 0.3,
+   "head_lower": 0.33,
+   "eye_bezel_L": 2.93,
+   "eye_bezel_R": 2.91,
+   "snout": null,
+   "chin_collar_L": null,
+   "chin_collar_R": null
+  },
+  "crown_check": {
+   "points": 3077,
+   "missing": 0,
+   "max_dip_mm": 0.188,
+   "p99_dip_mm": 0.013,
+   "n_dips_over_0p15": 4,
+   "n_dips_over_0p3": 0,
+   "height_above_seat_mm": {
+    "min": 11.92,
+    "p50": 12.02,
+    "max": 12.17
+   },
+   "th_max": 32.0,
+   "ring": 2
+  },
+  "crown_check_ring1": {
+   "points": 3077,
+   "missing": 0,
+   "max_dip_mm": 0.136,
+   "p99_dip_mm": 0.011,
+   "n_dips_over_0p15": 0,
+   "n_dips_over_0p3": 0,
+   "height_above_seat_mm": {
+    "min": 11.92,
+    "p50": 12.02,
+    "max": 12.17
+   },
+   "th_max": 32.0,
+   "ring": 1
+  }
+ },
+ "parts": {
+  "wig": {
+   "file": "v315_head_wig.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    184.9,
+    242.5,
+    229.2
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 664.5,
+   "est_g": 199,
+   "est_support_g": 32,
+   "est_hours": 14.4,
+   "overhang_cm2_over45": 156.4,
+   "support_column_cm3": 212,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported: crown axis tilted 48 deg from straight-down (least support volume of 6120 orientations searched); lies on the dome + clump backs",
+   "supports": "tree supports (auto, build plate only, threshold 40 deg, 0.2 mm top Z gap) + 5 mm brim",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (clumps + crown dome print as sealed hollow shells), 0.4 mm nozzle",
+   "note": "ONE PIECE (no split, no seam)",
+   "mb": 4.1
+  },
+  "_crown_down_alt": {
+   "support_column_cm3": 369,
+   "overhang_cm2": 244.3,
+   "est_support_g": 55
+  },
+  "head_upper": {
+   "file": "v315_head_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 123.8,
+   "est_g": 136,
+   "est_support_g": 14,
+   "est_hours": 9.4,
+   "overhang_cm2_over45": 197.6,
+   "support_column_cm3": null,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only (crown above ~60 deg, hidden under the hat) + the two eye bores' top edge",
+   "settings": "0.16 mm layers (grain + facet edges read better; 0.2 mm OK), 3 walls, 15 % gyroid",
+   "note": "NEW in v3.15: flat recessed eye facets + larger 36.3 mm eye bores + re-engraved grain rings; keeps v3.14's 3 x 3.2 mm crown pin holes",
+   "mb": 15.9
+  },
+  "head_lower": {
+   "file": "v315_head_head_lower.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    209.0,
+    210.0,
+    95.1
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 245.5,
+   "est_g": 193,
+   "est_support_g": 19,
+   "est_hours": 13.2,
+   "overhang_cm2_over45": 337.5,
+   "support_column_cm3": null,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "split-plane rim down (as v3.13/v3.14)",
+   "supports": "tree supports inside the eye bores' upper edges and as before; snout socket unchanged",
+   "settings": "0.16 mm layers (grain + facet edges read better; 0.2 mm OK), 3 walls, 15 % gyroid",
+   "note": "NEW in v3.15: lower half of the eye facets / bores; snout socket, chin-collar and neck features identical to v3.14",
+   "mb": 21.1
+  },
+  "eye_bezel_L": {
+   "file": "v315_head_eye_bezel_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    74.4,
+    74.4,
+    6.2
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 6.4,
+   "est_g": 6,
+   "est_support_g": 1,
+   "est_hours": 0.4,
+   "overhang_cm2_over45": 0.5,
+   "support_column_cm3": null,
+   "colour": "matte BLACK PLA",
+   "orientation": "front ring face DOWN on the bed (spigot up)",
+   "supports": "none",
+   "settings": "0.16 mm, 3 walls, 30 % infill, textured PEI for a matte front",
+   "note": "NEW in v3.15: thick dark ring (74.4 mm eye disc, 6.2 mm ring face, 62 mm window, 4.6 mm spigot into the bore); press/glue into the facet bore",
+   "mb": 0.2
+  },
+  "eye_bezel_R": {
+   "file": "v315_head_eye_bezel_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    74.4,
+    74.4,
+    6.1
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 6.4,
+   "est_g": 6,
+   "est_support_g": 1,
+   "est_hours": 0.4,
+   "overhang_cm2_over45": 0.4,
+   "support_column_cm3": null,
+   "colour": "matte BLACK PLA",
+   "orientation": "front ring face DOWN on the bed (spigot up)",
+   "supports": "none",
+   "settings": "0.16 mm, 3 walls, 30 % infill, textured PEI for a matte front",
+   "note": "NEW in v3.15: thick dark ring (74.4 mm eye disc, 6.2 mm ring face, 62 mm window, 4.6 mm spigot into the bore); press/glue into the facet bore",
+   "mb": 0.2
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (clumps + crown dome print as sealed hollow shells), 0.4 mm nozzle"
+}

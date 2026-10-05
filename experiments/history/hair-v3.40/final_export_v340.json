@@ -1,0 +1,37 @@
+{
+ "file": "$WORK/twiglet-odm-robot/hair-v3.40/FINAL_WIG.stl",
+ "faces": 59984,
+ "mb": 3.0,
+ "open_edges": 0,
+ "nonmanifold_edges": 0,
+ "bodies": 1,
+ "watertight": true,
+ "winding_ok": true,
+ "volume_cm3": 559.65,
+ "full_res_volume_cm3": 559.58,
+ "size_mm": [
+  248.2,
+  223.1,
+  242.2
+ ],
+ "fits_P1S": true,
+ "support_column_cm3": 382,
+ "overhang_cm2": 204.2,
+ "orientation": "print-oriented like v3.30: crown axis tilted 40 deg from straight-down (least support volume of 6120 orientations searched), centred on the bed, z0 = bed",
+ "rotation_quat_xyzw": [
+  -0.847746,
+  -0.404214,
+  0.047674,
+  -0.340094
+ ],
+ "model_frame_ball_C": [
+  11.778533234056269,
+  -0.006384591059090009,
+  235.1220020925693
+ ],
+ "decimation_dev_mm": {
+  "p50": 0.006,
+  "p99": 0.033,
+  "max": 0.069
+ }
+}

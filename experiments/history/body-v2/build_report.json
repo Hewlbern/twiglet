@@ -1,0 +1,157 @@
+{
+ "params": {
+  "Y_H": 22.0,
+  "YC": 45.0,
+  "DZ": 44.0,
+  "DX_H": -2.0,
+  "DXN": 18.0,
+  "DN": 20.0,
+  "A": [
+   16.0,
+   92.0,
+   86.0
+  ],
+  "SH_REST": 8.0,
+  "EL_REST": 22.0,
+  "TORSO_TOP": 122.0,
+  "WAIST_Z": 26.0
+ },
+ "parts": {
+  "torso_frame": {
+   "file": "stl/v2_torso_frame.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    94.5,
+    80.0,
+    119.5
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 99.3,
+   "est_mass_g": 84.5,
+   "colour": "grey/any (hidden)",
+   "orientation": "back rail (x = -62 face) down on the bed; tree supports under the deck, yaw sleeves and neck cradle"
+  },
+  "hip_cradle": {
+   "file": "stl/v2_hip_cradle.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    63.0,
+    79.0,
+    72.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 15.3,
+   "est_mass_g": 13.1,
+   "colour": "grey/any (hidden)",
+   "orientation": "keel down (as exported, flipped so seats face up); supports under the T-heads"
+  },
+  "hip_ring": {
+   "file": "stl/v2_hip_ring.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    132.0,
+    106.0,
+    16.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 24.0,
+   "est_mass_g": 20.4,
+   "colour": "wood brown (hidden under the kilt)",
+   "orientation": "flat, groove side up; no supports"
+  },
+  "hip_bracket_L": {
+   "file": "stl/v2_hip_bracket_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    48.0,
+    53.6,
+    74.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 29.7,
+   "est_mass_g": 21.3,
+   "colour": "black",
+   "orientation": "sleeve axis vertical (as the stock roll_to_pitch print guide); supports under the webs"
+  },
+  "hip_bracket_R": {
+   "file": "stl/v2_hip_bracket_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    48.0,
+    53.6,
+    74.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 29.7,
+   "est_mass_g": 21.3,
+   "colour": "black",
+   "orientation": "mirror of L"
+  },
+  "shoulder_mount_L": {
+   "file": "stl/v2_shoulder_mount_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    32.0,
+    51.9,
+    69.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 20.0,
+   "est_mass_g": 18.6,
+   "colour": "wood brown",
+   "orientation": "side plate face down (y = 33 face on the bed); pocket open to the side, no supports"
+  },
+  "shoulder_mount_R": {
+   "file": "stl/v2_shoulder_mount_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    32.0,
+    51.9,
+    69.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 20.0,
+   "est_mass_g": 18.6,
+   "colour": "wood brown",
+   "orientation": "mirror of L"
+  },
+  "torso_shell_front": {
+   "file": "stl/v2_torso_shell_front.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    92.8,
+    98.0,
+    81.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 33.8,
+   "est_mass_g": 34.1,
+   "colour": "wood brown",
+   "orientation": "split face (x = -30) down on the bed; tree supports only under the shoulder-window tops"
+  },
+  "torso_shell_back": {
+   "file": "stl/v2_torso_shell_back.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    96.0,
+    97.9,
+    58.0
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 37.2,
+   "est_mass_g": 39.4,
+   "colour": "wood brown",
+   "orientation": "split face down; no supports except the switch slot bridge"
+  }
+ },
+ "note": "est_mass: PLA 1.24 g/cm3, 0.9 mm solid skin + 15 % infill"
+}

@@ -1,0 +1,11 @@
+{
+ "unrefined": {
+  "success": 0.8,
+  "speed": 0.1575219567437646
+ },
+ "refined": {
+  "success": 1.0,
+  "speed": 0.15098692961014024
+ },
+ "accepted": true
+}

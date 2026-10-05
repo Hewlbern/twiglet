@@ -1,0 +1,199 @@
+{
+ "variant": "v3",
+ "xml": "twiglet_v3.xml",
+ "wave_0.5Hz": {
+  "fell": null,
+  "joints": {
+   "shoulder_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.194,
+    "rms_Nm": 0.11,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.75,
+    "peak_over_stall": 0.44,
+    "copper_loss_W": 0.287,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.155,
+    "rms_Nm": 0.071,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.48,
+    "peak_over_stall": 0.35,
+    "copper_loss_W": 0.119,
+    "time_at_stall_pct": 0.0
+   },
+   "gripper_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.001,
+    "rms_Nm": 0.001,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.01,
+    "peak_over_stall": 0.0,
+    "copper_loss_W": 0.0,
+    "time_at_stall_pct": 0.0
+   },
+   "shoulder_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.195,
+    "rms_Nm": 0.112,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.76,
+    "peak_over_stall": 0.44,
+    "copper_loss_W": 0.297,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.183,
+    "rms_Nm": 0.07,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.47,
+    "peak_over_stall": 0.41,
+    "copper_loss_W": 0.116,
+    "time_at_stall_pct": 0.0
+   }
+  },
+  "tracking": {
+   "shoulder_R_pp_deg": 36.6,
+   "elbow_R_pp_deg": 13.6,
+   "shoulder_L_pp_deg": 46.9,
+   "commanded_pp_deg": {
+    "shoulder_R": 40.0,
+    "elbow_R": 20.0,
+    "shoulder_L": 50.0
+   }
+  }
+ },
+ "wave_0.8Hz": {
+  "fell": null,
+  "joints": {
+   "shoulder_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.253,
+    "rms_Nm": 0.137,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.94,
+    "peak_over_stall": 0.57,
+    "copper_loss_W": 0.45,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.188,
+    "rms_Nm": 0.086,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.59,
+    "peak_over_stall": 0.43,
+    "copper_loss_W": 0.177,
+    "time_at_stall_pct": 0.0
+   },
+   "gripper_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.001,
+    "rms_Nm": 0.001,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.01,
+    "peak_over_stall": 0.0,
+    "copper_loss_W": 0.0,
+    "time_at_stall_pct": 0.0
+   },
+   "shoulder_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.259,
+    "rms_Nm": 0.148,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 1.01,
+    "peak_over_stall": 0.59,
+    "copper_loss_W": 0.523,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.243,
+    "rms_Nm": 0.093,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.63,
+    "peak_over_stall": 0.55,
+    "copper_loss_W": 0.207,
+    "time_at_stall_pct": 0.0
+   }
+  },
+  "tracking": {
+   "shoulder_R_pp_deg": 36.9,
+   "elbow_R_pp_deg": 13.2,
+   "shoulder_L_pp_deg": 47.1,
+   "commanded_pp_deg": {
+    "shoulder_R": 40.0,
+    "elbow_R": 20.0,
+    "shoulder_L": 50.0
+   }
+  }
+ },
+ "wave_1.5Hz": {
+  "fell": null,
+  "joints": {
+   "shoulder_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.391,
+    "rms_Nm": 0.22,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 1.5,
+    "peak_over_stall": 0.89,
+    "copper_loss_W": 1.153,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.249,
+    "rms_Nm": 0.127,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.86,
+    "peak_over_stall": 0.56,
+    "copper_loss_W": 0.383,
+    "time_at_stall_pct": 0.0
+   },
+   "gripper_R": {
+    "servo": "STS3032",
+    "peak_Nm": 0.001,
+    "rms_Nm": 0.001,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 0.01,
+    "peak_over_stall": 0.0,
+    "copper_loss_W": 0.0,
+    "time_at_stall_pct": 0.0
+   },
+   "shoulder_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.392,
+    "rms_Nm": 0.243,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 1.66,
+    "peak_over_stall": 0.89,
+    "copper_loss_W": 1.409,
+    "time_at_stall_pct": 0.0
+   },
+   "elbow_L": {
+    "servo": "STS3032",
+    "peak_Nm": 0.371,
+    "rms_Nm": 0.16,
+    "rated_Nm": 0.147,
+    "rms_over_rated": 1.09,
+    "peak_over_stall": 0.84,
+    "copper_loss_W": 0.606,
+    "time_at_stall_pct": 0.0
+   }
+  },
+  "tracking": {
+   "shoulder_R_pp_deg": 37.8,
+   "elbow_R_pp_deg": 12.7,
+   "shoulder_L_pp_deg": 47.9,
+   "commanded_pp_deg": {
+    "shoulder_R": 40.0,
+    "elbow_R": 20.0,
+    "shoulder_L": 50.0
+   }
+  }
+ }
+}

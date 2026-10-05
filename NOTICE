@@ -1,0 +1,42 @@
+Twiglet
+Copyright 2026 Mike Holborn (DreamMachina)
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository includes the third-party material below, each part under its own licence.
+
+Open Duck Mini v2 (https://github.com/apirrone/Open_Duck_Mini, branch v2)
+    Copyright Antoine Pirrone (apirrone) and the Open Duck Mini contributors
+    Apache License 2.0 -- LICENSE (the same text; upstream ships no NOTICE file)
+
+    Taken from Open Duck Mini v2 without changes:
+      - print/*.stl (the stock Open Duck Mini v2 parts)
+      - docs/upstream/* (the upstream docs, kept for reference)
+      - docs/open_duck_mini_v2_wiring_diagram.png, docs/open_duck_mini_v1_wiring_diagram.png,
+        docs/wiring.png, docs/wiring.drawio, docs/open_duck_mini_v2_wiring_diagram.drawio,
+        docs/head_schematic.xcf
+      - LICENSE
+
+    Based on Open Duck Mini v2 and modified for this project (Apache-2.0 section 4(b):
+    these files were changed):
+      - README.md, docs/assembly_guide.md, docs/print_guide.md, docs/configure_motors.md,
+        docs/BOM.md and docs/BOM.csv (upstream columns, and upstream lines with changed amounts),
+        thanks.md, .gitignore, pyproject.toml, setup.cfg
+      - the MuJoCo model in mini_bdx/robots/twiglet_v334/ and experiments/twiglet_sim/models/
+        follows the Open Duck Mini v2 kinematics; its visual meshes
+        (mini_bdx/robots/twiglet_v334/meshes/) merge the stock Open Duck Mini v2 parts with the new parts
+
+New work for this project (Apache-2.0, Copyright 2026 Mike Holborn):
+    print/mods/Twiglet/, mini_bdx/robots/twiglet_v334/ (apart from the upstream geometry
+    noted above), experiments/ (twiglet_sim, twiglet_geom, twiglet_eyes, history, tools), docs/images/,
+    CONTRIBUTING.md, docs/PUBLIC_RELEASE.md.
+
+Eye firmware: experiments/twiglet_eyes/TwigletEyes/st7701_panel.* contains the ST7701 panel
+    initialisation sequence, pins and timings of the Waveshare ESP32-S3-Touch-LCD-2.1 board,
+    ported from Waveshare's demo (https://docs.waveshare.com/ESP32-S3-Touch-LCD-2.1).
+    Waveshare does not state a licence for that demo. TODO before publishing: confirm the
+    terms, or replace the port with a version written from the ST7701S datasheet or from
+    Espressif's Apache-2.0 esp_lcd_st7701 component.
+
+This project is not affiliated with or endorsed by Pollen Robotics, HuggingFace or the
+Open Duck Mini project.

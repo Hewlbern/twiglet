@@ -1,0 +1,15 @@
+0.02 e None 29.8 {'head_pitch': 0.761, 'head_ "head_pitch": 0.189 
+0.0 e None 29.1 {'head_pitch': 0.762, 'head_ "head_pitch": 0.19 
+0.01 e None 31.4 {'head_pitch': 0.762, 'head_ "head_pitch": 0.189 
+0.03 e None 21.4 {'head_pitch': 0.792, 'head_ "head_pitch": 0.188 
+0.04 e None 27.2 {'head_pitch': 0.795, 'head_ "head_pitch": 0.187 
+0.05 e None 31.3 {'head_pitch': 0.789, 'head_ "head_pitch": 0.187 
+0.06 e None 32.3 {'head_pitch': 0.81, 'head_y "head_pitch": 0.186 
+0.08 e None 24.4 {'head_pitch': 0.824, 'head_ "head_pitch": 0.185 
+0.055 e None 29.7 {'head_pitch': 0.788, 'head_ "head_pitch": 0.186
+0.065 e None 20.9 {'head_pitch': 0.837, 'head_ "head_pitch": 0.186
+0.07 e None 20.5 {'head_pitch': 0.841, 'head_ "head_pitch": 0.185
+0.06 e None 32.3 {'head_pitch': 0.81, 'head_y "head_pitch": 0.186
+final 0.05 e None 29.4 {'head_pitch': 0.787, 'head_ "head_pitch": 0.187
+final 0.06 e None 32.3 {'head_pitch': 0.81, 'head_y "head_pitch": 0.186
+final 0.07 e None 20.5 {'head_pitch': 0.841, 'head_ "head_pitch": 0.185

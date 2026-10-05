@@ -1,0 +1,6 @@
+v334_r1 e None 34.0 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 0.95 | eff succ 1.0
+heldout v334_heldout_v333r1 params=walk_v3_best_v333r1.npy seeds6000-6019 succ 0.95 (19/20) speed 0.187
+heldout v334_heldout_v334s34 params=walk_v3_best_v334s34.npy seeds6000-6019 succ 0.85 (17/20) speed 0.183
+heldout v334_heldout_v334s35 params=walk_v3_best_v334s35.npy seeds6000-6019 succ 0.95 (19/20) speed 0.207
+heldout v334_heldout_v334s36 params=walk_v3_best_v334s36.npy seeds6000-6019 succ 0.90 (18/20) speed 0.201
+v334_r2 e None 34.0 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 1.0 | eff succ 1.0

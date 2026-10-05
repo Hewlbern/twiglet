@@ -1,0 +1,125 @@
+{
+ "stock": {
+  "head_assembly_mass_g": 456,
+  "head_com_mm": [
+   20.1,
+   0.2,
+   205.3
+  ],
+  "rest_moment_Nm": {
+   "neck_pitch": 0.088,
+   "head_pitch": 0.088,
+   "head_roll": 0.0
+  },
+  "worst_moment_Nm": {
+   "neck_pitch": [
+    0.628,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_pitch": [
+    0.272,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_roll": [
+    0.026,
+    [
+     0,
+     0,
+     30
+    ]
+   ]
+  },
+  "stall_margin_x": {
+   "neck_pitch": 3.04,
+   "head_pitch": 7.03,
+   "head_roll": 73.88
+  },
+  "load_pct_of_stall": {
+   "neck_pitch": 33,
+   "head_pitch": 14,
+   "head_roll": 1
+  }
+ },
+ "headA": {
+  "head_assembly_mass_g": 583,
+  "head_com_mm": [
+   36.1,
+   -0.5,
+   235.7
+  ],
+  "rest_moment_Nm": {
+   "neck_pitch": 0.203,
+   "head_pitch": 0.203,
+   "head_roll": 0.004
+  },
+  "worst_moment_Nm": {
+   "neck_pitch": [
+    0.963,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_pitch": [
+    0.533,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_roll": [
+    0.123,
+    [
+     45,
+     -45,
+     -30
+    ]
+   ]
+  },
+  "stall_margin_x": {
+   "neck_pitch": 1.98,
+   "head_pitch": 3.59,
+   "head_roll": 15.54
+  },
+  "load_pct_of_stall": {
+   "neck_pitch": 50,
+   "head_pitch": 28,
+   "head_roll": 6
+  }
+ },
+ "assumptions": "STS3215 7.4 V stall 1.91 N*m; bottom-up masses (PLA infill per export FILL), neck links from ODM MJCF; worst over neck_pitch -20..65, head_pitch -45..45, roll +/-30 (5 deg grid).",
+ "headA_neck_pitch_worst_if_n_plus_h_in_-35..30": [
+  0.612,
+  [
+   -20,
+   -15
+  ],
+  "32% of stall"
+ ],
+ "headA_neck_pitch_worst_if_n_plus_h_in_-35..45": [
+  0.635,
+  [
+   65,
+   -20
+  ],
+  "33% of stall"
+ ],
+ "headA_neck_pitch_worst_if_n_plus_h_in_-35..60": [
+  0.756,
+  [
+   65,
+   -5
+  ],
+  "40% of stall"
+ ]
+}

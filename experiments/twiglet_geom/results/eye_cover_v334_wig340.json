@@ -1,0 +1,19 @@
+{
+ "eye_L": {
+  "wig_triangles_in_eye_cylinder": 0,
+  "eye_centre_mm": [
+   84.27,
+   47.48,
+   196.99
+  ]
+ },
+ "eye_R": {
+  "wig_triangles_in_eye_cylinder": 0,
+  "eye_centre_mm": [
+   84.27,
+   -47.48,
+   197.0
+  ]
+ },
+ "pass": true
+}

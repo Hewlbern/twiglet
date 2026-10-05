@@ -1,0 +1,24 @@
+# Git LFS is NOT required: every file in this repo is under GitHub's 100 MB hard limit.
+# The largest file is print/mods/Twiglet/source/blender/body_v334.blend (59 MB, over GitHub's 50 MB warning).
+# The largest STLs are head_lower (20 MB) and head_upper (15.6 MB).
+#
+# To use LFS (recommended for the .blend, which will grow with each version), install git-lfs and run
+#   git lfs install
+# before the first commit, then uncomment these lines:
+# *.blend filter=lfs diff=lfs merge=lfs -text
+# *.stl   filter=lfs diff=lfs merge=lfs -text
+#
+# git-lfs is not installed on the staging box, so this repo was staged without LFS.
+
+*.stl     binary
+*.blend   binary
+*.npy     binary
+*.png     binary
+*.xcf     binary
+*.drawio  text
+*.md      text
+*.py      text
+*.xml     text
+*.json    text
+*.csv     text
+*.sh      text eol=lf

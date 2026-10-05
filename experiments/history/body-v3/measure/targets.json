@@ -1,0 +1,244 @@
+{
+ "note": "Photo values are perspective-corrected (pinhole, HFOV 70 deg; see photo_measure.json for the 60-80 deg range). Segment definitions: head = top of head to top of the black chin collar; neck_collar = collar band; torso = collar bottom to kilt top (waist); kilt = waist to hem (fabric; hem length is a sewing target); waist_to_knee = waist to knee axis; shin = knee axis to top of the boot cuff; foot_boot = cuff top to floor.",
+ "photo": {
+  "hfov": 70,
+  "alpha_waist_deg": 24.381,
+  "alpha_head_deg": 16.746,
+  "alpha_floor_deg": 38.124,
+  "cam_dist_head_mm": 796.833,
+  "total_mm": 454.235,
+  "seg_mm": {
+   "head": 138.748,
+   "neck_collar": 11.454,
+   "torso": 51.026,
+   "kilt": 102.773,
+   "waist_to_knee": 126.567,
+   "shin": 52.532,
+   "foot_boot": 73.909
+  },
+  "seg_over_D": {
+   "head": 0.816,
+   "neck_collar": 0.067,
+   "torso": 0.3,
+   "kilt": 0.605,
+   "waist_to_knee": 0.745,
+   "shin": 0.309,
+   "foot_boot": 0.435
+  },
+  "head_over_height": 0.374,
+  "shoulder_mm": 155.723,
+  "torso_w_mm": 102.92,
+  "leg_spacing_mm": 112.913,
+  "boot_outer_mm": 222.854,
+  "range": {
+   "head_over_height": [
+    0.342,
+    0.393
+   ],
+   "total_mm_if_head_170": [
+    432.485,
+    497.595
+   ],
+   "head_over_D": [
+    0.807,
+    0.832
+   ],
+   "neck_collar_over_D": [
+    0.065,
+    0.071
+   ],
+   "torso_over_D": [
+    0.29,
+    0.32
+   ],
+   "kilt_over_D": [
+    0.571,
+    0.669
+   ],
+   "waist_to_knee_over_D": [
+    0.701,
+    0.828
+   ],
+   "shin_over_D": [
+    0.284,
+    0.359
+   ],
+   "foot_boot_over_D": [
+    0.393,
+    0.521
+   ],
+   "alpha_head_deg": [
+    11.399,
+    23.784
+   ],
+   "alpha_floor_deg": [
+    31.997,
+    46.317
+   ]
+  }
+ },
+ "targets": {
+  "head_D_mm": 170.0,
+  "height_mm_no_hat": 450.0,
+  "head_over_height": 0.38,
+  "head_over_shoulder": 1.16,
+  "seg_over_D": {
+   "head": 0.816,
+   "neck_collar": 0.067,
+   "torso": 0.3,
+   "kilt": 0.605,
+   "waist_to_knee": 0.745,
+   "shin": 0.309,
+   "foot_boot": 0.435
+  },
+  "leg_spacing_mm": 113.0,
+  "torso_width_mm": 103.0,
+  "rules": "head stays 170 mm (head-v3 digital eyes); reduction mostly from thigh (and shin) link lengths; STS3215 legs/neck; same kinematics"
+ },
+ "v3": {
+  "stance": {
+   "pose": "crouch 0.3 lean 0.0",
+   "height_mm": 448.2,
+   "head_over_height": 0.379,
+   "seg_mm": {
+    "head": 131.1,
+    "neck_collar": 11.0,
+    "torso": 53.0,
+    "kilt": 103.0,
+    "waist_to_knee": 139.2,
+    "shin": 33.3,
+    "foot_boot": 80.7
+   },
+   "seg_over_D": {
+    "head": 0.771,
+    "neck_collar": 0.065,
+    "torso": 0.312,
+    "kilt": 0.606,
+    "waist_to_knee": 0.819,
+    "shin": 0.196,
+    "foot_boot": 0.475
+   },
+   "shoulder_incl_arms_mm": 145.8,
+   "head_over_shoulder": 1.166,
+   "torso_width_mm": 90.0,
+   "torso_front_width_mm": 67.0,
+   "leg_spacing_mm": 100.0,
+   "knee_height_mm": 114.0
+  },
+  "straight": {
+   "pose": "crouch 0.0 lean 0.0",
+   "height_mm": 454.3,
+   "head_over_height": 0.374,
+   "seg_mm": {
+    "head": 131.1,
+    "neck_collar": 11.0,
+    "torso": 53.0,
+    "kilt": 103.0,
+    "waist_to_knee": 141.7,
+    "shin": 40.6,
+    "foot_boot": 76.8
+   },
+   "seg_over_D": {
+    "head": 0.771,
+    "neck_collar": 0.065,
+    "torso": 0.312,
+    "kilt": 0.606,
+    "waist_to_knee": 0.834,
+    "shin": 0.239,
+    "foot_boot": 0.452
+   },
+   "shoulder_incl_arms_mm": 145.8,
+   "head_over_shoulder": 1.166,
+   "torso_width_mm": 90.0,
+   "torso_front_width_mm": 67.0,
+   "leg_spacing_mm": 100.0,
+   "knee_height_mm": 117.5
+  },
+  "error_vs_photo": {
+   "height_pct": 0.0,
+   "head_over_shoulder_pct": 0.5,
+   "seg_over_D_diff": {
+    "head": -0.045,
+    "neck_collar": -0.002,
+    "torso": 0.012,
+    "kilt": 0.001,
+    "waist_to_knee": 0.089,
+    "shin": -0.07,
+    "foot_boot": 0.017
+   }
+  }
+ },
+ "v2": {
+  "stance": {
+   "pose": "crouch 0.3 lean 0.17",
+   "height_mm": 519.1,
+   "head_over_height": 0.328,
+   "seg_mm": {
+    "head": 131.1,
+    "neck_collar": 11.0,
+    "torso": 112.0,
+    "kilt": 120.0,
+    "waist_to_knee": 156.1,
+    "shin": 75.7,
+    "foot_boot": 33.2
+   },
+   "seg_over_D": {
+    "head": 0.771,
+    "neck_collar": 0.065,
+    "torso": 0.659,
+    "kilt": 0.706,
+    "waist_to_knee": 0.918,
+    "shin": 0.446,
+    "foot_boot": 0.195
+   },
+   "shoulder_incl_arms_mm": 213.3,
+   "head_over_shoulder": 0.797,
+   "torso_width_mm": 98.0,
+   "torso_front_width_mm": null,
+   "leg_spacing_mm": 90.0,
+   "knee_height_mm": 108.9
+  },
+  "straight": {
+   "pose": "crouch 0.0 lean 0.0",
+   "height_mm": 528.3,
+   "head_over_height": 0.322,
+   "seg_mm": {
+    "head": 131.1,
+    "neck_collar": 11.0,
+    "torso": 112.0,
+    "kilt": 120.0,
+    "waist_to_knee": 156.7,
+    "shin": 84.3,
+    "foot_boot": 33.2
+   },
+   "seg_over_D": {
+    "head": 0.771,
+    "neck_collar": 0.065,
+    "torso": 0.659,
+    "kilt": 0.706,
+    "waist_to_knee": 0.922,
+    "shin": 0.496,
+    "foot_boot": 0.195
+   },
+   "shoulder_incl_arms_mm": 213.3,
+   "head_over_shoulder": 0.797,
+   "torso_width_mm": 98.0,
+   "torso_front_width_mm": null,
+   "leg_spacing_mm": 90.0,
+   "knee_height_mm": 117.5
+  },
+  "error_vs_photo": {
+   "height_pct": 16.3,
+   "head_over_shoulder_pct": -31.3,
+   "seg_over_D_diff": {
+    "head": -0.045,
+    "neck_collar": -0.002,
+    "torso": 0.359,
+    "kilt": 0.101,
+    "waist_to_knee": 0.177,
+    "shin": 0.187,
+    "foot_boot": -0.24
+   }
+  }
+ }
+}

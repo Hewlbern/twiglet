@@ -1,0 +1,13 @@
+{
+ "ground_z": -196.2,
+ "ball_top_z": 307.0,
+ "hat_top_z": 321.1,
+ "total_height_no_hat": 503.2,
+ "total_height_with_hat": 517.3,
+ "head_diameter": 170.0,
+ "shoulder_width_incl_arms": 120.0,
+ "leg_outer_width": 239.0,
+ "head_over_height_no_hat": 0.338,
+ "head_over_height_with_hat": 0.329,
+ "head_over_shoulder": 1.42
+}

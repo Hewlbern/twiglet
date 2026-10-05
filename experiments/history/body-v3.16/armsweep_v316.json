@@ -1,0 +1,17 @@
+{
+ "yaw_0": {
+  "poses": 156,
+  "hair_contacts": 2,
+  "kilt_contacts": 6
+ },
+ "yaw_-45": {
+  "poses": 156,
+  "hair_contacts": 19,
+  "kilt_contacts": 6
+ },
+ "yaw_45": {
+  "poses": 156,
+  "hair_contacts": 23,
+  "kilt_contacts": 6
+ }
+}

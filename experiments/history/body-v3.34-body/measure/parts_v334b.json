@@ -1,0 +1,203 @@
+{
+ "original": {
+  "_frame_rows": [
+   0,
+   719
+  ],
+  "torso": {
+   "iou_aligned": 0.18,
+   "iou_raw": 0.088,
+   "photo_wh_mm": [
+    113.6,
+    75.3
+   ],
+   "model_wh_mm": [
+    76.4,
+    83.8
+   ],
+   "centroid_off_mm": [
+    -8.4,
+    -37.1
+   ],
+   "area_ratio": 0.183
+  },
+  "kilt": {
+   "iou_aligned": 0.608,
+   "iou_raw": 0.13,
+   "photo_wh_mm": [
+    191.0,
+    145.4
+   ],
+   "model_wh_mm": [
+    202.7,
+    131.6
+   ],
+   "centroid_off_mm": [
+    -41.3,
+    -68.4
+   ],
+   "area_ratio": 0.643
+  },
+  "arm_R": {
+   "iou_aligned": 0.434,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    138.0,
+    173.0
+   ],
+   "model_wh_mm": [
+    60.5,
+    142.2
+   ],
+   "centroid_off_mm": [
+    -18.8,
+    -78.7
+   ],
+   "area_ratio": 0.502
+  },
+  "arm_L": {
+   "iou_aligned": 0.471,
+   "iou_raw": 0.133,
+   "photo_wh_mm": [
+    113.6,
+    217.6
+   ],
+   "model_wh_mm": [
+    62.6,
+    169.8
+   ],
+   "centroid_off_mm": [
+    -49.0,
+    -61.8
+   ],
+   "area_ratio": 0.629
+  },
+  "block_R": {
+   "iou_aligned": 0.365,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    60.5,
+    59.4
+   ],
+   "model_wh_mm": [
+    49.9,
+    31.8
+   ],
+   "centroid_off_mm": [
+    -25.2,
+    -91.2
+   ],
+   "area_ratio": 0.365
+  },
+  "block_L": {
+   "iou_aligned": 0.507,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    58.4,
+    55.2
+   ],
+   "model_wh_mm": [
+    60.5,
+    79.6
+   ],
+   "centroid_off_mm": [
+    -42.5,
+    -95.9
+   ],
+   "area_ratio": 0.577
+  },
+  "boot_R": {
+   "iou_aligned": 0.659,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    102.9,
+    65.8
+   ],
+   "model_wh_mm": [
+    88.1,
+    90.2
+   ],
+   "centroid_off_mm": [
+    -25.9,
+    -83.9
+   ],
+   "area_ratio": 0.89
+  },
+  "boot_L": {
+   "iou_aligned": 0.721,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    86.0,
+    81.7
+   ],
+   "model_wh_mm": [
+    84.9,
+    95.5
+   ],
+   "centroid_off_mm": [
+    -61.3,
+    -85.9
+   ],
+   "area_ratio": 0.826
+  },
+  "_mean_iou_aligned": 0.493
+ },
+ "front": {
+  "_frame_rows": [
+   894,
+   1504
+  ],
+  "torso": {
+   "iou_aligned": 0.466,
+   "iou_raw": 0.203,
+   "photo_wh_mm": [
+    102.6,
+    95.8
+   ],
+   "model_wh_mm": [
+    101.8,
+    56.9
+   ],
+   "centroid_off_mm": [
+    -5.3,
+    -47.3
+   ],
+   "area_ratio": 0.467
+  },
+  "arm_R": {
+   "iou_aligned": 0.442,
+   "iou_raw": 0.413,
+   "photo_wh_mm": [
+    89.9,
+    119.8
+   ],
+   "model_wh_mm": [
+    75.6,
+    198.4
+   ],
+   "centroid_off_mm": [
+    0.2,
+    5.6
+   ],
+   "area_ratio": 1.059
+  },
+  "arm_L": {
+   "iou_aligned": 0.452,
+   "iou_raw": 0.348,
+   "photo_wh_mm": [
+    83.9,
+    119.8
+   ],
+   "model_wh_mm": [
+    77.9,
+    198.4
+   ],
+   "centroid_off_mm": [
+    -11.8,
+    5.6
+   ],
+   "area_ratio": 1.005
+  },
+  "_mean_iou_aligned": 0.453
+ }
+}

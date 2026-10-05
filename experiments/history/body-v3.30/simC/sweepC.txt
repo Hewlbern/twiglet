@@ -1,0 +1,6 @@
+0.045 e None 33.2 {'head_pitch': 0.81, 'head_y "head_pitch": 0.239 total kg 2.6078
+0.02 e None 33.6 {'head_pitch': 0.789, 'head_ "head_pitch": 0.236 total kg 2.5893
+0.0 e None 34.1 {'head_pitch': 0.775, 'head_ "head_pitch": 0.235 total kg 2.5744
+0.03 e None 33.5 {'head_pitch': 0.797, 'head_ "head_pitch": 0.237 total kg 2.5967
+0.06 e None 33.2 {'head_pitch': 0.822, 'head_ "head_pitch": 0.241 total kg 2.6189
+sweepdone

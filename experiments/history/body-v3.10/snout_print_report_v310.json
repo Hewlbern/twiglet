@@ -1,0 +1,78 @@
+{
+ "file": "v310_head_snout.stl",
+ "size_mm": [
+  82.4,
+  74.2,
+  93.9
+ ],
+ "watertight": true,
+ "bodies": 1,
+ "volume_cm3": 203.8,
+ "bed_contact_mm2": 1544.0,
+ "fits_P1S": true,
+ "shape": {
+  "bezel_cut_L_mm3": 0.6,
+  "bezel_cut_R_mm3": 2.5,
+  "pod_sweep_cut_cm3": 0.34,
+  "bend_deg": 15.5,
+  "root_tangent": [
+   -11.0,
+   -11.0
+  ],
+  "tip_tangent": [
+   -15.0,
+   4.0
+  ],
+  "chord_yaw_pitch": [
+   -12.7,
+   -4.5
+  ],
+  "chord_len": 72.7,
+  "OD_root": 66.0,
+  "OD_mouth_max": 74.0,
+  "bore_root": 40.9,
+  "bore_mouth": 51.1,
+  "rim_coverage": 0.7556,
+  "T_tip": [
+   0.9636,
+   -0.2582,
+   0.0698
+  ],
+  "root": [
+   115.71,
+   -1.17,
+   218.28
+  ],
+  "tip": [
+   186.42,
+   -17.16,
+   212.54
+  ],
+  "volume_cm3": 203.8,
+  "watertight": true,
+  "T2": [
+   0.9636,
+   -0.2582,
+   0.0698
+  ]
+ },
+ "params": {
+  "Y0": -11.0,
+  "P0": -11.0,
+  "Y1": -15.0,
+  "P1": 4.0,
+  "L": 73.0,
+  "S_B": 10.0,
+  "OD0": 66.0,
+  "OD1": 74.0,
+  "EDGE": 3.0,
+  "FIL": 3.0,
+  "SH_U": 0.0,
+  "SH_V": 2.5,
+  "BORE_K": 0.62,
+  "BORE_K1": 0.07,
+  "BORE_D": 46.0,
+  "NA": 180
+ },
+ "sim_mass_g": 53.1
+}

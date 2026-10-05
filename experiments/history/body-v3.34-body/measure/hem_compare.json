@@ -1,0 +1,37 @@
+{
+ "v333h": {
+  "tips": 3,
+  "mean_notch_depth_mm": 18.4,
+  "tip_spacing_mm": [
+   41.4,
+   50.9
+  ],
+  "hem_width_mm": 124.2,
+  "waist_width_mm": 110.4,
+  "flare_ratio": 1.12,
+  "ppm": 0.942
+ },
+ "v334b": {
+  "tips": 2,
+  "mean_notch_depth_mm": 31.3,
+  "tip_spacing_mm": [
+   61.6
+  ],
+  "hem_width_mm": 134.8,
+  "waist_width_mm": 111.4,
+  "flare_ratio": 1.21,
+  "ppm": 0.942
+ },
+ "photo": {
+  "tips": 4,
+  "mean_notch_depth_mm": 23.1,
+  "tip_spacing_mm": [
+   47.8,
+   60.5,
+   45.6
+  ],
+  "hem_width_mm": 191.0,
+  "waist_width_mm": 116.7,
+  "flare_ratio": 1.64
+ }
+}

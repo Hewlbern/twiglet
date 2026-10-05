@@ -1,0 +1,243 @@
+{
+ "sim_gaits": {
+  "poses": 1500,
+  "leg_contacts": 0,
+  "arm_contacts": 0,
+  "examples": []
+ },
+ "sim_gait_joint_ranges_deg": {
+  "left_hip_pitch": [
+   -33.7,
+   -4.6
+  ],
+  "left_hip_roll": [
+   -7.0,
+   6.8
+  ],
+  "left_knee": [
+   29.6,
+   57.2
+  ],
+  "right_hip_pitch": [
+   4.7,
+   33.5
+  ],
+  "right_hip_roll": [
+   -7.0,
+   6.8
+  ]
+ },
+ "gait120_single_leg": {
+  "poses": 120,
+  "leg_contacts": 7,
+  "arm_contacts": 0,
+  "examples": [
+   [
+    [
+     "foot_assembly",
+     [
+      "kilt_petal_02"
+     ]
+    ]
+   ],
+   [
+    [
+     "foot_assembly_2",
+     [
+      "kilt_petal_00",
+      "kilt_petal_01"
+     ]
+    ]
+   ],
+   [
+    [
+     "foot_assembly",
+     [
+      "kilt_petal_01",
+      "kilt_petal_02"
+     ]
+    ]
+   ]
+  ]
+ },
+ "gait120_both_legs": {
+  "poses": 120,
+  "leg_contacts": 1,
+  "arm_contacts": 0,
+  "examples": [
+   [
+    [
+     "foot_assembly",
+     [
+      "kilt_petal_02"
+     ]
+    ]
+   ]
+  ]
+ },
+ "gait80_arms_moving": {
+  "poses": 80,
+  "leg_contacts": 1,
+  "arm_contacts": 0,
+  "examples": [
+   [
+    [
+     "foot_assembly",
+     [
+      "kilt_petal_02"
+     ]
+    ]
+   ]
+  ]
+ },
+ "single_leg_stance": {
+  "poses": 14,
+  "leg_contacts": 0,
+  "arm_contacts": 0,
+  "examples": []
+ },
+ "full_ranges": {
+  "left_hip_yaw": {
+   "range": [
+    -30,
+    30
+   ],
+   "contact_angles": null,
+   "n": 0
+  },
+  "left_hip_roll": {
+   "range": [
+    -25,
+    25
+   ],
+   "contact_angles": [
+    -25.0,
+    -17.0
+   ],
+   "n": 3
+  },
+  "left_hip_pitch": {
+   "range": [
+    -70,
+    30
+   ],
+   "contact_angles": [
+    -70.0,
+    -70.0
+   ],
+   "n": 1
+  },
+  "left_knee": {
+   "range": [
+    -90,
+    90
+   ],
+   "contact_angles": [
+    90.0,
+    90.0
+   ],
+   "n": 1
+  },
+  "left_ankle": {
+   "range": [
+    -90,
+    90
+   ],
+   "contact_angles": null,
+   "n": 0
+  },
+  "right_hip_yaw": {
+   "range": [
+    -30,
+    30
+   ],
+   "contact_angles": null,
+   "n": 0
+  },
+  "right_hip_roll": {
+   "range": [
+    -25,
+    25
+   ],
+   "contact_angles": [
+    15.0,
+    23.0
+   ],
+   "n": 3
+  },
+  "right_hip_pitch": {
+   "range": [
+    -30,
+    70
+   ],
+   "contact_angles": [
+    70.0,
+    70.0
+   ],
+   "n": 1
+  },
+  "right_knee": {
+   "range": [
+    -90,
+    90
+   ],
+   "contact_angles": [
+    -90.0,
+    90.0
+   ],
+   "n": 2
+  },
+  "right_ankle": {
+   "range": [
+    -90,
+    90
+   ],
+   "contact_angles": null,
+   "n": 0
+  },
+  "shoulder_L": {
+   "range": [
+    -60,
+    150
+   ],
+   "contact_angles": [
+    -56.0,
+    -16.0
+   ],
+   "n": 11
+  },
+  "elbow_L": {
+   "range": [
+    -20,
+    130
+   ],
+   "contact_angles": [
+    -20.0,
+    -16.0
+   ],
+   "n": 2
+  },
+  "shoulder_R": {
+   "range": [
+    -60,
+    150
+   ],
+   "contact_angles": [
+    -56.0,
+    -16.0
+   ],
+   "n": 11
+  },
+  "elbow_R": {
+   "range": [
+    -20,
+    130
+   ],
+   "contact_angles": [
+    -20.0,
+    -16.0
+   ],
+   "n": 2
+  }
+ }
+}

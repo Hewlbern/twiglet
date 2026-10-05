@@ -1,0 +1,250 @@
+{
+ "body": {
+  "v39_boot_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_boot_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_boot_cuff.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_elbow_sleeve_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_elbow_sleeve_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_finger_moving_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_finger_moving_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_forearm_L.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.046 mm, max 0.31 mm) - reuse the v3.8 print"
+  },
+  "v39_forearm_R.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.050 mm, max 0.28 mm) - reuse the v3.8 print"
+  },
+  "v39_gripper_housing_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_gripper_housing_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_chin_collar_L.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 10.5,
+   "volume_cm3_v38": 10.3,
+   "size_mm_v37": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "size_mm_v38": [
+    178.1,
+    88.9,
+    13.6
+   ]
+  },
+  "v39_head_chin_collar_R.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 10.5,
+   "volume_cm3_v38": 10.3,
+   "size_mm_v37": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "size_mm_v38": [
+    178.1,
+    88.9,
+    13.6
+   ]
+  },
+  "v39_head_display_carrier_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_display_carrier_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_eye_bezel_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_eye_bezel_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_fringe.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_head_lower.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_head_upper.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_snout.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 138.0,
+   "volume_cm3_v38": 179.8,
+   "size_mm_v37": [
+    78.0,
+    75.7,
+    93.7
+   ],
+   "size_mm_v38": [
+    71.9,
+    71.9,
+    93.4
+   ]
+  },
+  "v39_head_yaw_to_roll.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_hip_bracket_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_hip_bracket_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_hip_cradle.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_hip_ring.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_leaf_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_leaf_M.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_leaf_S.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_shin_cover_back_L.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.027 mm, max 0.11 mm) - reuse the v3.8 print"
+  },
+  "v39_shin_cover_back_R.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.028 mm, max 0.08 mm) - reuse the v3.8 print"
+  },
+  "v39_shin_cover_front_L.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.035 mm, max 0.12 mm) - reuse the v3.8 print"
+  },
+  "v39_shin_cover_front_R.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.030 mm, max 0.31 mm) - reuse the v3.8 print"
+  },
+  "v39_shoulder_sleeve_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_shoulder_sleeve_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_thigh_sheet_a.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_thigh_sheet_b.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_thigh_spacer.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_torso_frame.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_torso_shell_back.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.041 mm, max 0.14 mm) - reuse the v3.8 print"
+  },
+  "v39_torso_shell_front.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.044 mm, max 0.12 mm) - reuse the v3.8 print"
+  },
+  "v39_upper_arm_L.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.036 mm, max 0.21 mm) - reuse the v3.8 print"
+  },
+  "v39_upper_arm_R.stl": {
+   "status": "unchanged in function (wood-grain tessellation noise: p99 0.039 mm, max 0.23 mm) - reuse the v3.8 print"
+  }
+ },
+ "head": {
+  "v39_head_chin_collar_L.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 10.5,
+   "volume_cm3_v38": 10.3,
+   "size_mm_v37": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "size_mm_v38": [
+    178.1,
+    88.9,
+    13.6
+   ]
+  },
+  "v39_head_chin_collar_R.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 10.5,
+   "volume_cm3_v38": 10.3,
+   "size_mm_v37": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "size_mm_v38": [
+    178.1,
+    88.9,
+    13.6
+   ]
+  },
+  "v39_head_display_carrier_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_display_carrier_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_eye_bezel_L.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_eye_bezel_R.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_fringe.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_fringe_split_a.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_fringe_split_b.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_head_lower.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_head_upper.stl": {
+   "status": "unchanged (identical file)"
+  },
+  "v39_head_snout.stl": {
+   "status": "CHANGED (reprint)",
+   "volume_cm3_v37": 138.0,
+   "volume_cm3_v38": 179.8,
+   "size_mm_v37": [
+    78.0,
+    75.7,
+    93.7
+   ],
+   "size_mm_v38": [
+    71.9,
+    71.9,
+    93.4
+   ]
+  }
+ },
+ "dropped_from_v37": [],
+ "reprint": [
+  "v39_head_chin_collar_L.stl",
+  "v39_head_chin_collar_R.stl",
+  "v39_head_snout.stl"
+ ],
+ "note": "head_upper/head_lower are byte-identical to v3.8; the snout STL is exported with a 0.02 mm manifold simplification (max deviation 0.034 mm) to keep the head zip < 20 MB. Body parts differing only by wood-grain tessellation noise are marked unchanged."
+}

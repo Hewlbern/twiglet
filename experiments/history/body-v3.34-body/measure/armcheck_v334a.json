@@ -1,0 +1,22 @@
+{
+ "tag": "v334a",
+ "arm_sweep": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "poses": 162
+ },
+ "arm_sweep_examples": [],
+ "wig_arm_sweep_yaw_0": {
+  "poses": 156,
+  "hair_contacts": 4
+ },
+ "wig_arm_sweep_yaw_-45": {
+  "poses": 156,
+  "hair_contacts": 25
+ },
+ "wig_arm_sweep_yaw_45": {
+  "poses": 156,
+  "hair_contacts": 25
+ }
+}

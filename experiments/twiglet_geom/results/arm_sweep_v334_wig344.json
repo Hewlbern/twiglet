@@ -1,0 +1,76 @@
+{
+ "tag": "v334_wig344",
+ "arm_sweep": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "poses": 162
+ },
+ "arm_sweep_examples": [],
+ "elbow_sweep_L": {
+  "rest_contacts": [
+   "s32_elbow_L|s32horn_elbow_L",
+   "s32_elbow_L|upper_arm_L"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "gripper_sweep_L": {
+  "rest_contacts": [
+   "finger_moving_L|gripper_housing_L",
+   "finger_moving_L|s32_gripper_L",
+   "finger_moving_L|s32horn_gripper_L"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "shoulder_sweep_L": {
+  "rest_contacts": [
+   "s32_shoulder_L|sim_s32_trunk_assembly"
+  ],
+  "hits": 1,
+  "bad_angles": [
+   -10.0
+  ],
+  "examples": {
+   "-10.0": [
+    "gripper_housing_L|kilt_petal_03"
+   ]
+  }
+ },
+ "elbow_sweep_R": {
+  "rest_contacts": [
+   "s32_elbow_R|s32horn_elbow_R",
+   "s32_elbow_R|upper_arm_R"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "gripper_sweep_R": {
+  "rest_contacts": [
+   "finger_moving_R|gripper_housing_R",
+   "finger_moving_R|s32_gripper_R",
+   "finger_moving_R|s32horn_gripper_R"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "shoulder_sweep_R": {
+  "rest_contacts": [
+   "s32_shoulder_R|sim_s32_trunk_assembly"
+  ],
+  "hits": 1,
+  "bad_angles": [
+   -10.0
+  ],
+  "examples": {
+   "-10.0": [
+    "gripper_housing_R|kilt_petal_09"
+   ]
+  }
+ }
+}

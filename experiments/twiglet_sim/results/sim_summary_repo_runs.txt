@@ -1,0 +1,3 @@
+v334_repo xml=twiglet_v3_v334.xml e None 34.0 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 1.0 speed 0.208 | eff succ 1.0 speed 0.156
+v334_wig340 xml=twiglet_v3_v334_wig340.xml e None 34.4 {'head_pitch': 0.796, 'head_yaw': 0.779, 'head_r | succ 1.0 speed 0.21 | eff succ 1.0 speed 0.156
+heldout v334_wig344_heldout_v334r1 params=walk_v3_best.npy seeds6000-6019 succ 0.90 (18/20) speed 0.206

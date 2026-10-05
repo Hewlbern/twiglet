@@ -1,0 +1,195 @@
+{
+ "original": {
+  "torso": {
+   "iou_aligned": 0.18,
+   "iou_raw": 0.088,
+   "photo_wh_mm": [
+    113.6,
+    75.3
+   ],
+   "model_wh_mm": [
+    74.3,
+    55.2
+   ],
+   "centroid_off_mm": [
+    -8.6,
+    -36.6
+   ],
+   "area_ratio": 0.182
+  },
+  "kilt": {
+   "iou_aligned": 0.517,
+   "iou_raw": 0.083,
+   "photo_wh_mm": [
+    191.0,
+    145.4
+   ],
+   "model_wh_mm": [
+    144.3,
+    109.3
+   ],
+   "centroid_off_mm": [
+    -39.5,
+    -75.2
+   ],
+   "area_ratio": 0.523
+  },
+  "arm_R": {
+   "iou_aligned": 0.429,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    138.0,
+    173.0
+   ],
+   "model_wh_mm": [
+    63.7,
+    117.8
+   ],
+   "centroid_off_mm": [
+    -20.6,
+    -77.2
+   ],
+   "area_ratio": 0.446
+  },
+  "arm_L": {
+   "iou_aligned": 0.476,
+   "iou_raw": 0.131,
+   "photo_wh_mm": [
+    113.6,
+    217.6
+   ],
+   "model_wh_mm": [
+    66.9,
+    153.9
+   ],
+   "centroid_off_mm": [
+    -48.8,
+    -60.2
+   ],
+   "area_ratio": 0.556
+  },
+  "block_R": {
+   "iou_aligned": 0.416,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    60.5,
+    59.4
+   ],
+   "model_wh_mm": [
+    59.4,
+    47.8
+   ],
+   "centroid_off_mm": [
+    -20.9,
+    -96.7
+   ],
+   "area_ratio": 0.436
+  },
+  "block_L": {
+   "iou_aligned": 0.451,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    58.4,
+    55.2
+   ],
+   "model_wh_mm": [
+    60.5,
+    43.5
+   ],
+   "centroid_off_mm": [
+    -43.1,
+    -97.8
+   ],
+   "area_ratio": 0.49
+  },
+  "boot_R": {
+   "iou_aligned": 0.641,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    102.9,
+    65.8
+   ],
+   "model_wh_mm": [
+    77.5,
+    89.1
+   ],
+   "centroid_off_mm": [
+    -24.5,
+    -85.8
+   ],
+   "area_ratio": 0.797
+  },
+  "boot_L": {
+   "iou_aligned": 0.661,
+   "iou_raw": 0.0,
+   "photo_wh_mm": [
+    86.0,
+    81.7
+   ],
+   "model_wh_mm": [
+    76.4,
+    90.2
+   ],
+   "centroid_off_mm": [
+    -61.8,
+    -87.8
+   ],
+   "area_ratio": 0.719
+  },
+  "_mean_iou_aligned": 0.471
+ },
+ "front": {
+  "torso": {
+   "iou_aligned": 0.466,
+   "iou_raw": 0.203,
+   "photo_wh_mm": [
+    102.6,
+    95.8
+   ],
+   "model_wh_mm": [
+    101.8,
+    56.9
+   ],
+   "centroid_off_mm": [
+    -5.3,
+    -47.3
+   ],
+   "area_ratio": 0.467
+  },
+  "arm_R": {
+   "iou_aligned": 0.44,
+   "iou_raw": 0.413,
+   "photo_wh_mm": [
+    89.9,
+    119.8
+   ],
+   "model_wh_mm": [
+    80.1,
+    182.0
+   ],
+   "centroid_off_mm": [
+    -0.4,
+    7.5
+   ],
+   "area_ratio": 0.943
+  },
+  "arm_L": {
+   "iou_aligned": 0.446,
+   "iou_raw": 0.364,
+   "photo_wh_mm": [
+    83.9,
+    119.8
+   ],
+   "model_wh_mm": [
+    82.4,
+    182.7
+   ],
+   "centroid_off_mm": [
+    -11.1,
+    7.8
+   ],
+   "area_ratio": 0.895
+  },
+  "_mean_iou_aligned": 0.451
+ }
+}

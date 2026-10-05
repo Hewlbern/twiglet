@@ -1,0 +1,70 @@
+{
+ "v3.21": {
+  "50": {
+   "n_crests": 15,
+   "crest_mm": 15.1,
+   "valley_depth_median": 5.9,
+   "valley_depth_max": 12.8,
+   "covered_frac": 0.78,
+   "mean_lock_width_mm": 27.0
+  },
+  "60": {
+   "n_crests": 13,
+   "crest_mm": 15.2,
+   "valley_depth_median": 10.3,
+   "valley_depth_max": 17.1,
+   "covered_frac": 0.69,
+   "mean_lock_width_mm": 31.0
+  },
+  "70": {
+   "n_crests": 12,
+   "crest_mm": 14.0,
+   "valley_depth_median": 12.5,
+   "valley_depth_max": 18.7,
+   "covered_frac": 0.6,
+   "mean_lock_width_mm": 31.0
+  },
+  "80": {
+   "n_crests": 14,
+   "crest_mm": 8.7,
+   "valley_depth_median": 7.2,
+   "valley_depth_max": 11.3,
+   "covered_frac": 0.45,
+   "mean_lock_width_mm": 21.0
+  }
+ },
+ "v3.22": {
+  "50": {
+   "n_crests": 14,
+   "crest_mm": 15.2,
+   "valley_depth_median": 4.4,
+   "valley_depth_max": 12.7,
+   "covered_frac": 0.98,
+   "mean_lock_width_mm": 36.0
+  },
+  "60": {
+   "n_crests": 11,
+   "crest_mm": 15.2,
+   "valley_depth_median": 8.7,
+   "valley_depth_max": 11.1,
+   "covered_frac": 0.76,
+   "mean_lock_width_mm": 40.0
+  },
+  "70": {
+   "n_crests": 10,
+   "crest_mm": 14.2,
+   "valley_depth_median": 10.6,
+   "valley_depth_max": 11.2,
+   "covered_frac": 0.66,
+   "mean_lock_width_mm": 42.0
+  },
+  "80": {
+   "n_crests": 12,
+   "crest_mm": 10.4,
+   "valley_depth_median": 5.6,
+   "valley_depth_max": 9.7,
+   "covered_frac": 0.56,
+   "mean_lock_width_mm": 30.0
+  }
+ }
+}

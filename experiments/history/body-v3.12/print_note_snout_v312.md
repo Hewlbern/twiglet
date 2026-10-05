@@ -1,0 +1,9 @@
+# Twiglet v3.12 snout - print note
+
+Replaces v39/v310/v311_head_snout.stl (everything else on the head is unchanged and reused: head_upper, head_lower, fringe, chin collars, bezels, carriers).
+
+- Shape: STRAIGHT gentle cone on the v3.9 axis (12 deg to the robot's right, 6 deg down), 72 mm from the face. The outer surface goes from 65 mm OD at the root to 72 mm at the mouth (2.8 deg half-angle, root/mouth 0.90; measured from the original photo as 0.88). The mouth has a 3 mm rounded rim and no lip step. The bore is a cone too, 0.66 x OD (43 mm to 47.5 mm at the mouth, 1.6 mm inner round), 64 mm deep. There is a clean 3 mm concave blend onto the ball (no ring), flush-trimmed. Wood-grain rings run around the cone.
+- No plug and no seam (v3.11's plug is gone): the 65 mm root covers the head_lower socket the way v3.9 did (axis 2.5 mm off the socket centre; exposed socket-rim sliver 4.8 mm3, the same as v3.9). The spigot's top and key tab are trimmed flush with the ball.
+- Size [71.6, 71.6, 93.4] mm, 174.3 cm3. Fits the P1S. Watertight: True, bodies: 1.
+- Print: wood brown PLA (wood-fill optional), mouth face DOWN (flat annulus on the bed, as exported), spigot up, no supports, 0.2 mm (0.16 mm makes the grain pop), 2 walls (0.8 mm), 8 % gyroid: about 52 g (52.2 g in the sim; v3.9 52.6 g, v3.11 48.5 g). Static head pitch is 0.245 N·m = 2.00x the STS3215 rating (v3.9 0.244). There is no room for more infill: each extra 1 % adds ~1.9 g, ~0.004 N·m. At 3 walls / 15 % it would be ~76 g (~4.8 h), which is too heavy.
+- Fit: the same keyed spigot + tab as v3.9 into the unchanged head_lower socket. Dry-fit so the tab sits in the key slot and the root lies flush on the ball, then glue (CA or epoxy). The cone axis is 2.5 mm off the socket centre on purpose; this covers the socket rim and clears the right eye bezel.

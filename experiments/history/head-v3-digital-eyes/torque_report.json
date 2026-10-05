@@ -1,0 +1,91 @@
+{
+ "headA_v3_digital_eyes": {
+  "head_assembly_mass_g": 653,
+  "head_com_mm": [
+   40.0,
+   -0.4,
+   236.8
+  ],
+  "worst_moment_Nm": {
+   "neck_pitch": [
+    1.079,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_pitch": [
+    0.609,
+    [
+     -20,
+     -45,
+     0
+    ]
+   ],
+   "head_roll": [
+    0.141,
+    [
+     45,
+     -45,
+     -30
+    ]
+   ]
+  },
+  "load_pct_of_stall": {
+   "neck_pitch": 56,
+   "head_pitch": 32,
+   "head_roll": 7
+  }
+ },
+ "headA_v2_for_reference": {
+  "head_assembly_mass_g": 583,
+  "head_com_mm": [
+   36.1,
+   -0.5,
+   235.7
+  ],
+  "rest_moment_Nm": {
+   "neck_pitch": 0.203,
+   "head_pitch": 0.203,
+   "head_roll": 0.004
+  },
+  "worst_moment_Nm": {
+   "neck_pitch": [
+    0.963,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_pitch": [
+    0.533,
+    [
+     65,
+     45,
+     0
+    ]
+   ],
+   "head_roll": [
+    0.123,
+    [
+     45,
+     -45,
+     -30
+    ]
+   ]
+  },
+  "stall_margin_x": {
+   "neck_pitch": 1.98,
+   "head_pitch": 3.59,
+   "head_roll": 15.54
+  },
+  "load_pct_of_stall": {
+   "neck_pitch": 50,
+   "head_pitch": 28,
+   "head_roll": 6
+  }
+ },
+ "assumptions": "same model as head-v2/fit/torque.py; displays 40 g each (estimated); STS3215 7.4 V stall 1.91 N*m"
+}

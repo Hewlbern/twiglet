@@ -1,0 +1,90 @@
+{
+ "model": {
+  "eye_R_mm": [
+   37.601798778012,
+   37.60193118596692
+  ],
+  "snout_R_mm": 36.0,
+  "snout_axis": [
+   0.9727871933408989,
+   -0.20679727753176183,
+   -0.10449862428466687
+  ],
+  "eye_c": [
+   [
+    84.47429780717073,
+    47.35260320606027,
+    411.9123735012553
+   ],
+   [
+    84.47922499055062,
+    -47.35619432720172,
+    411.9144373769034
+   ]
+  ],
+  "snout_tip": [
+   183.69067792054472,
+   -16.059403982286852,
+   355.9792162255792
+  ],
+  "root": [
+   113.65,
+   -1.17,
+   363.5031171740752
+  ],
+  "slot": [
+   97.81791912383198,
+   2.1034869304943853,
+   325.5053303266306
+  ]
+ },
+ "photos": {
+  "original": {
+   "eye0_centre_mm": 10.1,
+   "eye0_dy_mm": -9.4,
+   "eye1_centre_mm": 4.7,
+   "eye1_dy_mm": 3.5,
+   "eye1_halfw_mm": -3.1,
+   "eye1_halfh_mm": -2.9,
+   "eye_spacing_mm": -4.7,
+   "snout_mouth_mm": 24.7,
+   "snout_mouth_dy_mm": 19.9,
+   "snout_halfw_mm": -2.0,
+   "snout_root_mm": 25.2,
+   "snout_root_dy_mm": -1.2,
+   "mean_abs_mm": 9.67
+  },
+  "front": {
+   "eye0_centre_mm": 7.7,
+   "eye0_dy_mm": -6.5,
+   "eye0_halfw_mm": 1.7,
+   "eye0_halfh_mm": 4.5,
+   "eye1_centre_mm": 6.0,
+   "eye1_dy_mm": -4.7,
+   "eye1_halfw_mm": -1.1,
+   "eye1_halfh_mm": 3.6,
+   "eye_spacing_mm": -7.9,
+   "snout_mouth_mm": 54.2,
+   "snout_mouth_dy_mm": 52.6,
+   "snout_halfw_mm": -3.1,
+   "mouth_slot_dy_mm": -35.6,
+   "mouth_slot_mm": 35.9,
+   "mean_abs_mm": 12.57
+  },
+  "34": {
+   "eye0_centre_mm": 3.2,
+   "eye0_dy_mm": -1.4,
+   "eye0_halfw_mm": 2.5,
+   "eye0_halfh_mm": 2.0,
+   "eye1_centre_mm": 6.6,
+   "eye1_dy_mm": -6.3,
+   "eye1_halfw_mm": 4.3,
+   "eye1_halfh_mm": 7.4,
+   "eye_spacing_mm": 6.0,
+   "snout_mouth_mm": 46.2,
+   "snout_mouth_dy_mm": 35.1,
+   "snout_halfw_mm": 4.3,
+   "mean_abs_mm": 9.17
+  }
+ }
+}

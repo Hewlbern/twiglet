@@ -1,0 +1,853 @@
+{
+ "tag": "v334_wig344",
+ "scene": "scene_v334_wig344.npz",
+ "wig_arm_yaw_0": {
+  "poses": 156,
+  "hits": 3,
+  "hits_in_soft": 0
+ },
+ "wig_arm_yaw_-45": {
+  "poses": 156,
+  "hits": 32,
+  "hits_in_soft": 0
+ },
+ "wig_arm_yaw_45": {
+  "poses": 156,
+  "hits": 38,
+  "hits_in_soft": 0
+ },
+ "wig_arm_hits": [
+  {
+   "yaw": 0,
+   "sh": 110,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L",
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 0,
+   "sh": 110,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 0,
+   "sh": 110,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "finger_L",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 30,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 40,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 40,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 50,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 50,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 50,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 50,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 60,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 60,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 70,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 70,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 70,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 90,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 90,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 90,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 90,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 30,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 0,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 0,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 30,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L",
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 30,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 30,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 30,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 40,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 40,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 50,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 50,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 50,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 50,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 60,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 60,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 60,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 70,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 70,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 70,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "finger_L",
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 30,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 90,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 30,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 0,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 0,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 30,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L",
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L",
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 110,
+   "gr": 0,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 110,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  }
+ ],
+ "head_range": {
+  "poses": 315,
+  "poses_with_any_head_contact": 154,
+  "poses_wig_contact": 32,
+  "poses_wig_only": 0,
+  "pairs": {
+   "head_lower x upper_arm_L": 40,
+   "head_lower x upper_arm_R": 41,
+   "fringe x fore_arm_R": 4,
+   "chin_collar_L x upper_arm_R": 12,
+   "head_lower x trunk:kilt_petal_00": 3,
+   "head_lower x trunk:kilt_petal_01": 4,
+   "head_lower x trunk:hip_ring": 18,
+   "fringe x trunk:kilt_petal_00": 2,
+   "head_lower x trunk:kilt_petal_02": 3,
+   "chin_collar_L x trunk:torso_shell_front": 3,
+   "chin_collar_L x trunk:hip_ring": 5,
+   "chin_collar_L x trunk:kilt_petal_00": 2,
+   "fringe x trunk:kilt_petal_02": 2,
+   "chin_collar_R x upper_arm_R": 18,
+   "chin_collar_L x trunk:kilt_petal_02": 2,
+   "chin_collar_L x trunk:kilt_petal_01": 1,
+   "fringe x fore_arm_L": 5,
+   "chin_collar_R x trunk:torso_shell_front": 3,
+   "chin_collar_R x trunk:hip_ring": 5,
+   "chin_collar_R x trunk:kilt_petal_00": 2,
+   "chin_collar_R x trunk:kilt_petal_02": 2,
+   "chin_collar_R x trunk:kilt_petal_01": 1,
+   "chin_collar_L x upper_arm_L": 18,
+   "chin_collar_R x upper_arm_L": 12,
+   "chin_collar_R x trunk:torso_shell_back": 27,
+   "chin_collar_R x trunk:torso_frame": 19,
+   "chin_collar_L x trunk:torso_shell_back": 27,
+   "chin_collar_L x trunk:torso_frame": 19,
+   "head_lower x trunk:torso_shell_back": 56,
+   "head_lower x trunk:torso_frame": 34,
+   "fringe x trunk:kilt_petal_06": 14,
+   "chin_collar_R x trunk:hip_cradle": 5,
+   "fringe x trunk:kilt_petal_05": 14,
+   "fringe x trunk:kilt_petal_07": 10,
+   "fringe x trunk:torso_frame": 10,
+   "fringe x trunk:kilt_petal_09": 5,
+   "fringe x trunk:kilt_petal_03": 3,
+   "head_lower x trunk:hip_cradle": 10,
+   "chin_collar_L x trunk:hip_cradle": 5,
+   "head_lower x trunk:kilt_petal_04": 8,
+   "head_lower x trunk:kilt_petal_05": 9,
+   "head_lower x trunk:kilt_petal_03": 3,
+   "head_lower x trunk:kilt_petal_06": 13,
+   "head_lower x trunk:kilt_petal_07": 12,
+   "snout x trunk:kilt_petal_07": 1,
+   "head_lower x trunk:torso_shell_front": 4,
+   "head_lower x trunk:kilt_petal_08": 8,
+   "fringe x trunk:kilt_petal_04": 5,
+   "head_lower x trunk:kilt_petal_09": 2,
+   "fringe x trunk:hip_cradle": 2,
+   "fringe x trunk:kilt_petal_08": 6,
+   "fringe x trunk:hip_ring": 2,
+   "fringe x trunk:torso_shell_back": 2,
+   "snout x trunk:kilt_petal_05": 1
+  }
+ }
+}

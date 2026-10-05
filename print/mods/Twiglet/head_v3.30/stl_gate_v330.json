@@ -1,0 +1,103 @@
+{
+ "GATE": {
+  "wig": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 721.02,
+   "faces": 56390
+  },
+  "snout": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 185.29,
+   "faces": 40246
+  },
+  "head_upper": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 137.52,
+   "faces": 311722
+  },
+  "head_lower": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 233.31,
+   "faces": 400612
+  },
+  "eye_bezel_L": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 5.36,
+   "faces": 3072
+  },
+  "display_carrier_L": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 14.28,
+   "faces": 4292
+  },
+  "eye_bezel_R": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 5.36,
+   "faces": 3072
+  },
+  "display_carrier_R": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 14.34,
+   "faces": 4246
+  },
+  "chin_collar_L": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 4.23,
+   "faces": 10220
+  },
+  "chin_collar_R": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 4.23,
+   "faces": 9984
+  },
+  "head_yaw_to_roll": {
+   "open_edges": 0,
+   "nonmanifold_edges": 0,
+   "bodies": 1,
+   "watertight": true,
+   "winding_ok": true,
+   "volume_cm3": 23.63,
+   "faces": 7010
+  }
+ }
+}

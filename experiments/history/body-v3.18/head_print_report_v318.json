@@ -1,0 +1,168 @@
+{
+ "info": {
+  "locks": 15,
+  "dome": {
+   "T0": 14.0,
+   "TH_A": 20.0,
+   "TH_B": 50.0
+  },
+  "pins": [
+   [
+    20.0,
+    45.0
+   ],
+   [
+    20.0,
+    135.0
+   ],
+   [
+    20.0,
+    225.0
+   ],
+   [
+    20.0,
+    315.0
+   ]
+  ],
+  "key": {
+   "TH": 31.0,
+   "ARCS": [
+    [
+     0,
+     70
+    ],
+    [
+     90,
+     40
+    ],
+    [
+     180,
+     40
+    ],
+    [
+     270,
+     40
+    ]
+   ],
+   "W": 2.4,
+   "H": 1.1,
+   "GW": 3.0,
+   "GD": 1.0
+  },
+  "parts_before_keep": 4,
+  "dropped_mm3": [
+   1.2,
+   0.0,
+   0.0
+  ],
+  "watertight": true,
+  "extents": [
+   214.9,
+   261.1,
+   163.7
+  ],
+  "volume_cm3": 458.6,
+  "area_cm2": 1287.3,
+  "sim_g": 163.0,
+  "moment_gmm": 949,
+  "old_sim_g": 198.9,
+  "old_moment_gmm": 1734,
+  "eye_cover": {
+   "L": 0.024,
+   "R": 0.042
+  },
+  "eye_cover_v315": {
+   "L": 0.088,
+   "R": 0.169
+  },
+  "head_upper_holes_removed_mm3": 731.0,
+  "overlaps_mm3": {
+   "head_upper": 0.0,
+   "head_lower": 0.0,
+   "snout": 0.0,
+   "eye_bezel_L": 0.0,
+   "eye_bezel_R": 0.0,
+   "chin_collar_L": 0.0,
+   "chin_collar_R": 0.0,
+   "display_carrier_L": 0.0,
+   "display_carrier_R": 0.0
+  },
+  "clearance_mm": {
+   "seat_vertices": 55339,
+   "p5": 0.335,
+   "p50": 0.447,
+   "p95": 0.98,
+   "min": 0.301
+  },
+  "min_gap_by_part_mm": {
+   "head_upper": 0.3,
+   "head_lower": 1.01,
+   "eye_bezel_L": 2.95,
+   "eye_bezel_R": 2.95,
+   "snout": null,
+   "chin_collar_L": null,
+   "chin_collar_R": null
+  },
+  "blend_check": {
+   "profiles": 180,
+   "theta_range": [
+    12.0,
+    62.0
+   ],
+   "step_mm": 1.85,
+   "kink_deg_p50": 1.68,
+   "kink_deg_p99": 23.3,
+   "kink_deg_max": 39.6,
+   "n_kinks_over_20deg": 116,
+   "n_kinks_over_35deg": 9,
+   "samples": 8820,
+   "max_jump_mm": 1.28
+  },
+  "blend_check_crown": {
+   "profiles": 180,
+   "theta_range": [
+    0.0,
+    34.0
+   ],
+   "step_mm": 1.85,
+   "kink_deg_p50": 0.23,
+   "kink_deg_p99": 6.1,
+   "kink_deg_max": 12.7,
+   "n_kinks_over_20deg": 0,
+   "n_kinks_over_35deg": 0,
+   "samples": 5940,
+   "max_jump_mm": 0.74
+  }
+ },
+ "parts": {
+  "wig": {
+   "file": "v318_head_wig.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    204.4,
+    222.2,
+    207.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 458.6,
+   "est_g": 150,
+   "est_support_g": 29,
+   "est_hours": 11.2,
+   "overhang_cm2_over45": 140.2,
+   "support_column_cm3": 196,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported: crown axis tilted 44 deg from straight-down (least support volume of 6120 orientations searched); lies on the dome + clump backs",
+   "supports": "tree supports (auto, build plate only, threshold 40 deg, 0.2 mm top Z gap) + 5 mm brim",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (the locks print as near-hollow sealed shells; lightning only props the top skins) - the sims assume this ~150 g wig, keep 5 %",
+   "note": "ONE PIECE (no split, no seam)",
+   "mb": 13.7
+  },
+  "_crown_down_alt": {
+   "support_column_cm3": 248,
+   "overhang_cm2": 184.4,
+   "est_support_g": 37
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (the locks print as near-hollow sealed shells; lightning only props the top skins) - the sims assume this ~150 g wig, keep 5 %"
+}

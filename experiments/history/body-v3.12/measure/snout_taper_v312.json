@@ -1,0 +1,9 @@
+{"method": "manual edge picks on zoomed, contrast-enhanced crops (grid overlay), perspective-corrected with a pinhole model",
+ "original_photo_1280x720": {"view": "snout axis ~61 deg from the line of sight (most side-on view)", "head_D_px": 195, "cam_dist_mm_est": 985,
+   "top_edge_px": [[548, 295], [590, 276]], "bottom_edge_px": [[587, 348], [628, 327]], "mouth_rim_centre_px": [553, 337], "root_centre_px": [604, 310],
+   "body_width_near_root_px": 63.5, "mouth_rim_OD_px": 75, "raw_ratio": 0.85, "perspective_factor_root_farther": 1.037, "ratio_root_to_mouth": 0.88,
+   "edge_divergence_in_image_deg_full": 2.8, "expected_from_perspective_alone_deg_full": 2.6, "note": "side-edge angle is inside the measurement noise (about +-2 deg); the width ratio is the usable number"},
+ "three_quarter_photo_1080x2400": {"view": "axis ~24 deg from the line of sight (mouth nearly face-on, ellipse 93 x 102 px)", "root_silhouette_px": 98, "mouth_px": 102,
+   "ratio_raw": 0.96, "note": "ill-conditioned: root silhouette merges with the face/fillet in a near-axial view; not used"},
+ "front_photo_1080x2400": {"mouth_OD_px": 107, "head_W_px": 293, "note": "axial view, taper not measurable; mouth ~0.33 x head width after perspective (~68-72 mm)"},
+ "adopted": {"root_OD_mm": 65, "mouth_OD_mm": 72, "ratio": 0.90, "half_angle_deg": 2.8}}

@@ -1,0 +1,881 @@
+{
+ "params": {
+  "Y_H": 22.0,
+  "YC": 50.0,
+  "DZ": 44.0,
+  "DX_H": -2.0,
+  "DX_P": 20.0,
+  "THIGH_CUT": 22.0,
+  "SHIN_CUT": 0.0,
+  "NECK_FIXED": true,
+  "HX": -15.6,
+  "HEAD_RX": -3.0,
+  "DXN": 16.5,
+  "DN": 62.0,
+  "NECK_CUT": 4.0,
+  "BAT_DX": -18.0,
+  "BAT_DZ": -14.0,
+  "POD_LO": [
+   -71.0,
+   -38.0,
+   -28.0
+  ],
+  "ELEC_Z": 15.0,
+  "AX": 4.0,
+  "AZ": 74.0,
+  "ARM_Y0": 58.4,
+  "L_UP": 46.0,
+  "L_FORE": 72.0,
+  "YS": 45.0,
+  "TILT": 10.0,
+  "SH_REST": 5.0,
+  "EL_REST": 30.0,
+  "BARREL_Z": [
+   25,
+   35,
+   45,
+   55,
+   65,
+   72,
+   78,
+   81,
+   83,
+   85,
+   86.5,
+   88,
+   89.5,
+   91
+  ],
+  "BARREL_B": [
+   51.5,
+   50.5,
+   49.0,
+   47.0,
+   45.0,
+   44.0,
+   43.5,
+   43.4,
+   43.2,
+   42.8,
+   41.5,
+   37.5,
+   33.0,
+   29.0
+  ],
+  "BARREL_XC": -18.0,
+  "BARREL_AF": 60.0,
+  "BARREL_AB": 88.0,
+  "BARREL_N": 2.5,
+  "BARREL_ABZ": [
+   90,
+   90,
+   90,
+   90,
+   92,
+   92,
+   92,
+   91,
+   85,
+   74,
+   68,
+   50,
+   34,
+   24
+  ],
+  "BARREL_AFZ": [
+   60,
+   60,
+   60,
+   61.5,
+   61.5,
+   61.5,
+   61.5,
+   61,
+   59,
+   58.5,
+   57.5,
+   55,
+   52,
+   50
+  ],
+  "NECK_COL": [
+   -21.6,
+   21.4,
+   25.5,
+   84.0,
+   95.0,
+   2.6,
+   3.5
+  ],
+  "TORSO_ENV": "torso_env_v38.json",
+  "V37": true,
+  "V38": true,
+  "V39": true,
+  "TOP": 93.0,
+  "WAIST": 25.0,
+  "KILT_TOP": 33.0,
+  "HEAD_S": 1.2352941176470589,
+  "HEAD_Q": [
+   58.9,
+   0.0,
+   102.0
+  ],
+  "KILT_HEM": -62.0,
+  "FRONT_HW": 33.5,
+  "REAR_HW_HIP": 45.0,
+  "REAR_HW": 39.0,
+  "X_STEP": -1.0,
+  "X_STEP_LO": 3.5
+ },
+ "parts": {
+  "thigh_spacer": {
+   "file": "stl/v39_thigh_spacer.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    28.0,
+    36.9,
+    7.5
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 976.0,
+   "volume_cm3": 5.6,
+   "est_mass_g": 4.4,
+   "colour": "black (print 2)",
+   "orientation": "flat [exported: as modelled (z up) = max bed contact]"
+  },
+  "thigh_sheet_b": {
+   "file": "stl/v39_thigh_sheet_b.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.7,
+    48.6,
+    7.2
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 836.0,
+   "volume_cm3": 4.0,
+   "est_mass_g": 4.0,
+   "colour": "wood brown (print 2)",
+   "orientation": "flat [exported: rot +90 about x = max bed contact]"
+  },
+  "thigh_sheet_a": {
+   "file": "stl/v39_thigh_sheet_a.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.7,
+    48.6,
+    8.4
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 810.0,
+   "volume_cm3": 4.9,
+   "est_mass_g": 4.3,
+   "colour": "wood brown (print 2: L and R legs)",
+   "orientation": "flat on the bed (sheet plane horizontal) [exported: rot -90 about x = max bed contact]"
+  },
+  "torso_frame": {
+   "file": "stl/v39_torso_frame.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 2,
+   "size_mm": [
+    116.5,
+    92.6,
+    102.9
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 3769.0,
+   "volume_cm3": 90.9,
+   "est_mass_g": 84.3,
+   "colour": "grey/any (hidden)",
+   "orientation": "back (battery tray) face down; tree supports under the deck and neck cradle [exported: rot -90 about y = max bed contact]"
+  },
+  "hip_cradle": {
+   "file": "stl/v39_hip_cradle.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    72.0,
+    75.0,
+    80.9
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 756.0,
+   "volume_cm3": 12.3,
+   "est_mass_g": 10.5,
+   "colour": "grey/any (hidden)",
+   "orientation": "flipped (seats up); supports under the T-arms [exported: rot -90 about y = max bed contact]"
+  },
+  "hip_ring": {
+   "file": "stl/v39_hip_ring.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    117.5,
+    110.3,
+    8.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 674.0,
+   "volume_cm3": 4.9,
+   "est_mass_g": 6.0,
+   "colour": "wood brown (hidden under the kilt)",
+   "orientation": "flat, as exported; no supports"
+  },
+  "hip_bracket_L": {
+   "file": "stl/v39_hip_bracket_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    67.5,
+    58.6,
+    74.6
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 516.0,
+   "volume_cm3": 29.5,
+   "est_mass_g": 21.7,
+   "colour": "black",
+   "orientation": "as exported (sleeve axis vertical, like the stock roll_to_pitch); supports under the webs"
+  },
+  "hip_bracket_R": {
+   "file": "stl/v39_hip_bracket_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    67.5,
+    58.6,
+    74.6
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 516.0,
+   "volume_cm3": 29.5,
+   "est_mass_g": 21.7,
+   "colour": "black",
+   "orientation": "mirror of L"
+  },
+  "boot_cuff": {
+   "file": "stl/v39_boot_cuff.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    39.5,
+    53.6,
+    17.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 421.0,
+   "volume_cm3": 7.7,
+   "est_mass_g": 8.1,
+   "colour": "black (print 2)",
+   "orientation": "upright ring, no supports"
+  },
+  "shin_cover_front_L": {
+   "file": "stl/v39_shin_cover_front_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.5,
+    60.8,
+    28.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 339.0,
+   "volume_cm3": 5.3,
+   "est_mass_g": 6.5,
+   "colour": "wood brown (v3.8 chunky shin block, front half; glue to the back half around the shin)",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "shin_cover_back_L": {
+   "file": "stl/v39_shin_cover_back_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.5,
+    60.8,
+    25.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 380.0,
+   "volume_cm3": 5.3,
+   "est_mass_g": 6.6,
+   "colour": "wood brown (v3.8 chunky shin block, back half)",
+   "orientation": " [exported: rot -90 about y = max bed contact]"
+  },
+  "shin_cover_front_R": {
+   "file": "stl/v39_shin_cover_front_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.5,
+    60.5,
+    28.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 339.0,
+   "volume_cm3": 5.2,
+   "est_mass_g": 6.5,
+   "colour": "wood brown (v3.8 chunky shin block, front half)",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "shin_cover_back_R": {
+   "file": "stl/v39_shin_cover_back_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    30.5,
+    60.5,
+    25.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 361.0,
+   "volume_cm3": 5.3,
+   "est_mass_g": 6.5,
+   "colour": "wood brown (v3.8 chunky shin block, back half)",
+   "orientation": " [exported: rot -90 about y = max bed contact]"
+  },
+  "upper_arm_L": {
+   "file": "stl/v39_upper_arm_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    20.0,
+    36.9,
+    27.8
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 558.0,
+   "volume_cm3": 2.8,
+   "est_mass_g": 3.1,
+   "colour": "wood brown (upper-arm plate, M2 to the black shoulder sleeve)",
+   "orientation": "outer plate face down, no supports [exported: rot +90 about x = max bed contact]"
+  },
+  "upper_arm_R": {
+   "file": "stl/v39_upper_arm_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    20.0,
+    36.9,
+    27.8
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 558.0,
+   "volume_cm3": 2.8,
+   "est_mass_g": 3.1,
+   "colour": "wood brown (upper-arm plate)",
+   "orientation": "outer plate face down [exported: rot -90 about x = max bed contact]"
+  },
+  "shoulder_sleeve_L": {
+   "file": "stl/v39_shoulder_sleeve_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    29.7,
+    26.3,
+    15.7
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 569.0,
+   "volume_cm3": 4.0,
+   "est_mass_g": 5.0,
+   "colour": "black",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "shoulder_sleeve_R": {
+   "file": "stl/v39_shoulder_sleeve_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    29.7,
+    26.3,
+    15.7
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 569.0,
+   "volume_cm3": 4.0,
+   "est_mass_g": 5.0,
+   "colour": "black",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "forearm_L": {
+   "file": "stl/v39_forearm_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    15.7,
+    51.2,
+    26.4
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 744.0,
+   "volume_cm3": 10.5,
+   "est_mass_g": 5.7,
+   "colour": "wood brown (forearm block + link)",
+   "orientation": "inner face down [exported: rot +90 about x = max bed contact]"
+  },
+  "forearm_R": {
+   "file": "stl/v39_forearm_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    15.7,
+    51.2,
+    26.4
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 744.0,
+   "volume_cm3": 10.5,
+   "est_mass_g": 5.7,
+   "colour": "wood brown (forearm block + link)",
+   "orientation": "inner face down [exported: rot -90 about x = max bed contact]"
+  },
+  "elbow_sleeve_L": {
+   "file": "stl/v39_elbow_sleeve_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    26.7,
+    26.3,
+    15.7
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 704.0,
+   "volume_cm3": 3.7,
+   "est_mass_g": 4.6,
+   "colour": "black",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "elbow_sleeve_R": {
+   "file": "stl/v39_elbow_sleeve_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    26.7,
+    26.3,
+    15.7
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 704.0,
+   "volume_cm3": 3.7,
+   "est_mass_g": 4.6,
+   "colour": "black",
+   "orientation": " [exported: rot +90 about y = max bed contact]"
+  },
+  "gripper_housing_L": {
+   "file": "stl/v39_gripper_housing_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    79.6,
+    36.8,
+    25.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 1219.0,
+   "volume_cm3": 24.7,
+   "est_mass_g": 14.2,
+   "colour": "black",
+   "orientation": "inner (servo-sleeve) face down; supports under the finger tip only [exported: rot +90 about y = max bed contact]"
+  },
+  "gripper_housing_R": {
+   "file": "stl/v39_gripper_housing_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    79.6,
+    36.8,
+    25.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 1219.0,
+   "volume_cm3": 24.7,
+   "est_mass_g": 14.2,
+   "colour": "black",
+   "orientation": "inner face down [exported: rot +90 about y = max bed contact]"
+  },
+  "finger_moving_L": {
+   "file": "stl/v39_finger_moving_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    19.0,
+    59.5,
+    19.1
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 587.0,
+   "volume_cm3": 4.4,
+   "est_mass_g": 3.5,
+   "colour": "black",
+   "orientation": "outer (hub) face down [exported: rot -90 about x = max bed contact]"
+  },
+  "finger_moving_R": {
+   "file": "stl/v39_finger_moving_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    19.0,
+    59.5,
+    19.1
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 587.0,
+   "volume_cm3": 4.4,
+   "est_mass_g": 3.5,
+   "colour": "black",
+   "orientation": "outer face down [exported: rot +90 about x = max bed contact]"
+  },
+  "boot_L": {
+   "file": "stl/v39_boot_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    128.6,
+    65.6,
+    34.5
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 1021.0,
+   "volume_cm3": 41.9,
+   "est_mass_g": 50.2,
+   "colour": "black (chunky boot, v3.7)",
+   "orientation": "sole down (open cavity underneath), no supports; 2-3 walls, 8-10 % infill"
+  },
+  "boot_R": {
+   "file": "stl/v39_boot_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    128.6,
+    65.6,
+    34.5
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 1022.0,
+   "volume_cm3": 42.0,
+   "est_mass_g": 50.3,
+   "colour": "black (chunky boot, v3.7)",
+   "orientation": "sole down, no supports"
+  },
+  "head_yaw_to_roll": {
+   "file": "stl/v39_head_yaw_to_roll.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    88.0,
+    80.0,
+    42.2
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 2201.0,
+   "volume_cm3": 26.3,
+   "est_mass_g": 16.5,
+   "colour": "",
+   "orientation": " [exported: as modelled (z up) = max bed contact]"
+  },
+  "leaf_L": {
+   "file": "stl/v39_leaf_L.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    26.5,
+    10.7,
+    5.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 148.0,
+   "volume_cm3": 0.3,
+   "est_mass_g": 0.4,
+   "colour": "green PLA (shoulder leaves, print 2)",
+   "orientation": "veined face down, peg up, no supports; 0.12-0.16 mm layers"
+  },
+  "leaf_M": {
+   "file": "stl/v39_leaf_M.stl",
+   "qty": 3,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    23.5,
+    9.4,
+    5.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 111.0,
+   "volume_cm3": 0.3,
+   "est_mass_g": 0.3,
+   "colour": "green PLA (elbow + top chest leaves, print 3)",
+   "orientation": "veined face down, peg up"
+  },
+  "leaf_S": {
+   "file": "stl/v39_leaf_S.stl",
+   "qty": 2,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    19.5,
+    7.7,
+    5.0
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 70.0,
+   "volume_cm3": 0.2,
+   "est_mass_g": 0.2,
+   "colour": "green PLA (small vine leaves, print 2)",
+   "orientation": "veined face down, peg up"
+  },
+  "torso_shell_front": {
+   "file": "stl/v39_torso_shell_front.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    70.0,
+    109.1,
+    64.9
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 135.0,
+   "volume_cm3": 27.3,
+   "est_mass_g": 32.0,
+   "colour": "wood brown (barrel front with vine relief)",
+   "orientation": "split face (x = -20) down; tree supports only inside the two shoulder-boss holes"
+  },
+  "torso_shell_back": {
+   "file": "stl/v39_torso_shell_back.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    70.0,
+    109.0,
+    58.3
+   ],
+   "fits_P1S_256": true,
+   "bed_contact_mm2": 368.0,
+   "volume_cm3": 25.4,
+   "est_mass_g": 31.5,
+   "colour": "wood brown",
+   "orientation": "split face down (v3.8 conical back, no switch slot)"
+  },
+  "head_head_upper": {
+   "file": "stl/v39_head_head_upper.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 120.3,
+   "est_mass_g": 149,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only, for the crown above ~60 deg (hidden under the hat); the grain grooves need none",
+   "print_profile": "0.2 mm (0.16 mm shows the grain better), 3 walls, 15 % gyroid"
+  },
+  "head_head_lower": {
+   "file": "stl/v39_head_head_lower.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    209.0,
+    210.0,
+    95.1
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 243.6,
+   "est_mass_g": 245,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "deck (split plane) down, neck opening up",
+   "supports": "tree supports 'build plate only' under the snout collar, bearing-holder pocket and the display-post undersides",
+   "print_profile": "0.2 mm, 3 walls, 15 % gyroid"
+  },
+  "head_snout": {
+   "file": "stl/v39_head_snout.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.9,
+    71.9,
+    93.4
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 179.8,
+   "est_mass_g": 78,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "mouth (flat lip face) down, spigot up",
+   "supports": "none",
+   "print_profile": "0.2 mm, 3 walls, 15 % gyroid"
+  },
+  "head_fringe": {
+   "file": "stl/v39_head_fringe.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    226.8,
+    197.7,
+    181.0
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 223.1,
+   "est_mass_g": 138,
+   "colour": "yellow / blond PLA (matte)",
+   "orientation": "as exported: tipped ~80 deg onto its back edge (least-overhang orientation found by search), locks rising",
+   "supports": "tree supports (build plate only) + brim; about 25 cm2 of >45 deg overhang, mainly under the lowest lock edges",
+   "print_profile": "0.2 mm, 3 walls, 10 % gyroid"
+  },
+  "head_chin_collar_L": {
+   "file": "stl/v39_head_chin_collar_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 10.3,
+   "est_mass_g": 13,
+   "colour": "wood brown PLA (v3.9: was black)",
+   "orientation": "top (joint) face down",
+   "supports": "none",
+   "print_profile": "0.2 mm, 3 walls, 15 % gyroid"
+  },
+  "head_chin_collar_R": {
+   "file": "stl/v39_head_chin_collar_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 10.3,
+   "est_mass_g": 13,
+   "colour": "wood brown PLA (v3.9: was black)",
+   "orientation": "top (joint) face down",
+   "supports": "none",
+   "print_profile": "0.2 mm, 3 walls, 15 % gyroid"
+  },
+  "head_eye_bezel_L": {
+   "file": "stl/v39_head_eye_bezel_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    82.8,
+    82.8,
+    7.2
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 5.2,
+   "est_mass_g": 6,
+   "colour": "matte black PLA",
+   "orientation": "flat visible face down (smooth PEI side)",
+   "supports": "none",
+   "print_profile": "0.12-0.16 mm, 3 walls, 100 %"
+  },
+  "head_eye_bezel_R": {
+   "file": "stl/v39_head_eye_bezel_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    82.8,
+    82.8,
+    7.2
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 5.2,
+   "est_mass_g": 6,
+   "colour": "matte black PLA",
+   "orientation": "flat visible face down (smooth PEI side)",
+   "supports": "none",
+   "print_profile": "0.12-0.16 mm, 3 walls, 100 %"
+  },
+  "head_display_carrier_L": {
+   "file": "stl/v39_head_display_carrier_L.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 14.3,
+   "est_mass_g": 16,
+   "colour": "PETG (or PLA), black",
+   "orientation": "ring front face (display side) down, foot plate up",
+   "supports": "tree supports under the foot plate",
+   "print_profile": "0.2 mm, 4 walls, 40 %"
+  },
+  "head_display_carrier_R": {
+   "file": "stl/v39_head_display_carrier_R.stl",
+   "qty": 1,
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S_256": true,
+   "volume_cm3": 14.3,
+   "est_mass_g": 16,
+   "colour": "PETG (or PLA), black",
+   "orientation": "ring front face (display side) down, foot plate up",
+   "supports": "tree supports under the foot plate",
+   "print_profile": "0.2 mm, 4 walls, 40 %"
+  }
+ },
+ "reused": {
+  "head (digital eyes)": "v3.8: 210 mm head (v3.7 + new photo-matched snout; see print_sheet_head_v38.md) re-cut to the 1:1 hardware, stl/v36_head_*.stl (see print_sheet_head_v36.md; 2-piece fringe); 2.1in round displays + head-v3 electronics unchanged",
+  "boots": "v3.7 chunky boots, re-exported as stl/v38_boot_L/R.stl (unchanged)",
+  "stock ODM (Open Duck Mini v2) parts, unchanged": "hip yaw/roll brackets (roll_motor_top/bottom), knee_to_ankle shin sheets (SHIN_CUT = 0), leg_spacer (shin), foot parts + TPU soles, neck yaw/roll parts (head_pitch_to_yaw, head_yaw_to_roll, head_roll_mount), roll bearings",
+  "dropped vs v2": "v2 torso shell/frame/cradle/hip ring/hip brackets, v2 shoulder mounts, v2 STS3215 arm links and fingers (replaced by STS3032 arm parts)"
+ },
+ "bed": "Bambu P1S 256 x 256 x 256 mm",
+ "note": "est_mass: PLA 1.24 g/cm3, 0.9 mm solid skin + 15 % infill. Orientation = STL as exported (already rotated to print pose, centred, z=0 on the bed)."
+}

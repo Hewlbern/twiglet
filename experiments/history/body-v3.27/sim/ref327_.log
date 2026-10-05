@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "$WORK/twiglet-odm-robot/body-v3.27/sim/walk_refine.py", line 11, in <module>
+    best0 = np.load(os.path.join(HERE, f"walk_v3{SUF}_best.npy")); pool = mp.Pool(7); rng = np.random.default_rng(int(os.environ.get("REFINE_SEED", "32")))
+                                                                                                                  ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''

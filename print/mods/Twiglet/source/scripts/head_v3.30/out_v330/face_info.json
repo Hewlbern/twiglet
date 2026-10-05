@@ -1,0 +1,107 @@
+{
+ "DZ": 4.0,
+ "R_OUT": 35.4,
+ "R_WIN": 29.8,
+ "RF": 42.0,
+ "RB": 49.0,
+ "solver": "Blender 4.5.9 LTS MANIFOLD boolean",
+ "L": {
+  "axis": [
+   0.7958,
+   0.5039,
+   0.3359
+  ],
+  "centre": [
+   86.57,
+   47.35,
+   262.69
+  ],
+  "eye_disc_d_mm": 70.8,
+  "window_d_mm": 59.6,
+  "ring_width_mm": 5.6,
+  "wood_flat_rim_mm": 6.6,
+  "facet_plane_a": 95.11,
+  "ring_front_a": 96.41
+ },
+ "R": {
+  "axis": [
+   0.7959,
+   -0.5038,
+   0.3359
+  ],
+  "centre": [
+   86.58,
+   -47.36,
+   262.69
+  ],
+  "eye_disc_d_mm": 70.8,
+  "window_d_mm": 59.6,
+  "ring_width_mm": 5.6,
+  "wood_flat_rim_mm": 6.6,
+  "facet_plane_a": 95.11,
+  "ring_front_a": 96.41
+ },
+ "snout": {
+  "fillet_mm": 3.0,
+  "grain_grooves": 39,
+  "grain_removed_mm3": 549.9,
+  "axis_yaw_pitch": [
+   -4.0,
+   22.0
+  ],
+  "L": 72.0,
+  "OD_root": 65.0,
+  "OD_mouth": 72.0,
+  "T2": [
+   0.9249,
+   -0.0647,
+   0.3746
+  ],
+  "root": [
+   115.41,
+   -1.13,
+   218.28
+  ],
+  "bezel_cut_mm3": -0.5,
+  "pod_sweep_cut_mm3": 374.5,
+  "lift_clash_cut_mm3": 354.2,
+  "volume_cm3": 185.2,
+  "parts_before_keep": 1
+ },
+ "fill_head_upper_L_cm3": 19.11,
+ "fill_head_upper_R_cm3": 18.99,
+ "fill_head_lower_L_cm3": 5.72,
+ "fill_head_lower_R_cm3": 5.48,
+ "head_upper": {
+  "parts_before_keep": 23,
+  "vol_cm3": 137.5,
+  "v329_cm3": 122.9
+ },
+ "head_lower": {
+  "parts_before_keep": 44,
+  "vol_cm3": 246.5,
+  "v329_cm3": 245.3
+ },
+ "f32_separated_verts": {
+  "eye_bezel_L": 0,
+  "display_carrier_L": 0,
+  "eye_bezel_R": 0,
+  "display_carrier_R": 0,
+  "snout": 2411,
+  "head_upper": 11082,
+  "head_lower": 4076
+ },
+ "dropped_faces": {
+  "head_upper": 182,
+  "head_lower": 388
+ },
+ "nonmanifold_edges": {
+  "eye_bezel_L": 0,
+  "display_carrier_L": 0,
+  "eye_bezel_R": 0,
+  "display_carrier_R": 0,
+  "snout": 0,
+  "head_upper": 0,
+  "head_lower": 0
+ }
+}

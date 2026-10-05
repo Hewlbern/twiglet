@@ -1,0 +1,123 @@
+{
+ "kilt_band": {
+  "file": "v316_kilt_band.stl",
+  "size_mm": [
+   118.3,
+   110.7,
+   11.0
+  ],
+  "g": 9.5,
+  "watertight": true,
+  "overhang_cm2_over45": 4.2
+ },
+ "kilt_petal_00": {
+  "file": "v316_kilt_petal_00.stl",
+  "size_mm": [
+   49.0,
+   57.7,
+   87.9
+  ],
+  "g": 6.6,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_01": {
+  "file": "v316_kilt_petal_01.stl",
+  "size_mm": [
+   32.2,
+   62.4,
+   87.9
+  ],
+  "g": 6.3,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_02": {
+  "file": "v316_kilt_petal_02.stl",
+  "size_mm": [
+   49.0,
+   57.6,
+   87.9
+  ],
+  "g": 6.6,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_03": {
+  "file": "v316_kilt_petal_03.stl",
+  "size_mm": [
+   52.6,
+   37.4,
+   87.9
+  ],
+  "g": 5.6,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_04": {
+  "file": "v316_kilt_petal_04.stl",
+  "size_mm": [
+   53.6,
+   47.2,
+   87.9
+  ],
+  "g": 5.7,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_05": {
+  "file": "v316_kilt_petal_05.stl",
+  "size_mm": [
+   45.2,
+   54.1,
+   87.9
+  ],
+  "g": 6.0,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_06": {
+  "file": "v316_kilt_petal_06.stl",
+  "size_mm": [
+   32.3,
+   55.9,
+   87.9
+  ],
+  "g": 5.8,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_07": {
+  "file": "v316_kilt_petal_07.stl",
+  "size_mm": [
+   45.2,
+   54.1,
+   87.9
+  ],
+  "g": 6.0,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_08": {
+  "file": "v316_kilt_petal_08.stl",
+  "size_mm": [
+   53.6,
+   46.9,
+   87.9
+  ],
+  "g": 5.7,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ },
+ "kilt_petal_09": {
+  "file": "v316_kilt_petal_09.stl",
+  "size_mm": [
+   52.6,
+   37.4,
+   87.9
+  ],
+  "g": 5.6,
+  "watertight": true,
+  "overhang_cm2_over45": 0.0
+ }
+}

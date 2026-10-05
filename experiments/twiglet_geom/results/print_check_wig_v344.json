@@ -1,0 +1,26 @@
+{
+ "wig_v3.44/FINAL_WIG.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "vol_cm3": 624.9,
+  "extents_mm": [
+   243.1,
+   246.4,
+   239.9
+  ],
+  "fits_p1s": true,
+  "faces": 59984,
+  "walls_mm": {
+   "p0_5": 1.48,
+   "p2": 2.99,
+   "median": 7.53,
+   "pct_below_1p2": 0.5
+  },
+  "walls_on_decimated_60k": false,
+  "pass": true
+ },
+ "_summary": {
+  "parts": 1,
+  "failing": []
+ }
+}

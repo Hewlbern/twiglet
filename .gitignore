@@ -1,0 +1,27 @@
+# based on upstream Open_Duck_Mini v2 .gitignore
+__pycache__/
+*.pkl
+mini_bdx/mini_bdx.egg-info/*
+*.egg-info/
+*.zip
+# upstream also ignores *.txt and *.onnx. We don't, because our results (.txt) and any future ONNX policies are kept in the repo.
+
+# sim outputs
+experiments/twiglet_sim/*.log
+experiments/twiglet_sim/*.gif
+experiments/twiglet_sim/*.mp4
+experiments/twiglet_sim/*_trace.npz
+experiments/twiglet_sim/results_v3.json
+experiments/twiglet_sim/walk_v3.json
+experiments/twiglet_sim/walk_v3_eff.json
+
+# blender backups
+*.blend1
+*.blend2
+
+# staging log
+STATUS.md
+
+# experiment outputs (reference results are kept in each results/ folder)
+experiments/twiglet_sim/out/
+experiments/twiglet_geom/out/

@@ -1,0 +1,127 @@
+{
+ "torso_shell": {
+  "part": "torso_shell",
+  "wall_after_mm": {
+   "min": 1.41,
+   "p1": 1.59,
+   "median": 1.94
+  },
+  "faces": 114180,
+  "grooved_cells": 9424,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.57
+ },
+ "shin_cover_front_L": {
+  "part": "shin_cover_front_L",
+  "wall_after_mm": {
+   "min": 1.4,
+   "p1": 1.41,
+   "median": 1.97
+  },
+  "faces": 12106,
+  "grooved_cells": 1290,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.11
+ },
+ "shin_cover_back_L": {
+  "part": "shin_cover_back_L",
+  "wall_after_mm": {
+   "min": 1.4,
+   "p1": 1.42,
+   "median": 1.79
+  },
+  "faces": 12018,
+  "grooved_cells": 1180,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.07
+ },
+ "shin_cover_front_R": {
+  "part": "shin_cover_front_R",
+  "wall_after_mm": {
+   "min": 1.4,
+   "p1": 1.41,
+   "median": 1.97
+  },
+  "faces": 11972,
+  "grooved_cells": 1274,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.11
+ },
+ "shin_cover_back_R": {
+  "part": "shin_cover_back_R",
+  "wall_after_mm": {
+   "min": 1.4,
+   "p1": 1.42,
+   "median": 1.78
+  },
+  "faces": 12226,
+  "grooved_cells": 1174,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.07
+ },
+ "upper_arm": {
+  "part": "upper_arm",
+  "wall_after_mm": {
+   "min": 1.43,
+   "p1": 1.49,
+   "median": 3.0
+  },
+  "faces": 4658,
+  "grooved_cells": 354,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.01
+ },
+ "forearm": {
+  "part": "forearm",
+  "wall_after_mm": {
+   "min": 1.47,
+   "p1": 1.5,
+   "median": 10.5
+  },
+  "faces": 8320,
+  "grooved_cells": 889,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.03
+ },
+ "boot_L": {
+  "z_bottom": -216.7,
+  "floor": -218.2,
+  "top": -182.2,
+  "outline": [
+   [
+    -67.3,
+    19.7,
+    -216.7
+   ],
+   [
+    61.3,
+    85.3,
+    -182.2
+   ]
+  ]
+ },
+ "boot_R": {
+  "z_bottom": -216.7,
+  "floor": -218.2,
+  "top": -182.2,
+  "outline": [
+   [
+    -67.3,
+    -85.5,
+    -216.7
+   ],
+   [
+    61.3,
+    -19.9,
+    -182.2
+   ]
+  ]
+ }
+}

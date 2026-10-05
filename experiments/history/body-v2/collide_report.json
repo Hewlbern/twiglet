@@ -1,0 +1,498 @@
+{
+ "rest_touching_pairs(attachments)": [
+  [
+   "foot:foot_top",
+   "knee_and_ankle_2:drive_palonier"
+  ],
+  [
+   "foot_2:foot_top",
+   "knee_and_ankle_4:drive_palonier"
+  ],
+  [
+   "hip_roll:passive_palonier",
+   "left_roll_to_pitch:hip_bracket_L"
+  ],
+  [
+   "hip_roll:roll_motor_top",
+   "trunk:torso_frame"
+  ],
+  [
+   "hip_roll_2:passive_palonier",
+   "right_roll_to_pitch:hip_bracket_R"
+  ],
+  [
+   "hip_roll_2:roll_motor_top",
+   "trunk:torso_frame"
+  ],
+  [
+   "neck_pitch:neck_right_sheet",
+   "trunk:passive_palonier"
+  ],
+  [
+   "trunk:shoulder_mount_L",
+   "upper_arm_L:arm_link_upper_L"
+  ],
+  [
+   "trunk:shoulder_mount_R",
+   "upper_arm_R:arm_link_upper_R"
+  ]
+ ],
+ "rest_clash_nonadjacent": [],
+ "single_sweeps_colliding_deg": {
+  "left_hip_yaw": [],
+  "left_hip_roll": [
+   -25,
+   -21,
+   12,
+   17,
+   21,
+   25
+  ],
+  "left_hip_pitch": [
+   23,
+   35,
+   47,
+   58,
+   70
+  ],
+  "left_knee": [],
+  "left_ankle": [
+   -90,
+   -75,
+   60,
+   75,
+   90
+  ],
+  "right_hip_yaw": [],
+  "right_hip_roll": [
+   -25,
+   -21,
+   -17,
+   -12,
+   21,
+   25
+  ],
+  "right_hip_pitch": [
+   -70,
+   -58,
+   -47,
+   -35,
+   -23
+  ],
+  "right_knee": [],
+  "right_ankle": [
+   -90,
+   -75,
+   60,
+   75,
+   90
+  ]
+ },
+ "free_ranges_deg": {
+  "left_hip_roll": [
+   -20.0,
+   9.0
+  ],
+  "right_hip_roll": [
+   -9.0,
+   20.0
+  ],
+  "left_hip_pitch": [
+   -70.0,
+   12.0
+  ],
+  "right_hip_pitch": [
+   -12.0,
+   70.0
+  ],
+  "left_knee": [
+   -90.0,
+   90.0
+  ],
+  "left_ankle": [
+   -65.0,
+   47.0
+  ],
+  "left_hip_yaw": [
+   -30.0,
+   30.0
+  ],
+  "neck_pitch": [
+   -9.0,
+   26.0
+  ],
+  "head_pitch": [
+   -45.0,
+   39.0
+  ],
+  "shoulder_L": [
+   -14.0,
+   105.0
+  ],
+  "elbow_L": [
+   -20.0,
+   105.0
+  ],
+  "both_hip_roll_same": [
+   -20,
+   20
+  ]
+ },
+ "gait120_arms_rest": {
+  "colliding": 15,
+  "examples": [
+   [
+    {
+     "left_hip_yaw": 8.325396710105885,
+     "left_hip_roll": 8.443771249397749,
+     "left_hip_pitch": -27.537964766241004,
+     "left_knee": 10.00002710961272,
+     "left_ankle": 12.9352904800649
+    },
+    [
+     [
+      "foot_2:boot_R",
+      "foot:boot_L"
+     ]
+    ]
+   ],
+   [
+    {
+     "right_hip_yaw": -9.40850072066186,
+     "right_hip_roll": -9.130254192869451,
+     "right_hip_pitch": 21.80390540394386,
+     "right_knee": 70.3382088603836,
+     "right_ankle": 48.3187717309674
+    },
+    [
+     [
+      "foot_2:foot_side",
+      "knee_and_ankle_4:left_knee_to_ankle_right_sheet"
+     ],
+     [
+      "foot_2:foot_top",
+      "knee_and_ankle_4:left_knee_to_ankle_left_sheet"
+     ]
+    ]
+   ],
+   [
+    {
+     "left_hip_yaw": -1.7319991462044264,
+     "left_hip_roll": 6.267030143259461,
+     "left_hip_pitch": 13.39905388182548,
+     "left_knee": 41.442451883910536,
+     "left_ankle": -49.841525004447405
+    },
+    [
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo22topcabinetcase_95"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo23middlecase_56"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo24bottomcase_45"
+     ]
+    ]
+   ],
+   [
+    {
+     "left_hip_yaw": -1.366889057004503,
+     "left_hip_roll": 9.51106861543925,
+     "left_hip_pitch": 15.31395439237798,
+     "left_knee": 22.537401331860206,
+     "left_ankle": -10.268463085247767
+    },
+    [
+     [
+      "foot_2:boot_R",
+      "foot:boot_L"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo22topcabinetcase_95"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo23middlecase_56"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo24bottomcase_45"
+     ]
+    ]
+   ],
+   [
+    {
+     "left_hip_yaw": 2.615436732442804,
+     "left_hip_roll": 3.9010178322493303,
+     "left_hip_pitch": 16.20414017212667,
+     "left_knee": 45.084502714273164,
+     "left_ankle": 2.3895439866978094
+    },
+    [
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo22topcabinetcase_95"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo23middlecase_56"
+     ],
+     [
+      "knee_and_ankle:leg_spacer",
+      "left_roll_to_pitch:servo24bottomcase_45"
+     ]
+    ]
+   ],
+   [
+    {
+     "right_hip_yaw": -9.638140327190566,
+     "right_hip_roll": -5.982939771184812,
+     "right_hip_pitch": -10.174905031512935,
+     "right_knee": 32.77407050962675,
+     "right_ankle": 48.70497179280261
+    },
+    [
+     [
+      "foot_2:foot_side",
+      "knee_and_ankle_4:left_knee_to_ankle_right_sheet"
+     ],
+     [
+      "foot_2:foot_top",
+      "knee_and_ankle_4:left_knee_to_ankle_left_sheet"
+     ]
+    ]
+   ]
+  ]
+ },
+ "gait120_both_legs": {
+  "colliding": 0,
+  "examples": []
+ },
+ "arm_sweep_colliding": [
+  [
+   [
+    -12,
+    0
+   ],
+   [
+    [
+     "fore_arm_L:servo_gripper_L",
+     "left_roll_to_pitch:hip_bracket_L"
+    ],
+    [
+     "fore_arm_R:servo_gripper_R",
+     "right_roll_to_pitch:hip_bracket_R"
+    ]
+   ]
+  ],
+  [
+   [
+    -2,
+    -20
+   ],
+   [
+    [
+     "fore_arm_L:servo_gripper_L",
+     "left_roll_to_pitch:hip_bracket_L"
+    ],
+    [
+     "fore_arm_R:servo_gripper_R",
+     "right_roll_to_pitch:hip_bracket_R"
+    ]
+   ]
+  ],
+  [
+   [
+    88,
+    103
+   ],
+   [
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_chin_collar_L"
+    ],
+    [
+     "fore_arm_R:servo_gripper_R",
+     "head:headA_chin_collar_R"
+    ]
+   ]
+  ],
+  [
+   [
+    98,
+    90
+   ],
+   [
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_chin_collar_L"
+    ],
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_head_lower"
+    ],
+    [
+     "fore_arm_R:servo_gripper_R",
+     "head:headA_chin_collar_R"
+    ]
+   ]
+  ],
+  [
+   [
+    98,
+    103
+   ],
+   [
+    [
+     "fore_arm_L:finger_fixed_L",
+     "head:headA_fringe"
+    ],
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_chin_collar_L"
+    ],
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_head_lower"
+    ]
+   ]
+  ],
+  [
+   [
+    103,
+    90
+   ],
+   [
+    [
+     "finger_R:finger_moving_R",
+     "head:headA_fringe"
+    ],
+    [
+     "fore_arm_L:finger_fixed_L",
+     "head:headA_fringe"
+    ],
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_chin_collar_L"
+    ]
+   ]
+  ],
+  [
+   [
+    103,
+    103
+   ],
+   [
+    [
+     "finger_L:finger_moving_L",
+     "head:headA_fringe"
+    ],
+    [
+     "fore_arm_L:finger_fixed_L",
+     "head:headA_fringe"
+    ],
+    [
+     "fore_arm_L:servo_gripper_L",
+     "head:headA_chin_collar_L"
+    ]
+   ]
+  ]
+ ],
+ "head_softlim_grid": {
+  "poses": 588,
+  "colliding": 0,
+  "examples": [],
+  "note": "grid run with the earlier rules found 6 collisions, all at neck 15 + head pitch -45 (chin collar vs shoulder mount); rule 'neck - head_pitch <= 55' added, which removes those 15 poses; all remaining poses were collision-free in that same run",
+  "pre_rule_examples": [
+   [
+    [
+     15,
+     -45,
+     -45,
+     -10
+    ],
+    [
+     [
+      "head:headA_chin_collar_R",
+      "trunk:shoulder_mount_R"
+     ]
+    ]
+   ],
+   [
+    [
+     15,
+     -45,
+     0,
+     -10
+    ],
+    [
+     [
+      "head:headA_chin_collar_R",
+      "trunk:shoulder_mount_R"
+     ]
+    ]
+   ],
+   [
+    [
+     15,
+     -45,
+     0,
+     -5
+    ],
+    [
+     [
+      "head:headA_chin_collar_R",
+      "trunk:shoulder_mount_R"
+     ]
+    ]
+   ],
+   [
+    [
+     15,
+     -45,
+     0,
+     5
+    ],
+    [
+     [
+      "head:headA_chin_collar_L",
+      "trunk:shoulder_mount_L"
+     ]
+    ]
+   ],
+   [
+    [
+     15,
+     -45,
+     0,
+     10
+    ],
+    [
+     [
+      "head:headA_chin_collar_L",
+      "trunk:shoulder_mount_L"
+     ]
+    ]
+   ],
+   [
+    [
+     15,
+     -45,
+     45,
+     10
+    ],
+    [
+     [
+      "head:headA_chin_collar_L",
+      "trunk:shoulder_mount_L"
+     ]
+    ]
+   ]
+  ]
+ }
+}

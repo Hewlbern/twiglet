@@ -1,0 +1,13 @@
+{
+ "ball_C_asm_mm": [
+  9.678534759935177,
+  -0.006384591059092335,
+  169.1220020925693
+ ],
+ "ball_C_headpkl_mm": [
+  11.778533234056269,
+  -0.006384591059090009,
+  235.1220020925693
+ ],
+ "source": "hair-v3.40/.cache/head_parts.pkl _meta.ball_C, mapped with the scene's wig_pkl_to_asm transform"
+}

@@ -1,0 +1,35 @@
+{
+ "original": {
+  "iou": 0.48,
+  "iou_outside_hat": 0.669,
+  "outline_mm": 12.91,
+  "outline_mm_outside_hat": 8.66,
+  "photo_only_px": 8733,
+  "model_only_px": 3944,
+  "cam_az": 13.0,
+  "cam_el": 35.0,
+  "cam_dist_mm": 3000.0
+ },
+ "front": {
+  "iou": 0.581,
+  "iou_outside_hat": 0.644,
+  "outline_mm": 6.5,
+  "outline_mm_outside_hat": 5.18,
+  "photo_only_px": 6113,
+  "model_only_px": 5933,
+  "cam_az": 1.0,
+  "cam_el": 5.0,
+  "cam_dist_mm": 1000.0
+ },
+ "34": {
+  "iou": 0.597,
+  "iou_outside_hat": 0.624,
+  "outline_mm": 9.96,
+  "outline_mm_outside_hat": 9.51,
+  "photo_only_px": 7377,
+  "model_only_px": 10141,
+  "cam_az": -14.0,
+  "cam_el": 26.0,
+  "cam_dist_mm": 3000.0
+ }
+}

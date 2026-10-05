@@ -1,0 +1,653 @@
+{
+ "overlaps_mm3": {
+  "head_lower x head_upper": 0.003,
+  "head_lower x snout": 21.961,
+  "head_lower x eye_bezel_L": 0.0,
+  "head_lower x eye_bezel_R": 0.0,
+  "head_lower x display_carrier_L": 0.0,
+  "head_lower x display_carrier_R": 0.0,
+  "head_lower x fringe": 0.0,
+  "head_lower x chin_collar_L": 0.005,
+  "head_lower x chin_collar_R": 0.005,
+  "chin_collar_L x head_upper": 0.0,
+  "chin_collar_L x snout": 0.0,
+  "chin_collar_L x eye_bezel_L": 0.0,
+  "chin_collar_L x eye_bezel_R": 0.0,
+  "chin_collar_L x display_carrier_L": 0.0,
+  "chin_collar_L x display_carrier_R": 0.0,
+  "chin_collar_L x fringe": 0.0,
+  "chin_collar_L x head_lower": 0.005,
+  "chin_collar_L x chin_collar_R": 0.0,
+  "chin_collar_R x head_upper": 0.0,
+  "chin_collar_R x snout": 0.0,
+  "chin_collar_R x eye_bezel_L": 0.0,
+  "chin_collar_R x eye_bezel_R": 0.0,
+  "chin_collar_R x display_carrier_L": 0.0,
+  "chin_collar_R x display_carrier_R": 0.0,
+  "chin_collar_R x fringe": 0.0,
+  "chin_collar_R x head_lower": 0.005,
+  "chin_collar_R x chin_collar_L": 0.0
+ },
+ "overlaps_pre_mm3": {
+  "head_lower x head_upper": 0.003,
+  "head_lower x snout": 21.961,
+  "head_lower x eye_bezel_L": 0.0,
+  "head_lower x eye_bezel_R": 0.0,
+  "head_lower x display_carrier_L": 0.0,
+  "head_lower x display_carrier_R": 0.0,
+  "head_lower x fringe": 0.0,
+  "head_lower x chin_collar_L": 0.0,
+  "head_lower x chin_collar_R": 0.0,
+  "chin_collar_L x head_upper": 0.0,
+  "chin_collar_L x snout": 0.0,
+  "chin_collar_L x eye_bezel_L": 0.0,
+  "chin_collar_L x eye_bezel_R": 0.0,
+  "chin_collar_L x display_carrier_L": 0.0,
+  "chin_collar_L x display_carrier_R": 0.0,
+  "chin_collar_L x fringe": 0.0,
+  "chin_collar_L x head_lower": 0.0,
+  "chin_collar_L x chin_collar_R": 0.0,
+  "chin_collar_R x head_upper": 0.0,
+  "chin_collar_R x snout": 0.0,
+  "chin_collar_R x eye_bezel_L": 0.0,
+  "chin_collar_R x eye_bezel_R": 0.0,
+  "chin_collar_R x display_carrier_L": 0.0,
+  "chin_collar_R x display_carrier_R": 0.0,
+  "chin_collar_R x fringe": 0.0,
+  "chin_collar_R x head_lower": 0.0,
+  "chin_collar_R x chin_collar_L": 0.0
+ },
+ "hardware_overlaps_mm3": {
+  "head_lower x head_roll_mount.stl": [
+   475.689,
+   475.689
+  ],
+  "head_lower x raspberrypizerow.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x roll_bearing.stl": [
+   0.135,
+   0.0
+  ],
+  "head_lower x board.stl": [
+   3.341,
+   3.341
+  ],
+  "head_lower x wj-wk00-0123middlecase_56.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x drive_palonier.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x wj-wk00-0124bottomcase_45.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x wj-wk00-0122topcabinetcase_95.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x passive_palonier.stl": [
+   0.0,
+   0.0
+  ],
+  "head_lower x display_L": [
+   0.0,
+   0.0
+  ],
+  "head_lower x display_R": [
+   0.0,
+   0.0
+  ],
+  "head_lower x ballast_back": [
+   812.219,
+   812.219
+  ]
+ },
+ "neck_vs_head_roll": "clear -30..30",
+ "neck_head_vs_head_pitch_to_yaw_yaw": "clear -160..160",
+ "lift_overlap_mm3": {
+  "0.5": 0.0,
+  "2": 0.0,
+  "5": 0.0,
+  "10": 0.0,
+  "20": 0.0,
+  "40": 0.0,
+  "80": 0.0
+ },
+ "eye_cover": {
+  "L": 0.0,
+  "R": 0.0
+ },
+ "thin_lt_1.2mm": {
+  "head_lower": {
+   "max_extra_thin_mm2": 0.704,
+   "rows": [
+    [
+     "y",
+     [
+      0,
+      -14,
+      0
+     ],
+     7.715,
+     22.295
+    ],
+    [
+     "y",
+     [
+      0,
+      -8,
+      0
+     ],
+     9.443,
+     15.632
+    ],
+    [
+     "y",
+     [
+      0,
+      0,
+      0
+     ],
+     6.528,
+     17.935
+    ],
+    [
+     "y",
+     [
+      0,
+      8,
+      0
+     ],
+     9.955,
+     16.198
+    ],
+    [
+     "y",
+     [
+      0,
+      14,
+      0
+     ],
+     7.843,
+     22.092
+    ],
+    [
+     "x",
+     [
+      -38.2,
+      0.0,
+      0.0
+     ],
+     6.31,
+     6.54
+    ],
+    [
+     "x",
+     [
+      -36,
+      0,
+      0
+     ],
+     5.498,
+     7.143
+    ],
+    [
+     "x",
+     [
+      -33,
+      0,
+      0
+     ],
+     5.438,
+     7.025
+    ],
+    [
+     "x",
+     [
+      -31,
+      0,
+      0
+     ],
+     5.493,
+     6.798
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     4.852,
+     4.148
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     4.88,
+     4.205
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     4.38,
+     4.555
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     4.678,
+     4.928
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     3.693,
+     3.693
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     3.438,
+     3.438
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     3.82,
+     3.84
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     3.455,
+     3.522
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     4.25,
+     4.305
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     6.458,
+     17.932
+    ]
+   ]
+  },
+  "chin_collar_L": {
+   "max_extra_thin_mm2": 0.665,
+   "rows": [
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.95,
+     0.755
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.44,
+     0.79
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.993,
+     0.798
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.348,
+     1.178
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.4,
+     0.735
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.015,
+     0.82
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.783,
+     0.783
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.748,
+     0.748
+    ]
+   ]
+  },
+  "chin_collar_R": {
+   "max_extra_thin_mm2": 0.665,
+   "rows": [
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.95,
+     0.755
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.44,
+     0.79
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.993,
+     0.798
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.348,
+     1.178
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     1.4,
+     0.735
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.978,
+     0.783
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.79,
+     0.79
+    ],
+    [
+     "phi",
+     [
+      9.7,
+      0.0,
+      0.0
+     ],
+     0.768,
+     0.768
+    ]
+   ]
+  },
+  "head_yaw_to_roll": {
+   "max_extra_thin_mm2": 0.73,
+   "rows": [
+    [
+     "y",
+     [
+      0,
+      -33,
+      0
+     ],
+     0.545,
+     0.17
+    ],
+    [
+     "y",
+     [
+      0,
+      -20,
+      0
+     ],
+     0.743,
+     0.592
+    ],
+    [
+     "y",
+     [
+      0,
+      -8,
+      0
+     ],
+     1.928,
+     1.743
+    ],
+    [
+     "y",
+     [
+      0,
+      0,
+      0
+     ],
+     4.025,
+     3.663
+    ],
+    [
+     "y",
+     [
+      0,
+      8,
+      0
+     ],
+     1.925,
+     1.718
+    ],
+    [
+     "y",
+     [
+      0,
+      20,
+      0
+     ],
+     0.76,
+     0.578
+    ],
+    [
+     "y",
+     [
+      0,
+      33,
+      0
+     ],
+     0.54,
+     0.17
+    ],
+    [
+     "x",
+     [
+      -36,
+      0,
+      0
+     ],
+     0.03,
+     0.183
+    ],
+    [
+     "x",
+     [
+      -30,
+      0,
+      0
+     ],
+     0.03,
+     0.143
+    ],
+    [
+     "x",
+     [
+      -26,
+      0,
+      0
+     ],
+     0.485,
+     0.585
+    ],
+    [
+     "x",
+     [
+      -20,
+      0,
+      0
+     ],
+     0.92,
+     0.572
+    ],
+    [
+     "x",
+     [
+      -13,
+      0,
+      0
+     ],
+     0.92,
+     0.552
+    ],
+    [
+     "z",
+     [
+      0,
+      0,
+      108
+     ],
+     3.748,
+     3.09
+    ],
+    [
+     "z",
+     [
+      0,
+      0,
+      115
+     ],
+     1.15,
+     0.56
+    ],
+    [
+     "z",
+     [
+      0,
+      0,
+      120
+     ],
+     2.09,
+     1.36
+    ]
+   ]
+  }
+ },
+ "vol_cm3": {
+  "head_lower": 233.313,
+  "chin_collar_L": 4.227,
+  "chin_collar_R": 4.227,
+  "head_yaw_to_roll": 23.63
+ }
+}

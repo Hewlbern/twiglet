@@ -1,0 +1,12 @@
+{
+ "note": "v3.1 at the sim stance with arms at rest (shoulder 5 deg, elbow 20 deg). Photo values from photo_measure.json (1280x720 px, head D 195 px = 170 mm -> 0.872 mm/px, raw/uncorrected for widths).",
+ "height_mm": {"photo": 454, "v3.1_straight": 454, "v3.1_stance": 448, "note": "legs, neck and head unchanged from v3"},
+ "head_over_height": {"photo": 0.374, "v3.1_stance": 0.379},
+ "shoulder_width_at_joint_height_mm": {"photo_raw": 151.7, "v3": 145.8, "v3.1": 153.0},
+ "head_over_shoulder": {"photo_raw": 1.12, "photo_corrected": 1.09, "target": 1.16, "v3": 1.166, "v3.1": 1.111},
+ "arm_span_at_elbows_mm": {"photo_approx": 178, "v3.1": 189},
+ "arm_span_incl_grippers_mm": {"photo_approx": 274, "v3": 146, "v3.1": 270},
+ "torso_width_mm": {"photo": "about 100-103", "v3": {"overall": 90, "front_block": 67}, "v3.1": {"z45_chest_low": 94.9, "z60": 92.0, "z75": 87.9, "front_15mm_at_z45": 85.6}},
+ "arm_splay_deg": {"photo": "10-15", "v3.1": 18},
+ "gripper_box_bottom_vs_kilt_hem_mm": {"v3.1": "fingertips at z -69 vs kilt hem -62 (about 7 mm below the hem); gripper body spans about z -40..+10 beside the kilt"}
+}

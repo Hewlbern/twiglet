@@ -1,0 +1,4 @@
+arm sweep {'shell': 0, 'kilt': 0, 'head': 0, 'poses': 162} []
+wig yaw 0 {'poses': 156, 'hair_contacts': 2}
+wig yaw -45 {'poses': 156, 'hair_contacts': 15}
+wig yaw 45 {'poses': 156, 'hair_contacts': 15}

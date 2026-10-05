@@ -1,0 +1,130 @@
+{
+ "mount_M3_46_+27": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_46_-27": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_76_+27": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_76_-27": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_46_+27_with_neck_stack": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_46_-27_with_neck_stack": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_76_+27_with_neck_stack": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "mount_M3_76_-27_with_neck_stack": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "pi_M2.5_7_37": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "pi_M2.5_7_60": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "pi_M2.5_65_37": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "pi_M2.5_65_60": {
+  "tilt_deg_needed": 20,
+  "hits": []
+ },
+ "dome_M3_65": {
+  "tilt_deg_needed": 15,
+  "hits": []
+ },
+ "dome_M3_-65": {
+  "tilt_deg_needed": 15,
+  "hits": []
+ },
+ "dome_M3_150": {
+  "tilt_deg_needed": 15,
+  "hits": []
+ },
+ "dome_M3_-150": {
+  "tilt_deg_needed": 15,
+  "hits": []
+ },
+ "neck_M2.5_L_-6_156_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_-6_156_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_8_156_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_8_156_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_1_149_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_1_149_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_1_163_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_L_1_163_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_-6_156_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_-6_156_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_8_156_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_8_156_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_1_149_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_1_149_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_1_163_collar_on": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ },
+ "neck_M2.5_R_1_163_collar_off": {
+  "tilt_deg_needed": 0,
+  "hits": []
+ }
+}

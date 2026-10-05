@@ -1,0 +1,5 @@
+Whole printed head (shells, collars, snout, bezels, carriers, wig) vs trunk printed parts + arms (arms at rest), $WORK/tmp/eye/c/head_body_check.py + hb_fine.py
+Neutral: 0 overlap volume vs every rev C trunk part (torso shells v331, frame/struts, chest leaves, kilt, hip ring/cradle) and upper-arm parts.
+7x9x5 grid: 235/315 poses with some contact on rev C; v3.29 body baseline also 235/315 (same pairs) -> not a rev C regression.
+Wig-only (the standing head-range metric): 4/315.
+1-deg scans from level: roll first contact +/-10 deg (chin_collar_L/R x upper_arm_L/R); pitch +11 deg first contact head_lower x torso_shell_back; pitch -45 clean; yaw +/-160 clean at level.

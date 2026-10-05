@@ -1,0 +1,1 @@
+ succ 0.95 speed 0.206 I 11.28 nominal {'dx_10s': np.float64(2.102), 'dy': np.float64(0.305), 'yaw_deg': 12.5, 'fell': False}

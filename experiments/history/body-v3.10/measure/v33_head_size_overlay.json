@@ -1,0 +1,45 @@
+{
+ "stats": {
+  "170": {
+   "head_sil_px_x": [
+    501,
+    784
+   ],
+   "head_sil_px_top": 129
+  },
+  "180": {
+   "head_sil_px_x": [
+    495,
+    795
+   ],
+   "head_sil_px_top": 116
+  },
+  "190": {
+   "head_sil_px_x": [
+    488,
+    805
+   ],
+   "head_sil_px_top": 103
+  },
+  "200": {
+   "head_sil_px_x": [
+    482,
+    815
+   ],
+   "head_sil_px_top": 89
+  }
+ },
+ "photo_px": {
+  "ball": [
+   525,
+   720
+  ],
+  "hair_x": [
+   485,
+   795
+  ],
+  "hat_top": 65,
+  "chin_row": 343
+ },
+ "note": "same camera for all (body-fixed); photo px read from the gridded photo"
+}

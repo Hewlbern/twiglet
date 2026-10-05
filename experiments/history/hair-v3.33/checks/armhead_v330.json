@@ -1,0 +1,171 @@
+{
+ "tag": "v330",
+ "wig": "$WORK/twiglet-odm-robot/hair-v3.33/out/wig_repro330.stl",
+ "wig_arm_yaw_0": {
+  "poses": 156,
+  "hits": 0,
+  "hits_in_soft": 0
+ },
+ "wig_arm_yaw_-45": {
+  "poses": 156,
+  "hits": 7,
+  "hits_in_soft": 0
+ },
+ "wig_arm_yaw_45": {
+  "poses": 156,
+  "hits": 7,
+  "hits_in_soft": 0
+ },
+ "wig_arm_hits": [
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 80,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 100,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_L",
+    "finger_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": -45,
+   "sh": 110,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_L"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 90,
+   "gr": 0,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 80,
+   "el": 90,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 100,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 30,
+   "gr": 45,
+   "links": [
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 60,
+   "gr": 0,
+   "links": [
+    "fore_arm_R",
+    "finger_R"
+   ],
+   "in_soft": false
+  },
+  {
+   "yaw": 45,
+   "sh": 110,
+   "el": 60,
+   "gr": 45,
+   "links": [
+    "fore_arm_R"
+   ],
+   "in_soft": false
+  }
+ ],
+ "head_range": {
+  "poses": 315,
+  "poses_with_any_head_contact": 153,
+  "poses_wig_contact": 4,
+  "poses_wig_only": 0
+ }
+}

@@ -1,0 +1,159 @@
+{
+ "info": {
+  "clumps": 17,
+  "strands": 45,
+  "dome": {
+   "T0": 12.0,
+   "TH_A": 30.0,
+   "TH_B": 52.0
+  },
+  "pins": [
+   [
+    20.0,
+    30.0
+   ],
+   [
+    20.0,
+    150.0
+   ],
+   [
+    20.0,
+    270.0
+   ]
+  ],
+  "parts_before_keep": 1,
+  "dropped_mm3": [],
+  "watertight": true,
+  "extents": [
+   218.0,
+   262.2,
+   170.4
+  ],
+  "volume_cm3": 533.4,
+  "area_cm2": 1360.9,
+  "sim_g": 177.1,
+  "moment_gmm": 2906,
+  "old_sim_g": 166.9,
+  "old_moment_gmm": 2458,
+  "eye_cover": {
+   "L": 0.109,
+   "R": 0.124
+  },
+  "eye_cover_v314": {
+   "L": 0.106,
+   "R": 0.122
+  },
+  "head_upper_holes_removed_mm3": 0.0,
+  "overlaps_mm3": {
+   "head_upper": 0.0,
+   "head_lower": 0.0,
+   "snout": 0.0,
+   "eye_bezel_L": 0.0,
+   "eye_bezel_R": 0.0,
+   "chin_collar_L": 0.0,
+   "chin_collar_R": 0.0,
+   "display_carrier_L": 0.0,
+   "display_carrier_R": 0.0
+  },
+  "clearance_mm": {
+   "seat_vertices": 18018,
+   "p5": 0.332,
+   "p50": 0.44,
+   "p95": 1.087,
+   "min": 0.303
+  },
+  "min_gap_by_part_mm": {
+   "head_upper": 0.3,
+   "head_lower": 0.53,
+   "eye_bezel_L": 0.34,
+   "eye_bezel_R": 0.32,
+   "snout": null,
+   "chin_collar_L": null,
+   "chin_collar_R": null
+  },
+  "crown_check": {
+   "points": 3077,
+   "missing": 0,
+   "max_dip_mm": 0.017,
+   "p99_dip_mm": 0.011,
+   "n_dips_over_0p15": 0,
+   "n_dips_over_0p3": 0,
+   "height_above_seat_mm": {
+    "min": 11.92,
+    "p50": 12.02,
+    "max": 12.02
+   },
+   "th_max": 32.0,
+   "ring": 2
+  },
+  "crown_check_ring1": {
+   "points": 3077,
+   "missing": 0,
+   "max_dip_mm": 0.015,
+   "p99_dip_mm": 0.01,
+   "n_dips_over_0p15": 0,
+   "n_dips_over_0p3": 0,
+   "height_above_seat_mm": {
+    "min": 11.92,
+    "p50": 12.02,
+    "max": 12.02
+   },
+   "th_max": 32.0,
+   "ring": 1
+  }
+ },
+ "parts": {
+  "wig": {
+   "file": "v315_head_wig.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    233.1,
+    189.7,
+    223.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 533.4,
+   "est_g": 177,
+   "est_support_g": 30,
+   "est_hours": 12.9,
+   "overhang_cm2_over45": 151.4,
+   "support_column_cm3": 200,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported: crown axis tilted 48 deg from straight-down (least support volume of 6120 orientations searched); lies on the dome + clump backs",
+   "supports": "tree supports (auto, build plate only, threshold 40 deg, 0.2 mm top Z gap) + 5 mm brim",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (clumps + crown dome print as sealed hollow shells), 0.4 mm nozzle",
+   "note": "ONE PIECE (no split, no seam)",
+   "mb": 4.4
+  },
+  "_crown_down_alt": {
+   "support_column_cm3": 279,
+   "overhang_cm2": 206.2,
+   "est_support_g": 42
+  },
+  "head_upper": {
+   "file": "v315_head_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 120.2,
+   "est_g": 134,
+   "est_support_g": 13,
+   "est_hours": 9.2,
+   "overhang_cm2_over45": 195.3,
+   "support_column_cm3": null,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only, for the crown above ~60 deg (hidden under the hat)",
+   "settings": "0.2 mm (0.16 mm shows the grain better), 3 walls, 15 % gyroid",
+   "note": "same file as v3.14 (v3.13 + 3 x 3.2 mm crown pin holes) - REPRINT only if you did not already print the v3.14 one and don't want to drill",
+   "mb": 14.4
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (clumps + crown dome print as sealed hollow shells), 0.4 mm nozzle"
+}

@@ -1,0 +1,588 @@
+{
+ "keys": [
+  "f",
+  "stride",
+  "lift",
+  "sway",
+  "sway_ph",
+  "crouch",
+  "lean",
+  "kp_pitch",
+  "kd_pitch",
+  "kp_roll",
+  "kd_roll",
+  "ank_off"
+ ],
+ "params": [
+  {
+   "file": "walk_v3_best_rev_c.npy",
+   "md5": "34dddbf1857dfdb4e732e139c09b4c3c",
+   "eff_gait": false,
+   "values": [
+    2.54906,
+    0.18886,
+    0.3749,
+    0.21149,
+    0.73623,
+    0.2296,
+    -0.09923,
+    -1.35049,
+    -0.14479,
+    0.31993,
+    0.09002,
+    -0.07834
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_rev_c.npy",
+    "body-v3.33-body/sim/walk_v3_best_rev_c.npy",
+    "body-v3.32-body/sim/walk_v3_best_rev_c.npy",
+    "body-v3.31-body/sim/walk_v3_best.npy",
+    "body-v3.30/simC/walk_v3_best.npy",
+    "body-v3.30/sim/walk_v3_best.npy",
+    "body-v3.29/sim/walk_v3_best.npy",
+    "body-v3.28/sim/walk_v3_best.npy",
+    "body-v3.27/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31.npy",
+   "md5": "8009cb61fcda840d1209cf03dd7ed611",
+   "eff_gait": false,
+   "values": [
+    2.58587,
+    0.17845,
+    0.37622,
+    0.21078,
+    0.8093,
+    0.20651,
+    -0.09897,
+    -1.08644,
+    -0.13648,
+    0.55619,
+    0.12904,
+    -0.07198
+   ],
+   "sources": [
+    "body-v3.31-body/sim/walk_v3_best_v31.npy",
+    "body-v3.30/simC/walk_v3_best_v31.npy",
+    "body-v3.30/sim/walk_v3_best_v31.npy",
+    "body-v3.29/sim/walk_v3_best_v31.npy",
+    "body-v3.28/sim/walk_v3_best_v31.npy",
+    "body-v3.27/sim/walk_v3_best_v31.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31_143c81.npy",
+   "md5": "143c81237674f17a9373602ed1de4a7e",
+   "eff_gait": false,
+   "values": [
+    2.7304,
+    0.18382,
+    0.30977,
+    0.22,
+    0.52573,
+    0.26845,
+    -0.10401,
+    -1.17278,
+    -0.13954,
+    0.81485,
+    0.12191,
+    -0.09212
+   ],
+   "sources": [
+    "body-v3.25/sim/walk_v3_best_v31.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31_35163c.npy",
+   "md5": "35163ca2de52163f6d5d821f96773d40",
+   "eff_gait": false,
+   "values": [
+    2.78216,
+    0.16698,
+    0.29705,
+    0.22,
+    -0.19744,
+    0.24103,
+    -0.119,
+    -0.79875,
+    -0.10918,
+    0.61982,
+    0.12619,
+    -0.09759
+   ],
+   "sources": [
+    "body-v3.20/sim/walk_v3_best_v31.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31_519c69.npy",
+   "md5": "519c69b085cfcb688faf7b2b9dffa624",
+   "eff_gait": false,
+   "values": [
+    2.73648,
+    0.18231,
+    0.29008,
+    0.22,
+    -0.29206,
+    0.24572,
+    -0.11483,
+    -0.85823,
+    -0.12083,
+    0.73863,
+    0.12175,
+    -0.09111
+   ],
+   "sources": [
+    "body-v3.21/sim/walk_v3_best_v31.npy",
+    "body-v3.20/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31_c05cc0.npy",
+   "md5": "c05cc0a23213c671e98bf91bc9c0c334",
+   "eff_gait": false,
+   "values": [
+    2.83513,
+    0.18561,
+    0.30893,
+    0.21906,
+    0.33672,
+    0.24341,
+    -0.11656,
+    -0.95379,
+    -0.14106,
+    0.63493,
+    0.12433,
+    -0.10296
+   ],
+   "sources": [
+    "body-v3.24/sim/walk_v3_best_v31.npy",
+    "body-v3.23/sim/walk_v3_best_v31.npy",
+    "body-v3.22/sim/walk_v3_best_v31.npy",
+    "body-v3.21/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v31_feb8bc.npy",
+   "md5": "feb8bcd1013743416ac4595fb8b5b665",
+   "eff_gait": false,
+   "values": [
+    2.69873,
+    0.2027,
+    0.33368,
+    0.22,
+    0.70859,
+    0.25096,
+    -0.1007,
+    -1.39148,
+    -0.14125,
+    0.83951,
+    0.13086,
+    -0.09486
+   ],
+   "sources": [
+    "body-v3.26/sim/walk_v3_best_v31.npy",
+    "body-v3.25/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v324cur.npy",
+   "md5": "126e0bbf08b29a7a6b49a773a55785a1",
+   "eff_gait": false,
+   "values": [
+    2.81998,
+    0.18241,
+    0.32333,
+    0.22,
+    0.42459,
+    0.25308,
+    -0.10534,
+    -1.02031,
+    -0.13918,
+    0.79339,
+    0.11784,
+    -0.1079
+   ],
+   "sources": [
+    "body-v3.24/sim/walk_v3_best.npy",
+    "body-v3.23/sim/walk_v3_best.npy",
+    "body-v3.22/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v326cur.npy",
+   "md5": "59102acb4adf1ab64d0198c8827d9fc7",
+   "eff_gait": false,
+   "values": [
+    2.67021,
+    0.19174,
+    0.35485,
+    0.22,
+    0.53896,
+    0.22266,
+    -0.10215,
+    -1.22633,
+    -0.13577,
+    0.69379,
+    0.13488,
+    -0.08564
+   ],
+   "sources": [
+    "body-v3.26/sim/walk_v3_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v332r1.npy",
+   "md5": "4f348e12132cc5cae40d2b2e9ae07d6a",
+   "eff_gait": false,
+   "values": [
+    2.65877,
+    0.17951,
+    0.39105,
+    0.2069,
+    0.99123,
+    0.21809,
+    -0.09509,
+    -1.27708,
+    -0.13781,
+    0.20331,
+    0.0856,
+    -0.08905
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_v332r1.npy",
+    "body-v3.33-body/sim/walk_v3_best_v332r1.npy",
+    "body-v3.32-body/sim/walk_v3_best_v31.npy",
+    "body-v3.32-body/sim/walk_v3_best_v332r1.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v332r2.npy",
+   "md5": "9cad298af7c5472f1c31c350fdacf2f1",
+   "eff_gait": false,
+   "values": [
+    2.69316,
+    0.16701,
+    0.39849,
+    0.21544,
+    0.76566,
+    0.22623,
+    -0.11137,
+    -1.25131,
+    -0.15,
+    0.25023,
+    0.08536,
+    -0.10267
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_v332r2.npy",
+    "body-v3.33-body/sim/walk_v3_best_v31.npy",
+    "body-v3.33-body/sim/walk_v3_best_v332r2.npy",
+    "body-v3.32-body/sim/walk_v3_best.npy",
+    "body-v3.32-body/sim/walk_v3_best_v332r2.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v333r1.npy",
+   "md5": "c845dcb2e7d8f8060c9596f01ef6b590",
+   "eff_gait": false,
+   "values": [
+    2.58504,
+    0.16865,
+    0.40747,
+    0.22,
+    0.59125,
+    0.23652,
+    -0.11634,
+    -1.25631,
+    -0.15,
+    0.28761,
+    0.08073,
+    -0.099
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_v31.npy",
+    "body-v3.34-body/sim/walk_v3_best_v333r1.npy",
+    "body-v3.33-body/sim/walk_v3_best.npy",
+    "body-v3.33-body/sim/walk_v3_best_v333r1.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v334r1.npy",
+   "md5": "78f2bf70613ecbfe8b8cbc8f7b0889be",
+   "eff_gait": false,
+   "values": [
+    2.51138,
+    0.19087,
+    0.387,
+    0.22,
+    0.45005,
+    0.19906,
+    -0.09276,
+    -1.31602,
+    -0.15,
+    0.55572,
+    0.07592,
+    -0.09872
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best.npy",
+    "body-v3.34-body/sim/walk_v3_best_v334r1.npy",
+    "body-v3.34-body/sim/walk_v3_best_v334s35.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v334s34.npy",
+   "md5": "2feba59082940a8becdd221fe6389238",
+   "eff_gait": false,
+   "values": [
+    2.49854,
+    0.16494,
+    0.41353,
+    0.2026,
+    0.49073,
+    0.24067,
+    -0.12111,
+    -1.16784,
+    -0.15,
+    0.37157,
+    0.09022,
+    -0.09451
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_v334s34.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v334s36.npy",
+   "md5": "27646ba18cf070ae51590d8614744d8f",
+   "eff_gait": false,
+   "values": [
+    2.57342,
+    0.17815,
+    0.43398,
+    0.21689,
+    0.58658,
+    0.23363,
+    -0.12164,
+    -1.156,
+    -0.15,
+    0.34851,
+    0.09902,
+    -0.11224
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_best_v334s36.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_best_v39.npy",
+   "md5": "3166e150fdd9f43954f45467256ab168",
+   "eff_gait": false,
+   "values": [
+    2.9681,
+    0.15852,
+    0.29857,
+    0.21097,
+    -0.09642,
+    0.31075,
+    -0.10609,
+    -0.88666,
+    -0.06866,
+    0.74918,
+    0.08951,
+    -0.10239
+   ],
+   "sources": [
+    "body-v3.31-body/sim/walk_v3_best_v39.npy",
+    "body-v3.30/simC/walk_v3_best_v39.npy",
+    "body-v3.30/sim/walk_v3_best_v39.npy",
+    "body-v3.29/sim/walk_v3_best_v39.npy",
+    "body-v3.28/sim/walk_v3_best_v39.npy",
+    "body-v3.27/sim/walk_v3_best_v39.npy",
+    "body-v3.26/sim/walk_v3_best_v39.npy",
+    "body-v3.25/sim/walk_v3_best_v39.npy",
+    "body-v3.24/sim/walk_v3_best_v39.npy",
+    "body-v3.23/sim/walk_v3_best_v39.npy",
+    "body-v3.22/sim/walk_v3_best_v39.npy",
+    "body-v3.21/sim/walk_v3_best_v39.npy",
+    "body-v3.20/sim/walk_v3_best_v39.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v31.npy",
+   "md5": "6faae9f245a748e68244d5e366de948f",
+   "eff_gait": true,
+   "values": [
+    2.41699,
+    0.182,
+    0.20613,
+    0.12336,
+    -0.17193,
+    0.33481,
+    -0.02539,
+    -0.94686,
+    -0.09873,
+    -0.27705,
+    0.03733,
+    -0.08627
+   ],
+   "sources": [
+    "body-v3.31-body/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.30/simC/walk_v3_eff_best_v31.npy",
+    "body-v3.30/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.29/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.28/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.27/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.26/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.25/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.24/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.23/sim/walk_v3_eff_best_v31.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v31_ef4515.npy",
+   "md5": "ef451543d488349143d3906349ea47e5",
+   "eff_gait": true,
+   "values": [
+    2.39779,
+    0.18231,
+    0.22017,
+    0.11465,
+    0.08399,
+    0.32035,
+    -0.0203,
+    -0.75796,
+    -0.07523,
+    -0.24877,
+    0.01672,
+    -0.08408
+   ],
+   "sources": [
+    "body-v3.22/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.21/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.20/sim/walk_v3_eff_best_v31.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v322cur.npy",
+   "md5": "02c5c5b8c1597d252c57a3ca85312250",
+   "eff_gait": true,
+   "values": [
+    2.47219,
+    0.19309,
+    0.21225,
+    0.11177,
+    -0.04751,
+    0.31131,
+    -0.01043,
+    -0.82016,
+    -0.08026,
+    -0.34544,
+    0.03349,
+    -0.08844
+   ],
+   "sources": [
+    "body-v3.22/sim/walk_v3_eff_best.npy",
+    "body-v3.21/sim/walk_v3_eff_best.npy",
+    "body-v3.20/sim/walk_v3_eff_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v332r2.npy",
+   "md5": "6f99b88050ba3334937317dcc121be2f",
+   "eff_gait": true,
+   "values": [
+    2.51564,
+    0.18531,
+    0.22499,
+    0.12242,
+    0.45685,
+    0.3325,
+    -0.02712,
+    -1.04242,
+    -0.11896,
+    -0.38075,
+    0.0399,
+    -0.09812
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.34-body/sim/walk_v3_eff_best_v332r2.npy",
+    "body-v3.33-body/sim/walk_v3_eff_best_v31.npy",
+    "body-v3.33-body/sim/walk_v3_eff_best_v332r2.npy",
+    "body-v3.32-body/sim/walk_v3_eff_best.npy",
+    "body-v3.31-body/sim/walk_v3_eff_best.npy",
+    "body-v3.30/simC/walk_v3_eff_best.npy",
+    "body-v3.30/sim/walk_v3_eff_best.npy",
+    "body-v3.29/sim/walk_v3_eff_best.npy",
+    "body-v3.28/sim/walk_v3_eff_best.npy",
+    "body-v3.27/sim/walk_v3_eff_best.npy",
+    "body-v3.26/sim/walk_v3_eff_best.npy",
+    "body-v3.25/sim/walk_v3_eff_best.npy",
+    "body-v3.24/sim/walk_v3_eff_best.npy",
+    "body-v3.23/sim/walk_v3_eff_best.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v333r1.npy",
+   "md5": "35f679e37c8b3d612781a4e3b078b515",
+   "eff_gait": true,
+   "values": [
+    2.51771,
+    0.17213,
+    0.24057,
+    0.13357,
+    0.6525,
+    0.33802,
+    -0.02591,
+    -1.15485,
+    -0.12689,
+    -0.55481,
+    0.04563,
+    -0.10901
+   ],
+   "sources": [
+    "body-v3.34-body/sim/walk_v3_eff_best.npy",
+    "body-v3.34-body/sim/walk_v3_eff_best_v333r1.npy",
+    "body-v3.33-body/sim/walk_v3_eff_best.npy",
+    "body-v3.33-body/sim/walk_v3_eff_best_v333r1.npy"
+   ]
+  },
+  {
+   "file": "walk_v3_eff_best_v39.npy",
+   "md5": "5bf2b35b6a5e091490e5107880fee259",
+   "eff_gait": true,
+   "values": [
+    2.53562,
+    0.17437,
+    0.23104,
+    0.1005,
+    0.10924,
+    0.33285,
+    0.00716,
+    -0.84823,
+    -0.06256,
+    -0.44896,
+    0.0003,
+    -0.06894
+   ],
+   "sources": [
+    "body-v3.31-body/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.30/simC/walk_v3_eff_best_v39.npy",
+    "body-v3.30/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.29/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.28/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.27/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.26/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.25/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.24/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.23/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.22/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.21/sim/walk_v3_eff_best_v39.npy",
+    "body-v3.20/sim/walk_v3_eff_best_v39.npy"
+   ]
+  }
+ ]
+}

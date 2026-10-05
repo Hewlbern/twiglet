@@ -1,0 +1,388 @@
+{
+ "info": {
+  "locks": 21,
+  "dome": {
+   "T0": 14.0,
+   "TH_A": 14.0,
+   "TH_B": 34.0
+  },
+  "pins": [
+   [
+    20.0,
+    45.0
+   ],
+   [
+    20.0,
+    135.0
+   ],
+   [
+    20.0,
+    225.0
+   ],
+   [
+    20.0,
+    315.0
+   ]
+  ],
+  "key": {
+   "TH": 31.0,
+   "ARCS": [
+    [
+     0,
+     70
+    ],
+    [
+     90,
+     40
+    ],
+    [
+     180,
+     40
+    ],
+    [
+     270,
+     40
+    ]
+   ],
+   "W": 2.4,
+   "H": 1.1,
+   "GW": 3.0,
+   "GD": 1.0
+  },
+  "parts_before_keep": 1,
+  "dropped_mm3": [],
+  "watertight": true,
+  "extents": [
+   214.4,
+   251.3,
+   158.1
+  ],
+  "volume_cm3": 721.1,
+  "area_cm2": 1544.4,
+  "sim_g": 212.5,
+  "moment_gmm": 2997,
+  "old_sim_g": 222.1,
+  "old_moment_gmm": -6496,
+  "eye_cover": {
+   "L": 0.0,
+   "R": 0.0
+  },
+  "eye_cover_v315": null,
+  "head_upper_holes_removed_mm3": 0.0,
+  "head_upper_md5": "bd04cf6aedaf96f6b4f73367ed7b3304",
+  "smooth": null,
+  "overlaps_mm3": {
+   "head_upper": 0.0,
+   "head_lower": 0.0,
+   "snout": 0.0,
+   "eye_bezel_L": 0.0,
+   "eye_bezel_R": 0.0,
+   "chin_collar_L": 0.0,
+   "chin_collar_R": 0.0,
+   "display_carrier_L": 0.0,
+   "display_carrier_R": 0.0
+  },
+  "clearance_mm": {
+   "seat_vertices": 58665,
+   "p5": 0.333,
+   "p50": 0.45,
+   "p95": 1.006,
+   "min": 0.189
+  },
+  "min_gap_by_part_mm": {
+   "head_upper": 0.19,
+   "head_lower": 0.98,
+   "eye_bezel_L": 4.98,
+   "eye_bezel_R": 4.99,
+   "snout": null,
+   "chin_collar_L": null,
+   "chin_collar_R": null
+  },
+  "blend_check": {
+   "profiles": 180,
+   "theta_range": [
+    12.0,
+    62.0
+   ],
+   "step_mm": 1.85,
+   "kink_deg_p50": 0.34,
+   "kink_deg_p99": 63.2,
+   "kink_deg_max": 123.6,
+   "n_kinks_over_20deg": 657,
+   "n_kinks_over_35deg": 409,
+   "samples": 8820,
+   "max_jump_mm": 12.72
+  },
+  "blend_check_crown": {
+   "profiles": 180,
+   "theta_range": [
+    0.0,
+    34.0
+   ],
+   "step_mm": 1.85,
+   "kink_deg_p50": 0.16,
+   "kink_deg_p99": 62.4,
+   "kink_deg_max": 123.6,
+   "n_kinks_over_20deg": 401,
+   "n_kinks_over_35deg": 253,
+   "samples": 5940,
+   "max_jump_mm": 11.43
+  }
+ },
+ "parts": {
+  "wig": {
+   "file": "v330_head_wig.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    244.9,
+    240.0,
+    242.8
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 721.0,
+   "est_g": 187,
+   "est_support_g": 51,
+   "est_hours": 14.8,
+   "overhang_cm2_over45": 142.3,
+   "support_column_cm3": 341,
+   "colour": "yellow / blond matte PLA",
+   "orientation": "as exported: crown axis tilted 56 deg from straight-down (least support volume of 6120 orientations searched); lies on the dome + clump backs",
+   "supports": "tree supports (auto, build plate only, threshold 40 deg, 0.2 mm top Z gap) + 5 mm brim",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 4.5 % LIGHTNING - REQUIRED: the sims assume this wig at 4.5 % (simC/sweepR2.txt (v3.31 rev C body, head-range redesign incl. 25 g rear ballast, PETG head shells): margin 33.5 / 33.5 / 33.3 / 33.1 / 32.1 mm at 0 / 2 / 3 / 4.5 / 6 % wig infill; 4.5 % stays the required value (>= 32 mm everywhere, head-pitch hold 2.10x at 4.5 %).), so print exactly that",
+   "note": "ONE PIECE (no split, no seam)",
+   "mb": 2.8
+  },
+  "snout": {
+   "file": "v330_head_snout.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.6,
+    71.6,
+    101.5
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 185.3,
+   "est_g": 54,
+   "est_support_g": 5,
+   "est_hours": 3.7,
+   "overhang_cm2_over45": 12.1,
+   "support_column_cm3": null,
+   "colour": "wood brown PETG",
+   "orientation": "as exported: mouth face DOWN on the bed (flat rim annulus), spigot + key tab up",
+   "supports": "none needed (the root plug / spigot are bridged by the cone)",
+   "settings": "brown PETG (240-250 C, bed 70-80 C): 0.2 mm layers (0.16 mm makes the grain pop), 2 walls (0.8 mm), 8 % gyroid - the sims assume 8 %",
+   "note": "v3.30 re-aim: yaw -4 / pitch +22 deg (v3.29 -12 / -6): mouth raised to the photos; modelled in Blender 4.5 (3 mm root fillet, wood-grain grooves); same keyed spigot into the unchanged head_lower socket",
+   "mb": 2.0
+  },
+  "head_upper": {
+   "file": "v330_head_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 137.5,
+   "est_g": 143,
+   "est_support_g": 14,
+   "est_hours": 9.8,
+   "overhang_cm2_over45": 197.6,
+   "support_column_cm3": null,
+   "colour": "wood brown PETG",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only (crown above ~60 deg, hidden under the hat) + the two eye bores' top edge",
+   "settings": "brown PETG: 0.16 mm layers, 2 walls (0.8 mm) + 3 top / 3 bottom, 8 % gyroid - the sims assume exactly this at 1.27 g/cm3 (3 walls / 15 % would add ~130 g to the head and break the head-pitch and balance margins); slicer modifier (4 walls, 40 %) only on the M3 heat-set insert bosses / screw holes (~2 g); 240-250 C nozzle / 70-80 C bed, textured PEI (glue stick as release), part fan 30-50 %",
+   "note": "v3.30 (Blender 4.5): eye facets / bores re-cut 4 mm lower (old openings filled), wider flat wood rim; same 4 pin holes + key groove + 4 M3 joint holes",
+   "mb": 15.6
+  },
+  "head_lower": {
+   "file": "v330_head_head_lower.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    209.0,
+    210.0,
+    72.9
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 233.3,
+   "est_g": 177,
+   "est_support_g": 18,
+   "est_hours": 12.2,
+   "overhang_cm2_over45": 347.6,
+   "support_column_cm3": null,
+   "colour": "wood brown PETG",
+   "orientation": "split-plane rim down",
+   "supports": "tree supports inside the eye bores' upper edges, as before",
+   "settings": "brown PETG: 0.16 mm layers, 2 walls (0.8 mm) + 3 top / 3 bottom, 8 % gyroid - the sims assume exactly this at 1.27 g/cm3 (3 walls / 15 % would add ~130 g to the head and break the head-pitch and balance margins); slicer modifier (4 walls, 40 %) only on the M3 heat-set insert bosses / screw holes (~2 g); 240-250 C nozzle / 70-80 C bed, textured PEI (glue stick as release), part fan 30-50 %",
+   "note": "v3.30 (Blender 4.5): lower eye facets / bores re-cut 4 mm lower, display-carrier M3 posts 4 mm shorter (heat-set inserts re-drilled), lift sweeps extended; snout socket + joint unchanged. HEAD-RANGE REDESIGN (blender/redesign_v330.py): old inclined roll-bearing strut + housing + lower hanger removed, new deck-hung housing for the same 20x32x7 bearing 12.1 mm further forward on the same roll axis (1.8 mm wall, bottom window = bearing outer ring visible from below, 1.6 mm rear lip); the 4 external collar screw tabs removed, replaced by 4 internal bosses (vertical M3 x 5 x 4 heat-set inserts, from below); back-bottom shell rim relieved below the roll axis - 10 mm at the back (hidden from the front); NEW rear ballast ledge inside the back shell (2.5 x 7 mm, +-30 deg about the rear centreline) for 25 g of steel",
+   "mb": 20.0
+  },
+  "eye_bezel_L": {
+   "file": "v330_head_eye_bezel_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    70.8,
+    70.8,
+    6.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 5.4,
+   "est_g": 5,
+   "est_support_g": 0,
+   "est_hours": 0.3,
+   "overhang_cm2_over45": 0.8,
+   "support_column_cm3": null,
+   "colour": "matte BLACK PLA",
+   "orientation": "front ring face DOWN on the bed (spigot up)",
+   "supports": "none",
+   "settings": "0.16 mm, 2 walls (0.8 mm), 8 % infill (the sims assume this), textured PEI for a matte front",
+   "note": "v3.30 (Blender 4.5): round revolved ring, 70.8 mm dark disc, 5.6 mm ring, 59.6 mm window, spigot into the new 69 mm bore",
+   "mb": 0.2
+  },
+  "display_carrier_L": {
+   "file": "v330_head_display_carrier_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 14.3,
+   "est_g": 9,
+   "est_support_g": 1,
+   "est_hours": 0.6,
+   "overhang_cm2_over45": 5.9,
+   "support_column_cm3": null,
+   "colour": "black PLA",
+   "orientation": "ring back face on the bed",
+   "supports": "none",
+   "settings": "0.2 mm, 2 walls (0.8 mm), 8 % infill (the sims assume this); modifier 4 walls on the M3 screw holes",
+   "note": "v3.30: identical carrier geometry, sits 4 mm lower on the shortened posts (same M3 screws)",
+   "mb": 0.2
+  },
+  "eye_bezel_R": {
+   "file": "v330_head_eye_bezel_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    70.8,
+    70.8,
+    6.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 5.4,
+   "est_g": 5,
+   "est_support_g": 0,
+   "est_hours": 0.3,
+   "overhang_cm2_over45": 0.8,
+   "support_column_cm3": null,
+   "colour": "matte BLACK PLA",
+   "orientation": "front ring face DOWN on the bed (spigot up)",
+   "supports": "none",
+   "settings": "0.16 mm, 2 walls (0.8 mm), 8 % infill (the sims assume this), textured PEI for a matte front",
+   "note": "v3.30 (Blender 4.5): round revolved ring, 70.8 mm dark disc, 5.6 mm ring, 59.6 mm window, spigot into the new 69 mm bore",
+   "mb": 0.2
+  },
+  "display_carrier_R": {
+   "file": "v330_head_display_carrier_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 14.3,
+   "est_g": 9,
+   "est_support_g": 1,
+   "est_hours": 0.6,
+   "overhang_cm2_over45": 5.9,
+   "support_column_cm3": null,
+   "colour": "black PLA",
+   "orientation": "ring back face on the bed",
+   "supports": "none",
+   "settings": "0.2 mm, 2 walls (0.8 mm), 8 % infill (the sims assume this); modifier 4 walls on the M3 screw holes",
+   "note": "v3.30: identical carrier geometry, sits 4 mm lower on the shortened posts (same M3 screws)",
+   "mb": 0.2
+  },
+  "chin_collar_L": {
+   "file": "v330_head_chin_collar_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    55.2,
+    79.8,
+    13.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 4.2,
+   "est_g": 4,
+   "est_support_g": 0,
+   "est_hours": 0.3,
+   "overhang_cm2_over45": 0.1,
+   "support_column_cm3": null,
+   "colour": "wood brown PETG",
+   "orientation": "as exported (collar flipped, flat top face on the bed)",
+   "supports": "none",
+   "settings": "brown PETG: 0.16 mm layers, 2 walls (0.8 mm) + 3 top / 3 bottom, 8 % gyroid - the sims assume exactly this at 1.27 g/cm3 (3 walls / 15 % would add ~130 g to the head and break the head-pitch and balance margins); slicer modifier (4 walls, 40 %) only on the M3 heat-set insert bosses / screw holes (~2 g); 240-250 C nozzle / 70-80 C bed, textured PEI (glue stick as release), part fan 30-50 %",
+   "note": "v3.30 HEAD-RANGE REDESIGN (Blender, blender/redesign_v330.py): only the FRONT band of the collar is kept (0-64 deg either side of the chin, unchanged look from the front); the side/rear band and both external screw tabs are gone; 2 inward screw ledges (2.5 mm, M3 clearance holes) at 28 / 52 deg screw UP into the head_lower boss inserts (M3 x 8). Wall 2.2-2.5 mm unchanged, one piece",
+   "mb": 0.5
+  },
+  "chin_collar_R": {
+   "file": "v330_head_chin_collar_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    55.3,
+    79.8,
+    13.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 4.2,
+   "est_g": 4,
+   "est_support_g": 0,
+   "est_hours": 0.3,
+   "overhang_cm2_over45": 0.1,
+   "support_column_cm3": null,
+   "colour": "wood brown PETG",
+   "orientation": "as exported (collar flipped, flat top face on the bed)",
+   "supports": "none",
+   "settings": "brown PETG: 0.16 mm layers, 2 walls (0.8 mm) + 3 top / 3 bottom, 8 % gyroid - the sims assume exactly this at 1.27 g/cm3 (3 walls / 15 % would add ~130 g to the head and break the head-pitch and balance margins); slicer modifier (4 walls, 40 %) only on the M3 heat-set insert bosses / screw holes (~2 g); 240-250 C nozzle / 70-80 C bed, textured PEI (glue stick as release), part fan 30-50 %",
+   "note": "v3.30 HEAD-RANGE REDESIGN (Blender, blender/redesign_v330.py): only the FRONT band of the collar is kept (0-64 deg either side of the chin, unchanged look from the front); the side/rear band and both external screw tabs are gone; 2 inward screw ledges (2.5 mm, M3 clearance holes) at 28 / 52 deg screw UP into the head_lower boss inserts (M3 x 8). Wall 2.2-2.5 mm unchanged, one piece",
+   "mb": 0.5
+  },
+  "head_yaw_to_roll": {
+   "file": "v330_head_head_yaw_to_roll.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    77.2,
+    80.0,
+    42.2
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 23.6,
+   "est_g": 20,
+   "est_support_g": 2,
+   "est_hours": 1.4,
+   "overhang_cm2_over45": 10.1,
+   "support_column_cm3": null,
+   "colour": "PLA+ / PETG (structural, hidden)",
+   "orientation": "as exported (= v39_head_yaw_to_roll print orientation: yaw ring face on the bed)",
+   "supports": "supports from the build plate under the new rear frame (cross-bar / side arms 6.75 mm above the bed) and under the roll hub",
+   "settings": "0.2 mm, 4 walls, 40 % infill (as the ODM guide for the neck parts)",
+   "note": "CHANGED (neck mechanics, replaces v39_head_yaw_to_roll of the body pack): same yaw ring, servo pockets and front; rear tower + roll hub moved 12.1 mm forward (hub d19.8 slides 7 mm into the same 20x32x7 roll bearing, same axis), old rear ring sector replaced by a 6 mm cross-bar + 2 side arms to the ring ends so the neck clears the back torso shell",
+   "mb": 0.4
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 4.5 % LIGHTNING - REQUIRED: the sims assume this wig at 4.5 % (simC/sweepR2.txt (v3.31 rev C body, head-range redesign incl. 25 g rear ballast, PETG head shells): margin 33.5 / 33.5 / 33.3 / 33.1 / 32.1 mm at 0 / 2 / 3 / 4.5 / 6 % wig infill; 4.5 % stays the required value (>= 32 mm everywhere, head-pitch hold 2.10x at 4.5 %).), so print exactly that"
+}

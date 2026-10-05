@@ -1,0 +1,166 @@
+{
+ "info": {
+  "clumps": 17,
+  "strands": 45,
+  "band": {
+   "TH0": 0.0,
+   "TH1": 26.0,
+   "T": 2.0
+  },
+  "pins": [
+   [
+    20.0,
+    30.0
+   ],
+   [
+    20.0,
+    150.0
+   ],
+   [
+    20.0,
+    270.0
+   ]
+  ],
+  "parts_before_keep": 1,
+  "dropped_mm3": [],
+  "watertight": true,
+  "extents": [
+   218.0,
+   262.2,
+   164.7
+  ],
+  "volume_cm3": 447.7,
+  "area_cm2": 1341.7,
+  "sim_g": 166.9,
+  "moment_gmm": 2458,
+  "old_sim_g": 120.6,
+  "old_moment_gmm": 3650,
+  "eye_cover": {
+   "L": 0.106,
+   "R": 0.122
+  },
+  "eye_cover_v313": {
+   "L": 0.067,
+   "R": 0.102
+  },
+  "head_upper_holes_removed_mm3": 58.4,
+  "overlaps_mm3": {
+   "head_upper": 0.0,
+   "head_lower": 0.0,
+   "snout": 0.0,
+   "eye_bezel_L": 0.0,
+   "eye_bezel_R": 0.0,
+   "chin_collar_L": 0.0,
+   "chin_collar_R": 0.0,
+   "display_carrier_L": 0.0,
+   "display_carrier_R": 0.0
+  },
+  "clearance_mm": {
+   "seat_vertices": 15122,
+   "p5": 0.333,
+   "p50": 0.444,
+   "p95": 1.115,
+   "min": 0.301
+  },
+  "min_gap_by_part_mm": {
+   "head_upper": 0.3,
+   "head_lower": 0.38,
+   "eye_bezel_L": 0.33,
+   "eye_bezel_R": 0.32,
+   "snout": null,
+   "chin_collar_L": null,
+   "chin_collar_R": null
+  }
+ },
+ "parts": {
+  "wig": {
+   "file": "v314_head_wig.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    226.1,
+    200.7,
+    218.6
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 447.7,
+   "est_g": 167,
+   "est_support_g": 30,
+   "est_hours": 12.3,
+   "overhang_cm2_over45": 144.7,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported (least-overhang orientation found by search)",
+   "supports": "tree supports (build plate only) + 5 mm brim, under the lowest clump edges and the crown cap",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (supports only the top skins -> the clumps print as sealed hollow shells), 0.4 mm nozzle",
+   "note": "one piece (only if it fits the bed as exported; otherwise use the split halves)",
+   "mb": 4.1
+  },
+  "wig_split_a": {
+   "file": "v314_head_wig_split_a.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    129.3,
+    222.7,
+    183.1
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 232.6,
+   "est_g": 88,
+   "est_support_g": 16,
+   "est_hours": 6.5,
+   "overhang_cm2_over45": 6.3,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported (least-overhang orientation found by search)",
+   "supports": "tree supports (build plate only) + 5 mm brim, under the lowest clump edges",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (supports only the top skins -> the clumps print as sealed hollow shells), 0.4 mm nozzle",
+   "note": "2-piece wig (robot-left half): glue the halves at the mid-plane with 2 x 3 mm alignment pins (3 mm rod or doubled 1.75 mm filament, 12 mm long)",
+   "mb": 2.1
+  },
+  "wig_split_b": {
+   "file": "v314_head_wig_split_b.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    129.6,
+    220.5,
+    182.8
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 215.0,
+   "est_g": 83,
+   "est_support_g": 15,
+   "est_hours": 6.1,
+   "overhang_cm2_over45": 6.7,
+   "colour": "yellow / blond matte PLA (or PETG)",
+   "orientation": "as exported (least-overhang orientation found by search)",
+   "supports": "tree supports (build plate only) + 5 mm brim, under the lowest clump edges",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (supports only the top skins -> the clumps print as sealed hollow shells), 0.4 mm nozzle",
+   "note": "2-piece wig (robot-right half): glue the halves at the mid-plane with 2 x 3 mm alignment pins (3 mm rod or doubled 1.75 mm filament, 12 mm long)",
+   "mb": 2.1
+  },
+  "head_upper": {
+   "file": "v314_head_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 120.2,
+   "est_g": 134,
+   "est_support_g": 13,
+   "est_hours": 9.2,
+   "overhang_cm2_over45": 195.3,
+   "colour": "wood brown PLA (wood-fill optional)",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only, for the crown above ~60 deg (hidden under the hat)",
+   "settings": "0.2 mm (0.16 mm shows the grain better), 3 walls, 15 % gyroid",
+   "note": "REPRINT (optional): v3.13 head_upper + 3 x 3.2 mm through-holes at the crown (theta 20 deg, phi 30/150/270) for the wig pins. Not reprinting? Seat the wig and drill 3.2 mm through its pin bosses into the shell (the wig is the drill jig).",
+   "mb": 14.4
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 3 top / 3 bottom layers, sparse infill 5 % LIGHTNING (supports only the top skins -> the clumps print as sealed hollow shells), 0.4 mm nozzle"
+}

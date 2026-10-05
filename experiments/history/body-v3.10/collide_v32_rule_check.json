@@ -1,0 +1,6 @@
+{
+ "rule": "shoulder -5..84; 25 - shoulder <= elbow <= min(110, 105 - shoulder)",
+ "failing_sample_fixed": true,
+ "arms_legs_120_arm_contacts": 0,
+ "examples": []
+}

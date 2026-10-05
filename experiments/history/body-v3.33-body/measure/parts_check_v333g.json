@@ -1,0 +1,834 @@
+{
+ "tag": "v333g",
+ "parts": {
+  "gripper_housing_L": {
+   "link": "fore_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 37.01,
+   "walls": {
+    "p0_5": 0.54,
+    "p2": 1.35,
+    "median": 1.67,
+    "pct_below_1p2": 1.44
+   },
+   "vol_cm3_revC": 24.66,
+   "rest_overlaps_mm3": {
+    "s32_gripper_L": {
+     "new": 214.64,
+     "revC": 214.64
+    }
+   }
+  },
+  "finger_moving_L": {
+   "link": "finger_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 4.7,
+   "walls": {
+    "p0_5": 1.83,
+    "p2": 2.98,
+    "median": 6.01,
+    "pct_below_1p2": 0.24
+   },
+   "vol_cm3_revC": 4.45,
+   "rest_overlaps_mm3": {}
+  },
+  "gripper_housing_R": {
+   "link": "fore_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 37.01,
+   "walls": {
+    "p0_5": 0.46,
+    "p2": 1.25,
+    "median": 1.65,
+    "pct_below_1p2": 1.7
+   },
+   "vol_cm3_revC": 24.66,
+   "rest_overlaps_mm3": {
+    "s32_gripper_R": {
+     "new": 214.64,
+     "revC": 214.64
+    }
+   }
+  },
+  "finger_moving_R": {
+   "link": "finger_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 4.7,
+   "walls": {
+    "p0_5": 2.22,
+    "p2": 2.98,
+    "median": 6.01,
+    "pct_below_1p2": 0.16
+   },
+   "vol_cm3_revC": 4.45,
+   "rest_overlaps_mm3": {}
+  },
+  "elbow_sleeve_L": {
+   "link": "fore_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 10.67,
+   "walls": {
+    "p0_5": 1.14,
+    "p2": 1.28,
+    "median": 2.52,
+    "pct_below_1p2": 0.68
+   },
+   "vol_cm3_revC": 3.69,
+   "rest_overlaps_mm3": {}
+  },
+  "elbow_sleeve_R": {
+   "link": "fore_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 10.66,
+   "walls": {
+    "p0_5": 1.01,
+    "p2": 1.28,
+    "median": 2.25,
+    "pct_below_1p2": 0.8
+   },
+   "vol_cm3_revC": 3.69,
+   "rest_overlaps_mm3": {}
+  },
+  "shin_cover_front_L": {
+   "link": "knee_and_ankle_assembly_2",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.57,
+   "walls": {
+    "p0_5": 0.11,
+    "p2": 0.83,
+    "median": 1.98,
+    "pct_below_1p2": 4.19
+   },
+   "vol_cm3_revC": 5.26,
+   "rest_overlaps_mm3": {
+    "boot_cuff_L": {
+     "new": 9.72,
+     "revC": 10.13
+    },
+    "shin_cover_back_L": {
+     "new": 8.99,
+     "revC": -0.0
+    }
+   }
+  },
+  "shin_cover_back_L": {
+   "link": "knee_and_ankle_assembly_2",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.47,
+   "walls": {
+    "p0_5": 0.15,
+    "p2": 0.94,
+    "median": 1.73,
+    "pct_below_1p2": 6.61
+   },
+   "vol_cm3_revC": 5.3,
+   "rest_overlaps_mm3": {
+    "boot_cuff_L": {
+     "new": 4.1,
+     "revC": 3.9
+    },
+    "shin_cover_front_L": {
+     "new": 8.99,
+     "revC": 0.0
+    }
+   }
+  },
+  "shin_cover_front_R": {
+   "link": "knee_and_ankle_assembly_4",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.51,
+   "walls": {
+    "p0_5": 0.1,
+    "p2": 0.65,
+    "median": 1.98,
+    "pct_below_1p2": 4.47
+   },
+   "vol_cm3_revC": 5.24,
+   "rest_overlaps_mm3": {
+    "v3_left_knee_to_ankle_left_sheet.stl": {
+     "new": 0.32,
+     "revC": 0.0
+    },
+    "boot_cuff_R": {
+     "new": 10.4,
+     "revC": 10.0
+    },
+    "shin_cover_back_R": {
+     "new": 5.2,
+     "revC": 0.0
+    }
+   }
+  },
+  "shin_cover_back_R": {
+   "link": "knee_and_ankle_assembly_4",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.42,
+   "walls": {
+    "p0_5": 0.12,
+    "p2": 0.89,
+    "median": 1.73,
+    "pct_below_1p2": 7.49
+   },
+   "vol_cm3_revC": 5.27,
+   "rest_overlaps_mm3": {
+    "v3_left_knee_to_ankle_right_sheet.stl": {
+     "new": 0.06,
+     "revC": 0.0
+    },
+    "v3_left_knee_to_ankle_left_sheet.stl": {
+     "new": 0.4,
+     "revC": 0.0
+    },
+    "boot_cuff_R": {
+     "new": 3.7,
+     "revC": 3.8
+    },
+    "shin_cover_front_R": {
+     "new": 5.2,
+     "revC": 0.0
+    }
+   }
+  },
+  "boot_L": {
+   "link": "foot_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 54.0,
+   "walls": {
+    "p0_5": 0.62,
+    "p2": 1.4,
+    "median": 1.54,
+    "pct_below_1p2": 1.4
+   },
+   "vol_cm3_revC": 41.94,
+   "rest_overlaps_mm3": {}
+  },
+  "boot_R": {
+   "link": "foot_assembly_2",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 54.02,
+   "walls": {
+    "p0_5": 0.73,
+    "p2": 1.44,
+    "median": 1.53,
+    "pct_below_1p2": 1.26
+   },
+   "vol_cm3_revC": 41.96,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_00": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 8.28,
+   "walls": {
+    "p0_5": 0.55,
+    "p2": 1.27,
+    "median": 1.68,
+    "pct_below_1p2": 1.72
+   },
+   "vol_cm3_revC": 6.87,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_01": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 8.5,
+   "walls": {
+    "p0_5": 0.45,
+    "p2": 1.41,
+    "median": 1.67,
+    "pct_below_1p2": 1.58
+   },
+   "vol_cm3_revC": 7.66,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_02": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 8.28,
+   "walls": {
+    "p0_5": 0.68,
+    "p2": 1.31,
+    "median": 1.68,
+    "pct_below_1p2": 1.4
+   },
+   "vol_cm3_revC": 6.87,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_03": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.26,
+   "walls": {
+    "p0_5": 0.58,
+    "p2": 1.33,
+    "median": 1.66,
+    "pct_below_1p2": 1.66
+   },
+   "vol_cm3_revC": 5.84,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_04": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.84,
+   "walls": {
+    "p0_5": 0.52,
+    "p2": 1.27,
+    "median": 1.68,
+    "pct_below_1p2": 1.72
+   },
+   "vol_cm3_revC": 5.82,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_05": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.85,
+   "walls": {
+    "p0_5": 0.41,
+    "p2": 1.16,
+    "median": 1.66,
+    "pct_below_1p2": 2.12
+   },
+   "vol_cm3_revC": 5.99,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_06": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.89,
+   "walls": {
+    "p0_5": 0.5,
+    "p2": 1.26,
+    "median": 1.68,
+    "pct_below_1p2": 1.78
+   },
+   "vol_cm3_revC": 6.13,
+   "rest_overlaps_mm3": {
+    "kilt_petal_07": {
+     "new": 0.01,
+     "revC": 0.11
+    }
+   }
+  },
+  "kilt_petal_07": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.85,
+   "walls": {
+    "p0_5": 0.3,
+    "p2": 1.03,
+    "median": 1.66,
+    "pct_below_1p2": 2.46
+   },
+   "vol_cm3_revC": 5.99,
+   "rest_overlaps_mm3": {
+    "kilt_petal_06": {
+     "new": 0.01,
+     "revC": 0.11
+    }
+   }
+  },
+  "kilt_petal_08": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.84,
+   "walls": {
+    "p0_5": 0.55,
+    "p2": 1.31,
+    "median": 1.68,
+    "pct_below_1p2": 1.68
+   },
+   "vol_cm3_revC": 5.82,
+   "rest_overlaps_mm3": {}
+  },
+  "kilt_petal_09": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.26,
+   "walls": {
+    "p0_5": 0.52,
+    "p2": 1.26,
+    "median": 1.66,
+    "pct_below_1p2": 1.84
+   },
+   "vol_cm3_revC": 5.83,
+   "rest_overlaps_mm3": {}
+  },
+  "chest_vine": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.19,
+   "walls": {
+    "p0_5": 0.6,
+    "p2": 0.95,
+    "median": 1.77,
+    "pct_below_1p2": 5.6
+   },
+   "rest_overlaps_mm3": {
+    "leaf_chest_0": {
+     "new": 3.89,
+     "revC": null
+    }
+   }
+  },
+  "shoulder_sleeve_L": {
+   "link": "upper_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 9.62,
+   "walls": {
+    "p0_5": 0.12,
+    "p2": 0.42,
+    "median": 3.48,
+    "pct_below_1p2": 5.0
+   },
+   "vol_cm3_revC": 4.01,
+   "rest_overlaps_mm3": {
+    "upper_arm_L": {
+     "new": 766.14,
+     "revC": 766.15
+    }
+   }
+  },
+  "leaf_shoulder_L": {
+   "link": "upper_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.48,
+   "walls": {
+    "p0_5": 0.36,
+    "p2": 1.34,
+    "median": 1.5,
+    "pct_below_1p2": 1.6
+   },
+   "vol_cm3_revC": 0.6,
+   "rest_overlaps_mm3": {}
+  },
+  "vine_upper_L": {
+   "link": "upper_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.22,
+   "walls": {
+    "p0_5": 1.48,
+    "p2": 1.48,
+    "median": 1.58,
+    "pct_below_1p2": 0.0
+   },
+   "rest_overlaps_mm3": {}
+  },
+  "vine_fore_L": {
+   "link": "fore_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.23,
+   "walls": {
+    "p0_5": 1.48,
+    "p2": 1.48,
+    "median": 1.58,
+    "pct_below_1p2": 0.02
+   },
+   "rest_overlaps_mm3": {}
+  },
+  "upper_arm_L": {
+   "link": "upper_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 2.82,
+   "walls": {
+    "p0_5": 1.38,
+    "p2": 1.38,
+    "median": 2.98,
+    "pct_below_1p2": 0.42
+   },
+   "vol_cm3_revC": 2.82,
+   "rest_overlaps_mm3": {
+    "shoulder_sleeve_L": {
+     "new": 766.14,
+     "revC": 766.15
+    }
+   }
+  },
+  "forearm_L": {
+   "link": "fore_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 10.51,
+   "walls": {
+    "p0_5": 1.52,
+    "p2": 1.58,
+    "median": 15.68,
+    "pct_below_1p2": 0.14
+   },
+   "vol_cm3_revC": 10.51,
+   "rest_overlaps_mm3": {
+    "s32_elbow_L": {
+     "new": 47.41,
+     "revC": 47.41
+    },
+    "s32_gripper_L": {
+     "new": 261.74,
+     "revC": 261.74
+    }
+   }
+  },
+  "shoulder_sleeve_R": {
+   "link": "upper_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 9.62,
+   "walls": {
+    "p0_5": 0.12,
+    "p2": 0.45,
+    "median": 3.48,
+    "pct_below_1p2": 4.98
+   },
+   "vol_cm3_revC": 4.01,
+   "rest_overlaps_mm3": {
+    "upper_arm_R": {
+     "new": 766.14,
+     "revC": 766.15
+    }
+   }
+  },
+  "leaf_shoulder_R": {
+   "link": "upper_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.48,
+   "walls": {
+    "p0_5": 0.25,
+    "p2": 1.34,
+    "median": 1.5,
+    "pct_below_1p2": 1.54
+   },
+   "vol_cm3_revC": 0.6,
+   "rest_overlaps_mm3": {}
+  },
+  "vine_upper_R": {
+   "link": "upper_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.22,
+   "walls": {
+    "p0_5": 1.48,
+    "p2": 1.48,
+    "median": 1.58,
+    "pct_below_1p2": 0.12
+   },
+   "rest_overlaps_mm3": {}
+  },
+  "vine_fore_R": {
+   "link": "fore_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.26,
+   "walls": {
+    "p0_5": 1.48,
+    "p2": 1.48,
+    "median": 1.58,
+    "pct_below_1p2": 0.02
+   },
+   "rest_overlaps_mm3": {}
+  },
+  "upper_arm_R": {
+   "link": "upper_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 2.82,
+   "walls": {
+    "p0_5": 1.38,
+    "p2": 1.38,
+    "median": 2.98,
+    "pct_below_1p2": 0.5
+   },
+   "vol_cm3_revC": 2.82,
+   "rest_overlaps_mm3": {
+    "shoulder_sleeve_R": {
+     "new": 766.14,
+     "revC": 766.15
+    }
+   }
+  },
+  "forearm_R": {
+   "link": "fore_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 10.51,
+   "walls": {
+    "p0_5": 1.53,
+    "p2": 1.58,
+    "median": 15.68,
+    "pct_below_1p2": 0.1
+   },
+   "vol_cm3_revC": 10.51,
+   "rest_overlaps_mm3": {
+    "s32_elbow_R": {
+     "new": 47.41,
+     "revC": 47.41
+    },
+    "s32_gripper_R": {
+     "new": 261.74,
+     "revC": 261.74
+    }
+   }
+  },
+  "leaf_elbow_L": {
+   "link": "fore_arm_L",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.36,
+   "walls": {
+    "p0_5": 0.35,
+    "p2": 1.35,
+    "median": 1.53,
+    "pct_below_1p2": 1.72
+   },
+   "vol_cm3_revC": 0.26,
+   "rest_overlaps_mm3": {}
+  },
+  "leaf_elbow_R": {
+   "link": "fore_arm_R",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.36,
+   "walls": {
+    "p0_5": 0.25,
+    "p2": 1.12,
+    "median": 1.53,
+    "pct_below_1p2": 2.08
+   },
+   "vol_cm3_revC": 0.26,
+   "rest_overlaps_mm3": {}
+  },
+  "hip_ring": {
+   "link": "trunk_assembly",
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.66,
+   "walls": {
+    "p0_5": 1.14,
+    "p2": 1.17,
+    "median": 1.78,
+    "pct_below_1p2": 13.52
+   },
+   "vol_cm3_revC": 7.66,
+   "rest_overlaps_mm3": {
+    "torso_shell_front": {
+     "new": 596.14,
+     "revC": 596.14
+    },
+    "torso_shell_back": {
+     "new": 618.77,
+     "revC": 618.77
+    }
+   }
+  }
+ },
+ "elbow_sweep_L_new": {
+  "rest_contacts": [
+   "s32_elbow_L|s32horn_elbow_L",
+   "s32_elbow_L|upper_arm_L"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "gripper_sweep_L_new": {
+  "rest_contacts": [
+   "finger_moving_L|gripper_housing_L",
+   "finger_moving_L|s32_gripper_L",
+   "s32_gripper_L|s32horn_gripper_L"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "shoulder_sweep_L_new": {
+  "rest_contacts": [
+   "s32_shoulder_L|s32horn_shoulder_L"
+  ],
+  "hits": 1,
+  "bad_angles": [
+   -10.0
+  ],
+  "examples": {
+   "-10.0": [
+    "gripper_housing_L|kilt_petal_03"
+   ]
+  }
+ },
+ "elbow_sweep_L_revC": {
+  "rest_contacts": [
+   "s32_elbow_L|s32horn_elbow_L",
+   "s32_elbow_L|upper_arm_L"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   115.0,
+   120.0
+  ],
+  "examples": {
+   "115.0": [
+    "leaf_elbow_L|leaf_shoulder_L"
+   ],
+   "120.0": [
+    "leaf_elbow_L|leaf_shoulder_L"
+   ]
+  }
+ },
+ "gripper_sweep_L_revC": {
+  "rest_contacts": [
+   "finger_moving_L|s32_gripper_L",
+   "s32_gripper_L|s32horn_gripper_L"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   -10.0,
+   -5.0
+  ],
+  "examples": {
+   "-10.0": [
+    "finger_moving_L|gripper_housing_L"
+   ],
+   "-5.0": [
+    "finger_moving_L|gripper_housing_L"
+   ]
+  }
+ },
+ "shoulder_sweep_L_revC": {
+  "rest_contacts": [
+   "s32_shoulder_L|s32horn_shoulder_L"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   -10.0,
+   -5.0
+  ],
+  "examples": {
+   "-10.0": [
+    "forearm_L|kilt_petal_03",
+    "gripper_housing_L|kilt_petal_03",
+    "kilt_petal_03|s32_gripper_L"
+   ],
+   "-5.0": [
+    "gripper_housing_L|kilt_petal_03"
+   ]
+  }
+ },
+ "elbow_sweep_R_new": {
+  "rest_contacts": [
+   "s32_elbow_R|s32horn_elbow_R",
+   "s32_elbow_R|upper_arm_R"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "gripper_sweep_R_new": {
+  "rest_contacts": [
+   "finger_moving_R|gripper_housing_R",
+   "finger_moving_R|s32_gripper_R",
+   "s32_gripper_R|s32horn_gripper_R"
+  ],
+  "hits": 0,
+  "bad_angles": [],
+  "examples": {}
+ },
+ "shoulder_sweep_R_new": {
+  "rest_contacts": [
+   "s32_shoulder_R|s32horn_shoulder_R"
+  ],
+  "hits": 1,
+  "bad_angles": [
+   -10.0
+  ],
+  "examples": {
+   "-10.0": [
+    "gripper_housing_R|kilt_petal_09"
+   ]
+  }
+ },
+ "elbow_sweep_R_revC": {
+  "rest_contacts": [
+   "s32_elbow_R|s32horn_elbow_R",
+   "s32_elbow_R|upper_arm_R"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   115.0,
+   120.0
+  ],
+  "examples": {
+   "115.0": [
+    "leaf_elbow_R|leaf_shoulder_R"
+   ],
+   "120.0": [
+    "leaf_elbow_R|leaf_shoulder_R"
+   ]
+  }
+ },
+ "gripper_sweep_R_revC": {
+  "rest_contacts": [
+   "finger_moving_R|s32_gripper_R",
+   "s32_gripper_R|s32horn_gripper_R"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   -10.0,
+   -5.0
+  ],
+  "examples": {
+   "-10.0": [
+    "finger_moving_R|gripper_housing_R"
+   ],
+   "-5.0": [
+    "finger_moving_R|gripper_housing_R"
+   ]
+  }
+ },
+ "shoulder_sweep_R_revC": {
+  "rest_contacts": [
+   "s32_shoulder_R|s32horn_shoulder_R"
+  ],
+  "hits": 2,
+  "bad_angles": [
+   -10.0,
+   -5.0
+  ],
+  "examples": {
+   "-10.0": [
+    "forearm_R|kilt_petal_09",
+    "gripper_housing_R|kilt_petal_09",
+    "kilt_petal_09|s32_gripper_R"
+   ],
+   "-5.0": [
+    "gripper_housing_R|kilt_petal_09"
+   ]
+  }
+ }
+}

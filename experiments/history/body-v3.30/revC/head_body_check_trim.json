@@ -1,0 +1,189 @@
+{
+ "folder": "$WORK/twiglet-odm-robot/body-v3.30/revC",
+ "neutral_overlap_mm3": {},
+ "neutral_min_gap_mm(sampled, ~0.3 mm resolution)": {
+  "head_lower x torso_shell_front": 23.78,
+  "head_lower x torso_shell_back": 8.72,
+  "head_lower x leaf_chest_0": 54.03
+ },
+ "head_range": {
+  "poses": 315,
+  "poses_with_any_head_contact": 221,
+  "pairs": {
+   "head_lower x upper_arm_L": 40,
+   "chin_collar_R x upper_arm_L": 41,
+   "chin_collar_L x upper_arm_R": 41,
+   "head_lower x upper_arm_R": 37,
+   "chin_collar_L x trunk:torso_shell_front": 12,
+   "chin_collar_L x trunk:torso_frame": 61,
+   "chin_collar_L x trunk:hip_ring": 6,
+   "chin_collar_L x trunk:kilt_petal_02": 3,
+   "chin_collar_L x trunk:kilt_petal_01": 2,
+   "chin_collar_L x upper_arm_L": 47,
+   "chin_collar_L x trunk:kilt_petal_00": 2,
+   "chin_collar_R x upper_arm_R": 47,
+   "chin_collar_R x trunk:torso_shell_front": 12,
+   "chin_collar_R x trunk:hip_ring": 6,
+   "chin_collar_R x trunk:kilt_petal_00": 3,
+   "head_lower x trunk:hip_ring": 17,
+   "head_lower x trunk:kilt_petal_00": 2,
+   "head_lower x trunk:kilt_petal_01": 3,
+   "chin_collar_R x trunk:kilt_petal_02": 2,
+   "chin_collar_R x trunk:kilt_petal_01": 2,
+   "head_lower x trunk:kilt_petal_02": 2,
+   "chin_collar_R x trunk:torso_frame": 61,
+   "chin_collar_R x trunk:torso_shell_back": 78,
+   "chin_collar_L x trunk:torso_shell_back": 78,
+   "head_lower x trunk:torso_shell_back": 81,
+   "head_lower x trunk:torso_frame": 67,
+   "chin_collar_R x trunk:hip_cradle": 10,
+   "head_lower x trunk:hip_cradle": 13,
+   "chin_collar_L x trunk:hip_cradle": 10,
+   "head_lower x trunk:kilt_petal_07": 11,
+   "head_lower x trunk:kilt_petal_03": 3,
+   "head_lower x trunk:kilt_petal_05": 11,
+   "head_lower x trunk:kilt_petal_04": 7,
+   "head_lower x trunk:kilt_petal_06": 13,
+   "snout x trunk:kilt_petal_07": 1,
+   "head_lower x trunk:torso_shell_front": 2,
+   "head_lower x trunk:kilt_petal_08": 7,
+   "fringe x trunk:kilt_petal_06": 4,
+   "fringe x trunk:torso_frame": 3,
+   "fringe x trunk:kilt_petal_05": 3,
+   "head_lower x trunk:kilt_petal_09": 3,
+   "fringe x trunk:kilt_petal_07": 3,
+   "snout x trunk:kilt_petal_05": 1
+  },
+  "poses_wig_only": 0,
+  "examples": [
+   {
+    "pitch": -45.0,
+    "yaw": -160.0,
+    "roll": -30.0,
+    "hits": [
+     [
+      "head_lower",
+      [
+       "upper_arm_L"
+      ]
+     ],
+     [
+      "chin_collar_R",
+      [
+       "upper_arm_L"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -160.0,
+    "roll": -15.0,
+    "hits": [
+     [
+      "chin_collar_R",
+      [
+       "upper_arm_L"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -160.0,
+    "roll": 15.0,
+    "hits": [
+     [
+      "chin_collar_L",
+      [
+       "upper_arm_R"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -160.0,
+    "roll": 30.0,
+    "hits": [
+     [
+      "head_lower",
+      [
+       "upper_arm_R"
+      ]
+     ],
+     [
+      "chin_collar_L",
+      [
+       "trunk:torso_frame",
+       "trunk:torso_shell_front",
+       "upper_arm_R"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -120.0,
+    "roll": -30.0,
+    "hits": [
+     [
+      "chin_collar_R",
+      [
+       "upper_arm_L"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -120.0,
+    "roll": -15.0,
+    "hits": [
+     [
+      "chin_collar_R",
+      [
+       "upper_arm_L"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -120.0,
+    "roll": 15.0,
+    "hits": [
+     [
+      "chin_collar_L",
+      [
+       "upper_arm_R"
+      ]
+     ]
+    ]
+   },
+   {
+    "pitch": -45.0,
+    "yaw": -120.0,
+    "roll": 30.0,
+    "hits": [
+     [
+      "head_lower",
+      [
+       "upper_arm_R"
+      ]
+     ],
+     [
+      "chin_collar_L",
+      [
+       "trunk:hip_ring",
+       "trunk:kilt_petal_01",
+       "trunk:kilt_petal_02",
+       "trunk:torso_shell_front",
+       "upper_arm_R"
+      ]
+     ]
+    ]
+   }
+  ]
+ }
+}

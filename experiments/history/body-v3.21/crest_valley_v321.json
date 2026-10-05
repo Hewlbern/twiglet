@@ -1,0 +1,76 @@
+{
+ "v3.20": {
+  "40": {
+   "n_crests": 14,
+   "crest_mm": 13.4,
+   "valley_depth_mm_median": 3.4,
+   "valley_depth_max": 7.8,
+   "valley_floor_mm_median": 6.8
+  },
+  "50": {
+   "n_crests": 15,
+   "crest_mm": 14.3,
+   "valley_depth_mm_median": 3.6,
+   "valley_depth_max": 8.3,
+   "valley_floor_mm_median": 5.3
+  },
+  "60": {
+   "n_crests": 13,
+   "crest_mm": 13.0,
+   "valley_depth_mm_median": 5.9,
+   "valley_depth_max": 11.4,
+   "valley_floor_mm_median": 4.0
+  },
+  "70": {
+   "n_crests": 12,
+   "crest_mm": 11.5,
+   "valley_depth_mm_median": 7.5,
+   "valley_depth_max": 13.0,
+   "valley_floor_mm_median": 1.3
+  },
+  "80": {
+   "n_crests": 10,
+   "crest_mm": 9.7,
+   "valley_depth_mm_median": 6.1,
+   "valley_depth_max": 11.9,
+   "valley_floor_mm_median": 0.5
+  }
+ },
+ "v3.21": {
+  "40": {
+   "n_crests": 15,
+   "crest_mm": 15.4,
+   "valley_depth_mm_median": 4.0,
+   "valley_depth_max": 16.7,
+   "valley_floor_mm_median": 5.3
+  },
+  "50": {
+   "n_crests": 15,
+   "crest_mm": 15.1,
+   "valley_depth_mm_median": 5.9,
+   "valley_depth_max": 12.8,
+   "valley_floor_mm_median": 2.7
+  },
+  "60": {
+   "n_crests": 13,
+   "crest_mm": 15.2,
+   "valley_depth_mm_median": 10.3,
+   "valley_depth_max": 17.1,
+   "valley_floor_mm_median": 1.9
+  },
+  "70": {
+   "n_crests": 12,
+   "crest_mm": 14.0,
+   "valley_depth_mm_median": 12.5,
+   "valley_depth_max": 18.7,
+   "valley_floor_mm_median": -0.4
+  },
+  "80": {
+   "n_crests": 14,
+   "crest_mm": 8.7,
+   "valley_depth_mm_median": 7.2,
+   "valley_depth_max": 11.3,
+   "valley_floor_mm_median": -0.4
+  }
+ }
+}

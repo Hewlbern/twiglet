@@ -1,0 +1,175 @@
+{
+ "variant": "stock",
+ "best_params": {
+  "f": 2.4338,
+  "stride": 0.2088,
+  "lift": 0.3101,
+  "sway": 0.1634,
+  "sway_ph": 0.5584,
+  "crouch": 0.4739,
+  "lean": -0.0305,
+  "kp_pitch": -0.6534,
+  "kd_pitch": -0.0658,
+  "kp_roll": -0.0859,
+  "kd_roll": -0.0002,
+  "ank_off": -0.0867
+ },
+ "success_rate_randomized": 0.95,
+ "speed_mps_randomized_mean": 0.2053,
+ "nominal": {
+  "dx_10s": 2.084,
+  "dy": -0.253,
+  "yaw_deg": -12.2,
+  "fell": false
+ },
+ "torque_nominal": {
+  "left_hip_yaw": {
+   "peak": 0.338,
+   "rms": 0.069,
+   "p95": 0.157
+  },
+  "left_hip_roll": {
+   "peak": 1.54,
+   "rms": 0.78,
+   "p95": 1.249
+  },
+  "left_hip_pitch": {
+   "peak": 1.91,
+   "rms": 1.083,
+   "p95": 1.91
+  },
+  "left_knee": {
+   "peak": 1.91,
+   "rms": 1.026,
+   "p95": 1.91
+  },
+  "left_ankle": {
+   "peak": 1.91,
+   "rms": 1.066,
+   "p95": 1.91
+  },
+  "right_hip_yaw": {
+   "peak": 0.34,
+   "rms": 0.067,
+   "p95": 0.149
+  },
+  "right_hip_roll": {
+   "peak": 1.422,
+   "rms": 0.782,
+   "p95": 1.241
+  },
+  "right_hip_pitch": {
+   "peak": 1.91,
+   "rms": 1.086,
+   "p95": 1.91
+  },
+  "right_knee": {
+   "peak": 1.91,
+   "rms": 1.033,
+   "p95": 1.91
+  },
+  "right_ankle": {
+   "peak": 1.91,
+   "rms": 1.071,
+   "p95": 1.91
+  },
+  "neck_pitch": {
+   "peak": 0.235,
+   "rms": 0.117,
+   "p95": 0.2
+  },
+  "head_pitch": {
+   "peak": 0.117,
+   "rms": 0.064,
+   "p95": 0.096
+  },
+  "head_yaw": {
+   "peak": 0.116,
+   "rms": 0.024,
+   "p95": 0.045
+  },
+  "head_roll": {
+   "peak": 0.075,
+   "rms": 0.017,
+   "p95": 0.029
+  },
+  "left_antenna": {
+   "peak": 0.0,
+   "rms": 0.0,
+   "p95": 0.0
+  },
+  "right_antenna": {
+   "peak": 0.0,
+   "rms": 0.0,
+   "p95": 0.0
+  }
+ },
+ "torque_peak_over_randomized": {
+  "head_pitch": 0.179,
+  "head_roll": 0.089,
+  "head_yaw": 0.155,
+  "left_ankle": 1.91,
+  "left_antenna": 0.0,
+  "left_hip_pitch": 1.91,
+  "left_hip_roll": 1.74,
+  "left_hip_yaw": 0.508,
+  "left_knee": 1.91,
+  "neck_pitch": 0.343,
+  "right_ankle": 1.91,
+  "right_antenna": 0.0,
+  "right_hip_pitch": 1.91,
+  "right_hip_roll": 1.733,
+  "right_hip_yaw": 0.503,
+  "right_knee": 1.91
+ },
+ "torque_rms_mean_randomized": {
+  "head_pitch": 0.066,
+  "head_roll": 0.016,
+  "head_yaw": 0.027,
+  "left_ankle": 1.0,
+  "left_antenna": 0.0,
+  "left_hip_pitch": 1.022,
+  "left_hip_roll": 0.687,
+  "left_hip_yaw": 0.07,
+  "left_knee": 0.996,
+  "neck_pitch": 0.115,
+  "right_ankle": 0.998,
+  "right_antenna": 0.0,
+  "right_hip_pitch": 1.032,
+  "right_hip_roll": 0.701,
+  "right_hip_yaw": 0.068,
+  "right_knee": 1.002
+ },
+ "bus_current_A_mean": 10.82,
+ "limits": {
+  "stall_Nm": 1.91,
+  "rated_continuous_Nm": 0.49
+ },
+ "candidates": [
+  {
+   "success": 0.95,
+   "speed": 0.2053
+  },
+  {
+   "success": 0.95,
+   "speed": 0.1949
+  },
+  {
+   "success": 0.9,
+   "speed": 0.1962
+  },
+  {
+   "success": 0.9,
+   "speed": 0.1914
+  },
+  {
+   "success": 0.7,
+   "speed": 0.2207
+  },
+  {
+   "success": 0.5,
+   "speed": 0.2101
+  }
+ ],
+ "n_evaluated": 1500
+}

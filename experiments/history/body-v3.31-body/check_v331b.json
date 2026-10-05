@@ -1,0 +1,453 @@
+{
+ "v331_kilt_petal_00.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   49.2,
+   58.0,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 6.92,
+  "wall_p0_5_mm": 0.62,
+  "wall_p2_mm": 1.21,
+  "wall_median_mm": 1.38
+ },
+ "v331_kilt_petal_01.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   32.6,
+   62.9,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 6.56,
+  "wall_p0_5_mm": 0.2,
+  "wall_p2_mm": 0.9,
+  "wall_median_mm": 1.38
+ },
+ "v331_kilt_petal_02.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   49.3,
+   57.9,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 6.92,
+  "wall_p0_5_mm": 0.36,
+  "wall_p2_mm": 1.19,
+  "wall_median_mm": 1.38
+ },
+ "v331_kilt_petal_03.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   53.1,
+   37.7,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.84,
+  "wall_p0_5_mm": 0.42,
+  "wall_p2_mm": 1.19,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_04.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   53.9,
+   47.5,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.93,
+  "wall_p0_5_mm": 0.81,
+  "wall_p2_mm": 1.24,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_05.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   45.4,
+   54.4,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 6.21,
+  "wall_p0_5_mm": 0.65,
+  "wall_p2_mm": 1.21,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_06.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   32.7,
+   56.4,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.99,
+  "wall_p0_5_mm": 0.23,
+  "wall_p2_mm": 1.01,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_07.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   45.5,
+   54.5,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 6.21,
+  "wall_p0_5_mm": 0.57,
+  "wall_p2_mm": 1.23,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_08.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   54.0,
+   47.2,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.94,
+  "wall_p0_5_mm": 0.61,
+  "wall_p2_mm": 1.2,
+  "wall_median_mm": 1.4
+ },
+ "v331_kilt_petal_09.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   53.1,
+   37.6,
+   88.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.83,
+  "wall_p0_5_mm": 0.42,
+  "wall_p2_mm": 1.21,
+  "wall_median_mm": 1.4
+ },
+ "v331_leaf_cluster_shoulder.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   26.5,
+   23.6,
+   5.0
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 0.6,
+  "wall_p0_5_mm": 0.48,
+  "wall_p2_mm": 1.32,
+  "wall_median_mm": 1.78
+ },
+ "v331_torso_frame.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   116.5,
+   92.6,
+   102.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 94.7,
+  "wall_p0_5_mm": 1.18,
+  "wall_p2_mm": 1.28,
+  "wall_median_mm": 2.48
+ },
+ "v331_torso_shell_back.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.0,
+   58.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 24.69,
+  "wall_p0_5_mm": 1.58,
+  "wall_p2_mm": 1.7,
+  "wall_median_mm": 1.93
+ },
+ "v331_torso_shell_front.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.1,
+   64.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 26.62,
+  "wall_p0_5_mm": 1.45,
+  "wall_p2_mm": 1.53,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_torso_shell_front.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.1,
+   64.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 27.27,
+  "wall_p0_5_mm": 1.42,
+  "wall_p2_mm": 1.53,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_torso_shell_back.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.0,
+   58.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 25.37,
+  "wall_p0_5_mm": 1.68,
+  "wall_p2_mm": 1.74,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_leaf_L.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   26.5,
+   10.7,
+   5.0
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 0.33,
+  "wall_p0_5_mm": 0.04,
+  "wall_p2_mm": 0.31,
+  "wall_median_mm": 1.78
+ },
+ "frame_check": {
+  "v39": {
+   "watertight": true,
+   "bodies": 2,
+   "volume_cm3": 90.91,
+   "static_overlaps_vs_internals": [
+    [
+     "wj-wk00-0122topcabinetcase_95.stl",
+     2.9
+    ],
+    [
+     "hip_cradle",
+     57.6
+    ]
+   ],
+   "hip_yaw_sweep_min_gap_mm": 0.27,
+   "by": "right:roll_motor_top.stl@15",
+   "overlap_vs_v331b_shells_mm3": [
+    0.0,
+    0.0
+   ],
+   "min_gap_vs_v331b_shells_mm": 0.13
+  },
+  "v331b": {
+   "watertight": true,
+   "bodies": 1,
+   "volume_cm3": 94.7,
+   "static_overlaps_vs_internals": [
+    [
+     "wj-wk00-0122topcabinetcase_95.stl",
+     2.9
+    ],
+    [
+     "hip_cradle",
+     57.6
+    ]
+   ],
+   "hip_yaw_sweep_min_gap_mm": 0.27,
+   "by": "right:roll_motor_top.stl@15",
+   "overlap_vs_v331b_shells_mm3": [
+    0.0,
+    0.0
+   ],
+   "min_gap_vs_v331b_shells_mm": 0.13
+  }
+ },
+ "kilt_static": {
+  "kilt_petal_00": {
+   "vol_cm3": 6.92,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 2.33,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_01": {
+   "vol_cm3": 6.56,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 3.85,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_02": {
+   "vol_cm3": 6.92,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 2.33,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_03": {
+   "vol_cm3": 5.84,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 3.99,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_04": {
+   "vol_cm3": 5.93,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 2.47,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_05": {
+   "vol_cm3": 6.21,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 3.68,
+   "overlap_vs_frame_mm3": 145.71
+  },
+  "kilt_petal_06": {
+   "vol_cm3": 5.99,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 2.2,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_07": {
+   "vol_cm3": 6.21,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 3.64,
+   "overlap_vs_frame_mm3": 145.45
+  },
+  "kilt_petal_08": {
+   "vol_cm3": 5.94,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 2.5,
+   "overlap_vs_frame_mm3": 0.0
+  },
+  "kilt_petal_09": {
+   "vol_cm3": 5.83,
+   "overlap_vs_shells_mm3": 0.0,
+   "min_gap_vs_shells_mm": 3.99,
+   "overlap_vs_frame_mm3": 0.0
+  }
+ },
+ "cluster_L_placement": {
+  "peg_centre": [
+   7.5,
+   73.6,
+   62.7
+  ],
+  "peg_inside_upper_arm_or_socket_dist_mm": 3.04,
+  "icp_mean_mm": 0.339,
+  "old_leaf_vs_cluster_centroid_mm": 1.1
+ },
+ "cluster_R_placement": {
+  "peg_centre": [
+   8.2,
+   -77.0,
+   65.5
+  ],
+  "peg_inside_upper_arm_or_socket_dist_mm": 5.22,
+  "icp_mean_mm": 0.36,
+  "old_leaf_vs_cluster_centroid_mm": 1.1
+ },
+ "internal_clearance": {
+  "v39_halves": {
+   "static_min_gap_mm": 0.0,
+   "static_min_by": "torso_frame",
+   "static_penetrations": [
+    [
+     "torso_frame",
+     338.4
+    ],
+    [
+     "torso_frame",
+     271.6
+    ]
+   ],
+   "hip_yaw_sweep_min_gap_mm": 3.44,
+   "hip_yaw_min_by": "left_hiproll:roll_motor_top.stl@30",
+   "hip_yaw_penetrations": []
+  },
+  "v331b": {
+   "static_min_gap_mm": 0.13,
+   "static_min_by": "torso_frame",
+   "static_penetrations": [],
+   "hip_yaw_sweep_min_gap_mm": 3.01,
+   "hip_yaw_min_by": "left_hiproll:roll_motor_top.stl@30",
+   "hip_yaw_penetrations": []
+  }
+ },
+ "arm_sweep_v39": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "leaf_vs_head": 0,
+  "leaf_vs_any": 0,
+  "own_forearm_vs_leaf": 0,
+  "poses": 162
+ },
+ "arm_sweep_v331": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "leaf_vs_head": 0,
+  "leaf_vs_any": 0,
+  "own_forearm_vs_leaf": 0,
+  "poses": 162
+ },
+ "mass_volume_cm3": {
+  "shell_v39": 51.05,
+  "shell_v331": 51.3,
+  "leaf_shoulder_v39": 0.334,
+  "cluster_v331": 0.602
+ }
+}

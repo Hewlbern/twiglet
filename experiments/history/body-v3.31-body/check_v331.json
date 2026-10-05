@@ -1,0 +1,325 @@
+{
+ "v331_kilt_petal_00.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   49.0,
+   57.7,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.35,
+  "wall_p0_5_mm": 0.43,
+  "wall_p2_mm": 0.91,
+  "wall_median_mm": 1.06
+ },
+ "v331_kilt_petal_01.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   32.2,
+   62.4,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.07,
+  "wall_p0_5_mm": 0.33,
+  "wall_p2_mm": 0.92,
+  "wall_median_mm": 1.06
+ },
+ "v331_kilt_petal_02.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   49.0,
+   57.6,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 5.35,
+  "wall_p0_5_mm": 0.71,
+  "wall_p2_mm": 0.92,
+  "wall_median_mm": 1.06
+ },
+ "v331_kilt_petal_03.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   52.6,
+   37.4,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.54,
+  "wall_p0_5_mm": 0.59,
+  "wall_p2_mm": 0.95,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_04.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   53.6,
+   47.2,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.61,
+  "wall_p0_5_mm": 0.95,
+  "wall_p2_mm": 0.95,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_05.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   45.2,
+   54.1,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.83,
+  "wall_p0_5_mm": 0.92,
+  "wall_p2_mm": 0.94,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_06.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   32.3,
+   55.9,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.65,
+  "wall_p0_5_mm": 0.42,
+  "wall_p2_mm": 0.94,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_07.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   45.2,
+   54.1,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.83,
+  "wall_p0_5_mm": 0.92,
+  "wall_p2_mm": 0.94,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_08.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   53.6,
+   46.9,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.61,
+  "wall_p0_5_mm": 0.95,
+  "wall_p2_mm": 0.95,
+  "wall_median_mm": 1.08
+ },
+ "v331_kilt_petal_09.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   52.6,
+   37.4,
+   87.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 4.54,
+  "wall_p0_5_mm": 0.87,
+  "wall_p2_mm": 0.95,
+  "wall_median_mm": 1.08
+ },
+ "v331_leaf_cluster_shoulder.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   26.5,
+   23.6,
+   5.0
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 0.6,
+  "wall_p0_5_mm": 0.48,
+  "wall_p2_mm": 1.32,
+  "wall_median_mm": 1.78
+ },
+ "v331_torso_shell_back.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.0,
+   58.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 24.8,
+  "wall_p0_5_mm": 1.31,
+  "wall_p2_mm": 1.61,
+  "wall_median_mm": 1.93
+ },
+ "v331_torso_shell_front.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.1,
+   64.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 26.6,
+  "wall_p0_5_mm": 0.61,
+  "wall_p2_mm": 1.48,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_torso_shell_front.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.1,
+   64.9
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 27.27,
+  "wall_p0_5_mm": 1.42,
+  "wall_p2_mm": 1.53,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_torso_shell_back.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   70.0,
+   109.0,
+   58.3
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 25.37,
+  "wall_p0_5_mm": 1.68,
+  "wall_p2_mm": 1.74,
+  "wall_median_mm": 1.94
+ },
+ "REF_v39_leaf_L.stl": {
+  "watertight": true,
+  "bodies": 1,
+  "winding": true,
+  "size_mm": [
+   26.5,
+   10.7,
+   5.0
+  ],
+  "fits_P1S": true,
+  "on_bed": true,
+  "volume_cm3": 0.33,
+  "wall_p0_5_mm": 0.04,
+  "wall_p2_mm": 0.31,
+  "wall_median_mm": 1.78
+ },
+ "cluster_L_placement": {
+  "peg_centre": [
+   7.5,
+   73.6,
+   62.7
+  ],
+  "peg_inside_upper_arm_or_socket_dist_mm": 3.04,
+  "icp_mean_mm": 0.339,
+  "old_leaf_vs_cluster_centroid_mm": 1.1
+ },
+ "cluster_R_placement": {
+  "peg_centre": [
+   8.2,
+   -77.0,
+   65.5
+  ],
+  "peg_inside_upper_arm_or_socket_dist_mm": 5.22,
+  "icp_mean_mm": 0.36,
+  "old_leaf_vs_cluster_centroid_mm": 1.1
+ },
+ "internal_clearance": {
+  "v39": {
+   "static_min_gap_mm": 0.0,
+   "static_min_by": "torso_frame",
+   "static_penetrations": [
+    [
+     "torso_frame",
+     584.4
+    ]
+   ],
+   "hip_yaw_sweep_min_gap_mm": 4.58,
+   "hip_yaw_min_by": "left_hiproll:roll_motor_top.stl@-30",
+   "hip_yaw_penetrations": []
+  },
+  "v331": {
+   "static_min_gap_mm": 0.13,
+   "static_min_by": "torso_frame",
+   "static_penetrations": [],
+   "hip_yaw_sweep_min_gap_mm": 1.68,
+   "hip_yaw_min_by": "left_hiproll:roll_motor_top.stl@30",
+   "hip_yaw_penetrations": []
+  }
+ },
+ "arm_sweep_v39": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "leaf_vs_head": 0,
+  "leaf_vs_any": 0,
+  "own_forearm_vs_leaf": 0,
+  "poses": 162
+ },
+ "arm_sweep_v331": {
+  "shell": 0,
+  "kilt": 0,
+  "head": 0,
+  "leaf_vs_head": 0,
+  "leaf_vs_any": 0,
+  "own_forearm_vs_leaf": 0,
+  "poses": 162
+ },
+ "mass_volume_cm3": {
+  "shell_v39": 51.05,
+  "shell_v331": 51.41,
+  "leaf_shoulder_v39": 0.334,
+  "cluster_v331": 0.602
+ }
+}

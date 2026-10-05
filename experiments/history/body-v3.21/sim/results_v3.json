@@ -1,0 +1,483 @@
+{
+ "variant": "v3",
+ "crouch_rad": 0.3,
+ "total_mass_kg": 2.534,
+ "a_standing": {
+  "crouch_0.10": {
+   "fell": null,
+   "margin_min_mm": 48.4,
+   "margin_front_mm": 53.5,
+   "margin_back_mm": 48.4,
+   "margin_side_mm": 70.1,
+   "support_width_mm": 141.1,
+   "com_height_mm": 249.4,
+   "tilt_deg": [
+    0.0,
+    3.36
+   ],
+   "static_torque_Nm": {
+    "left_hip_pitch": 0.217,
+    "left_knee": 0.25,
+    "left_ankle": 0.112,
+    "right_hip_pitch": 0.217,
+    "right_knee": 0.251,
+    "right_ankle": 0.111,
+    "head_pitch": 0.202
+   },
+   "bus_current_A": 4.05,
+   "tipping_angle_side_deg": 15.7,
+   "tipping_angle_front_deg": 12.1
+  },
+  "crouch_0.30": {
+   "fell": null,
+   "margin_min_mm": 45.1,
+   "margin_front_mm": 56.9,
+   "margin_back_mm": 45.1,
+   "margin_side_mm": 70.1,
+   "support_width_mm": 141.1,
+   "com_height_mm": 244.1,
+   "tilt_deg": [
+    0.01,
+    3.78
+   ],
+   "static_torque_Nm": {
+    "left_hip_pitch": 0.227,
+    "left_knee": 0.372,
+    "left_ankle": 0.067,
+    "right_hip_pitch": 0.227,
+    "right_knee": 0.374,
+    "right_ankle": 0.066,
+    "head_pitch": 0.209
+   },
+   "bus_current_A": 4.3,
+   "tipping_angle_side_deg": 16.0,
+   "tipping_angle_front_deg": 13.1
+  },
+  "crouch_0.50": {
+   "fell": null,
+   "margin_min_mm": 42.1,
+   "margin_front_mm": 59.9,
+   "margin_back_mm": 42.1,
+   "margin_side_mm": 70.1,
+   "support_width_mm": 141.1,
+   "com_height_mm": 234.4,
+   "tilt_deg": [
+    0.01,
+    4.15
+   ],
+   "static_torque_Nm": {
+    "left_hip_pitch": 0.239,
+    "left_knee": 0.492,
+    "right_hip_pitch": 0.239,
+    "right_knee": 0.495,
+    "head_pitch": 0.217
+   },
+   "bus_current_A": 4.56,
+   "tipping_angle_side_deg": 16.7,
+   "tipping_angle_front_deg": 14.3
+  },
+  "crouch_0.63": {
+   "fell": null,
+   "margin_min_mm": 40.3,
+   "margin_front_mm": 61.7,
+   "margin_back_mm": 40.3,
+   "margin_side_mm": 70.1,
+   "support_width_mm": 141.1,
+   "com_height_mm": 225.8,
+   "tilt_deg": [
+    0.02,
+    4.33
+   ],
+   "static_torque_Nm": {
+    "left_hip_pitch": 0.247,
+    "left_knee": 0.565,
+    "right_hip_pitch": 0.247,
+    "right_knee": 0.567,
+    "head_pitch": 0.223
+   },
+   "bus_current_A": 4.79,
+   "tipping_angle_side_deg": 17.2,
+   "tipping_angle_front_deg": 15.3
+  }
+ },
+ "a_open_loop_com_window_mm": {
+  "stable_offsets": [
+   -44.7,
+   13.5
+  ],
+  "sweep": [
+   [
+    -0.25,
+    18.8,
+    false
+   ],
+   [
+    -0.225,
+    16.1,
+    false
+   ],
+   [
+    -0.2,
+    13.5,
+    true
+   ],
+   [
+    -0.175,
+    10.8,
+    true
+   ],
+   [
+    -0.15,
+    8.1,
+    true
+   ],
+   [
+    -0.125,
+    5.4,
+    true
+   ],
+   [
+    -0.1,
+    2.7,
+    true
+   ],
+   [
+    -0.075,
+    -0.0,
+    true
+   ],
+   [
+    -0.05,
+    -2.7,
+    true
+   ],
+   [
+    -0.025,
+    -5.4,
+    true
+   ],
+   [
+    -0.0,
+    -8.1,
+    true
+   ],
+   [
+    0.025,
+    -10.8,
+    true
+   ],
+   [
+    0.05,
+    -13.5,
+    true
+   ],
+   [
+    0.075,
+    -16.2,
+    true
+   ],
+   [
+    0.1,
+    -18.9,
+    true
+   ],
+   [
+    0.125,
+    -21.5,
+    true
+   ],
+   [
+    0.15,
+    -24.2,
+    true
+   ],
+   [
+    0.175,
+    -26.8,
+    true
+   ],
+   [
+    0.2,
+    -29.4,
+    true
+   ],
+   [
+    0.225,
+    -32.0,
+    true
+   ],
+   [
+    0.25,
+    -34.6,
+    true
+   ],
+   [
+    0.275,
+    -37.2,
+    true
+   ],
+   [
+    0.3,
+    -39.7,
+    true
+   ],
+   [
+    0.325,
+    -42.2,
+    true
+   ],
+   [
+    0.35,
+    -44.7,
+    true
+   ],
+   [
+    0.375,
+    -47.2,
+    false
+   ],
+   [
+    0.4,
+    -49.6,
+    false
+   ],
+   [
+    0.425,
+    -52.0,
+    false
+   ],
+   [
+    0.45,
+    -54.4,
+    false
+   ]
+  ],
+  "note": "COM x minus sole-centre x at q0; stands 3 s with no IMU feedback"
+ },
+ "a_neutral_stance_no_lean": {
+  "fell": null,
+  "margin_min_mm": 43.2,
+  "margin_front_mm": 43.2,
+  "margin_back_mm": 58.8,
+  "margin_side_mm": 70.1,
+  "support_width_mm": 141.1,
+  "com_height_mm": 244.1,
+  "tilt_deg": [
+   0.01,
+   5.45
+  ],
+  "static_torque_Nm": {
+   "left_hip_pitch": 0.277,
+   "left_knee": 0.481,
+   "left_ankle": 0.257,
+   "right_hip_pitch": 0.276,
+   "right_knee": 0.483,
+   "right_ankle": 0.256,
+   "head_pitch": 0.241
+  },
+  "bus_current_A": 5.22,
+  "tipping_angle_side_deg": 16.0,
+  "tipping_angle_front_deg": 10.0
+ },
+ "b_push_no_controller_Ns": {
+  "forward": 1.336,
+  "backward": 1.055,
+  "left": 1.641,
+  "right": 1.664
+ },
+ "b_balance_gains(kp_ankle,kd_ankle,kp_hip,kp_roll,kd_roll)": [
+  -0.023,
+  -0.097,
+  -1.072,
+  -2.503,
+  0.135
+ ],
+ "b_push_with_controller_Ns": {
+  "forward": 1.477,
+  "backward": 0.914,
+  "left": 1.664,
+  "right": 1.688
+ },
+ "c_weight_shift_sine_both_hip_roll_0.4Hz": {
+  "0.05": {
+   "fell": null,
+   "min_load_frac_L": 0.293,
+   "min_load_frac_R": 0.283,
+   "com_y_pp_mm": 3.0
+  },
+  "0.10": {
+   "fell": null,
+   "min_load_frac_L": 0.188,
+   "min_load_frac_R": 0.179,
+   "com_y_pp_mm": 6.8
+  },
+  "0.15": {
+   "fell": null,
+   "min_load_frac_L": 0.065,
+   "min_load_frac_R": 0.066,
+   "com_y_pp_mm": 10.6
+  },
+  "0.20": {
+   "fell": null,
+   "min_load_frac_L": 0.086,
+   "min_load_frac_R": 0.0,
+   "com_y_pp_mm": 14.3
+  },
+  "0.25": {
+   "fell": null,
+   "min_load_frac_L": 0.0,
+   "min_load_frac_R": 0.0,
+   "com_y_pp_mm": 17.9
+  },
+  "0.30": {
+   "fell": null,
+   "min_load_frac_L": 0.0,
+   "min_load_frac_R": 0.0,
+   "com_y_pp_mm": 20.2
+  }
+ },
+ "c_single_support_attempt": {
+  "sgn+1_phi0.00": {
+   "fell": null,
+   "left_load_frac": 0.349,
+   "trunk_roll_deg": 9.0
+  },
+  "sgn+1_phi0.05": {
+   "fell": null,
+   "left_load_frac": 0.367,
+   "trunk_roll_deg": 10.7
+  },
+  "sgn+1_phi0.10": {
+   "fell": null,
+   "left_load_frac": 0.384,
+   "trunk_roll_deg": 12.5
+  },
+  "sgn+1_phi0.15": {
+   "fell": null,
+   "left_load_frac": 0.4,
+   "trunk_roll_deg": 14.2
+  },
+  "sgn+1_phi0.20": {
+   "fell": null,
+   "left_load_frac": 0.415,
+   "trunk_roll_deg": 16.0
+  },
+  "sgn+1_phi0.25": {
+   "fell": null,
+   "left_load_frac": 0.429,
+   "trunk_roll_deg": 17.8
+  },
+  "sgn+1_phi0.30": {
+   "fell": null,
+   "left_load_frac": 0.439,
+   "trunk_roll_deg": 18.6
+  },
+  "sgn-1_phi0.00": {
+   "fell": null,
+   "left_load_frac": 0.349,
+   "trunk_roll_deg": 9.0
+  },
+  "sgn-1_phi0.05": {
+   "fell": null,
+   "left_load_frac": 0.333,
+   "trunk_roll_deg": 7.3
+  },
+  "sgn-1_phi0.10": {
+   "fell": null,
+   "left_load_frac": 0.315,
+   "trunk_roll_deg": 5.6
+  },
+  "sgn-1_phi0.15": {
+   "fell": null,
+   "left_load_frac": 0.297,
+   "trunk_roll_deg": 3.8
+  },
+  "sgn-1_phi0.20": {
+   "fell": null,
+   "left_load_frac": 0.276,
+   "trunk_roll_deg": 2.0
+  },
+  "sgn-1_phi0.25": {
+   "fell": null,
+   "left_load_frac": 0.256,
+   "trunk_roll_deg": 0.3
+  },
+  "sgn-1_phi0.30": {
+   "fell": null,
+   "left_load_frac": 0.23,
+   "trunk_roll_deg": -0.4
+  }
+ },
+ "c_single_support_min_phi": null,
+ "e_head_arm_motion": {
+  "fell": null,
+  "min_support_margin_mm": 33.0,
+  "torque": {
+   "left_hip_pitch": {
+    "peak": 0.572,
+    "rms": 0.312,
+    "p95": 0.514
+   },
+   "left_ankle": {
+    "peak": 0.352,
+    "rms": 0.165,
+    "p95": 0.318
+   },
+   "right_hip_pitch": {
+    "peak": 0.573,
+    "rms": 0.312,
+    "p95": 0.524
+   },
+   "right_ankle": {
+    "peak": 0.327,
+    "rms": 0.166,
+    "p95": 0.319
+   },
+   "head_pitch": {
+    "peak": 0.756,
+    "rms": 0.347,
+    "p95": 0.694
+   },
+   "head_yaw": {
+    "peak": 0.774,
+    "rms": 0.224,
+    "p95": 0.466
+   },
+   "head_roll": {
+    "peak": 0.369,
+    "rms": 0.125,
+    "p95": 0.267
+   },
+   "shoulder_L": {
+    "peak": 0.441,
+    "rms": 0.117,
+    "p95": 0.19
+   },
+   "elbow_L": {
+    "peak": 0.441,
+    "rms": 0.077,
+    "p95": 0.148
+   },
+   "gripper_L": {
+    "peak": 0.441,
+    "rms": 0.154,
+    "p95": 0.233
+   },
+   "shoulder_R": {
+    "peak": 0.377,
+    "rms": 0.142,
+    "p95": 0.262
+   },
+   "elbow_R": {
+    "peak": 0.441,
+    "rms": 0.114,
+    "p95": 0.207
+   },
+   "gripper_R": {
+    "peak": 0.441,
+    "rms": 0.204,
+    "p95": 0.326
+   }
+  }
+ }
+}

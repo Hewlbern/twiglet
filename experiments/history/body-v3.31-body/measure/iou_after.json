@@ -1,0 +1,58 @@
+{
+ "ball_centre_mm": [
+  10.6,
+  -0.2,
+  174.1
+ ],
+ "ball_r_mm": 99.8,
+ "front": {
+  "iou": 0.227,
+  "outline_mm": 24.27,
+  "shape_iou_best_shift_no_head_occluder": 0.721,
+  "vshift_mm": 55.1,
+  "hshift_mm": 4.5,
+  "shape_outline_mm_best_shift": 6.65,
+  "photo_width_profile_mm": [
+   89.4,
+   91.6,
+   93.8,
+   96.8,
+   99.8
+  ],
+  "model_width_profile_mm": [
+   83.4,
+   87.1,
+   92.3,
+   94.6,
+   104.3
+  ],
+  "px_per_mm": 1.343,
+  "cam_az": 1.0,
+  "cam_el": 6.0
+ },
+ "original": {
+  "iou": 0.105,
+  "outline_mm": 23.14,
+  "shape_iou_best_shift_no_head_occluder": 0.683,
+  "vshift_mm": 61.5,
+  "hshift_mm": 17.0,
+  "shape_outline_mm_best_shift": 8.02,
+  "photo_width_profile_mm": [
+   92.3,
+   96.5,
+   98.6,
+   99.7,
+   92.3
+  ],
+  "model_width_profile_mm": [
+   83.8,
+   91.2,
+   92.3,
+   99.7,
+   94.4
+  ],
+  "px_per_mm": 0.943,
+  "cam_az": 11.0,
+  "cam_el": 37.0
+ }
+}

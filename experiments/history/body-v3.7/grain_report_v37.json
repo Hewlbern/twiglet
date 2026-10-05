@@ -1,0 +1,101 @@
+{
+ "torso_shell": {
+  "part": "torso_shell",
+  "wall_after_mm": {
+   "min": 1.39,
+   "p1": 1.53,
+   "median": 1.91
+  },
+  "faces": 132972,
+  "grooved_cells": 12684,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.54
+ },
+ "shin_cover_L": {
+  "part": "shin_cover_L",
+  "wall_after_mm": {
+   "min": 1.5,
+   "p1": 1.53,
+   "median": 1.92
+  },
+  "faces": 17344,
+  "grooved_cells": 1539,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.11
+ },
+ "shin_cover_R": {
+  "part": "shin_cover_R",
+  "wall_after_mm": {
+   "min": 1.49,
+   "p1": 1.53,
+   "median": 1.92
+  },
+  "faces": 17232,
+  "grooved_cells": 1526,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.1
+ },
+ "upper_arm": {
+  "part": "upper_arm",
+  "wall_after_mm": {
+   "min": 1.41,
+   "p1": 1.49,
+   "median": 3.0
+  },
+  "faces": 4654,
+  "grooved_cells": 367,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.01
+ },
+ "forearm": {
+  "part": "forearm",
+  "wall_after_mm": {
+   "min": 1.47,
+   "p1": 1.5,
+   "median": 10.66
+  },
+  "faces": 8384,
+  "grooved_cells": 889,
+  "watertight": true,
+  "bodies": 1,
+  "removed_cm3": 0.03
+ },
+ "boot_L": {
+  "z_bottom": -216.7,
+  "floor": -218.2,
+  "top": -182.2,
+  "outline": [
+   [
+    -67.3,
+    19.7,
+    -216.7
+   ],
+   [
+    61.3,
+    85.3,
+    -182.2
+   ]
+  ]
+ },
+ "boot_R": {
+  "z_bottom": -216.7,
+  "floor": -218.2,
+  "top": -182.2,
+  "outline": [
+   [
+    -67.3,
+    -85.5,
+    -216.7
+   ],
+   [
+    61.3,
+    -19.9,
+    -182.2
+   ]
+  ]
+ }
+}

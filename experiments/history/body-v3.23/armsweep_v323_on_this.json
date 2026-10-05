@@ -1,0 +1,90 @@
+{
+ "arm_sweep_yaw_0": {
+  "poses": 156,
+  "hair_contacts": 0
+ },
+ "arm_sweep_yaw_-45": {
+  "poses": 156,
+  "hair_contacts": 11
+ },
+ "arm_sweep_yaw_45": {
+  "poses": 156,
+  "hair_contacts": 9
+ },
+ "head_range": {
+  "ranges_deg": [
+   [
+    -45.0,
+    45.0
+   ],
+   [
+    -160.0,
+    160.0
+   ],
+   [
+    -30.0,
+    30.0
+   ]
+  ],
+  "poses": 315,
+  "wig_contacts": 7,
+  "examples": [
+   {
+    "pitch": 45.0,
+    "yaw": -120.0,
+    "roll": -30.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": -40.0,
+    "roll": -30.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": -40.0,
+    "roll": -15.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": 40.0,
+    "roll": 15.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": 40.0,
+    "roll": 30.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": 80.0,
+    "roll": 30.0,
+    "parts": [
+     "trunk"
+    ]
+   },
+   {
+    "pitch": 45.0,
+    "yaw": 120.0,
+    "roll": 30.0,
+    "parts": [
+     "trunk"
+    ]
+   }
+  ]
+ }
+}

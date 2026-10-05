@@ -1,0 +1,24 @@
+{
+ "tag": "v332_opt_riser40",
+ "neutral_min_gap_mm": {},
+ "head_range": {
+  "poses": 315,
+  "poses_with_any_head_contact": 37,
+  "pairs": {
+   "chin_collar_L x trunk:chest_vine": 1,
+   "chin_collar_R x trunk:leaf_chest_1": 1,
+   "head_lower x trunk:torso_shell_back": 25,
+   "head_lower x trunk:torso_frame": 25,
+   "chin_collar_R x trunk:torso_shell_back": 14,
+   "chin_collar_R x trunk:torso_frame": 11,
+   "chin_collar_L x trunk:torso_shell_back": 14,
+   "chin_collar_L x trunk:torso_frame": 11,
+   "fringe x trunk:kilt_petal_05": 1,
+   "fringe x trunk:kilt_petal_06": 2,
+   "fringe x trunk:hip_ring": 2,
+   "fringe x trunk:torso_shell_back": 2,
+   "fringe x trunk:kilt_petal_07": 1
+  },
+  "poses_wig_only": 0
+ }
+}

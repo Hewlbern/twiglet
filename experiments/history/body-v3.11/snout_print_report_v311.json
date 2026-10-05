@@ -1,0 +1,59 @@
+{
+ "file": "v311_head_snout.stl",
+ "size_mm": [
+  73.0,
+  73.1,
+  93.4
+ ],
+ "watertight": true,
+ "bodies": 1,
+ "volume_cm3": 162.3,
+ "bed_contact_mm2": 1446.0,
+ "fits_P1S": true,
+ "shape": {
+  "bezel_cut_L_mm3": 0.0,
+  "bezel_cut_R_mm3": 0.0,
+  "pod_sweep_cut_cm3": 0.37,
+  "axis_yaw_pitch": [
+   -12.0,
+   -6.0
+  ],
+  "L": 72.0,
+  "OD_root": 56.0,
+  "OD_mouth": 74.0,
+  "cone_half_angle_deg": 7.1,
+  "bore_root": 37.0,
+  "bore_mouth": 48.8,
+  "bore_depth": 64.0,
+  "root_offset_v": 2.0,
+  "hole_uncovered_mm3": 140.28,
+  "plug_seam_note": "socket hole outside the cone root is filled by a flush plug (0.3 mm clearance seam at the hole edge)",
+  "T2": [
+   0.9728,
+   -0.2068,
+   -0.1045
+  ],
+  "root": [
+   115.65,
+   -1.66,
+   218.28
+  ],
+  "volume_cm3": 162.3,
+  "watertight": true
+ },
+ "params": {
+  "YAW": -12.0,
+  "PITCH": -6.0,
+  "L": 72.0,
+  "OD0": 56.0,
+  "OD1": 74.0,
+  "EDGE": 3.0,
+  "FIL": 3.0,
+  "SH_U": 0.0,
+  "SH_V": 2.0,
+  "BORE_K": 0.66,
+  "BORE_D": 64.0,
+  "NA": 180
+ },
+ "sim_mass_g": 48.5
+}

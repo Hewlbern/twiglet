@@ -1,0 +1,275 @@
+{
+ "ball_mm": 210.0,
+ "S": 1.2352941176470589,
+ "zsplit_local": 249.4058823529412,
+ "display_offset_mm": {
+  "L": [
+   4.663495785618012,
+   8.126978464177297,
+   19.108523854112622
+  ],
+  "R": [
+   4.663495785618012,
+   -8.126978464177297,
+   19.108523854112622
+  ]
+ },
+ "parts": {
+  "head_upper": {
+   "file": "v36_head_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    207.9,
+    207.9,
+    90.3
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 152.2,
+   "volume_cm3": 122.8,
+   "est_g": 152,
+   "est_support_g": 15,
+   "est_hours": 10.5,
+   "colour": "wood brown PLA",
+   "orientation": "split-plane rim down (dome up)",
+   "supports": "tree supports INSIDE only, for the crown above ~60 deg (hidden under the hat)",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353 (210 mm ball); internal mounts re-cut 1:1"
+  },
+  "head_lower": {
+   "file": "v36_head_head_lower.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    209.0,
+    210.0,
+    95.1
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 0.3,
+   "volume_cm3": 245.7,
+   "est_g": 245,
+   "est_support_g": 29,
+   "est_hours": 17.1,
+   "colour": "wood brown PLA",
+   "orientation": "deck (split plane) down, neck opening up",
+   "supports": "tree supports 'build plate only' under the snout collar, bearing-holder pocket and the display-post undersides",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353 (210 mm ball); internal mounts re-cut 1:1"
+  },
+  "snout": {
+   "file": "v36_head_snout.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    75.3,
+    75.3,
+    87.7
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 18.6,
+   "volume_cm3": 83.5,
+   "est_g": 57,
+   "est_support_g": 0,
+   "est_hours": 3.5,
+   "colour": "wood brown PLA",
+   "orientation": "mouth (flat lip face) down, spigot up",
+   "supports": "none",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353"
+  },
+  "fringe": {
+   "file": "v36_head_fringe.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    132.8,
+    296.2,
+    159.5
+   ],
+   "fits_P1S": false,
+   "bed_contact_cm2": 0.0,
+   "volume_cm3": 208.0,
+   "est_g": 113,
+   "est_support_g": 23,
+   "est_hours": 8.4,
+   "colour": "yellow / blond PLA",
+   "orientation": "forehead up, concave underside down",
+   "supports": "tree supports under the concave underside and curled tips",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353"
+  },
+  "fringe_split_a": {
+   "file": "v36_head_fringe_split_a.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    113.8,
+    156.4,
+    148.1
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 0.0,
+   "volume_cm3": 109.4,
+   "est_g": 60,
+   "est_support_g": 12,
+   "est_hours": 4.5,
+   "colour": "yellow / blond PLA",
+   "orientation": "forehead up, concave underside down",
+   "supports": "tree supports under the overhanging curls",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "2-piece fringe (1-piece exceeds the 256 mm bed): cut face down; glue + 2 x 3 mm alignment pins (3 mm rod or doubled 1.75 filament)"
+  },
+  "fringe_split_b": {
+   "file": "v36_head_fringe_split_b.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    132.7,
+    155.6,
+    148.1
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 0.0,
+   "volume_cm3": 98.4,
+   "est_g": 54,
+   "est_support_g": 11,
+   "est_hours": 4.1,
+   "colour": "yellow / blond PLA",
+   "orientation": "forehead up, concave underside down",
+   "supports": "tree supports under the overhanging curls",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "2-piece fringe (1-piece exceeds the 256 mm bed): cut face down; glue + 2 x 3 mm alignment pins (3 mm rod or doubled 1.75 filament)"
+  },
+  "chin_collar_L": {
+   "file": "v36_head_chin_collar_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 8.0,
+   "volume_cm3": 10.5,
+   "est_g": 13,
+   "est_support_g": 0,
+   "est_hours": 0.8,
+   "colour": "black PLA",
+   "orientation": "top (joint) face down",
+   "supports": "none",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353"
+  },
+  "chin_collar_R": {
+   "file": "v36_head_chin_collar_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    178.1,
+    88.9,
+    13.6
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 8.0,
+   "volume_cm3": 10.5,
+   "est_g": 13,
+   "est_support_g": 0,
+   "est_hours": 0.8,
+   "colour": "black PLA",
+   "orientation": "top (joint) face down",
+   "supports": "none",
+   "settings": "0.2 mm, 3 walls, 15 % gyroid",
+   "note": "scaled x1.2353"
+  },
+  "eye_bezel_L": {
+   "file": "v36_head_eye_bezel_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    82.8,
+    82.8,
+    7.2
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 13.5,
+   "volume_cm3": 5.2,
+   "est_g": 6,
+   "est_support_g": 0,
+   "est_hours": 0.7,
+   "colour": "matte black PLA",
+   "orientation": "flat visible face down (smooth PEI side)",
+   "supports": "none",
+   "settings": "0.12-0.16 mm, 3 walls, 100 %",
+   "note": "scaled x1.2353"
+  },
+  "eye_bezel_R": {
+   "file": "v36_head_eye_bezel_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    82.8,
+    82.8,
+    7.2
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 13.5,
+   "volume_cm3": 5.2,
+   "est_g": 6,
+   "est_support_g": 0,
+   "est_hours": 0.7,
+   "colour": "matte black PLA",
+   "orientation": "flat visible face down (smooth PEI side)",
+   "supports": "none",
+   "settings": "0.12-0.16 mm, 3 walls, 100 %",
+   "note": "scaled x1.2353"
+  },
+  "display_carrier_L": {
+   "file": "v36_head_display_carrier_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 16.2,
+   "volume_cm3": 14.3,
+   "est_g": 16,
+   "est_support_g": 1,
+   "est_hours": 1.1,
+   "colour": "PETG (or PLA), black",
+   "orientation": "ring front face (display side) down, foot plate up",
+   "supports": "tree supports under the foot plate",
+   "settings": "0.2 mm, 4 walls, 40 %",
+   "note": "1:1 (holds the 2.1in module), moved with the scaled eye"
+  },
+  "display_carrier_R": {
+   "file": "v36_head_display_carrier_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    71.2,
+    71.2,
+    24.8
+   ],
+   "fits_P1S": true,
+   "bed_contact_cm2": 16.5,
+   "volume_cm3": 14.3,
+   "est_g": 16,
+   "est_support_g": 1,
+   "est_hours": 1.1,
+   "colour": "PETG (or PLA), black",
+   "orientation": "ring front face (display side) down, foot plate up",
+   "supports": "tree supports under the foot plate",
+   "settings": "0.2 mm, 4 walls, 40 %",
+   "note": "1:1 (holds the 2.1in module), moved with the scaled eye"
+  }
+ },
+ "total_est_g_incl_supports": 707,
+ "total_est_hours": 44.9,
+ "g_per_hour_assumed": 16.0,
+ "note": "grams: PLA 1.24 g/cm3, skin (walls/top/bottom) + infill as listed; supports as a fraction per part. Hours: grams / 16 g/h (bezels x1.8 for fine layers) -- rough; trust the slicer."
+}

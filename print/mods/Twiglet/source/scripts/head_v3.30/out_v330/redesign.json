@@ -1,0 +1,199 @@
+{
+ "head_lower": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 590486
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    5
+   ],
+   [
+    1,
+    4,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 2,
+  "stl_hist": {
+   "2": 600918
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 400612,
+  "vol_cm3": 233.313,
+  "vol_mem_cm3": 233.314,
+  "ok": true,
+  "vol_before_cm3": 246.452,
+  "bool_steps": [
+   [
+    "DIFFERENCE",
+    "cut_holder",
+    234.117
+   ],
+   [
+    "DIFFERENCE",
+    "cut_tabs",
+    226.184
+   ],
+   [
+    "DIFFERENCE",
+    "cut_backrim",
+    222.033
+   ],
+   [
+    "UNION",
+    "add_housing",
+    225.521
+   ],
+   [
+    "UNION",
+    "add_bosses",
+    232.065
+   ],
+   [
+    "DIFFERENCE",
+    "cut_insert_holes",
+    231.739
+   ],
+   [
+    "UNION",
+    "add_ballast_ledge",
+    233.314
+   ]
+  ]
+ },
+ "chin_collar_L": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 14740
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 0,
+  "stl_hist": {
+   "2": 15330
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 10220,
+  "vol_cm3": 4.227,
+  "vol_mem_cm3": 4.227,
+  "ok": true,
+  "vol_before_cm3": 8.121,
+  "bool_steps": [
+   [
+    "DIFFERENCE",
+    "cut_collar_L",
+    3.753
+   ],
+   [
+    "UNION",
+    "add_ledges_L",
+    4.227
+   ]
+  ]
+ },
+ "chin_collar_R": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 14372
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 0,
+  "stl_hist": {
+   "2": 14976
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 9984,
+  "vol_cm3": 4.227,
+  "vol_mem_cm3": 4.227,
+  "ok": true,
+  "vol_before_cm3": 8.125,
+  "bool_steps": [
+   [
+    "DIFFERENCE",
+    "cut_collar_R",
+    3.753
+   ],
+   [
+    "UNION",
+    "add_ledges_R",
+    4.227
+   ]
+  ]
+ },
+ "head_yaw_to_roll": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 10303
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 0,
+  "stl_hist": {
+   "2": 10515
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 7010,
+  "vol_cm3": 23.63,
+  "vol_mem_cm3": 23.63,
+  "ok": true,
+  "vol_before_cm3": 26.318,
+  "bool_steps": [
+   [
+    "DIFFERENCE",
+    "cut_neck_rear",
+    10.204
+   ],
+   [
+    "UNION",
+    "add_neck_rear",
+    23.63
+   ]
+  ]
+ }
+}

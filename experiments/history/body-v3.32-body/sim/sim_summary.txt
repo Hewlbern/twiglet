@@ -1,0 +1,12 @@
+base e None 33.1 {'head_pitch': 0.814, 'head_yaw': 0.779, 'head_r | succ 0.95 | eff succ 1.0
+v332 e None 34.7 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 0.85 | eff succ 1.0
+sens s_noarm max-speed succ 0.95
+sens s_armonly max-speed succ 0.9
+heldout v332_revC_params params=walk_v3_best_rev_c.npy seeds6000-6019 succ 0.75 (15/20) speed 0.202
+heldout v332_refine1 params=walk_v3_best_v332r1.npy seeds6000-6019 succ 0.80 (16/20) speed 0.194
+heldout v332_refine2 params=walk_v3_best_v332r2.npy seeds6000-6019 succ 0.90 (18/20) speed 0.187
+heldout base_revC_params params=walk_v3_best_rev_c.npy seeds6000-6019 succ 0.80 (16/20) speed 0.209
+v332_r2 e None 34.7 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 1.0 | eff succ 1.0
+opt_neck40 e None 34.4 {'head_pitch': 0.808, 'head_yaw': 0.779, 'head_r | succ 0.65 | eff succ 0.95
+opt_neck40_leg40 e None 34.5 {'head_pitch': 0.841, 'head_yaw': 0.779, 'head_r | succ 1.0 | eff succ 1.0
+opt_neck40_leg40b e None 32.0 {'head_pitch': 0.835, 'head_yaw': 0.779, 'head_r | succ 0.85 | eff succ 1.0

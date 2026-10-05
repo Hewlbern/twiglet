@@ -1,0 +1,6 @@
+{
+ "rule": "elbow<=min(110,105-shoulder), shoulder -5..84",
+ "boundary_poses": 24,
+ "boundary_bad": [],
+ "arms_legs_80_bad": []
+}

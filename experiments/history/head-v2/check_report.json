@@ -1,0 +1,2066 @@
+{
+ "rest_interference": [],
+ "stock_head_sweep_collisions": 45,
+ "twiglet_only_collisions": [
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     137
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     154
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     31
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     88
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     229
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     412
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     5
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     222
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     418
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "fringe",
+     "body_middle_top.stl",
+     44
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     222
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     115
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     28
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     36
+    ]
+   ],
+   "stock_hits": []
+  }
+ ],
+ "sweep_total": 81,
+ "sweep_collisions": 48,
+ "sweep_bad": [
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     517
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     159
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     734
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     1194
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     176
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     11
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": -90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_upper",
+     "usb_c_charger.stl",
+     39
+    ],
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     169
+    ],
+    [
+     "fringe",
+     "usb_c_charger.stl",
+     94
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     1865
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     171
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2645
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     429
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     222
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     114
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     28
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     32
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     202
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     132
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_upper",
+     "usb_c_charger.stl",
+     84
+    ],
+    [
+     "fringe",
+     "usb_c_charger.stl",
+     431
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     1031
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     2751
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     2223
+    ],
+    [
+     "head.stl",
+     "trunk_top.stl",
+     3220
+    ],
+    [
+     "head.stl",
+     "wj-wk00-0124bottomcase_45.stl",
+     388
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     23
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     2493
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     2092
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     364
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     23
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     1656
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     455
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_front.stl",
+     801
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     297
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head_bot_sheet.stl",
+     "body_front.stl",
+     1073
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     1071
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     220
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     167
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_back.stl",
+     444
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     1685
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     58
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     828
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     229
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     6573
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     154
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     133
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     45
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     5
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     41
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     201
+    ],
+    [
+     "head_upper",
+     "body_middle_top.stl",
+     47
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     1845
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     942
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     140
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     1918
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     1893
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1296
+    ],
+    [
+     "head_upper",
+     "body_middle_bottom.stl",
+     313
+    ],
+    [
+     "head_lower",
+     "body_middle_bottom.stl",
+     28
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     2423
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     1487
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     7
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_front.stl",
+     1518
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     563
+    ],
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     137
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     154
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_front.stl",
+     3512
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     160
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_front.stl",
+     16
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     137
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     154
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     31
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     88
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     22
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     137
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     154
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     31
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     88
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     1045
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     238
+    ],
+    [
+     "head_lower",
+     "battery_pack_lid.stl",
+     34
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     305
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head_bot_sheet.stl",
+     "body_back.stl",
+     2505
+    ],
+    [
+     "head_bot_sheet.stl",
+     "power_switch.stl",
+     157
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     192
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     383
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     328
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     7
+    ],
+    [
+     "fringe",
+     "power_switch.stl",
+     426
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     791
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     125
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     710
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": -30,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     67
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     520
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     7824
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     4999
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     223
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     7586
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     808
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     229
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     412
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": -90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     73
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1588
+    ],
+    [
+     "head_lower",
+     "battery_pack_lid.stl",
+     508
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     559
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     145
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2452
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     1385
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "fringe",
+     "usb_c_charger.stl",
+     27
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     77
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1234
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     879
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     951
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     14
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     1505
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     149
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     2550
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     3640
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     4539
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     145
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2708
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     1444
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     5
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 0,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     1186
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     57
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     580
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     104
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     5217
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     14
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     245
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     1833
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     3468
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     1073
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     163
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     2340
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1181
+    ],
+    [
+     "head_lower",
+     "body_middle_bottom.stl",
+     218
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     38
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     1548
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     2286
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     222
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     418
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "fringe",
+     "body_middle_top.stl",
+     44
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     25
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1728
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     3082
+    ],
+    [
+     "head_lower",
+     "battery_pack_lid.stl",
+     508
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     88
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2500
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     1378
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     93
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1229
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     1777
+    ],
+    [
+     "head_upper",
+     "power_switch.stl",
+     16
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     859
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     14
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     1506
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 0,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     225
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     2551
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     3873
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     5473
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     23
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2773
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     1440
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_front.stl",
+     1503
+    ],
+    [
+     "fringe",
+     "body_front.stl",
+     1361
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     564
+    ],
+    [
+     "fringe",
+     "wj-wk00-0122topcabinetcase_95.stl",
+     8
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_front.stl",
+     3513
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     159
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_front.stl",
+     16
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "fringe",
+     "body_front.stl",
+     13
+    ],
+    [
+     "fringe",
+     "body_middle_top.stl",
+     165
+    ],
+    [
+     "fringe",
+     "wj-wk00-0122topcabinetcase_95.stl",
+     9
+    ],
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     222
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     23
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     222
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     115
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0123middlecase_56.stl",
+     28
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0124bottomcase_45.stl",
+     36
+    ]
+   ],
+   "stock_hits": []
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     67
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1059
+    ],
+    [
+     "head_lower",
+     "battery_pack_lid.stl",
+     31
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     303
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head_bot_sheet.stl",
+     "body_back.stl",
+     2505
+    ],
+    [
+     "head_bot_sheet.stl",
+     "power_switch.stl",
+     157
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     192
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     386
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     7
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     801
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     872
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     127
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     708
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": -90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     515
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     6377
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     1493
+    ],
+    [
+     "head_lower",
+     "body_middle_bottom.stl",
+     304
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     7482
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     809
+    ],
+    [
+     "head.stl",
+     "bms.stl",
+     194
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_front.stl",
+     796
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     296
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head_bot_sheet.stl",
+     "body_front.stl",
+     1048
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     1067
+    ],
+    [
+     "fringe",
+     "body_middle_top.stl",
+     3
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     215
+    ],
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     163
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_back.stl",
+     482
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     1808
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     58
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     827
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     48
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     6679
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     160
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     217
+    ],
+    [
+     "head_lower",
+     "wj-wk00-0122topcabinetcase_95.stl",
+     56
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     4
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     40
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     201
+    ],
+    [
+     "head_upper",
+     "body_middle_top.stl",
+     45
+    ],
+    [
+     "head_lower",
+     "body_middle_top.stl",
+     1842
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     60
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     1173
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     140
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 0,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     78
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     1890
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     1177
+    ],
+    [
+     "head_upper",
+     "body_middle_bottom.stl",
+     312
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     185
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2277
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     1496
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": -45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "body_back.stl",
+     471
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     714
+    ],
+    [
+     "head_lower",
+     "power_switch.stl",
+     159
+    ],
+    [
+     "fringe",
+     "power_switch.stl",
+     267
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     1026
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     175
+    ],
+    [
+     "head.stl",
+     "battery_pack_lid.stl",
+     10
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "fringe",
+     "body_back.stl",
+     7
+    ],
+    [
+     "fringe",
+     "body_middle_top.stl",
+     1538
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     1020
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     367
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": 0,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_upper",
+     "usb_c_charger.stl",
+     39
+    ],
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     138
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     1860
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     2496
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "usb_c_charger.stl",
+     47
+    ],
+    [
+     "head.stl",
+     "body_back.stl",
+     2850
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     429
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": -20
+   },
+   "hits": [
+    [
+     "fringe",
+     "body_middle_top.stl",
+     190
+    ],
+    [
+     "fringe",
+     "wj-wk00-0124bottomcase_45.stl",
+     8
+    ],
+    [
+     "head_lower",
+     "neck_left_sheet.stl",
+     138
+    ],
+    [
+     "head_lower",
+     "neck_right_sheet.stl",
+     153
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     201
+    ],
+    [
+     "head_bot_sheet.stl",
+     "body_middle_top.stl",
+     130
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 30
+   },
+   "hits": [
+    [
+     "head_upper",
+     "body_back.stl",
+     1116
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     3077
+    ],
+    [
+     "head_upper",
+     "battery_pack_lid.stl",
+     269
+    ],
+    [
+     "fringe",
+     "battery_pack_lid.stl",
+     1583
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_middle_top.stl",
+     2221
+    ],
+    [
+     "head.stl",
+     "trunk_top.stl",
+     3200
+    ],
+    [
+     "head.stl",
+     "wj-wk00-0124bottomcase_45.stl",
+     391
+    ]
+   ]
+  },
+  {
+   "q_deg": {
+    "head_roll": 30,
+    "head_yaw": 90,
+    "head_pitch": 45,
+    "neck_pitch": 65
+   },
+   "hits": [
+    [
+     "head_lower",
+     "usb_c_charger.stl",
+     23
+    ],
+    [
+     "head_upper",
+     "body_back.stl",
+     2495
+    ],
+    [
+     "head_lower",
+     "body_back.stl",
+     2339
+    ],
+    [
+     "fringe",
+     "body_back.stl",
+     330
+    ]
+   ],
+   "stock_hits": [
+    [
+     "head.stl",
+     "body_back.stl",
+     1693
+    ],
+    [
+     "head.stl",
+     "body_middle_bottom.stl",
+     451
+    ],
+    [
+     "head.stl",
+     "power_switch.stl",
+     11
+    ]
+   ]
+  }
+ ]
+}

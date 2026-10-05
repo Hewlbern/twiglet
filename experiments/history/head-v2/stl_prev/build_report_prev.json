@@ -1,0 +1,213 @@
+{
+ "parts": {
+  "head_upper": {
+   "file": "twiglet_head_v2_head_upper.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    168.3,
+    168.3,
+    73.1
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 69.6,
+   "est_mass_g": 82,
+   "overhang45_cm2": 128.3,
+   "overhang55_cm2": 78.7,
+   "bed_contact_cm2": 167.7,
+   "colour": "wood brown",
+   "qty": 1,
+   "orientation": "split-plane rim down (as exported)",
+   "supports": "tree supports INSIDE only, for the crown above ~60 deg (hidden under the fabric hat / inside the ball)",
+   "faces": 159558
+  },
+  "head_lower": {
+   "file": "twiglet_head_v2_head_lower.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    169.5,
+    170.0,
+    75.9
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 149.1,
+   "est_mass_g": 176,
+   "overhang45_cm2": 54.3,
+   "overhang55_cm2": 22.9,
+   "bed_contact_cm2": 169.2,
+   "colour": "wood brown",
+   "qty": 1,
+   "orientation": "deck (split plane) down, neck opening up",
+   "supports": "none needed for the shell (max lean 49 deg); tree supports 'on build plate only' for the snout collar and the stock bearing-holder pocket",
+   "faces": 219806
+  },
+  "eye_cup_L": {
+   "file": "twiglet_head_v2_eye_cup_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    50.6,
+    53.0,
+    9.0
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 7.2,
+   "est_mass_g": 8,
+   "overhang45_cm2": 4.7,
+   "overhang55_cm2": 4.7,
+   "bed_contact_cm2": 9.4,
+   "colour": "black / very dark brown",
+   "qty": 1,
+   "orientation": "back face down",
+   "supports": "none",
+   "faces": 2678
+  },
+  "eye_ring_L": {
+   "file": "twiglet_head_v2_eye_ring_L.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    28.4,
+    28.4,
+    4.4
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 1.8,
+   "est_mass_g": 2,
+   "overhang45_cm2": 0.0,
+   "overhang55_cm2": 0.0,
+   "bed_contact_cm2": 4.1,
+   "colour": "bright orange (translucent PETG/PLA for LED glow)",
+   "qty": 1,
+   "orientation": "flat back down",
+   "supports": "none",
+   "faces": 3072
+  },
+  "eye_cup_R": {
+   "file": "twiglet_head_v2_eye_cup_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    50.6,
+    53.0,
+    9.0
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 7.2,
+   "est_mass_g": 8,
+   "overhang45_cm2": 4.6,
+   "overhang55_cm2": 4.6,
+   "bed_contact_cm2": 9.4,
+   "colour": "black / very dark brown",
+   "qty": 1,
+   "orientation": "back face down",
+   "supports": "none",
+   "faces": 2692
+  },
+  "eye_ring_R": {
+   "file": "twiglet_head_v2_eye_ring_R.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    28.4,
+    28.4,
+    4.4
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 1.8,
+   "est_mass_g": 2,
+   "overhang45_cm2": 0.0,
+   "overhang55_cm2": 0.0,
+   "bed_contact_cm2": 4.1,
+   "colour": "bright orange (translucent PETG/PLA for LED glow)",
+   "qty": 1,
+   "orientation": "flat back down",
+   "supports": "none",
+   "faces": 3072
+  },
+  "snout": {
+   "file": "twiglet_head_v2_snout.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    46.8,
+    46.8,
+    69.0
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 41.2,
+   "est_mass_g": 38,
+   "overhang45_cm2": 0.0,
+   "overhang55_cm2": 0.0,
+   "bed_contact_cm2": 8.8,
+   "colour": "wood brown",
+   "qty": 1,
+   "orientation": "mouth (flat lip face) down, spigot up",
+   "supports": "none",
+   "faces": 4062
+  },
+  "fringe": {
+   "file": "twiglet_head_v2_fringe.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    111.0,
+    202.8,
+    157.3
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 147.8,
+   "est_mass_g": 101,
+   "overhang45_cm2": 56.1,
+   "overhang55_cm2": 31.5,
+   "bed_contact_cm2": 0.0,
+   "colour": "yellow",
+   "qty": 1,
+   "orientation": "forehead up, concave underside down",
+   "supports": "tree supports under the concave underside (hidden side) and under the curled tips",
+   "faces": 22690
+  },
+  "display_stand": {
+   "file": "twiglet_head_v2_display_stand.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    132.0,
+    132.0,
+    141.8
+   ],
+   "fits_p1s": true,
+   "volume_cm3": 263.2,
+   "est_mass_g": 114,
+   "overhang45_cm2": 10.4,
+   "overhang55_cm2": 1.3,
+   "bed_contact_cm2": 136.8,
+   "colour": "wood brown or any",
+   "qty": 1,
+   "orientation": "base down",
+   "supports": "none (45 deg max)",
+   "faces": 2762
+  }
+ },
+ "head_printed_mass_g": 417,
+ "stock_printed_head_mass_g": {
+  "head.stl": 242,
+  "head_bot_sheet.stl": 69,
+  "left_antenna_holder.stl": 3,
+  "right_antenna_holder.stl": 3
+ },
+ "stock_total_g": 317,
+ "ball": {
+  "diameter_mm": 170.0,
+  "centre_urdf_mm": [
+   21.0,
+   0.0,
+   222.0
+  ],
+  "top_z_urdf": 307.0,
+  "wall_mm": 2.0,
+  "split_z": 233.9,
+  "neck_opening_z": 158.0
+ }
+}

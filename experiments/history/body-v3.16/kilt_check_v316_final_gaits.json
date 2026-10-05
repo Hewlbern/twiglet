@@ -1,0 +1,30 @@
+{
+ "sim_gaits": {
+  "poses": 1500,
+  "leg_contacts": 0,
+  "arm_contacts": 0,
+  "examples": []
+ },
+ "sim_gait_joint_ranges_deg": {
+  "left_hip_pitch": [
+   -33.7,
+   -6.1
+  ],
+  "left_hip_roll": [
+   -5.6,
+   6.8
+  ],
+  "left_knee": [
+   29.6,
+   59.7
+  ],
+  "right_hip_pitch": [
+   6.1,
+   33.4
+  ],
+  "right_hip_roll": [
+   -6.1,
+   6.7
+  ]
+ }
+}

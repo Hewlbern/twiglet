@@ -1,0 +1,48 @@
+{
+ "photo": {
+  "ball_w": 195,
+  "head_top": 187.5,
+  "collar_top": 343,
+  "floor": 634.0
+ },
+ "180": {
+  "ball_w": 210,
+  "ball_top": 185,
+  "ball_bot": 377,
+  "headall_w": 299,
+  "headall_top": 133,
+  "feet": 677
+ },
+ "190": {
+  "ball_w": 221,
+  "ball_top": 175,
+  "ball_bot": 377,
+  "headall_w": 316,
+  "headall_top": 120,
+  "feet": 677
+ },
+ "200": {
+  "ball_w": 233,
+  "ball_top": 164,
+  "ball_bot": 378,
+  "headall_w": 332,
+  "headall_top": 107,
+  "feet": 677
+ },
+ "210": {
+  "ball_w": 244,
+  "ball_top": 154,
+  "ball_bot": 378,
+  "headall_w": 348,
+  "headall_top": 94,
+  "feet": 677
+ },
+ "220": {
+  "ball_w": 255,
+  "ball_top": 144,
+  "ball_bot": 379,
+  "headall_w": 365,
+  "headall_top": 81,
+  "feet": 677
+ }
+}

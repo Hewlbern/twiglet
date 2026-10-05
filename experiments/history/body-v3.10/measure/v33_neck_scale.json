@@ -1,0 +1,24 @@
+{
+ "180": {
+  "head_assembly_g": 479.0,
+  "rest_Nm": {
+   "neck_pitch": 0.179,
+   "head_pitch": 0.179
+  },
+  "worst_static_Nm": {
+   "neck_pitch": 0.721,
+   "head_pitch": 0.435
+  }
+ },
+ "190": {
+  "head_assembly_g": 530.0,
+  "rest_Nm": {
+   "neck_pitch": 0.186,
+   "head_pitch": 0.186
+  },
+  "worst_static_Nm": {
+   "neck_pitch": 0.807,
+   "head_pitch": 0.493
+  }
+ }
+}

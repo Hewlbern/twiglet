@@ -1,0 +1,194 @@
+{
+ "version": "body v3.34 (final = v334b kilt + v334a arms, policy v334r1)",
+ "blend": "twiglet-odm-robot/body-v3.34-body/blender/body_v334.blend",
+ "base": "body_v333.blend (v333h)",
+ "wig_used": "hair-v3.34/FINAL_WIG_model_frame.stl, placed by ICP (work/wig/wig_register.json, approx +-2 mm; exact hair transform lost in the 04:15 box restore)",
+ "gripper": {
+  "box_mm": {
+   "v3.33": [
+    29.4,
+    47.3,
+    43.0
+   ],
+   "v3.34": [
+    36.4,
+    47.3,
+    57.0
+   ]
+  },
+  "photo_est_mm": "~42 x 62 (face ~47)",
+  "walls_mm": 1.6,
+  "open_bottom": true,
+  "housing_vol_cm3": {
+   "v3.33": 37.01,
+   "v3.34": 41.72
+  },
+  "wall_p2_mm": "1.42-1.45, median 1.58"
+ },
+ "kilt": {
+  "params": {
+   "RHF": 118,
+   "RHB": 122,
+   "hem_z_front": -66,
+   "hem_z_side_back": -72,
+   "YMAX": 65.5
+  },
+  "silhouette_original_wh_mm": {
+   "v3.33": [
+    150.7,
+    119.9
+   ],
+   "v3.34": [
+    202.7,
+    131.6
+   ],
+   "photo": [
+    191.0,
+    145.4
+   ]
+  },
+  "silhouette_iou_original": {
+   "v3.33": 0.525,
+   "v3.34": 0.608
+  },
+  "hem_width_largest_component_mm": {
+   "v3.33": 124.2,
+   "v3.34": 134.8,
+   "photo": 191.0
+  },
+  "flare_ratio": {
+   "v3.33": 1.12,
+   "v3.34": 1.21,
+   "photo": 1.64
+  },
+  "petal_vol_cm3_total": {
+   "v3.33": 76.9,
+   "v3.34": 89.4
+  },
+  "wall_p2_mm": "1.08-1.37, <1.2 mm only at tips/edges (1.5-2.4 %)",
+  "extents_asm_mm": {
+   "x": [
+    -145.9,
+    103.9
+   ],
+   "abs_y": 124.6,
+   "z_min": -72
+  }
+ },
+ "arm_iou_bestfit": {
+  "v3.33": {
+   "front_L": 0.565,
+   "front_R": 0.552,
+   "original_L": 0.459,
+   "original_R": 0.536
+  },
+  "v3.34": {
+   "front_L": 0.597,
+   "front_R": 0.582,
+   "original_L": 0.471,
+   "original_R": 0.568
+  }
+ },
+ "arm_iou_rest": {
+  "v3.33": {
+   "front_L": 0.412,
+   "front_R": 0.406,
+   "original_L": 0.459,
+   "original_R": 0.409
+  },
+  "v3.34": {
+   "front_L": 0.452,
+   "front_R": 0.442,
+   "original_L": 0.471,
+   "original_R": 0.434
+  }
+ },
+ "mean_part_iou_aligned": {
+  "original": {
+   "v3.33": 0.492,
+   "v3.34": 0.493
+  },
+  "front": {
+   "v3.33": 0.428,
+   "v3.34": 0.453
+  }
+ },
+ "checks": {
+  "all_parts_watertight_single_body": true,
+  "servo_seat_overlap_mm3": {
+   "v3.34": 214.64,
+   "revC": 214.64
+  },
+  "elbow_gripper_sweep_hits": 0,
+  "shoulder_sweep_hits": "1 at -10 deg only (outside -5..84), = v3.33",
+  "arm_sweep": "0/162 (shell/kilt/head)",
+  "kilt_swing": {
+   "sim_gaits_v334r1": "0/1500 leg, 0 arm",
+   "gait120_single_leg": 12,
+   "gait120_both_legs": 1,
+   "arms_legs": 1,
+   "stance": 0,
+   "v3.33": {
+    "gait120_single_leg": 8,
+    "gait120_both_legs": 3,
+    "arms_legs": 1
+   }
+  },
+  "head_range_hb_check": {
+   "v3.33": 154,
+   "v3.34": 154,
+   "of": 315,
+   "pairs": "identical"
+  },
+  "head_x_upper_arm_exact": {
+   "v3.33": 121,
+   "v3.34": 121,
+   "sets": "identical"
+  },
+  "wig_arm_v334_wig_in_soft_limits": {
+   "rigid_30": 0,
+   "rigid_50": 0,
+   "t_only_50": 0
+  },
+  "wig_arm_v334_wig_raw_yaw_0_-45_45": {
+   "v3.34": "1 / 30-31 / 29-31",
+   "v3.33": "1 / 28-29 / 27-29"
+  },
+  "old_v330_fringe_raw": {
+   "v3.34": [
+    4,
+    25,
+    25
+   ],
+   "v3.33": [
+    4,
+    20,
+    20
+   ]
+  }
+ },
+ "mass": {
+  "total_kg": {
+   "v3.33": 2.7254,
+   "v3.34": 2.7528
+  },
+  "forearm_delta_g_per_side_vs_revC": {
+   "v3.33": 24.4,
+   "v3.34": 30.2
+  },
+  "kilt_trunk_delta_g": {
+   "v3.33": 17.65,
+   "v3.34": 33.39
+  }
+ },
+ "sim": {
+  "policy": "v334r1 (light retune of v333r1, walk_refine seed 35); eff gait = v333r1 eff",
+  "e_margin_mm": 34.0,
+  "head_pitch_peak_Nm": 0.808,
+  "head_pitch_stall_ratio": "~2.36x",
+  "max_speed_gait": "20/20 @ 0.208 m/s",
+  "eff_gait": "20/20 @ 0.156 m/s",
+  "heldout_seeds_6000_6019": "19/20 @ 0.207 (v333r1 on v3.34: 19/20 @ 0.187)",
+  "v333r1_unretuned_on_v334": "19/20 @ 0.194 + eff 20/20"
+ }
+}

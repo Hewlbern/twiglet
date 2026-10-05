@@ -1,0 +1,99 @@
+{
+ "info": {
+  "locks": 16,
+  "band": {
+   "TH0": 17.0,
+   "TH1": 28.0,
+   "T": 1.8
+  },
+  "parts_before_keep": 1,
+  "watertight": true,
+  "extents": [
+   196.8,
+   257.1,
+   168.1
+  ],
+  "volume_cm3": 201.8,
+  "sim_g": 120.6,
+  "moment_gmm": 3650,
+  "old_sim_g": 104.2,
+  "old_moment_gmm": 4103,
+  "eye_cover": {
+   "L": 0.067,
+   "R": 0.102
+  },
+  "eye_cover_v37": {
+   "L": 0.042,
+   "R": 0.042
+  }
+ },
+ "parts": {
+  "fringe": {
+   "file": "v313_head_fringe.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    243.7,
+    223.9,
+    187.5
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 201.8,
+   "est_g": 121,
+   "est_support_g": 22,
+   "est_hours": 8.9,
+   "overhang_cm2_over45": 30.5,
+   "colour": "yellow / blond PLA (matte) or PETG",
+   "orientation": "as exported (least-overhang orientation that fits the bed, found by search)",
+   "supports": "tree supports (build plate only) + brim, under the lowest lock edges",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 8 % gyroid, 4 top / 3 bottom layers, 0.4 mm nozzle",
+   "note": "one piece; glue to head_upper under the hat",
+   "mb": 1.8
+  },
+  "fringe_split_a": {
+   "file": "v313_head_fringe_split_a.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    221.8,
+    109.5,
+    162.3
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 103.8,
+   "est_g": 63,
+   "est_support_g": 11,
+   "est_hours": 4.6,
+   "overhang_cm2_over45": 7.5,
+   "colour": "yellow / blond PLA (matte) or PETG",
+   "orientation": "as exported (least-overhang orientation found by search)",
+   "supports": "tree supports (build plate only) under the lowest lock edges",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 8 % gyroid, 4 top / 3 bottom layers, 0.4 mm nozzle",
+   "note": "2-piece option (robot-left half): glue the halves at the mid-plane with 1 x 3 mm alignment pins (3 mm rod or doubled 1.75 mm filament, 12 mm long), then glue to head_upper",
+   "mb": 0.9
+  },
+  "fringe_split_b": {
+   "file": "v313_head_fringe_split_b.stl",
+   "watertight": true,
+   "bodies": 1,
+   "size_mm": [
+    91.9,
+    217.2,
+    163.2
+   ],
+   "fits_P1S": true,
+   "volume_cm3": 97.9,
+   "est_g": 59,
+   "est_support_g": 11,
+   "est_hours": 4.4,
+   "overhang_cm2_over45": 7.4,
+   "colour": "yellow / blond PLA (matte) or PETG",
+   "orientation": "as exported (least-overhang orientation found by search)",
+   "supports": "tree supports (build plate only) under the lowest lock edges",
+   "settings": "0.2 mm layers, 2 walls (0.8 mm), 8 % gyroid, 4 top / 3 bottom layers, 0.4 mm nozzle",
+   "note": "2-piece option (robot-right half): glue the halves at the mid-plane with 1 x 3 mm alignment pins (3 mm rod or doubled 1.75 mm filament, 12 mm long), then glue to head_upper",
+   "mb": 1.0
+  }
+ },
+ "settings": "0.2 mm layers, 2 walls (0.8 mm), 8 % gyroid, 4 top / 3 bottom layers, 0.4 mm nozzle"
+}

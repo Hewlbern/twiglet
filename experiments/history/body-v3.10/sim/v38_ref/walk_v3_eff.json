@@ -1,0 +1,170 @@
+{
+ "variant": "v3.2",
+ "source": "v3 gait params re-evaluated on the v3.2 model; max-speed gait locally refined by walk_refine.py (see walk_refine_v32.json)",
+ "best_params": {
+  "f": 2.5356,
+  "stride": 0.1744,
+  "lift": 0.231,
+  "sway": 0.1005,
+  "sway_ph": 0.1092,
+  "crouch": 0.3329,
+  "lean": 0.0072,
+  "kp_pitch": -0.8482,
+  "kd_pitch": -0.0626,
+  "kp_roll": -0.449,
+  "kd_roll": 0.0003,
+  "ank_off": -0.0689
+ },
+ "success_rate_randomized": 1.0,
+ "speed_mps_randomized_mean": 0.1318,
+ "nominal": {
+  "dx_10s": 1.394,
+  "dy": 0.035,
+  "yaw_deg": 0.0,
+  "fell": false
+ },
+ "torque_nominal": {
+  "left_hip_yaw": {
+   "peak": 0.379,
+   "rms": 0.094,
+   "p95": 0.177
+  },
+  "left_hip_roll": {
+   "peak": 0.882,
+   "rms": 0.471,
+   "p95": 0.802
+  },
+  "left_hip_pitch": {
+   "peak": 1.91,
+   "rms": 1.136,
+   "p95": 1.91
+  },
+  "left_knee": {
+   "peak": 1.91,
+   "rms": 0.854,
+   "p95": 1.668
+  },
+  "left_ankle": {
+   "peak": 1.91,
+   "rms": 1.059,
+   "p95": 1.798
+  },
+  "right_hip_yaw": {
+   "peak": 0.3,
+   "rms": 0.085,
+   "p95": 0.169
+  },
+  "right_hip_roll": {
+   "peak": 0.898,
+   "rms": 0.476,
+   "p95": 0.803
+  },
+  "right_hip_pitch": {
+   "peak": 1.91,
+   "rms": 1.138,
+   "p95": 1.91
+  },
+  "right_knee": {
+   "peak": 1.91,
+   "rms": 0.858,
+   "p95": 1.669
+  },
+  "right_ankle": {
+   "peak": 1.91,
+   "rms": 1.058,
+   "p95": 1.801
+  },
+  "head_pitch": {
+   "peak": 0.398,
+   "rms": 0.246,
+   "p95": 0.341
+  },
+  "head_yaw": {
+   "peak": 0.122,
+   "rms": 0.051,
+   "p95": 0.089
+  },
+  "head_roll": {
+   "peak": 0.278,
+   "rms": 0.152,
+   "p95": 0.208
+  },
+  "shoulder_L": {
+   "peak": 0.011,
+   "rms": 0.006,
+   "p95": 0.009
+  },
+  "elbow_L": {
+   "peak": 0.441,
+   "rms": 0.038,
+   "p95": 0.016
+  },
+  "gripper_L": {
+   "peak": 0.0,
+   "rms": 0.0,
+   "p95": 0.0
+  },
+  "shoulder_R": {
+   "peak": 0.016,
+   "rms": 0.007,
+   "p95": 0.009
+  },
+  "elbow_R": {
+   "peak": 0.441,
+   "rms": 0.039,
+   "p95": 0.018
+  },
+  "gripper_R": {
+   "peak": 0.0,
+   "rms": 0.0,
+   "p95": 0.0
+  }
+ },
+ "torque_peak_over_randomized": {
+  "elbow_L": 0.441,
+  "elbow_R": 0.441,
+  "gripper_L": 0.0,
+  "gripper_R": 0.0,
+  "head_pitch": 0.502,
+  "head_roll": 0.341,
+  "head_yaw": 0.16,
+  "left_ankle": 1.91,
+  "left_hip_pitch": 1.91,
+  "left_hip_roll": 1.103,
+  "left_hip_yaw": 0.475,
+  "left_knee": 1.91,
+  "right_ankle": 1.91,
+  "right_hip_pitch": 1.91,
+  "right_hip_roll": 1.181,
+  "right_hip_yaw": 0.374,
+  "right_knee": 1.91,
+  "shoulder_L": 0.029,
+  "shoulder_R": 0.028
+ },
+ "torque_rms_mean_randomized": {
+  "elbow_L": 0.039,
+  "elbow_R": 0.039,
+  "gripper_L": 0.0,
+  "gripper_R": 0.0,
+  "head_pitch": 0.247,
+  "head_roll": 0.142,
+  "head_yaw": 0.041,
+  "left_ankle": 0.978,
+  "left_hip_pitch": 1.099,
+  "left_hip_roll": 0.414,
+  "left_hip_yaw": 0.084,
+  "left_knee": 0.832,
+  "right_ankle": 0.979,
+  "right_hip_pitch": 1.099,
+  "right_hip_roll": 0.421,
+  "right_hip_yaw": 0.082,
+  "right_knee": 0.835,
+  "shoulder_L": 0.008,
+  "shoulder_R": 0.009
+ },
+ "bus_current_A_mean": 10.89,
+ "limits": {
+  "stall_Nm": 1.91,
+  "rated_continuous_Nm": 0.49
+ }
+}

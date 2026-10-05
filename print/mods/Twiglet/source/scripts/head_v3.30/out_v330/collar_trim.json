@@ -1,0 +1,60 @@
+{
+ "chin_collar_L": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 35073
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 0,
+  "stl_hist": {
+   "2": 37221
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 24814,
+  "vol_cm3": 8.121,
+  "vol_mem_cm3": 8.121,
+  "ok": true,
+  "vol_before_cm3": 10.329
+ },
+ "chin_collar_R": {
+  "steps": [
+   [
+    "weld",
+    {
+     "2": 35305
+    }
+   ],
+   [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  ],
+  "dropped_components": 0,
+  "stl_hist": {
+   "2": 37365
+  },
+  "stl_nonmanifold_verts": 0,
+  "stl_bodies": 1,
+  "faces": 24910,
+  "vol_cm3": 8.125,
+  "vol_mem_cm3": 8.125,
+  "ok": true,
+  "vol_before_cm3": 10.331
+ }
+}

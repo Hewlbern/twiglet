@@ -1,0 +1,1638 @@
+{
+ "head_range": {
+  "v331_contact_poses": 153,
+  "v332_contact_poses": 153,
+  "poses": 315,
+  "neutral_gaps_lt3mm": []
+ },
+ "arm_sweep_soft_limits": {
+  "v331": {
+   "shell": 0,
+   "kilt": 0,
+   "head": 0,
+   "poses": 162
+  },
+  "v332": {
+   "shell": 0,
+   "kilt": 0,
+   "head": 0,
+   "poses": 162
+  }
+ },
+ "wig_arm_sweep": {
+  "v331": {
+   "wig_arm_sweep_yaw_0": {
+    "poses": 156,
+    "hair_contacts": 0
+   },
+   "wig_arm_sweep_yaw_-45": {
+    "poses": 156,
+    "hair_contacts": 7
+   },
+   "wig_arm_sweep_yaw_45": {
+    "poses": 156,
+    "hair_contacts": 7
+   }
+  },
+  "v332": {
+   "wig_arm_sweep_yaw_0": {
+    "poses": 156,
+    "hair_contacts": 2
+   },
+   "wig_arm_sweep_yaw_-45": {
+    "poses": 156,
+    "hair_contacts": 9
+   },
+   "wig_arm_sweep_yaw_45": {
+    "poses": 156,
+    "hair_contacts": 9
+   }
+  },
+  "hits_inside_arm_soft_limits": {
+   "v331": 0,
+   "v332": 0
+  }
+ },
+ "kilt_swing": {
+  "v331": {
+   "sim_gaits": {
+    "poses": 1500,
+    "leg_contacts": 0,
+    "arm_contacts": 0,
+    "per_part": {},
+    "examples": []
+   },
+   "gait120_single_leg": {
+    "poses": 120,
+    "leg_contacts": 7,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 6,
+     "00": 1,
+     "01": 5
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ],
+     [
+      [
+       "foot_assembly_2",
+       [
+        "00",
+        "01"
+       ]
+      ]
+     ]
+    ]
+   },
+   "gait120_both_legs": {
+    "poses": 120,
+    "leg_contacts": 1,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 1
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ]
+    ]
+   },
+   "gait80_arms_moving": {
+    "poses": 80,
+    "leg_contacts": 1,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 1
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ]
+    ]
+   },
+   "single_leg_stance": {
+    "poses": 14,
+    "leg_contacts": 0,
+    "arm_contacts": 0,
+    "per_part": {},
+    "examples": []
+   }
+  },
+  "v332": {
+   "sim_gaits": {
+    "poses": 1500,
+    "leg_contacts": 0,
+    "arm_contacts": 0,
+    "per_part": {},
+    "examples": []
+   },
+   "gait120_single_leg": {
+    "poses": 120,
+    "leg_contacts": 10,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 7,
+     "00": 2,
+     "03": 1,
+     "04": 1,
+     "01": 5
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ],
+     [
+      [
+       "foot_assembly_2",
+       [
+        "00"
+       ]
+      ]
+     ]
+    ]
+   },
+   "gait120_both_legs": {
+    "poses": 120,
+    "leg_contacts": 2,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 2
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ],
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ]
+    ]
+   },
+   "gait80_arms_moving": {
+    "poses": 80,
+    "leg_contacts": 1,
+    "arm_contacts": 0,
+    "per_part": {
+     "02": 1
+    },
+    "examples": [
+     [
+      [
+       "foot_assembly",
+       [
+        "02"
+       ]
+      ]
+     ]
+    ]
+   },
+   "single_leg_stance": {
+    "poses": 14,
+    "leg_contacts": 0,
+    "arm_contacts": 0,
+    "per_part": {},
+    "examples": []
+   }
+  }
+ },
+ "parts_check": {
+  "gripper_housing_L": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 47.98,
+   "bbox": [
+    29.1,
+    56.6,
+    88.4
+   ],
+   "walls_new": {
+    "p0_5": 0.55,
+    "p2": 1.58,
+    "median": 7.71,
+    "pct_below_1p2": 1.23
+   },
+   "vol_old_cm3": 24.66,
+   "walls_old": {
+    "p0_5": 1.58,
+    "p2": 1.58,
+    "median": 6.65,
+    "pct_below_1p2": 0.0
+   },
+   "rest_overlap_mm3_old_new": {
+    "s32_gripper_L": [
+     214.64,
+     214.64
+    ],
+    "s32horn_gripper_L": [
+     0.0,
+     0.0
+    ],
+    "forearm_L": [
+     0.0,
+     0.0
+    ],
+    "elbow_sleeve_L": [
+     0.0,
+     0.0
+    ],
+    "s32_elbow_L": [
+     0.0,
+     0.0
+    ],
+    "finger_moving_L": [
+     0.0,
+     0.02
+    ]
+   }
+  },
+  "finger_moving_L": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 4.68,
+   "bbox": [
+    19.0,
+    23.3,
+    69.8
+   ],
+   "walls_new": {
+    "p0_5": 2.14,
+    "p2": 2.98,
+    "median": 6.36,
+    "pct_below_1p2": 0.25
+   },
+   "vol_old_cm3": 4.45,
+   "walls_old": {
+    "p0_5": 2.51,
+    "p2": 2.98,
+    "median": 6.44,
+    "pct_below_1p2": 0.25
+   },
+   "rest_overlap_mm3_old_new": {
+    "s32_gripper_L": [
+     0.0,
+     0.0
+    ],
+    "forearm_L": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "boot_L": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 54.0,
+   "bbox": [
+    134.6,
+    68.6,
+    37.7
+   ],
+   "walls_new": {
+    "p0_5": 0.84,
+    "p2": 1.36,
+    "median": 1.53,
+    "pct_below_1p2": 1.5
+   },
+   "vol_old_cm3": 41.94,
+   "walls_old": {
+    "p0_5": 1.0,
+    "p2": 1.46,
+    "median": 1.48,
+    "pct_below_1p2": 1.12
+   },
+   "rest_overlap_mm3_old_new": {
+    "foot_assembly__foot_top": [
+     0.0,
+     0.0
+    ],
+    "foot_assembly__foot_side": [
+     0.0,
+     0.0
+    ],
+    "foot_assembly__foot_bottom_pla": [
+     0.0,
+     0.0
+    ],
+    "foot_assembly__foot_bottom_tpu": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "shin_cover_front_L": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.57,
+   "bbox": [
+    28.0,
+    62.0,
+    37.2
+   ],
+   "walls_new": {
+    "p0_5": 0.12,
+    "p2": 0.83,
+    "median": 1.98,
+    "pct_below_1p2": 4.14
+   },
+   "vol_old_cm3": 5.47,
+   "walls_old": {
+    "p0_5": 0.27,
+    "p2": 0.83,
+    "median": 1.99,
+    "pct_below_1p2": 4.21
+   },
+   "rest_overlap_mm3_old_new": {
+    "knee_and_ankle_assembly_2__wj-wk00-0123middlecase_56": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__wj-wk00-0124bottomcase_45": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__wj-wk00-0122topcabinetcase_95": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__drive_palonier": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__passive_palonier": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__leg_spacer": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__v3_left_knee_to_ankle_left_sheet": [
+     0.05,
+     0.05
+    ],
+    "knee_and_ankle_assembly_2__v3_left_knee_to_ankle_right_sheet": [
+     0.61,
+     0.61
+    ],
+    "boot_cuff_L": [
+     9.55,
+     9.72
+    ]
+   }
+  },
+  "shin_cover_back_L": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.47,
+   "bbox": [
+    25.2,
+    61.1,
+    37.3
+   ],
+   "walls_new": {
+    "p0_5": 0.11,
+    "p2": 0.92,
+    "median": 1.73,
+    "pct_below_1p2": 7.19
+   },
+   "vol_old_cm3": 5.6,
+   "walls_old": {
+    "p0_5": 0.29,
+    "p2": 0.95,
+    "median": 1.74,
+    "pct_below_1p2": 5.85
+   },
+   "rest_overlap_mm3_old_new": {
+    "knee_and_ankle_assembly_2__wj-wk00-0123middlecase_56": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__wj-wk00-0124bottomcase_45": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__wj-wk00-0122topcabinetcase_95": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__drive_palonier": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__passive_palonier": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__leg_spacer": [
+     0.0,
+     0.0
+    ],
+    "knee_and_ankle_assembly_2__v3_left_knee_to_ankle_left_sheet": [
+     0.99,
+     0.99
+    ],
+    "knee_and_ankle_assembly_2__v3_left_knee_to_ankle_right_sheet": [
+     0.67,
+     0.67
+    ],
+    "boot_cuff_L": [
+     4.13,
+     4.1
+    ]
+   }
+  },
+  "boot_R": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 54.02,
+   "bbox": [
+    134.6,
+    68.6,
+    37.7
+   ],
+   "walls_new": {
+    "p0_5": 0.75,
+    "p2": 1.36,
+    "median": 1.52,
+    "pct_below_1p2": 1.52
+   }
+  },
+  "gripper_housing_R": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 47.98,
+   "bbox": [
+    29.1,
+    56.6,
+    88.4
+   ],
+   "walls_new": {
+    "p0_5": 0.74,
+    "p2": 1.58,
+    "median": 7.79,
+    "pct_below_1p2": 1.18
+   }
+  },
+  "finger_moving_R": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 4.68,
+   "bbox": [
+    19.0,
+    23.3,
+    69.8
+   ],
+   "walls_new": {
+    "p0_5": 2.24,
+    "p2": 2.98,
+    "median": 6.34,
+    "pct_below_1p2": 0.23
+   }
+  },
+  "shin_cover_front_R": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.51,
+   "bbox": [
+    28.0,
+    61.1,
+    37.2
+   ],
+   "walls_new": {
+    "p0_5": 0.07,
+    "p2": 0.6,
+    "median": 1.98,
+    "pct_below_1p2": 4.75
+   }
+  },
+  "shin_cover_back_R": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.42,
+   "bbox": [
+    25.1,
+    61.2,
+    37.2
+   ],
+   "walls_new": {
+    "p0_5": 0.13,
+    "p2": 0.93,
+    "median": 1.73,
+    "pct_below_1p2": 7.35
+   }
+  },
+  "chest_vine": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 0.19,
+   "bbox": [
+    8.6,
+    16.5,
+    47.2
+   ],
+   "walls_new": {
+    "p0_5": 0.57,
+    "p2": 0.96,
+    "median": 1.78,
+    "pct_below_1p2": 5.25
+   }
+  },
+  "kilt_petal_00": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.81,
+   "bbox": [
+    49.2,
+    58.0,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.88,
+    "p2": 1.24,
+    "median": 1.38,
+    "pct_below_1p2": 1.07
+   }
+  },
+  "kilt_petal_01": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 8.7,
+   "bbox": [
+    32.6,
+    63.6,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.44,
+    "p2": 1.34,
+    "median": 1.67,
+    "pct_below_1p2": 1.37
+   }
+  },
+  "kilt_petal_02": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 7.81,
+   "bbox": [
+    49.3,
+    57.9,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.94,
+    "p2": 1.24,
+    "median": 1.38,
+    "pct_below_1p2": 1.05
+   }
+  },
+  "kilt_petal_03": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.64,
+   "bbox": [
+    53.1,
+    37.7,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.48,
+    "p2": 1.25,
+    "median": 1.43,
+    "pct_below_1p2": 1.43
+   }
+  },
+  "kilt_petal_04": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.62,
+   "bbox": [
+    53.9,
+    47.5,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.91,
+    "p2": 1.27,
+    "median": 1.4,
+    "pct_below_1p2": 0.68
+   }
+  },
+  "kilt_petal_05": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.84,
+   "bbox": [
+    45.4,
+    54.4,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.35,
+    "p2": 1.23,
+    "median": 1.43,
+    "pct_below_1p2": 1.67
+   }
+  },
+  "kilt_petal_06": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.98,
+   "bbox": [
+    32.7,
+    56.3,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.48,
+    "p2": 1.23,
+    "median": 1.44,
+    "pct_below_1p2": 1.58
+   }
+  },
+  "kilt_petal_07": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.84,
+   "bbox": [
+    45.5,
+    54.4,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.32,
+    "p2": 1.16,
+    "median": 1.43,
+    "pct_below_1p2": 2.17
+   }
+  },
+  "kilt_petal_08": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.62,
+   "bbox": [
+    53.9,
+    47.2,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.59,
+    "p2": 1.26,
+    "median": 1.4,
+    "pct_below_1p2": 1.02
+   }
+  },
+  "kilt_petal_09": {
+   "watertight": true,
+   "bodies": 1,
+   "vol_cm3": 6.64,
+   "bbox": [
+    53.1,
+    37.6,
+    100.3
+   ],
+   "walls_new": {
+    "p0_5": 0.67,
+    "p2": 1.28,
+    "median": 1.44,
+    "pct_below_1p2": 1.0
+   }
+  },
+  "gripper_sweep_overlap_mm3": {
+   "old": {
+    "-10": 2425.73,
+    "0": 0.0,
+    "10": 0.0,
+    "20": 0.0,
+    "30": 0.0,
+    "40": 0.0,
+    "50": 0.0,
+    "60": 0.0
+   },
+   "new": {
+    "-10": 2652.66,
+    "0": 0.02,
+    "10": 0.0,
+    "20": 0.0,
+    "30": 0.0,
+    "40": 0.0,
+    "50": 0.0,
+    "60": 0.0
+   }
+  },
+  "knee_sweep_overlap_mm3(shin blocks vs thigh servo/spacer)": {
+   "old": {
+    "0": 0.0,
+    "15": 0.0,
+    "30": 0.0,
+    "45": 0.0,
+    "60": 0.0,
+    "75": 0.0,
+    "90": 0.0,
+    "-15": 0.0,
+    "-30": 0.0
+   },
+   "new": {
+    "0": 0.0,
+    "15": 0.0,
+    "30": 0.0,
+    "45": 0.0,
+    "60": 0.0,
+    "75": 0.0,
+    "90": 0.0,
+    "-15": 0.0,
+    "-30": 0.0
+   }
+  },
+  "ankle_sweep_overlap_mm3(foot+boot vs shin blocks/servo/cuff)": {
+   "old": {
+    "-45": 0.0,
+    "-30": 0.0,
+    "-20": 0.0,
+    "-10": 0.0,
+    "10": 0.0,
+    "20": 0.0,
+    "30": 0.0,
+    "45": 0.0
+   },
+   "new": {
+    "-45": 0.0,
+    "-30": 0.0,
+    "-20": 0.0,
+    "-10": 0.0,
+    "10": 0.0,
+    "20": 0.0,
+    "30": 0.0,
+    "45": 0.0
+   }
+  }
+ },
+ "photo_iou": {
+  "v331": {
+   "original": {
+    "torso": {
+     "iou_aligned": 0.18,
+     "iou_raw": 0.088,
+     "photo_wh_mm": [
+      113.6,
+      75.3
+     ],
+     "model_wh_mm": [
+      74.3,
+      55.2
+     ],
+     "centroid_off_mm": [
+      -8.6,
+      -36.6
+     ],
+     "area_ratio": 0.182
+    },
+    "kilt": {
+     "iou_aligned": 0.517,
+     "iou_raw": 0.083,
+     "photo_wh_mm": [
+      191.0,
+      145.4
+     ],
+     "model_wh_mm": [
+      144.3,
+      109.3
+     ],
+     "centroid_off_mm": [
+      -39.5,
+      -75.2
+     ],
+     "area_ratio": 0.523
+    },
+    "arm_R": {
+     "iou_aligned": 0.292,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      138.0,
+      173.0
+     ],
+     "model_wh_mm": [
+      54.1,
+      108.2
+     ],
+     "centroid_off_mm": [
+      -14.2,
+      -80.0
+     ],
+     "area_ratio": 0.303
+    },
+    "arm_L": {
+     "iou_aligned": 0.391,
+     "iou_raw": 0.066,
+     "photo_wh_mm": [
+      113.6,
+      217.6
+     ],
+     "model_wh_mm": [
+      55.2,
+      143.3
+     ],
+     "centroid_off_mm": [
+      -54.0,
+      -68.2
+     ],
+     "area_ratio": 0.427
+    },
+    "block_R": {
+     "iou_aligned": 0.416,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      60.5,
+      59.4
+     ],
+     "model_wh_mm": [
+      59.4,
+      47.8
+     ],
+     "centroid_off_mm": [
+      -20.9,
+      -96.7
+     ],
+     "area_ratio": 0.436
+    },
+    "block_L": {
+     "iou_aligned": 0.451,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      58.4,
+      55.2
+     ],
+     "model_wh_mm": [
+      60.5,
+      43.5
+     ],
+     "centroid_off_mm": [
+      -43.1,
+      -97.8
+     ],
+     "area_ratio": 0.49
+    },
+    "boot_R": {
+     "iou_aligned": 0.641,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      102.9,
+      65.8
+     ],
+     "model_wh_mm": [
+      77.5,
+      89.1
+     ],
+     "centroid_off_mm": [
+      -24.5,
+      -85.8
+     ],
+     "area_ratio": 0.797
+    },
+    "boot_L": {
+     "iou_aligned": 0.661,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      86.0,
+      81.7
+     ],
+     "model_wh_mm": [
+      76.4,
+      90.2
+     ],
+     "centroid_off_mm": [
+      -61.8,
+      -87.8
+     ],
+     "area_ratio": 0.719
+    },
+    "_mean_iou_aligned": 0.444
+   },
+   "front": {
+    "torso": {
+     "iou_aligned": 0.466,
+     "iou_raw": 0.203,
+     "photo_wh_mm": [
+      102.6,
+      95.8
+     ],
+     "model_wh_mm": [
+      101.8,
+      56.9
+     ],
+     "centroid_off_mm": [
+      -5.3,
+      -47.3
+     ],
+     "area_ratio": 0.467
+    },
+    "arm_R": {
+     "iou_aligned": 0.367,
+     "iou_raw": 0.324,
+     "photo_wh_mm": [
+      89.9,
+      119.8
+     ],
+     "model_wh_mm": [
+      70.4,
+      168.5
+     ],
+     "centroid_off_mm": [
+      6.1,
+      -2.5
+     ],
+     "area_ratio": 0.718
+    },
+    "arm_L": {
+     "iou_aligned": 0.363,
+     "iou_raw": 0.252,
+     "photo_wh_mm": [
+      83.9,
+      119.8
+     ],
+     "model_wh_mm": [
+      72.6,
+      169.2
+     ],
+     "centroid_off_mm": [
+      -17.8,
+      -2.4
+     ],
+     "area_ratio": 0.678
+    },
+    "_mean_iou_aligned": 0.399
+   }
+  },
+  "v332": {
+   "original": {
+    "torso": {
+     "iou_aligned": 0.18,
+     "iou_raw": 0.088,
+     "photo_wh_mm": [
+      113.6,
+      75.3
+     ],
+     "model_wh_mm": [
+      74.3,
+      55.2
+     ],
+     "centroid_off_mm": [
+      -8.6,
+      -36.6
+     ],
+     "area_ratio": 0.182
+    },
+    "kilt": {
+     "iou_aligned": 0.569,
+     "iou_raw": 0.111,
+     "photo_wh_mm": [
+      191.0,
+      145.4
+     ],
+     "model_wh_mm": [
+      144.3,
+      118.9
+     ],
+     "centroid_off_mm": [
+      -40.4,
+      -71.3
+     ],
+     "area_ratio": 0.581
+    },
+    "arm_R": {
+     "iou_aligned": 0.369,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      138.0,
+      173.0
+     ],
+     "model_wh_mm": [
+      58.4,
+      113.6
+     ],
+     "centroid_off_mm": [
+      -15.0,
+      -77.4
+     ],
+     "area_ratio": 0.387
+    },
+    "arm_L": {
+     "iou_aligned": 0.423,
+     "iou_raw": 0.086,
+     "photo_wh_mm": [
+      113.6,
+      217.6
+     ],
+     "model_wh_mm": [
+      56.2,
+      149.6
+     ],
+     "centroid_off_mm": [
+      -53.3,
+      -63.4
+     ],
+     "area_ratio": 0.504
+    },
+    "block_R": {
+     "iou_aligned": 0.477,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      60.5,
+      59.4
+     ],
+     "model_wh_mm": [
+      58.4,
+      49.9
+     ],
+     "centroid_off_mm": [
+      -22.1,
+      -93.5
+     ],
+     "area_ratio": 0.496
+    },
+    "block_L": {
+     "iou_aligned": 0.535,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      58.4,
+      55.2
+     ],
+     "model_wh_mm": [
+      60.5,
+      48.8
+     ],
+     "centroid_off_mm": [
+      -43.3,
+      -95.1
+     ],
+     "area_ratio": 0.581
+    },
+    "boot_R": {
+     "iou_aligned": 0.666,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      102.9,
+      65.8
+     ],
+     "model_wh_mm": [
+      88.1,
+      93.4
+     ],
+     "centroid_off_mm": [
+      -25.9,
+      -83.4
+     ],
+     "area_ratio": 0.879
+    },
+    "boot_L": {
+     "iou_aligned": 0.722,
+     "iou_raw": 0.0,
+     "photo_wh_mm": [
+      86.0,
+      81.7
+     ],
+     "model_wh_mm": [
+      84.9,
+      95.5
+     ],
+     "centroid_off_mm": [
+      -61.3,
+      -85.2
+     ],
+     "area_ratio": 0.812
+    },
+    "_mean_iou_aligned": 0.493
+   },
+   "front": {
+    "torso": {
+     "iou_aligned": 0.466,
+     "iou_raw": 0.203,
+     "photo_wh_mm": [
+      102.6,
+      95.8
+     ],
+     "model_wh_mm": [
+      101.8,
+      56.9
+     ],
+     "centroid_off_mm": [
+      -5.3,
+      -47.3
+     ],
+     "area_ratio": 0.467
+    },
+    "arm_R": {
+     "iou_aligned": 0.418,
+     "iou_raw": 0.381,
+     "photo_wh_mm": [
+      89.9,
+      119.8
+     ],
+     "model_wh_mm": [
+      71.1,
+      176.0
+     ],
+     "centroid_off_mm": [
+      4.5,
+      4.5
+     ],
+     "area_ratio": 0.86
+    },
+    "arm_L": {
+     "iou_aligned": 0.421,
+     "iou_raw": 0.298,
+     "photo_wh_mm": [
+      83.9,
+      119.8
+     ],
+     "model_wh_mm": [
+      74.1,
+      176.7
+     ],
+     "centroid_off_mm": [
+      -16.2,
+      4.8
+     ],
+     "area_ratio": 0.818
+    },
+    "_mean_iou_aligned": 0.435
+   }
+  }
+ },
+ "sim_mass_deltas": {
+  "gripper_housing_L": {
+   "body": "fore_arm_L",
+   "dg": 28.92,
+   "at_mm": [
+    4.3,
+    90.7,
+    -35.4
+   ]
+  },
+  "finger_moving_L": {
+   "body": "finger_L",
+   "dg": 0.28,
+   "at_mm": [
+    7.0,
+    135.6,
+    -172.4
+   ]
+  },
+  "boot_L": {
+   "body": "foot_assembly",
+   "dg": 14.96,
+   "at_mm": [
+    18.1,
+    60.8,
+    -202.3
+   ]
+  },
+  "shin_cover_front_L": {
+   "body": "knee_and_ankle_assembly_2",
+   "dg": 1.36,
+   "at_mm": [
+    -0.6,
+    50.7,
+    -147.7
+   ]
+  },
+  "shin_cover_back_L": {
+   "body": "knee_and_ankle_assembly_2",
+   "dg": 1.08,
+   "at_mm": [
+    -34.4,
+    51.4,
+    -147.8
+   ]
+  },
+  "gripper_housing_R": {
+   "body": "fore_arm_R",
+   "dg": 28.92,
+   "at_mm": [
+    4.3,
+    -90.7,
+    -35.4
+   ]
+  },
+  "finger_moving_R": {
+   "body": "finger_R",
+   "dg": 0.28,
+   "at_mm": [
+    7.0,
+    -135.6,
+    -172.4
+   ]
+  },
+  "boot_R": {
+   "body": "foot_assembly_2",
+   "dg": 14.96,
+   "at_mm": [
+    18.1,
+    -61.0,
+    -202.3
+   ]
+  },
+  "shin_cover_front_R": {
+   "body": "knee_and_ankle_assembly_4",
+   "dg": 1.34,
+   "at_mm": [
+    -0.5,
+    -51.3,
+    -147.7
+   ]
+  },
+  "shin_cover_back_R": {
+   "body": "knee_and_ankle_assembly_4",
+   "dg": 1.07,
+   "at_mm": [
+    -34.5,
+    -50.7,
+    -147.9
+   ]
+  },
+  "kilt_petal_00": {
+   "body": "trunk_assembly",
+   "dg": 1.17,
+   "at_mm": [
+    54.0,
+    -44.4,
+    -53.0
+   ]
+  },
+  "kilt_petal_01": {
+   "body": "trunk_assembly",
+   "dg": 1.29,
+   "at_mm": [
+    61.9,
+    -0.1,
+    -52.6
+   ]
+  },
+  "kilt_petal_02": {
+   "body": "trunk_assembly",
+   "dg": 1.17,
+   "at_mm": [
+    54.1,
+    44.3,
+    -53.0
+   ]
+  },
+  "kilt_petal_03": {
+   "body": "trunk_assembly",
+   "dg": 1.0,
+   "at_mm": [
+    -41.6,
+    77.6,
+    -53.1
+   ]
+  },
+  "kilt_petal_04": {
+   "body": "trunk_assembly",
+   "dg": 0.99,
+   "at_mm": [
+    -73.1,
+    62.3,
+    -53.2
+   ]
+  },
+  "kilt_petal_05": {
+   "body": "trunk_assembly",
+   "dg": 1.05,
+   "at_mm": [
+    -97.2,
+    35.8,
+    -53.1
+   ]
+  },
+  "kilt_petal_06": {
+   "body": "trunk_assembly",
+   "dg": 1.05,
+   "at_mm": [
+    -102.3,
+    0.1,
+    -53.3
+   ]
+  },
+  "kilt_petal_07": {
+   "body": "trunk_assembly",
+   "dg": 1.05,
+   "at_mm": [
+    -97.3,
+    -35.7,
+    -53.1
+   ]
+  },
+  "kilt_petal_08": {
+   "body": "trunk_assembly",
+   "dg": 0.99,
+   "at_mm": [
+    -73.3,
+    -62.2,
+    -53.2
+   ]
+  },
+  "kilt_petal_09": {
+   "body": "trunk_assembly",
+   "dg": 1.0,
+   "at_mm": [
+    -41.8,
+    -77.6,
+    -53.1
+   ]
+  },
+  "chest_vine": {
+   "body": "trunk_assembly",
+   "dg": 0.24,
+   "at_mm": [
+    30.5,
+    3.6,
+    69.2
+   ]
+  },
+  "_total_kg": 2.7142,
+  "_base_total_kg": 2.61,
+  "_by_body_g": {
+   "fore_arm_L": 28.92,
+   "finger_L": 0.28,
+   "foot_assembly": 14.96,
+   "knee_and_ankle_assembly_2": 2.44,
+   "fore_arm_R": 28.92,
+   "finger_R": 0.28,
+   "foot_assembly_2": 14.96,
+   "knee_and_ankle_assembly_4": 2.41,
+   "trunk_assembly": 11.0
+  }
+ },
+ "sims": {
+  "base_revC": {
+   "e_margin_mm": 33.1,
+   "head_pitch_peak_Nm": 0.814,
+   "head_pitch_stall_over_peak": 2.35,
+   "total_mass_kg": 2.61,
+   "max_speed_gait_succ": 0.95,
+   "max_speed_mps": 0.2095,
+   "eff_gait_succ": 1.0,
+   "eff_mps": 0.1607
+  },
+  "v332_unretuned": {
+   "e_margin_mm": 34.7,
+   "head_pitch_peak_Nm": 0.808,
+   "head_pitch_stall_over_peak": 2.36,
+   "total_mass_kg": 2.714,
+   "max_speed_gait_succ": 0.85,
+   "max_speed_mps": 0.196,
+   "eff_gait_succ": 1.0,
+   "eff_mps": 0.1542
+  },
+  "v332_final_retuned": {
+   "e_margin_mm": 34.7,
+   "head_pitch_peak_Nm": 0.808,
+   "head_pitch_stall_over_peak": 2.36,
+   "total_mass_kg": 2.714,
+   "max_speed_gait_succ": 1.0,
+   "max_speed_mps": 0.1869,
+   "eff_gait_succ": 1.0,
+   "eff_mps": 0.1542
+  },
+  "option_neck40": {
+   "e_margin_mm": 34.4,
+   "head_pitch_peak_Nm": 0.808,
+   "head_pitch_stall_over_peak": 2.36,
+   "total_mass_kg": 2.754,
+   "max_speed_gait_succ": 0.65,
+   "max_speed_mps": 0.1818,
+   "eff_gait_succ": 0.95,
+   "eff_mps": 0.1508
+  },
+  "option_neck40_leg40_feasible": {
+   "e_margin_mm": 32.0,
+   "head_pitch_peak_Nm": 0.835,
+   "head_pitch_stall_over_peak": 2.29,
+   "total_mass_kg": 2.754,
+   "max_speed_gait_succ": 0.85,
+   "max_speed_mps": 0.1159,
+   "eff_gait_succ": 1.0,
+   "eff_mps": 0.0998
+  },
+  "option_neck40_leg40_2020_ref": {
+   "e_margin_mm": 34.5,
+   "head_pitch_peak_Nm": 0.841,
+   "head_pitch_stall_over_peak": 2.27,
+   "total_mass_kg": 2.754,
+   "max_speed_gait_succ": 1.0,
+   "max_speed_mps": 0.1541,
+   "eff_gait_succ": 1.0,
+   "eff_mps": 0.106
+  }
+ },
+ "sims_heldout_and_sensitivity": [
+  "sens s_noarm max-speed succ 0.95",
+  "sens s_armonly max-speed succ 0.9",
+  "heldout v332_revC_params params=walk_v3_best_rev_c.npy seeds6000-6019 succ 0.75 (15/20) speed 0.202",
+  "heldout v332_refine1 params=walk_v3_best_v332r1.npy seeds6000-6019 succ 0.80 (16/20) speed 0.194",
+  "heldout v332_refine2 params=walk_v3_best_v332r2.npy seeds6000-6019 succ 0.90 (18/20) speed 0.187",
+  "heldout base_revC_params params=walk_v3_best_rev_c.npy seeds6000-6019 succ 0.80 (16/20) speed 0.209"
+ ],
+ "print_layflat": {
+  "v332_boot_L.stl": {
+   "changed": true,
+   "tilt_deg": 0.663,
+   "hull_facet_mm2": 8980,
+   "bed_before_mm2": 65,
+   "bed_after_mm2": 2319,
+   "watertight": true
+  },
+  "v332_boot_R.stl": {
+   "changed": true,
+   "tilt_deg": 0.322,
+   "hull_facet_mm2": 8980,
+   "bed_before_mm2": 84,
+   "bed_after_mm2": 2319,
+   "watertight": true
+  },
+  "v332_chest_vine.stl": {
+   "changed": true,
+   "tilt_deg": 9.599,
+   "hull_facet_mm2": 128,
+   "bed_before_mm2": 0,
+   "bed_after_mm2": 0,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_finger_moving_L.stl": {
+   "changed": false,
+   "tilt_deg": 0.044,
+   "bed_mm2": 661
+  },
+  "v332_finger_moving_R.stl": {
+   "changed": true,
+   "tilt_deg": 0.084,
+   "hull_facet_mm2": 900,
+   "bed_before_mm2": 529,
+   "bed_after_mm2": 661,
+   "watertight": true
+  },
+  "v332_gripper_housing_L.stl": {
+   "changed": true,
+   "tilt_deg": 0.335,
+   "hull_facet_mm2": 1585,
+   "bed_before_mm2": 23,
+   "bed_after_mm2": 1451,
+   "watertight": true
+  },
+  "v332_gripper_housing_R.stl": {
+   "changed": true,
+   "tilt_deg": 0.075,
+   "hull_facet_mm2": 1585,
+   "bed_before_mm2": 988,
+   "bed_after_mm2": 1451,
+   "watertight": true
+  },
+  "v332_kilt_petal_00.stl": {
+   "changed": true,
+   "tilt_deg": 0.133,
+   "hull_facet_mm2": 229,
+   "bed_before_mm2": 20,
+   "bed_after_mm2": 31,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_01.stl": {
+   "changed": true,
+   "tilt_deg": 0.443,
+   "hull_facet_mm2": 58,
+   "bed_before_mm2": 31,
+   "bed_after_mm2": 31,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_02.stl": {
+   "changed": true,
+   "tilt_deg": 0.133,
+   "hull_facet_mm2": 229,
+   "bed_before_mm2": 20,
+   "bed_after_mm2": 31,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_03.stl": {
+   "changed": true,
+   "tilt_deg": 4.098,
+   "hull_facet_mm2": 53,
+   "bed_before_mm2": 28,
+   "bed_after_mm2": 14,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_04.stl": {
+   "changed": true,
+   "tilt_deg": 0.297,
+   "hull_facet_mm2": 80,
+   "bed_before_mm2": 28,
+   "bed_after_mm2": 28,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_05.stl": {
+   "changed": false,
+   "tilt_deg": 0.026,
+   "bed_mm2": 28,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_06.stl": {
+   "changed": true,
+   "tilt_deg": 4.145,
+   "hull_facet_mm2": 49,
+   "bed_before_mm2": 16,
+   "bed_after_mm2": 59,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_07.stl": {
+   "changed": false,
+   "tilt_deg": 0.031,
+   "bed_mm2": 29,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_08.stl": {
+   "changed": true,
+   "tilt_deg": 0.288,
+   "hull_facet_mm2": 81,
+   "bed_before_mm2": 28,
+   "bed_after_mm2": 28,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_kilt_petal_09.stl": {
+   "changed": true,
+   "tilt_deg": 4.099,
+   "hull_facet_mm2": 53,
+   "bed_before_mm2": 28,
+   "bed_after_mm2": 13,
+   "watertight": true,
+   "reverted": "kept the rev C / exported frame (petals print on their lip exactly as rev C; vine has no flat face)"
+  },
+  "v332_shin_cover_back_L.stl": {
+   "changed": true,
+   "tilt_deg": 0.197,
+   "hull_facet_mm2": 244,
+   "bed_before_mm2": 160,
+   "bed_after_mm2": 168,
+   "watertight": true
+  },
+  "v332_shin_cover_back_R.stl": {
+   "changed": true,
+   "tilt_deg": 0.198,
+   "hull_facet_mm2": 294,
+   "bed_before_mm2": 171,
+   "bed_after_mm2": 160,
+   "watertight": true
+  },
+  "v332_shin_cover_front_L.stl": {
+   "changed": true,
+   "tilt_deg": 0.197,
+   "hull_facet_mm2": 262,
+   "bed_before_mm2": 172,
+   "bed_after_mm2": 179,
+   "watertight": true
+  },
+  "v332_shin_cover_front_R.stl": {
+   "changed": true,
+   "tilt_deg": 0.198,
+   "hull_facet_mm2": 260,
+   "bed_before_mm2": 164,
+   "bed_after_mm2": 183,
+   "watertight": true
+  }
+ }
+}

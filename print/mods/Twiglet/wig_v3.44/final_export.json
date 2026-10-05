@@ -1,0 +1,37 @@
+{
+ "file": "print/mods/Twiglet/wig_v3.44/FINAL_WIG.stl",
+ "faces": 59984,
+ "mb": 3.0,
+ "open_edges": 0,
+ "nonmanifold_edges": 0,
+ "bodies": 1,
+ "watertight": true,
+ "winding_ok": true,
+ "volume_cm3": 624.9,
+ "full_res_volume_cm3": 624.85,
+ "size_mm": [
+  243.1,
+  246.4,
+  239.9
+ ],
+ "fits_P1S": true,
+ "support_column_cm3": 473,
+ "overhang_cm2": 212.2,
+ "orientation": "print-oriented like v3.30: crown axis tilted 38 deg from straight-down (least support volume of 6120 orientations searched), centred on the bed, z0 = bed",
+ "rotation_quat_xyzw": [
+  -0.872477,
+  0.366405,
+  0.072673,
+  0.315039
+ ],
+ "model_frame_ball_C": [
+  11.778533234056269,
+  -0.006384591059090009,
+  235.1220020925693
+ ],
+ "decimation_dev_mm": {
+  "p50": 0.006,
+  "p99": 0.031,
+  "max": 0.066
+ }
+}

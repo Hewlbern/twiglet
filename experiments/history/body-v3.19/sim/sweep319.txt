@@ -1,0 +1,6 @@
+0.03 e None 33.3 {'head_pitch': 0.755, 'head_ 2.54 0.197
+0.05 e None 30.2 {'head_pitch': 0.757, 'head_ 2.55 0.196
+0.08 e None 30.1 {'head_pitch': 0.77, 'head_y 2.564 0.196
+0.0 e None 30.0 {'head_pitch': 0.745, 'head_ 2.526 0.198
+0.04 e None 31.3 {'head_pitch': 0.754, 'head_ 2.545 0.197
+0.06 e None 31.8 {'head_pitch': 0.769, 'head_ 2.554 0.196

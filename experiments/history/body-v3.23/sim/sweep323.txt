@@ -1,0 +1,8 @@
+0.02 e None 23.8 {'head_pitch': 0.794, 'head_ "head_pitch": 0.202 
+0.02 e None 23.8 {'head_pitch': 0.794, 'head_ "head_pitch": 0.202 
+0.0 e None 30.5 {'head_pitch': 0.747, 'head_ "head_pitch": 0.203 
+0.01 e None 32.9 {'head_pitch': 0.764, 'head_ "head_pitch": 0.202 
+0.03 e None 21.5 {'head_pitch': 0.792, 'head_ "head_pitch": 0.202 
+0.04 e None 33.2 {'head_pitch': 0.797, 'head_ "head_pitch": 0.202 
+0.05 e None 30.4 {'head_pitch': 0.785, 'head_ "head_pitch": 0.202 
+0.06 e None 30.4 {'head_pitch': 0.813, 'head_ "head_pitch": 0.202 

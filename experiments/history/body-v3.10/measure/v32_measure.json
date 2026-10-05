@@ -1,0 +1,42 @@
+{
+ "v3.1": {
+  "height_straight_mm": 454.3,
+  "head_width_mm": 170.0,
+  "head_over_height": 0.374,
+  "shoulder_width_at_joint_mm": 153.0,
+  "head_over_shoulder": 1.111,
+  "span_incl_grippers_mm": 275.8,
+  "torso_width_mm": {
+   "28": 92.9,
+   "45": 94.9,
+   "60": 92.0,
+   "75": 87.9,
+   "86": 80.5
+  },
+  "kilt_top_z": 41.0,
+  "arm_splay_deg": 18.0
+ },
+ "v3.2": {
+  "height_straight_mm": 470.7,
+  "head_width_mm": 190.0,
+  "head_over_height": 0.404,
+  "shoulder_width_at_joint_mm": 161.3,
+  "head_over_shoulder": 1.178,
+  "span_incl_grippers_mm": 259.8,
+  "torso_width_mm": {
+   "28": 102.4,
+   "45": 97.9,
+   "60": 91.8,
+   "75": 85.6,
+   "86": 79.9
+  },
+  "kilt_top_z": 33.0,
+  "arm_splay_deg": 13.0
+ },
+ "photo": {
+  "head_over_height": 0.374,
+  "head_over_shoulder_raw": 1.12,
+  "head_over_shoulder_corrected": 1.09,
+  "note": "photo ratios measured with the ball only (head D 195 px = 170 mm); the hair/hat volume makes the head read larger than the ball in the photo"
+ }
+}

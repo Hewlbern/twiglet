@@ -1,0 +1,2 @@
+{'gripper_housing_L': 10, 'finger_moving_L': 4}
+[(0, 110, 60, 0, ['gripper_housing_L']), (0, 110, 60, 45, ['gripper_housing_L']), (-45, 80, 90, 0, ['gripper_housing_L', 'finger_moving_L']), (-45, 80, 90, 45, ['gripper_housing_L']), (-45, 100, 60, 0, ['gripper_housing_L', 'finger_moving_L']), (-45, 100, 60, 45, ['gripper_housing_L']), (-45, 110, 30, 45, ['finger_moving_L']), (-45, 110, 60, 0, ['gripper_housing_L', 'finger_moving_L']), (-45, 110, 60, 45, ['gripper_housing_L']), (45, 110, 60, 0, ['gripper_housing_L']), (45, 110, 60, 45, ['gripper_housing_L'])]

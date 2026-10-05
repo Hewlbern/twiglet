@@ -1,0 +1,53 @@
+{
+ "z166.5": {
+  "opening_area_cm2": 119.7,
+  "neck_area_cm2": 0.8,
+  "free_area_cm2": 118.8,
+  "min_gap_mm": 24.0,
+  "gap_behind_mm": 44.8
+ },
+ "z170.0": {
+  "opening_area_cm2": 131.5,
+  "neck_area_cm2": 0.0,
+  "free_area_cm2": 131.5,
+  "min_gap_mm": NaN,
+  "gap_behind_mm": NaN
+ },
+ "z177.0": {
+  "opening_area_cm2": 152.8,
+  "neck_area_cm2": 1.2,
+  "free_area_cm2": 151.6,
+  "min_gap_mm": 27.4,
+  "gap_behind_mm": 30.0
+ },
+ "raspberrypizerow.stl": {
+  "bounds": [
+   [
+    2.6,
+    31.9,
+    221.8
+   ],
+   [
+    68.5,
+    63.1,
+    225.9
+   ]
+  ],
+  "min_clear_mm": 0.0
+ },
+ "board.stl": {
+  "bounds": [
+   [
+    47.5,
+    -75.9,
+    224.3
+   ],
+   [
+    80.5,
+    -33.9,
+    225.9
+   ]
+  ],
+  "min_clear_mm": -1.0
+ }
+}

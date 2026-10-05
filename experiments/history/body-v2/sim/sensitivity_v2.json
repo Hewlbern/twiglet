@@ -1,0 +1,134 @@
+[
+ {
+  "label": "v2 as designed (Kp 12)",
+  "mass_kg": 2.419,
+  "lean": 0.2,
+  "stands": true,
+  "static_tilt_deg": 9.2,
+  "static_torque": {
+   "left_hip_pitch": 0.636,
+   "left_knee": 0.723,
+   "left_ankle": 0.433,
+   "neck_pitch": 0.337
+  },
+  "open_loop_window_mm": [
+   -36.4,
+   4.6
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.438,
+   "backward": 1.406,
+   "side": 0.969
+  }
+ },
+ {
+  "label": "head -100 g (thin-wall head A: 2 walls, 5 % infill)",
+  "mass_kg": 2.319,
+  "lean": 0.18,
+  "stands": true,
+  "static_tilt_deg": 7.9,
+  "static_torque": {
+   "left_hip_pitch": 0.535,
+   "left_knee": 0.622,
+   "left_ankle": 0.36,
+   "neck_pitch": 0.248
+  },
+  "open_loop_window_mm": [
+   -38.5,
+   8.7
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.531,
+   "backward": 1.219,
+   "side": 0.969
+  }
+ },
+ {
+  "label": "hips +25 mm forward under the torso",
+  "mass_kg": 2.419,
+  "lean": 0.07,
+  "stands": true,
+  "static_tilt_deg": 6.6,
+  "static_torque": {
+   "left_hip_pitch": 0.368,
+   "left_knee": 0.533,
+   "left_ankle": 0.344,
+   "neck_pitch": 0.291
+  },
+  "open_loop_window_mm": [
+   -44.5,
+   7.2
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.562,
+   "backward": 1.25,
+   "side": 1.031
+  }
+ },
+ {
+  "label": "hips +25 mm fwd AND head -100 g",
+  "mass_kg": 2.319,
+  "lean": 0.05,
+  "stands": true,
+  "static_tilt_deg": 5.5,
+  "static_torque": {
+   "left_hip_pitch": 0.293,
+   "left_knee": 0.456,
+   "left_ankle": 0.287,
+   "neck_pitch": 0.215
+  },
+  "open_loop_window_mm": [
+   -43.2,
+   11.6
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.625,
+   "backward": 1.094,
+   "side": 1.031
+  }
+ },
+ {
+  "label": "servo P gain x1.7 (Kp 20)",
+  "mass_kg": 2.419,
+  "lean": 0.2,
+  "stands": true,
+  "static_tilt_deg": 4.4,
+  "static_torque": {
+   "left_hip_pitch": 0.522,
+   "left_knee": 0.557,
+   "left_ankle": 0.248,
+   "neck_pitch": 0.258
+  },
+  "open_loop_window_mm": [
+   -36.4,
+   14.5
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.781,
+   "backward": 1.031,
+   "side": 1.156
+  }
+ },
+ {
+  "label": "arms 12 mm further back",
+  "mass_kg": 2.419,
+  "lean": 0.19,
+  "stands": true,
+  "static_tilt_deg": 9.0,
+  "static_torque": {
+   "left_hip_pitch": 0.614,
+   "left_knee": 0.708,
+   "left_ankle": 0.426,
+   "neck_pitch": 0.333
+  },
+  "open_loop_window_mm": [
+   -37.8,
+   3.2
+  ],
+  "push_Ns_no_ctrl": {
+   "forward": 0.438,
+   "backward": 1.406,
+   "side": 0.969
+  }
+ }
+]

@@ -1,0 +1,5 @@
+0 {'poses': 156, 'hair_contacts': 0}
+-45 {'poses': 156, 'hair_contacts': 7}
+45 {'poses': 156, 'hair_contacts': 7}
+ranges {'head_pitch': (-45, 45), 'head_yaw': (-160, 160), 'head_roll': (-30, 30)}
+{"ranges_deg": [[-45.0, 45.0], [-160.0, 160.0], [-30.0, 30.0]], "poses": 315, "wig_contacts": 4, "examples": [{"pitch": 45.0, "yaw": -120.0, "roll": -30.0, "parts": ["trunk"]}, {"pitch": 45.0, "yaw": -40.0, "roll": -30.0, "parts": ["trunk"]}, {"pitch": 45.0, "yaw": 40.0, "roll": 30.0, "parts": ["trunk"]}, {"pitch": 45.0, "yaw": 120.0, "roll": 30.0, "parts": ["trunk"]}]}
