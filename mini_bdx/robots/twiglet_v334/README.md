@@ -1,6 +1,6 @@
 # twiglet_v334
 
-This is the MuJoCo model of the Twiglet robot (body v3.34, head v3.30). It sits where upstream keeps `mini_bdx/robots/open_duck_mini_v2/`.
+This is the MuJoCo model of the Twiglet robot (body v3.34, head v3.30). Layout follows the Open Duck Mini v2 robot folder convention.
 
 - `twiglet_v3.xml`: the MJCF, with 19 position actuators:
   - left/right `hip_yaw`, `hip_roll`, `hip_pitch`, `knee`, `ankle`

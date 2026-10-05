@@ -1,6 +1,6 @@
 # Assembly guide
 
-> This is the Twiglet version of the [Open Duck Mini v2 assembly guide](https://github.com/apirrone/Open_Duck_Mini/blob/v2/docs/assembly_guide.md) by apirrone and the Open Duck Mini contributors. The steps marked **(upstream)** are theirs, unchanged, and link to the original with its photos. A verbatim copy is in [upstream/assembly_guide.md](upstream/assembly_guide.md). The steps marked **(Twiglet)** are ours.
+> This is the Twiglet assembly guide. It follows the structure of the [Open Duck Mini v2 assembly guide](https://github.com/apirrone/Open_Duck_Mini/blob/v2/docs/assembly_guide.md) by apirrone and the Open Duck Mini contributors. The steps marked **(upstream)** are theirs, unchanged, and link to the original with its photos. A verbatim copy is in [upstream/assembly_guide.md](upstream/assembly_guide.md). The steps marked **(Twiglet)** are ours.
 >
 > **Nothing has been built yet.** Our steps come from the design notes (body v3.1–v3.34, head v2 / v3 digital eyes / v3.30, hair v3.44) and have not been checked on a real robot. Anything we don't know is marked **TODO**. Nothing here is guessed: if a screw length or a fixing isn't in our records, it says TODO.
 

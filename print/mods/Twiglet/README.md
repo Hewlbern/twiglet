@@ -1,6 +1,6 @@
 # Twiglet mod
 
-A Twiglet look for Open Duck Mini v2: a wooden-ball head with digital eyes, a one-piece wig under a felt hat, a slim torso cone with a leaf kilt, and two 3-DOF STS3032 arms with grippers.
+Printable parts for Twiglet (inspired by Open Duck Mini): a wooden-ball head with digital eyes, a one-piece wig under a felt hat, a slim torso cone with a leaf kilt, and two 3-DOF STS3032 arms with grippers.
 
 Upstream mods ship `.step` and `.3mf` files. This mod was made in Blender, so it ships STLs (already in print orientation) plus `.blend` and Python sources instead. TODO: export `.3mf` plates.
 

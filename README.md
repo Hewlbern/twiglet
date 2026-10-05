@@ -2,7 +2,7 @@
 
 # Twiglet
 
-**Twiglet** is a ~50 cm, 19-DoF 3D-printed biped with a wooden-ball head, two round digital eyes, a printed hair piece under a felt hat, a leaf kilt and two small arms with grippers. It is built on the open-source [Open Duck Mini v2](https://github.com/apirrone/Open_Duck_Mini/tree/v2) legs, neck and electronics.
+**Twiglet** is a ~50 cm, 19-DoF 3D-printed biped with a wooden-ball head, two round digital eyes, a printed hair piece under a felt hat, a leaf kilt and two small arms with grippers. It is **inspired by** [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini/tree/v2) (v2), and reuses some of its open-source parts (legs, neck, electronics) under Apache-2.0 — see [NOTICE](NOTICE).
 
 [Hardware →](#hardware) · [BOM →](docs/BOM.md) · [Print →](docs/print_guide.md) · [Assemble →](docs/assembly_guide.md) · [Simulation →](experiments/README.md) · [Contribute →](CONTRIBUTING.md)
 
@@ -15,9 +15,9 @@
 | ![legs on the trunk](docs/images/assembly/s06_legs_on_trunk.png) | ![arms](docs/images/assembly/s09_arms.png) | ![head inside](docs/images/assembly/s12_head_inside.png) |
 | **Legs on the trunk** | **3-DoF arms (STS3032)** | **Head inside: Pi, eyes, ballast** |
 
-## What's new compared with Open Duck Mini v2
+## Highlights
 
-- **Head:** a new wood-textured ball head (v3.30) with a hollow nose and two 2.1" round touch LCDs as eyes (ESP32-S3; firmware in [`experiments/twiglet_eyes/`](experiments/twiglet_eyes/README.md)), on the stock 3-servo neck.
+- **Head:** a new wood-textured ball head (v3.30) with a hollow nose and two 2.1" round touch LCDs as eyes (ESP32-S3; firmware in [`experiments/twiglet_eyes/`](experiments/twiglet_eyes/README.md)), using a 3-servo neck (Open Duck Mini v2-compatible).
 - **Hair piece:** one printed piece (v3.44, 186 g at 4.5 % infill) that pins and keys onto the head; a felt hat goes over it.
 - **Body:** a slim torso cone with a 10-petal leaf kilt, shin covers and boots (body v3.34, 50 STLs).
 - **Arms:** two 3-DoF arms (shoulder, elbow, gripper) on Feetech STS3032 micro bus servos, powered from a 6 V buck regulator.
@@ -78,7 +78,7 @@ Every file is under GitHub's 100 MB limit. Over 25 MB: `print/mods/Twiglet/sourc
 
 ## Credits
 
-This project stands on **[Open Duck Mini v2](https://github.com/apirrone/Open_Duck_Mini)** by Antoine Pirrone ([apirrone](https://github.com/apirrone)) and the Open Duck Mini contributors (see [thanks.md](thanks.md)), sponsored by HuggingFace and Pollen Robotics. Their legs, feet, neck, electronics, wiring diagrams and docs are used here under the Apache License 2.0; [NOTICE](NOTICE) lists exactly which files are theirs, unmodified or modified. Thanks also to Rhoban for [BAM](https://github.com/Rhoban/bam), and to the [MuJoCo](https://github.com/google-deepmind/mujoco), [trimesh](https://github.com/mikedh/trimesh), [PyVista](https://github.com/pyvista/pyvista) and [Blender](https://www.blender.org/) projects.
+Twiglet is **inspired by** **[Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)** (v2) by Antoine Pirrone ([apirrone](https://github.com/apirrone)) and the Open Duck Mini contributors (see [thanks.md](thanks.md)), sponsored by HuggingFace and Pollen Robotics. Some stock Open Duck Mini v2 parts, wiring diagrams and docs are reused here under the Apache License 2.0; [NOTICE](NOTICE) lists exactly which files are theirs, unmodified or modified. Thanks also to Rhoban for [BAM](https://github.com/Rhoban/bam), and to the [MuJoCo](https://github.com/google-deepmind/mujoco), [trimesh](https://github.com/mikedh/trimesh), [PyVista](https://github.com/pyvista/pyvista) and [Blender](https://www.blender.org/) projects.
 
 This project is not affiliated with or endorsed by Pollen Robotics, HuggingFace or the Open Duck Mini project.
 
