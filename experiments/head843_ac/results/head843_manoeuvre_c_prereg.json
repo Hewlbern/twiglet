@@ -1,0 +1,192 @@
+{
+ "written_before_trials_utc": "2026-11-08T07:07:35Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg_c.json",
+  "cfg_sha256": "3ffcf307a64e1da47c61400d1faf5e96d3e7322c5408f6790389301c563d8fbe",
+  "manoeuvre_sha256": "cf5fe2037cbcc2a94c40f3203b6c131248ddad50c7bb68cfd7f92894e1b20202",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "cfg_b_sha256_unchanged": "2f8ba5c261624f6c7526a7f12f9231687924070cc64bc2f1b6edc55d7cd936ab"
+ },
+ "preserves": "cfg_b results and hash stay, including slalom, stop, and stride x0.7 at 1000/1000 and the turn counts that missed 99.5%. Run32 -180 stays 21/40. This file is a new law, a new 180 deg/s command, and new seeds. Development screen seeds 251000-251351 are not reused.",
+ "turn_pass": "Same turn_ok as the cfg_b scorer. Upright. Final unwrapped yaw within 15 deg of the commanded delta and of that sign. The maximum unwrapped yaw opposite the command, taken over the whole trace, is at most 15 deg. That whole-trace peak is what the cfg_b counts used; it is not relaxed to the slew window. The 15 deg band is entered after the slew and no later than the declared end time. Post-slew cross-track RMS <= 0.40 m.",
+ "slalom_pass": "Same waypoints and 15 deg bands as cfg_b. Upright. Unwrapped yaw within 15 deg of +20, 0, -20 and 0 at 7, 12, 17 and 22 s. The positive target is reached before the negative one. A slalom pass does not count as a turn pass.",
+ "restart_pass": "Upright, speed 6.2-7.6 s < 0.03 m/s, speed 9.5-11.5 s > 0.08 m/s, |final yaw| <= 15 deg. The second rise waits for the next double-support edge at or after 8 s. The first rise stays at 0 s.",
+ "straight_pass": "Upright, |final yaw| <= 15 deg, progress >= 0.08 m/s. Regression only. Schedule absent, so this block must match the earlyrate walk. N=200 cannot clear 99.5%.",
+ "not_in_this_prereg": "Stop and stride x0.7 stay the cfg_b qualifications; this law does not set a heading on those jobs. Stride x1.3 stays outside the 20 deg yaw cap. The cfg_b 10 deg/s half-turn is not rerun and is not rescored.",
+ "criterion": "Each n=1000 block needs its own Wilson 95% lower bound >= 0.995. No pooling across direction, command, or mass. Nominal head only. No mass block in this prereg. N=200 straight is not a gate.",
+ "blocks": [
+  {
+   "name": "arc20_pos",
+   "seeds": [
+    252000,
+    252999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 20,
+   "t0": 3.0,
+   "t1": 8.0,
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "arc20_neg",
+   "seeds": [
+    253000,
+    253999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -20,
+   "t0": 3.0,
+   "t1": 8.0,
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "turn45_pos",
+   "seeds": [
+    254000,
+    254999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 45,
+   "t0": 3.0,
+   "t1": 6.0,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn45_neg",
+   "seeds": [
+    255000,
+    255999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -45,
+   "t0": 3.0,
+   "t1": 6.0,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn90_pos",
+   "seeds": [
+    256000,
+    256999
+   ],
+   "n": 1000,
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": 90,
+   "t0": 2.5,
+   "t1": 8.5,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn90_neg",
+   "seeds": [
+    257000,
+    257999
+   ],
+   "n": 1000,
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": -90,
+   "t0": 2.5,
+   "t1": 8.5,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn180_pos_6dps",
+   "seeds": [
+    258000,
+    258999
+   ],
+   "n": 1000,
+   "T": 36,
+   "kind": "slew",
+   "delta_deg": 180,
+   "t0": 2.0,
+   "t1": 32.0,
+   "rate_deg_s": 6.0
+  },
+  {
+   "name": "turn180_neg_6dps",
+   "seeds": [
+    259000,
+    259999
+   ],
+   "n": 1000,
+   "T": 36,
+   "kind": "slew",
+   "delta_deg": -180,
+   "t0": 2.0,
+   "t1": 32.0,
+   "rate_deg_s": 6.0
+  },
+  {
+   "name": "restart",
+   "seeds": [
+    260000,
+    260999
+   ],
+   "n": 1000,
+   "T": 14,
+   "kind": "restart",
+   "cycles": [
+    [
+     0.0,
+     4.5
+    ],
+    [
+     8.0,
+     12.0
+    ]
+   ],
+   "second_rise": "next double-support edge at or after 8 s"
+  },
+  {
+   "name": "slalom",
+   "seeds": [
+    261000,
+    261999
+   ],
+   "n": 1000,
+   "T": 24,
+   "kind": "slalom",
+   "waypoints_deg": [
+    [
+     7,
+     20
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     17,
+     -20
+    ],
+    [
+     22,
+     0
+    ]
+   ],
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    262000,
+    262199
+   ],
+   "n": 200,
+   "T": 10,
+   "kind": "straight",
+   "gate": false
+  }
+ ]
+}

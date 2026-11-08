@@ -203,7 +203,11 @@ class RestartAmp:
 
     def __call__(self, t, ph):
         amp = 0.0
-        for t_go, t_stop in self.cycles:
+        for i, (t_go, t_stop) in enumerate(self.cycles):
+            # The first rise stays on the requested time. A later rise waits for
+            # the next double-support edge so it does not begin mid-swing.
+            if i > 0:
+                t_go = self._edge(t_go)
             stop_edge = self._edge(t_stop)
             if t < t_go:
                 continue
@@ -1184,7 +1188,18 @@ def rollout(job):
             ki = float(head_mode.get("slow_yaw_ki", 0.0))
             # A moving heading schedule is tracked by a common-mode hip yaw below.
             # The reset-hold integrator saturates against that turn, so it stays frozen.
-            scheduling = bool(href and (href.get("track_both") or href.get("track_settle")) and ycmd is not None)
+            # Freeze the reset hold only while the schedule is actually moving, or the
+            # heading is still more than 6 deg off after that move. Before the slew
+            # the walk uses the same integrator as a straight trial.
+            scheduling = False
+            if href and (href.get("track_both") or href.get("track_settle")) and ycmd is not None:
+                gprev, gt = hint.get("ycmd_gate_prev"), hint.get("ycmd_gate_t")
+                hint["ycmd_gate_prev"], hint["ycmd_gate_t"] = ycmd, t
+                rate_abs = 0.0 if gprev is None or gt is None or t <= gt else abs(wrap(ycmd - gprev) / (t - gt))
+                err_abs = abs(wrap(ycmd - float(rpy[2])))
+                if rate_abs > math.radians(2.0):
+                    hint["saw_heading_move"] = True
+                scheduling = rate_abs > math.radians(2.0) or (bool(hint.get("saw_heading_move")) and err_abs > math.radians(6.0))
             if ki and not scheduling:
                 dt = 0.0 if hint["yt"] is None else max(0.0, t - hint["yt"])
                 hint["yt"] = t
@@ -1246,7 +1261,7 @@ def rollout(job):
                     hint["pa_preL"] = float(q[sv.idx["left_hip_pitch"]])
                     hint["pa_preR"] = float(q[sv.idx["right_hip_pitch"]])
                 short_step_balance(q, sv.idx, ph_now, rpy, gy, y_ref, head_mode, cg["gain"])
-                if href and href.get("track_settle") and ycmd is not None and not href.get("track_both"):
+                if scheduling and href and href.get("track_settle") and ycmd is not None and not href.get("track_both"):
                     terr = wrap(ycmd - float(rpy[2]))
                     kp = float(href.get("k_yaw_p", 0.45))
                     extra = max(-0.08, min(0.08, kp * terr))

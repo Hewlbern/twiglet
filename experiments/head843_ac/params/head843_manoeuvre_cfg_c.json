@@ -1,0 +1,26 @@
+{
+  "base_npy": "params/head843_earlyrate.npy",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "k_yaw_ff": 0.2,
+  "k_yaw_p": 0.45,
+  "track_settle": true,
+  "stance_extra_clip_rad": 0.08,
+  "hip_yaw_soft_limit_rad": 0.122,
+  "handoff": {
+    "freeze_when_command_rate_above_deg_s": 2.0,
+    "hold_until_error_below_deg": 6.0,
+    "note": "The slow integrator runs, as on a straight walk, until the heading command moves faster than 2 deg/s. It stays frozen while that move continues or the heading error is still above 6 deg, then returns. The stance proportional and one-sided feedforward run only in that frozen window. Hip sign is unchanged from cfg_b."
+  },
+  "restart": {
+    "later_cycle_rises_on": "next double-support edge at or after the requested time",
+    "first_cycle_rise": "requested time, 1 s ramp"
+  },
+  "commands": {
+    "arc_20_deg_s": 4.0,
+    "turn_45_and_90_deg_s": 15.0,
+    "turn_180_deg_s": 6.0,
+    "turn_180_window_after_slew_s": 4.0,
+    "turn_180_note": "6 deg/s is a different command from the cfg_b 10 deg/s half-turn. The body rate measured on those 10 deg/s misses was about 7 deg/s, so the lag grew for the whole slew. The 4 s after t1 is the same budget cfg_b used, not an extension."
+  },
+  "note": "Separate from cfg_b. cfg_b scores and hash stay. Stop and stride x0.7 do not set a heading schedule, so this file does not retune them."
+}
