@@ -1,0 +1,30 @@
+{
+ "LW-B": "see D9_LW-B_gui_brief.md; prepared only, not modelled",
+ "electronics_evidence": {
+  "eye_driver_10g": {
+   "status": "CONFIRMED NOT A BOM ITEM",
+   "sources": [
+    "hero-of-tree/docs/BOM.md: eyes = 2x Waveshare ESP32-S3-Touch-LCD-2.1 only; no separate eye controller line",
+    "history/head-v3-digital-eyes/README.md: each board has its own ESP32-S3, no separate eye controller needed",
+    "gen_mjcf_v3.py adds 'eye_driver' 10 g box (head-v3 estimate)"
+   ],
+   "meaning": "model correction (sim head ~10 g too heavy at x_pitch ~+40 mm, -0.40 g*m), NOT a physical weight saving; the real robot never had it. Cloud should apply as correction; display 40 g each estimate (incl PCB) remains unverified"
+  },
+  "odm_board_12g": {
+   "status": "UNKNOWN - keep in model",
+   "sources": [
+    "assembly_guide.md:405 'head v2 notes also put the relocated ODM board on top of the deck with 4x M2.5. TODO: confirm which board and whether that still applies'",
+    "assembly_guide.md:464 TODO confirm relocated board",
+    "BOM lists Waveshare bus servo adapter (servo control board) mounted in trunk per assembly guide 'Mount the servo driver board'"
+   ],
+   "meaning": "cannot confirm absent or present; no relocation candidate (no board identity, height, mount or wiring evidence)"
+  },
+  "ballast": "25 g counted once in 852.58 g; any reduction requires a sim neck-hold check (>=2.1x), not assumed",
+  "corrected_head_if_eye_driver_removed": "approx 842.6 g, COM x shifts about -0.5 mm (rear); cloud to compute exactly with point-mass removal at the gen_mjcf_v3 box centre (displays centroid + (-35,0,-5) mm)"
+ },
+ "ranking": [
+  "1 model correction: remove phantom eye_driver (largest certain change, no hardware)",
+  "2 LW-B snout (2-3 g predicted, needs GUI + slice)",
+  "ODM board relocation: blocked by unknown identity"
+ ]
+}

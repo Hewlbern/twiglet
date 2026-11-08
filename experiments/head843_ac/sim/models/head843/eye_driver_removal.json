@@ -1,0 +1,73 @@
+{
+ "nominal": {
+  "mass_kg": 0.84258,
+  "com_head_m": [
+   -0.0116958,
+   -0.00127495,
+   0.0563922
+  ],
+  "fullinertia": [
+   0.0044259716,
+   0.005589436,
+   0.0070538455,
+   8.0268376e-06,
+   -2.4035889e-05,
+   9.3904782e-06
+  ],
+  "pd": true,
+  "triangle": true
+ },
+ "low_bound": {
+  "mass_kg": 0.82258,
+  "com_head_m": [
+   -0.0126997,
+   -0.00130568,
+   0.0561909
+  ],
+  "fullinertia": [
+   0.0044245273,
+   0.0055530877,
+   0.00701887,
+   9.1053658e-06,
+   -1.700792e-05,
+   9.607428e-06
+  ],
+  "pd": true,
+  "triangle": true
+ },
+ "high_bound": {
+  "mass_kg": 0.88458,
+  "com_head_m": [
+   -0.0106295,
+   -0.00121458,
+   0.0560937
+  ],
+  "fullinertia": [
+   0.0044362426,
+   0.0056352768,
+   0.0070895483,
+   6.8814258e-06,
+   -2.9837418e-05,
+   9.7116618e-06
+  ],
+  "pd": true,
+  "triangle": true
+ },
+ "removed_point_mass_kg": 0.01,
+ "box_mm": [
+  20,
+  40,
+  25
+ ],
+ "position_head_m": [
+  -0.005400000000000002,
+  0.0,
+  0.059699999999999996
+ ],
+ "display_centroid_head_m": [
+  0.0296,
+  0.0,
+  0.0647
+ ],
+ "note": "Model correction: gen_mjcf_v3 eye_driver 10 g is not a BOM part. Removed once from each 852-series inertial. 25 g ballast not changed. Not a hardware saving."
+}

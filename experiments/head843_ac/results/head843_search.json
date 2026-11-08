@@ -1,0 +1,554 @@
+{
+ "seconds": 115.4,
+ "xml": "twiglet_v3_v335ac_head843.xml",
+ "generations": [
+  {
+   "gen": 0,
+   "arms": false,
+   "seeds": [
+    100000,
+    12
+   ],
+   "best": {
+    "succ": 11,
+    "n": 12,
+    "progress": 0.1853186999067941,
+    "speed": 0.20018615102843318,
+    "yaw_mean": 8.944395604963105,
+    "frac15": 0.25,
+    "gt8": 0.03227124183006536,
+    "shoulder_mean": null,
+    "shoulder_pp": null,
+    "head_yaw_pp": null,
+    "fell": [
+     100007
+    ]
+   },
+   "gait": {
+    "f": 2.21496,
+    "stride": 0.17288,
+    "lift": 0.36705,
+    "sway": 0.21232,
+    "sway_ph": 0.6942,
+    "crouch": 0.18125,
+    "lean": -0.13353,
+    "kp_pitch": -1.20235,
+    "kd_pitch": -0.15,
+    "kp_roll": 0.61582,
+    "kd_roll": 0.10085,
+    "ank_off": -0.11528
+   },
+   "ctrl": {
+    "body_lean": -0.04,
+    "k_place": 0.6,
+    "k_hip": -0.25,
+    "k_lat": 0.45,
+    "k_roll_extra": 0.3,
+    "k_yaw_phase": 0.0,
+    "ank_arm": 0.0
+   }
+  },
+  {
+   "gen": 1,
+   "arms": false,
+   "seeds": [
+    100012,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.20114106683708158,
+    "speed": 0.20114106683708158,
+    "yaw_mean": 11.79417092621415,
+    "frac15": 0.16666666666666666,
+    "gt8": 0.0018703241895261845,
+    "shoulder_mean": null,
+    "shoulder_pp": null,
+    "head_yaw_pp": null,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.07028,
+    "stride": 0.18821,
+    "lift": 0.36671,
+    "sway": 0.19492,
+    "sway_ph": 0.74947,
+    "crouch": 0.18798,
+    "lean": -0.13156,
+    "kp_pitch": -1.36651,
+    "kd_pitch": -0.14253,
+    "kp_roll": 0.51434,
+    "kd_roll": 0.09148,
+    "ank_off": -0.11636
+   },
+   "ctrl": {
+    "body_lean": -0.04,
+    "k_place": 0.6,
+    "k_hip": -0.25,
+    "k_lat": 0.45,
+    "k_roll_extra": 0.3,
+    "k_yaw_phase": 0.0,
+    "ank_arm": 0.0
+   }
+  },
+  {
+   "gen": 2,
+   "arms": false,
+   "seeds": [
+    100024,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.19470923215186098,
+    "speed": 0.19470923215186098,
+    "yaw_mean": 7.248192436504034,
+    "frac15": 0.08333333333333333,
+    "gt8": 0.0,
+    "shoulder_mean": null,
+    "shoulder_pp": null,
+    "head_yaw_pp": null,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.22161,
+    "stride": 0.16576,
+    "lift": 0.36973,
+    "sway": 0.19159,
+    "sway_ph": 0.71888,
+    "crouch": 0.18,
+    "lean": -0.13181,
+    "kp_pitch": -1.29346,
+    "kd_pitch": -0.14611,
+    "kp_roll": 0.61273,
+    "kd_roll": 0.08126,
+    "ank_off": -0.11481
+   },
+   "ctrl": {
+    "body_lean": -0.04,
+    "k_place": 0.6,
+    "k_hip": -0.25,
+    "k_lat": 0.45,
+    "k_roll_extra": 0.3,
+    "k_yaw_phase": 0.0,
+    "ank_arm": 0.0
+   }
+  },
+  {
+   "gen": 3,
+   "arms": false,
+   "seeds": [
+    100036,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.19618950504494526,
+    "speed": 0.19618950504494526,
+    "yaw_mean": 9.20217285376794,
+    "frac15": 0.08333333333333333,
+    "gt8": 0.0,
+    "shoulder_mean": null,
+    "shoulder_pp": null,
+    "head_yaw_pp": null,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.17978,
+    "stride": 0.16988,
+    "lift": 0.36575,
+    "sway": 0.20809,
+    "sway_ph": 0.59251,
+    "crouch": 0.17855,
+    "lean": -0.13612,
+    "kp_pitch": -1.2864,
+    "kd_pitch": -0.14889,
+    "kp_roll": 0.52462,
+    "kd_roll": 0.09528,
+    "ank_off": -0.11524
+   },
+   "ctrl": {
+    "body_lean": -0.04,
+    "k_place": 0.6,
+    "k_hip": -0.25,
+    "k_lat": 0.45,
+    "k_roll_extra": 0.3,
+    "k_yaw_phase": 0.0,
+    "ank_arm": 0.0
+   }
+  },
+  {
+   "gen": 4,
+   "arms": false,
+   "seeds": [
+    100048,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.19108830816029523,
+    "speed": 0.19108830816029523,
+    "yaw_mean": 5.846221501107574,
+    "frac15": 0.0,
+    "gt8": 0.0,
+    "shoulder_mean": null,
+    "shoulder_pp": null,
+    "head_yaw_pp": null,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.11407,
+    "stride": 0.1703,
+    "lift": 0.36504,
+    "sway": 0.20752,
+    "sway_ph": 0.56043,
+    "crouch": 0.18299,
+    "lean": -0.13691,
+    "kp_pitch": -1.33316,
+    "kd_pitch": -0.14541,
+    "kp_roll": 0.57576,
+    "kd_roll": 0.107,
+    "ank_off": -0.11584
+   },
+   "ctrl": {
+    "body_lean": -0.04,
+    "k_place": 0.6,
+    "k_hip": -0.25,
+    "k_lat": 0.45,
+    "k_roll_extra": 0.3,
+    "k_yaw_phase": 0.0,
+    "ank_arm": 0.0
+   }
+  },
+  {
+   "gen": 5,
+   "arms": true,
+   "seeds": [
+    100060,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.1711924510014402,
+    "speed": 0.1711924510014402,
+    "yaw_mean": 4.8810857180372915,
+    "frac15": 0.3333333333333333,
+    "gt8": 0.0,
+    "shoulder_mean": 20.915,
+    "shoulder_pp": 17.465,
+    "head_yaw_pp": 15.29,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.2183,
+    "stride": 0.16811,
+    "lift": 0.38821,
+    "sway": 0.20991,
+    "sway_ph": 0.55836,
+    "crouch": 0.17752,
+    "lean": -0.15,
+    "kp_pitch": -1.26633,
+    "kd_pitch": -0.15,
+    "kp_roll": 0.52393,
+    "kd_roll": 0.09998,
+    "ank_off": -0.12669
+   },
+   "ctrl": {
+    "body_lean": -0.0341,
+    "k_place": 0.55933,
+    "k_hip": -0.13554,
+    "k_lat": 0.61275,
+    "k_roll_extra": 0.30435,
+    "k_yaw_phase": 0.00089,
+    "ank_arm": -0.02493
+   }
+  },
+  {
+   "gen": 6,
+   "arms": true,
+   "seeds": [
+    100072,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.14917942429659045,
+    "speed": 0.14917942429659045,
+    "yaw_mean": -1.2388183731812181,
+    "frac15": 0.25,
+    "gt8": 0.007481296758104737,
+    "shoulder_mean": 20.91,
+    "shoulder_pp": 18.2575,
+    "head_yaw_pp": 16.325,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.12878,
+    "stride": 0.15686,
+    "lift": 0.38199,
+    "sway": 0.20273,
+    "sway_ph": 0.61712,
+    "crouch": 0.17183,
+    "lean": -0.15,
+    "kp_pitch": -1.31337,
+    "kd_pitch": -0.13687,
+    "kp_roll": 0.643,
+    "kd_roll": 0.10038,
+    "ank_off": -0.12993
+   },
+   "ctrl": {
+    "body_lean": -0.04444,
+    "k_place": 0.4392,
+    "k_hip": -0.42601,
+    "k_lat": 0.49181,
+    "k_roll_extra": 0.27575,
+    "k_yaw_phase": -0.0155,
+    "ank_arm": -0.01898
+   }
+  },
+  {
+   "gen": 7,
+   "arms": true,
+   "seeds": [
+    100084,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.15477707416515316,
+    "speed": 0.15477707416515316,
+    "yaw_mean": -0.23923681292774682,
+    "frac15": 0.0,
+    "gt8": 0.0,
+    "shoulder_mean": 20.92,
+    "shoulder_pp": 17.990000000000002,
+    "head_yaw_pp": 15.77,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.16567,
+    "stride": 0.15791,
+    "lift": 0.38079,
+    "sway": 0.20445,
+    "sway_ph": 0.72295,
+    "crouch": 0.19196,
+    "lean": -0.14819,
+    "kp_pitch": -1.31607,
+    "kd_pitch": -0.14894,
+    "kp_roll": 0.62274,
+    "kd_roll": 0.10451,
+    "ank_off": -0.11137
+   },
+   "ctrl": {
+    "body_lean": -0.04416,
+    "k_place": 0.48026,
+    "k_hip": -0.35507,
+    "k_lat": 0.31525,
+    "k_roll_extra": 0.25256,
+    "k_yaw_phase": -0.01529,
+    "ank_arm": -0.02793
+   }
+  },
+  {
+   "gen": 8,
+   "arms": true,
+   "seeds": [
+    100096,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.15823133604631004,
+    "speed": 0.15823133604631004,
+    "yaw_mean": -4.51602410521824,
+    "frac15": 0.0,
+    "gt8": 0.0,
+    "shoulder_mean": 20.935,
+    "shoulder_pp": 18.147499999999997,
+    "head_yaw_pp": 15.6,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.14346,
+    "stride": 0.15616,
+    "lift": 0.3893,
+    "sway": 0.20371,
+    "sway_ph": 0.7022,
+    "crouch": 0.19035,
+    "lean": -0.14828,
+    "kp_pitch": -1.32555,
+    "kd_pitch": -0.14595,
+    "kp_roll": 0.62684,
+    "kd_roll": 0.1081,
+    "ank_off": -0.11704
+   },
+   "ctrl": {
+    "body_lean": -0.04283,
+    "k_place": 0.50462,
+    "k_hip": -0.30295,
+    "k_lat": 0.36643,
+    "k_roll_extra": 0.24931,
+    "k_yaw_phase": -0.01032,
+    "ank_arm": -0.02123
+   }
+  },
+  {
+   "gen": 9,
+   "arms": true,
+   "seeds": [
+    100108,
+    12
+   ],
+   "best": {
+    "succ": 12,
+    "n": 12,
+    "progress": 0.1556535746459991,
+    "speed": 0.1556535746459991,
+    "yaw_mean": -1.59645880969319,
+    "frac15": 0.0,
+    "gt8": 0.0024937655860349127,
+    "shoulder_mean": 20.9275,
+    "shoulder_pp": 18.517500000000002,
+    "head_yaw_pp": 15.995000000000001,
+    "fell": []
+   },
+   "gait": {
+    "f": 2.17441,
+    "stride": 0.16023,
+    "lift": 0.38793,
+    "sway": 0.2057,
+    "sway_ph": 0.68102,
+    "crouch": 0.1915,
+    "lean": -0.14812,
+    "kp_pitch": -1.32339,
+    "kd_pitch": -0.13901,
+    "kp_roll": 0.58771,
+    "kd_roll": 0.11115,
+    "ank_off": -0.11384
+   },
+   "ctrl": {
+    "body_lean": -0.04206,
+    "k_place": 0.51751,
+    "k_hip": -0.22656,
+    "k_lat": 0.5275,
+    "k_roll_extra": 0.26972,
+    "k_yaw_phase": -0.0155,
+    "ank_arm": -0.01782
+   }
+  }
+ ],
+ "validation_seeds": [
+  100400,
+  80
+ ],
+ "validation": {
+  "val_inherited_arms": {
+   "succ": 68,
+   "n": 80,
+   "progress": 0.1427913264638642,
+   "speed": 0.16505618671784472,
+   "yaw_mean": 3.0457092837509054,
+   "frac15": 0.3375,
+   "gt8": 0.06957630245727707,
+   "shoulder_mean": 20.9175,
+   "shoulder_pp": 17.884999999999998,
+   "head_yaw_pp": 15.715,
+   "fell": [
+    100403,
+    100406,
+    100414,
+    100417,
+    100418,
+    100422,
+    100433,
+    100441,
+    100442,
+    100447,
+    100450,
+    100472
+   ]
+  },
+  "val_searched_arms": {
+   "succ": 79,
+   "n": 80,
+   "progress": 0.1562120651530364,
+   "speed": 0.15790546063735802,
+   "yaw_mean": -0.6756392585033655,
+   "frac15": 0.2,
+   "gt8": 0.00993739122739742,
+   "shoulder_mean": 20.92,
+   "shoulder_pp": 18.04,
+   "head_yaw_pp": 15.74,
+   "fell": [
+    100469
+   ]
+  },
+  "val_inherited_free": {
+   "succ": 77,
+   "n": 80,
+   "progress": 0.19453177250686576,
+   "speed": 0.20047828494520553,
+   "yaw_mean": 7.084901446816531,
+   "frac15": 0.25,
+   "gt8": 0.015134301890288767,
+   "shoulder_mean": null,
+   "shoulder_pp": null,
+   "head_yaw_pp": null,
+   "fell": [
+    100411,
+    100414,
+    100472
+   ]
+  },
+  "val_searched_free": {
+   "succ": 75,
+   "n": 80,
+   "progress": 0.17749158738814524,
+   "speed": 0.18794426950892199,
+   "yaw_mean": 8.847054320061233,
+   "frac15": 0.1875,
+   "gt8": 0.024193415558974217,
+   "shoulder_mean": null,
+   "shoulder_pp": null,
+   "head_yaw_pp": null,
+   "fell": [
+    100402,
+    100403,
+    100422,
+    100446,
+    100472
+   ]
+  }
+ },
+ "searched_gait": {
+  "f": 2.1744132030903516,
+  "stride": 0.1602303805107163,
+  "lift": 0.38793118622693096,
+  "sway": 0.20570047363483893,
+  "sway_ph": 0.6810242977669382,
+  "crouch": 0.19150393525606227,
+  "lean": -0.14812188152823758,
+  "kp_pitch": -1.323387177855717,
+  "kd_pitch": -0.1390149199541155,
+  "kp_roll": 0.5877079594411705,
+  "kd_roll": 0.11114598041138955,
+  "ank_off": -0.11383901405940164
+ },
+ "searched_ctrl": {
+  "body_lean": -0.042057554961496414,
+  "k_place": 0.5175109968180374,
+  "k_hip": -0.2265647365139915,
+  "k_lat": 0.5274997423133101,
+  "k_roll_extra": 0.26972167512797596,
+  "k_yaw_phase": -0.015502676444528215,
+  "ank_arm": -0.017821692074942896
+ }
+}
