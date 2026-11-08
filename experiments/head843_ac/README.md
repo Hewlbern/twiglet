@@ -24,6 +24,8 @@ The −45° miss is a pitch fall at 9.54 s, minimum pitch −44.4°. The 90° mi
 
 Half-turns were not in this sample. Seeds 258189, 259341, and 259556 still fall near −43° of pitch on this law, and the same seeds walk those horizons straight. Restart and stride ×1.3 do not set a heading schedule, so this alloc does not run on them.
 
+A later diagnosis did not replace this law. Dropping the yaw command while the pitch catch is on left the falls in place and made the 90° shorts worse, so that edit was reverted and the hash above is unchanged. The onset flip is what lets seed 253015 pass a −20°, and it is also what makes seed 268632 fall on a −45° the plain handoff completes. The 15°/s shorts sit on the ±0.10 rad hip-yaw clip with pitch near ±2° and a body rate of about 8–10°/s. At a declared 8°/s (2.5–13.75 s, episode 17.25 s) those shorts finish, seed 270260 still falls at 3.7 s, and seed 270924 still peaks 16° the wrong way. Fresh seeds 275000–275095 were 48/48 each way. That is a development screen, not a qualification. Restart seed 260842 reaches −27° at 10.8 s with hip yaw still near ±0.03 rad. Fast-stride seed 248518 still ends at +20.3° with the ±0.02 rad trim at its clip on 55% of samples.
+
 ## cfg_c, timed handoff
 
 Preregistered 2026-11-08T07:07:35Z. Hash above. These counts are not retaken and are not pooled with cfg_d.

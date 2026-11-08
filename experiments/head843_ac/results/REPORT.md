@@ -1121,3 +1121,19 @@ Straight fingerprints still match: seed 214000 at 1.1157 m and +1.498°, seed 21
 Restart and stride ×1.3 do not set a heading schedule, so this alloc does not run. cfg_c restart stays 998/1000. Stride ×1.3 still fails seeds 248518 and 248767 at +20.5° and +21.0° of yaw. No mass block was preregistered. Sole contacts are proxy boxes. These counts are not a hardware or strength result.
 
 Files: `results/head843_manoeuvre_d_prereg.json`, `results/head843_manoeuvre_d_val.json`, `results/head843_manoeuvre_d_manifest.json`, `results/head843_manoeuvre_d_screen.json`, `results/head843_manoeuvre_d_onset_screen.json`, `sim/run_head843_manoeuvre_d_val.py`, `sim/run_head843_manoeuvre_d_screen.py`.
+
+## Pitch and yaw on the same law
+
+No new qualification. The controller file is still `98facc72…`. The cfg_d counts above stay.
+
+On the recorded falls the hip-pitch torque is already at the ±1.91 N·m rail while pitch is about −8° to −14°, and the hip-yaw command is either at its ±0.10 rad clip or, after the slew, back near ±0.03 rad. Straight walks of those seeds, including 36 s, do not fall. Dropping the yaw command on the same step the pitch catch is already on did not stop the falls. Seed 268632 fell earlier, at 7.89 s instead of 9.54 s, and the 90° shorts finished further behind (+55° and −35°). That change was reverted.
+
+The onset flip and the plain handoff were compared on the same seeds. Without the flip, 268632 completes the −45° (final −40.6°, opposite peak 13.6°). With the flip it falls. Without the flip, 270581 finishes the −90° and fails the opposite-peak rule at 16.4°. With the flip the opposite peak is 12.0° and the finish is only −44°. Seed 253015, the −20° kick, fails at 15.4° without the flip and passes with it. The sign change that qualified the −20° arc is the same change that induces a pitch fall on a −45° the handoff otherwise completes.
+
+The 15°/s shorts are a rate limit on seeds whose pitch stays near ±2°. The hip-yaw command sits at ±0.10 rad and the body yaw advances at about 8–10°/s. A 90° command at 8°/s was declared from that measurement before the trials: t0 2.5 s, t1 13.75 s, episode 17.25 s, the same 3.5 s after the slew. On the onset law the five recorded shorts then finish within 2° of ±90°. Seed 270260 still falls at 3.7 s, and seed 270924 still peaks 16.1° the wrong way. Fresh seeds 275000–275095 were 48/48 in each direction. That screen is not a qualification. The known fall and the known 16° peak are still in the mechanism, so no 1000-seed block was opened. The same 8°/s command without the onset flip brings the 16° opposite peaks back.
+
+Restart seed 260842, which has no heading schedule, reaches −27° of yaw at 10.8 s during the second walk. The hip-yaw commands at that time are about ±0.03 rad, so the hold is applying and the second-start transient exceeds it. Fast-stride seed 248518 still ends at +20.3°. Its hip yaw is past 0.019 rad on 55% of samples, which is the ±0.02 rad straight-walk trim at its clip. Widening that trim would change the straight walk. Stop seed 233700 and straight seeds 214000 and 214001 still match the recorded fingerprints.
+
+On hash `98facc72…`, nominal head, the qualified commands are the +20° arc, the −20° arc, and the +45° turn, each 1000/1000. The −45°, both 90° commands at 15°/s, and this law’s slalom are not. Half-turns were not given a new thousand. cfg_b still holds the slalom, the stop, and stride ×0.7 on its own hash. No mass block was added. Sole contacts are proxy boxes.
+
+The 8°/s screen is `results/head843_manoeuvre_d_rate8_screen.json`.
