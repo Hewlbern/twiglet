@@ -1,0 +1,219 @@
+{
+ "written_utc": "2026-11-08T08:02:44Z",
+ "role": "cfg_d qualification index. Per-seed rows are head843_manoeuvre_d_val.json.",
+ "prereg_written_utc": "2026-11-08T07:47:28Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg_d.json",
+  "cfg_sha256": "4ce06836e4d0a68d39154f4e7370ab23b22c5286be90f6f0af16a09695e554a7",
+  "manoeuvre_sha256": "98facc7220b9fb69d51599943f2a818f65ace2ce5fa669366e98f468690e8bd5",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "cfg_b_sha256_unchanged": "2f8ba5c261624f6c7526a7f12f9231687924070cc64bc2f1b6edc55d7cd936ab",
+  "cfg_c_sha256_unchanged": "3ffcf307a64e1da47c61400d1faf5e96d3e7322c5408f6790389301c563d8fbe",
+  "cfg_c_manoeuvre_sha256": "cf5fe2037cbcc2a94c40f3203b6c131248ddad50c7bb68cfd7f92894e1b20202"
+ },
+ "qualified_this_law": [
+  "arc20_pos",
+  "arc20_neg",
+  "turn45_pos"
+ ],
+ "not_qualified_reason": {
+  "turn45_neg": "one pitch fall, 268632 at 9.54 s, min pitch -44.4 deg",
+  "turn90_pos": "two shorts, finals 63 and 72 deg",
+  "turn90_neg": "three shorts, one pitch fall, one wrong-way peak of 16.0 deg",
+  "slalom": "three pitch falls near -43 deg"
+ },
+ "half_turns_not_run": "pitch falls still reproduce on 258189, 259341, 259556",
+ "blocks": [
+  {
+   "name": "arc20_pos",
+   "seeds": [
+    265000,
+    265999
+   ],
+   "n": 1000,
+   "task": 1000,
+   "wilson": [
+    1.0,
+    0.9961731014136095,
+    1.0
+   ],
+   "clopper_pearson": [
+    0.9963179161031344,
+    1.0
+   ],
+   "met_995": true,
+   "falls": [],
+   "misses": []
+  },
+  {
+   "name": "arc20_neg",
+   "seeds": [
+    266000,
+    266999
+   ],
+   "n": 1000,
+   "task": 1000,
+   "wilson": [
+    1.0,
+    0.9961731014136095,
+    1.0
+   ],
+   "clopper_pearson": [
+    0.9963179161031344,
+    1.0
+   ],
+   "met_995": true,
+   "falls": [],
+   "misses": []
+  },
+  {
+   "name": "turn45_pos",
+   "seeds": [
+    267000,
+    267999
+   ],
+   "n": 1000,
+   "task": 1000,
+   "wilson": [
+    1.0,
+    0.9961731014136095,
+    1.0
+   ],
+   "clopper_pearson": [
+    0.9963179161031344,
+    1.0
+   ],
+   "met_995": true,
+   "falls": [],
+   "misses": []
+  },
+  {
+   "name": "turn45_neg",
+   "seeds": [
+    268000,
+    268999
+   ],
+   "n": 1000,
+   "task": 999,
+   "wilson": [
+    0.999,
+    0.9943572970398398,
+    0.9998234581709429
+   ],
+   "clopper_pearson": [
+    0.9944410757201734,
+    0.9999746825125088
+   ],
+   "met_995": false,
+   "falls": [
+    268632
+   ],
+   "misses": [
+    268632
+   ]
+  },
+  {
+   "name": "turn90_pos",
+   "seeds": [
+    269000,
+    269999
+   ],
+   "n": 1000,
+   "task": 998,
+   "wilson": [
+    0.998,
+    0.9927370411104123,
+    0.9994513678975429
+   ],
+   "clopper_pearson": [
+    0.9927941610885425,
+    0.9997576988831227
+   ],
+   "met_995": false,
+   "falls": [],
+   "misses": [
+    269737,
+    269829
+   ]
+  },
+  {
+   "name": "turn90_neg",
+   "seeds": [
+    270000,
+    270999
+   ],
+   "n": 1000,
+   "task": 995,
+   "wilson": [
+    0.995,
+    0.9883488743952387,
+    0.9978624960042348
+   ],
+   "clopper_pearson": [
+    0.9883705294401879,
+    0.9983745804824372
+   ],
+   "met_995": false,
+   "falls": [
+    270260
+   ],
+   "misses": [
+    270215,
+    270227,
+    270260,
+    270581,
+    270924
+   ]
+  },
+  {
+   "name": "slalom",
+   "seeds": [
+    271000,
+    271999
+   ],
+   "n": 1000,
+   "task": 997,
+   "wilson": [
+    0.997,
+    0.9912168282105721,
+    0.9989792345945557
+   ],
+   "clopper_pearson": [
+    0.9912579767615217,
+    0.9993809000683505
+   ],
+   "met_995": false,
+   "falls": [
+    271181,
+    271339,
+    271596
+   ],
+   "misses": [
+    271181,
+    271339,
+    271596
+   ]
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    272000,
+    272199
+   ],
+   "n": 200,
+   "task": 200,
+   "wilson": [
+    1.0,
+    0.9811539940816791,
+    1.0
+   ],
+   "clopper_pearson": [
+    0.9817246596448638,
+    1.0
+   ],
+   "met_995": false,
+   "falls": [],
+   "misses": []
+  }
+ ]
+}

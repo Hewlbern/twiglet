@@ -1088,3 +1088,36 @@ The other misses are pitch falls near −42° to −45°, plus one short +90° (
 On this law, at the nominal head, the commands that clear a per-command Wilson 95% lower bound of 99.5% are the +20° arc at 4°/s and the +45° turn at 15°/s. cfg_b still holds the slalom at ±20° and 4°/s, the stop after a 1 s start, and stride ×0.7. Negative turns at the same rates miss the 15° opposite cap on the first slew step. The 90° turns and both 6°/s half-turns miss because of the pitch falls, and the +90° block also has one short finish. Restart and this law’s slalom miss for the same pitch falls, plus one restart yaw of −20° and one slalom that was still +13° at the 12 s waypoint. Stride ×1.3 was left unchanged and still fails the two cfg_b seeds at +20.5° and +21.0° of yaw. No mass block was preregistered here. Sole contacts are proxy boxes. These counts are not a hardware or strength result.
 
 Files: `params/head843_manoeuvre_cfg_c.json` (`3ffcf307a64e1da47c61400d1faf5e96d3e7322c5408f6790389301c563d8fbe`), `results/head843_manoeuvre_c_prereg.json`, `results/head843_manoeuvre_c_val.json`, `results/head843_manoeuvre_c_screen.json`, `results/head843_manoeuvre_c_manifest.json`, `sim/run_head843_manoeuvre_c_val.py`, `sim/run_head843_manoeuvre_c_screen.py`.
+
+## Onset right-stance flip (cfg_d)
+
+Preregistered 2026-11-08T07:47:28Z, after the screens and before these seeds. Nominal head. The scorer is unchanged: whole-trace opposite peak at most 15°, final unwrapped yaw within 15° and of the commanded sign, band entered by the declared end, cross-track at most 0.40 m. cfg_b hash `2f8ba5c2…` and cfg_c hash `3ffcf307…` and their counts stay. This law’s `sim/manoeuvre.py` is `98facc7220b9fb69d51599943f2a818f65ace2ce5fa669366e98f468690e8bd5`. Config `params/head843_manoeuvre_cfg_d.json` is `4ce06836e4d0a68d39154f4e7370ab23b22c5286be90f6f0af16a09695e554a7`. The early-rate file is still `d308c5f0…`.
+
+The phase-selected hip still receives the full 0.45 proportional term and the 0.20 feedforward. For the first 0.40 s after the command rate rises through 2°/s, if that hip is the right hip and the right sole has more than 55% of the sole load, the sign is flipped. After 0.40 s the sign matches cfg_c. The 0.40 s window is the measured time of the opposite peak (0.26–0.36 s into the slew). The swing right hip is not flipped. Gains were not reduced.
+
+An always-on version of the same flip was measured on seeds 263000–263263 and dropped before this preregistration. It cleared the recorded kick seeds and then left fresh 90° finishes 20–30° short, because the loaded right hip was also carrying the sustained rate. Putting the whole command on the stance foot, with either sign, reversed the turn or cut a 90° finish from about 95° to about 54°.
+
+On the recorded cfg_c misses, replayed only as a check of the changed law, the onset flip took 15 of 16 −20° misses and 9 of 10 −45° misses inside the rule. The remaining −45° seed, 255061, peaks at +15.62° at 2.88 s with or without a heading schedule: that peak is the straight walk, before the command. A fresh 200 straight walks (263400–263599, first 3 s) had a maximum positive peak of +12.4°.
+
+Straight replays of the cfg_c pitch-fall seeds, same horizons, did not fall. That includes 36 s walks of 258189, 259026, and 259556. The −43° pitch falls are an interaction with the heading command. Under the onset law, 253059 and 256025 survive, and 258189, 259341, and 259556 still fall. Half-turns were therefore left out of this preregistration.
+
+| Command | Seeds | Task | Wilson 95% lower | Clopper–Pearson 95% | Bar |
+|---|---|---:|---:|---|---|
+| +20° at 4°/s, 3–8 s | 265000–265999 | 1000/1000 | 99.62% | 99.63–100% | met |
+| −20° at 4°/s, 3–8 s | 266000–266999 | 1000/1000 | 99.62% | 99.63–100% | met |
+| +45° at 15°/s, 3–6 s | 267000–267999 | 1000/1000 | 99.62% | 99.63–100% | met |
+| −45° at 15°/s, 3–6 s | 268000–268999 | 999/1000 | 99.44% | 99.44–100.00% | not met |
+| +90° at 15°/s, 2.5–8.5 s | 269000–269999 | 998/1000 | 99.27% | 99.28–99.98% | not met |
+| −90° at 15°/s, 2.5–8.5 s | 270000–270999 | 995/1000 | 98.84% | 98.84–99.84% | not met |
+| Slalom on this law | 271000–271999 | 997/1000 | 99.12% | 99.13–99.94% | not met |
+| Straight 10 s, no schedule | 272000–272199 | 200/200 | 98.12% | 98.17–100% | regression only |
+
+These counts are not pooled with cfg_b or cfg_c. cfg_c’s +20° and +45° remain qualified on hash `cf5fe203…`. cfg_d re-earned those two on its own seeds and adds the −20° arc. cfg_b’s slalom, stop, and stride ×0.7 remain 1000/1000 on hash `50db0a02…`.
+
+The −45° miss is a pitch fall, seed 268632 at 9.54 s, minimum pitch −44.4°. The +90° misses finish at +63° and +72° with opposite peaks of 0.6°. The −90° misses are three shorts (finals −74°, −72°, and −44°), one pitch fall at 3.81 s (minimum pitch −43.2°), and one opposite peak of 16.0° on a finish of −88°. The three slalom misses are pitch falls at 11.82 s, 4.14 s, and 5.41 s. None of those is a 15.1° yaw-threshold miss.
+
+Straight fingerprints still match: seed 214000 at 1.1157 m and +1.498°, seed 214001 at 1.0931 m and −2.934°, stop seed 233700 at +0.33° and 0.0048 m/s after the settle. On the 200 straight seeds the shoulder mean was 20.9°, shoulder travel 17.7°, head yaw travel 15.8°, progress median 0.109 m/s, yaw median −2.1°.
+
+Restart and stride ×1.3 do not set a heading schedule, so this alloc does not run. cfg_c restart stays 998/1000. Stride ×1.3 still fails seeds 248518 and 248767 at +20.5° and +21.0° of yaw. No mass block was preregistered. Sole contacts are proxy boxes. These counts are not a hardware or strength result.
+
+Files: `results/head843_manoeuvre_d_prereg.json`, `results/head843_manoeuvre_d_val.json`, `results/head843_manoeuvre_d_manifest.json`, `results/head843_manoeuvre_d_screen.json`, `results/head843_manoeuvre_d_onset_screen.json`, `sim/run_head843_manoeuvre_d_val.py`, `sim/run_head843_manoeuvre_d_screen.py`.

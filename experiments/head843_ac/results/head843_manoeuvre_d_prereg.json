@@ -1,0 +1,145 @@
+{
+ "written_before_trials_utc": "2026-11-08T07:47:28Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg_d.json",
+  "cfg_sha256": "4ce06836e4d0a68d39154f4e7370ab23b22c5286be90f6f0af16a09695e554a7",
+  "manoeuvre_sha256": "98facc7220b9fb69d51599943f2a818f65ace2ce5fa669366e98f468690e8bd5",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "cfg_b_sha256_unchanged": "2f8ba5c261624f6c7526a7f12f9231687924070cc64bc2f1b6edc55d7cd936ab",
+  "cfg_c_sha256_unchanged": "3ffcf307a64e1da47c61400d1faf5e96d3e7322c5408f6790389301c563d8fbe",
+  "cfg_c_manoeuvre_sha256": "cf5fe2037cbcc2a94c40f3203b6c131248ddad50c7bb68cfd7f92894e1b20202"
+ },
+ "preserves": "cfg_b and cfg_c results and hashes stay. This file is a new law and new seeds. Development screens 263000-264255 are not reused. An always-on right-stance flip was measured on 263000-263263 and dropped before this preregistration because 90 deg finishes went 20-30 deg short.",
+ "turn_pass": "Same turn_ok as cfg_b and cfg_c. Upright. Final unwrapped yaw within 15 deg of the commanded delta and of that sign. The maximum unwrapped yaw opposite the command, over the whole trace, is at most 15 deg. The 15 deg band is entered by the declared end. Post-slew cross-track RMS <= 0.40 m.",
+ "slalom_pass": "Same waypoints and 15 deg bands as cfg_b. A slalom pass does not count as a turn pass.",
+ "straight_pass": "Upright, |final yaw| <= 15 deg, progress >= 0.08 m/s. Regression only. N=200 cannot clear 99.5%.",
+ "not_in_this_prereg": "Half-turns are excluded. Pitch falls near -43 deg still reproduce on 258189, 259341 and 259556, and those seeds walk the same horizon straight. Restart and stride x1.3 do not set a heading schedule, so this alloc does not run on them. Stop and stride x0.7 stay the cfg_b qualifications.",
+ "onset": "0.40 s after the command rate rises through 2 deg/s. Right sole share above 0.55 flips the sign of the phase-selected right hip only inside that window.",
+ "criterion": "Each n=1000 block needs its own Wilson 95% lower bound >= 0.995. No pooling across direction, command, law, or mass. Nominal head only.",
+ "blocks": [
+  {
+   "name": "arc20_pos",
+   "seeds": [
+    265000,
+    265999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 20,
+   "t0": 3.0,
+   "t1": 8.0,
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "arc20_neg",
+   "seeds": [
+    266000,
+    266999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -20,
+   "t0": 3.0,
+   "t1": 8.0,
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "turn45_pos",
+   "seeds": [
+    267000,
+    267999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 45,
+   "t0": 3.0,
+   "t1": 6.0,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn45_neg",
+   "seeds": [
+    268000,
+    268999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -45,
+   "t0": 3.0,
+   "t1": 6.0,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn90_pos",
+   "seeds": [
+    269000,
+    269999
+   ],
+   "n": 1000,
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": 90,
+   "t0": 2.5,
+   "t1": 8.5,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "turn90_neg",
+   "seeds": [
+    270000,
+    270999
+   ],
+   "n": 1000,
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": -90,
+   "t0": 2.5,
+   "t1": 8.5,
+   "rate_deg_s": 15.0
+  },
+  {
+   "name": "slalom",
+   "seeds": [
+    271000,
+    271999
+   ],
+   "n": 1000,
+   "T": 24,
+   "kind": "slalom",
+   "waypoints_deg": [
+    [
+     7,
+     20
+    ],
+    [
+     12,
+     0
+    ],
+    [
+     17,
+     -20
+    ],
+    [
+     22,
+     0
+    ]
+   ],
+   "rate_deg_s": 4.0
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    272000,
+    272199
+   ],
+   "n": 200,
+   "T": 10,
+   "kind": "straight",
+   "gate": false
+  }
+ ]
+}

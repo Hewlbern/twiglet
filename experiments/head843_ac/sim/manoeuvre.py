@@ -1197,6 +1197,9 @@ def rollout(job):
                 hint["ycmd_gate_prev"], hint["ycmd_gate_t"] = ycmd, t
                 rate_abs = 0.0 if gprev is None or gt is None or t <= gt else abs(wrap(ycmd - gprev) / (t - gt))
                 err_abs = abs(wrap(ycmd - float(rpy[2])))
+                if rate_abs > math.radians(2.0) and hint.get("rate_abs_prev", 0.0) <= math.radians(2.0):
+                    hint["move_t0"] = t
+                hint["rate_abs_prev"] = rate_abs
                 if rate_abs > math.radians(2.0):
                     hint["saw_heading_move"] = True
                 scheduling = rate_abs > math.radians(2.0) or (bool(hint.get("saw_heading_move")) and err_abs > math.radians(6.0))
@@ -1261,11 +1264,26 @@ def rollout(job):
                     hint["pa_preL"] = float(q[sv.idx["left_hip_pitch"]])
                     hint["pa_preR"] = float(q[sv.idx["right_hip_pitch"]])
                 short_step_balance(q, sv.idx, ph_now, rpy, gy, y_ref, head_mode, cg["gain"])
-                if scheduling and href and href.get("track_settle") and ycmd is not None and not href.get("track_both"):
+                yaw_alloc = href.get("yaw_alloc", "phase") if href else "phase"
+                if scheduling and href and href.get("track_settle") and ycmd is not None and not href.get("track_both") and yaw_alloc in ("phase", "right_stance_onset"):
                     terr = wrap(ycmd - float(rpy[2]))
                     kp = float(href.get("k_yaw_p", 0.45))
                     extra = max(-0.08, min(0.08, kp * terr))
                     side = "left_hip_yaw" if math.sin(ph_now) <= 0.0 else "right_hip_yaw"
+                    # Same-sign command on the loaded right hip yaws the body backward
+                    # on the first step. The swing right hip keeps that sign: it carries
+                    # the rest of the turn. Flip only the first 0.40 s of each slew,
+                    # the window where the opposite peak was measured. Holding the flip
+                    # for the whole slew cut 90 deg finishes by 20 to 30 deg.
+                    if yaw_alloc == "right_stance_onset" and side == "right_hip_yaw":
+                        Lf, Rf = sole_forces(m, d)
+                        loaded = Rf > Lf and Rf > 0.55 * (Lf + Rf)
+                        t_move = hint.get("move_t0")
+                        if loaded and t_move is not None and (t - t_move) <= 0.40:
+                            extra = -extra
+                            hint["yaw_flip_right"] = True
+                        else:
+                            hint["yaw_flip_right"] = False
                     q[sv.idx[side]] = max(-0.12, min(0.12, q[sv.idx[side]] + extra))
                 if href and href.get("track_both") and ycmd is not None:
                     prev, pt = hint.get("ycmd_prev"), hint.get("ycmd_t")
@@ -1281,13 +1299,15 @@ def rollout(job):
                     q[sv.idx["right_hip_yaw"]] = u
                 else:
                     kff = float(href.get("k_yaw_ff", 0.0)) if href else 0.0
-                    if kff and ycmd is not None:
+                    if kff and ycmd is not None and href.get("yaw_alloc", "phase") in ("phase", "right_stance_onset"):
                         prev, pt = hint.get("ycmd_prev"), hint.get("ycmd_t")
                         hint["ycmd_prev"], hint["ycmd_t"] = ycmd, t
                         if prev is not None and pt is not None and t > pt:
                             rate = wrap(ycmd - prev) / (t - pt)
                             uff = max(-0.08, min(0.08, kff * rate))
                             side = "left_hip_yaw" if math.sin(ph_now) <= 0.0 else "right_hip_yaw"
+                            if href.get("yaw_alloc") == "right_stance_onset" and side == "right_hip_yaw" and hint.get("yaw_flip_right"):
+                                uff = -uff
                             q[sv.idx[side]] = max(-0.10, min(0.10, q[sv.idx[side]] + uff))
                 if job.get("pitch_auth"):
                     hint.setdefault("pauth", []).append(dict(
