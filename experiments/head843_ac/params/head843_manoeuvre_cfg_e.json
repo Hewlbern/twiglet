@@ -1,0 +1,21 @@
+{
+  "base_npy": "params/head843_earlyrate.npy",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "parent_law_sha256": "98facc7220b9fb69d51599943f2a818f65ace2ce5fa669366e98f468690e8bd5",
+  "k_yaw_ff": 0.2,
+  "k_yaw_p": 0.45,
+  "track_settle": true,
+  "yaw_alloc": "right_stance_onset",
+  "onset_s": 0.4,
+  "step_guard": {
+    "only_after_heading_move": true,
+    "touchdown_sag_m": 0.045,
+    "clear_below_m": 0.042,
+    "rad_per_m": 3.75,
+    "cap_rad": 0.03,
+    "note": "Measured turn steps ran about 5 mm longer than the same seed walked straight, and pitch then ratcheted backward. The guard shortens the swing only after that excess is measured."
+  },
+  "restart_later_cycle_yaw_ulim_rad": 0.04,
+  "fast_stride_yaw_ulim_rad": 0.04,
+  "note": "Straight walks do not set a heading schedule, a restart, or stride_scale, so their trim stays 0.02 rad and the step guard does not run. The 0.04 rad caps are only the later restart cycle and stride above 1."
+}

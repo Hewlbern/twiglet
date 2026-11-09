@@ -1,0 +1,222 @@
+{
+ "written_before_trials_utc": "2026-11-09T07:53:34Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg_h.json",
+  "cfg_sha256": "efe2e4a579e8b8d288f8651f3c3519c6c1f2142d4e1046d7ec5abab11dcee982",
+  "manoeuvre_sha256": "ddf20cc14d2c181e1ef7428078bff7f9160884c1341cae2b75fb782d0ff71fce",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "cfg_g_manoeuvre_sha256_unchanged": "2ee3faeaab624dce936ac790b924bf1ba5e38ae456072d857a2bdc7ce8f3c4fe"
+ },
+ "preserves": "cfg_g slalom 999/1000 stays on 2ee3faea. cfg_f restart, cfg_d +-20 and +45, cfg_b slalom/stop/x0.7, and cfg_e restart stay on their hashes. Development seeds 286000-286176 are not reused.",
+ "turn_pass": "Unchanged whole-trace rule. Unwrapped yaw, final within 15 deg and the same sign, opposite peak <= 15 deg, inside the band by the episode end, cross-track <= 0.40 m, upright.",
+ "declared_rates": {
+  "m90_8": "8 deg/s, 2.5 to 13.75 s, episode 17.25 s",
+  "p90_8": "8 deg/s, 2.5 to 13.75 s, episode 17.25 s",
+  "m45_8": "8 deg/s, 3.0 to 8.625 s, episode 12.125 s",
+  "slalom": "4 deg/s, waypoints +20/0/-20/0 at 7/12/17/22 s, episode 24 s",
+  "p20_m20": "4 deg/s, 3 to 8 s, episode 10 s",
+  "p45": "15 deg/s, 3 to 6 s, episode 10 s. Regression of the cfg_d command on this law.",
+  "stride_1_2": "scale 1.2, episode 10 s. Existing speed rule: upright, |final yaw| <= 20 deg, progress within 25% of 0.11*1.2 m/s. Stride x1.3 is not in this sample."
+ },
+ "not_in_this_prereg": "180 deg was 8/8 positive and 7/8 negative on seeds 286128-286143, one opposite peak of 15.3 deg. Not opened. 15 deg/s 90 deg and 15 deg/s -45 are not opened. Seed 270260 still falls straight.",
+ "criterion": "Each n=1000 block needs its own Wilson 95% lower bound >= 0.995. Blocks under 1000 are regressions and cannot clear that bar. Not pooled across commands, masses, or hashes.",
+ "bounds_if_that_block_perfect": {
+  "m90_8": {
+   "lo": [
+    296000,
+    296099
+   ],
+   "hi": [
+    296100,
+    296199
+   ]
+  },
+  "p90_8": {
+   "lo": [
+    296200,
+    296299
+   ],
+   "hi": [
+    296300,
+    296399
+   ]
+  },
+  "m45_8": {
+   "lo": [
+    296400,
+    296499
+   ],
+   "hi": [
+    296500,
+    296599
+   ]
+  },
+  "slalom": {
+   "lo": [
+    296600,
+    296699
+   ],
+   "hi": [
+    296700,
+    296799
+   ]
+  }
+ },
+ "blocks": [
+  {
+   "name": "m90_8",
+   "seeds": [
+    287000,
+    287999
+   ],
+   "n": 1000,
+   "T": 17.25,
+   "kind": "slew",
+   "delta_deg": -90,
+   "t0": 2.5,
+   "t1": 13.75
+  },
+  {
+   "name": "p90_8",
+   "seeds": [
+    288000,
+    288999
+   ],
+   "n": 1000,
+   "T": 17.25,
+   "kind": "slew",
+   "delta_deg": 90,
+   "t0": 2.5,
+   "t1": 13.75
+  },
+  {
+   "name": "m45_8",
+   "seeds": [
+    289000,
+    289999
+   ],
+   "n": 1000,
+   "T": 12.125,
+   "kind": "slew",
+   "delta_deg": -45,
+   "t0": 3.0,
+   "t1": 8.625
+  },
+  {
+   "name": "slalom",
+   "seeds": [
+    290000,
+    290999
+   ],
+   "n": 1000,
+   "T": 24,
+   "kind": "slalom"
+  },
+  {
+   "name": "p20",
+   "seeds": [
+    291000,
+    291999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 20,
+   "t0": 3.0,
+   "t1": 8.0
+  },
+  {
+   "name": "m20",
+   "seeds": [
+    292000,
+    292999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -20,
+   "t0": 3.0,
+   "t1": 8.0
+  },
+  {
+   "name": "p45",
+   "seeds": [
+    293000,
+    293999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 45,
+   "t0": 3.0,
+   "t1": 6.0
+  },
+  {
+   "name": "stride12",
+   "seeds": [
+    294000,
+    294999
+   ],
+   "n": 1000,
+   "T": 10,
+   "kind": "speed",
+   "scale": 1.2
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    295000,
+    295199
+   ],
+   "n": 200,
+   "T": 10,
+   "kind": "straight",
+   "gate": false
+  },
+  {
+   "name": "straight20",
+   "seeds": [
+    295200,
+    295249
+   ],
+   "n": 50,
+   "T": 20,
+   "kind": "straight",
+   "gate": false
+  },
+  {
+   "name": "stop",
+   "seeds": [
+    295250,
+    295349
+   ],
+   "n": 100,
+   "T": 12,
+   "kind": "stop",
+   "gate": false
+  },
+  {
+   "name": "restart",
+   "seeds": [
+    295350,
+    295449
+   ],
+   "n": 100,
+   "T": 14,
+   "kind": "restart",
+   "gate": false
+  },
+  {
+   "name": "slow",
+   "seeds": [
+    295450,
+    295549
+   ],
+   "n": 100,
+   "T": 10,
+   "kind": "speed",
+   "scale": 0.7,
+   "gate": false
+  }
+ ]
+}

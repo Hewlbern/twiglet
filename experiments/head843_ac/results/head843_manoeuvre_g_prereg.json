@@ -1,0 +1,50 @@
+{
+ "written_before_trials_utc": "2026-11-09T07:10:32Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg_g.json",
+  "cfg_sha256": "80382ed86e832b3755cb47519757f22522882bdd5b0d9256c1384adcc6e0ba10",
+  "manoeuvre_sha256": "2ee3faeaab624dce936ac790b924bf1ba5e38ae456072d857a2bdc7ce8f3c4fe",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "cfg_f_manoeuvre_sha256_unchanged": "08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc"
+ },
+ "preserves": "cfg_f restart 1000/1000, cfg_e restart 999/1000, cfg_d +-20 and +45, and cfg_b slalom/stop/x0.7 stay on their own hashes. Development seeds 283000-283055 are not reused.",
+ "slalom_pass": "Upright. Unwrapped yaw within 15 deg of +20, 0, -20, 0 at 7, 12, 17, 22 s, positive lobe before the negative one. Rate 4 deg/s. Segments 2-7, 7-12, 12-17, 17-22. Episode 24 s.",
+ "stance_roll": "If a heading schedule is set and pitch is below -0.10 rad and pitch rate is negative, the loaded hip roll is commanded an extra -0.08 rad. Knee and ankle were already near \u00b11.91 N\u00b7m in a normal step, so they were not used.",
+ "straight_pass": "Upright, |final yaw| <= 15 deg, progress >= 0.08 m/s. Regression only. No heading, so the roll support does not run.",
+ "not_in_this_prereg": "\u00b190 at 8 deg/s is not qualified: seed 270924 still peaks 16.1 deg the wrong way. Seed 270260 falls straight at 4.33 s and is a baseline exception. Stride x1.3 seed 276309 still finishes at +26 deg and stays outside the envelope. A 15 deg/s 90 deg command remains above the 8-10 deg/s body rate.",
+ "bounds_if_nominal_perfect": {
+  "lo": [
+   285200,
+   285299
+  ],
+  "hi": [
+   285300,
+   285399
+  ],
+  "note": "Only if slalom is 1000/1000. A 100-seed Wilson lower near 96% is not a 99.5% mass claim."
+ },
+ "criterion": "The n=1000 slalom block needs its own Wilson 95% lower bound >= 0.995. Not pooled with cfg_b slalom or any other command or head.",
+ "blocks": [
+  {
+   "name": "slalom",
+   "seeds": [
+    284000,
+    284999
+   ],
+   "n": 1000,
+   "T": 24,
+   "kind": "slalom"
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    285000,
+    285199
+   ],
+   "n": 200,
+   "T": 10,
+   "kind": "straight",
+   "gate": false
+  }
+ ]
+}

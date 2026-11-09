@@ -1,0 +1,223 @@
+{
+ "written_before_trials_utc": "2026-11-08T06:17:56Z",
+ "candidate": {
+  "cfg": "params/head843_manoeuvre_cfg.json",
+  "cfg_sha256": "db8f607660376f2713e24d199347b48a559d77e92a2086cff9fe037a9abedca4",
+  "manoeuvre_sha256": "d78d48ac80c63525dc1959b099815d2fea83a42332697fb1a1ee8863554fc5bc",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "k_yaw_ff": 0.2
+ },
+ "rule": "Fixed commands, seeds, durations and pass rules. No retune after this file. No pooling across commands or signs. A 99.5% claim requires a Wilson 95% lower bound of at least 0.995 on task success, which includes staying upright. N=40 cannot meet that bar even if perfect. Positive 180 deg is not in this sample.",
+ "not_supported_from_probe": "Positive 180 deg at 15, 10 and 6 deg/s missed the 15 deg band on fresh seeds (errors of 37 to 102 deg). Raising feedforward to 0.35 did not bring both misses inside 15 deg. That direction is not claimed.",
+ "turn_pass": "Upright, final heading error within 15 deg, yaw change has the command sign, |yaw change| at least half the command, and post-slew cross-track RMS at most 0.40 m.",
+ "stop_pass": "Upright, speed in the second before the stop above 0.05 m/s, speed after settle below 0.03 m/s, travel after the stop below 0.15 m, |final yaw| <= 15 deg.",
+ "restart_pass": "Upright, mean speed from 6.2 to 7.6 s below 0.03 m/s, mean speed from 9.5 to 11.5 s above 0.08 m/s, |final yaw| <= 15 deg.",
+ "speed_pass": "Upright, |final yaw| <= 20 deg, forward progress within 25% of scale times 0.11 m/s.",
+ "slalom_pass": "Upright, and |heading minus the segment target| <= 15 deg at 7, 12, 17 and 22 s.",
+ "straight_pass": "Upright, |final yaw| <= 15 deg, forward progress >= 0.08 m/s. No heading schedule.",
+ "blocks": [
+  {
+   "name": "arc20_pos",
+   "seeds": [
+    233000,
+    233039
+   ],
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 20,
+   "t0": 3,
+   "t1": 8
+  },
+  {
+   "name": "arc20_neg",
+   "seeds": [
+    233100,
+    233139
+   ],
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -20,
+   "t0": 3,
+   "t1": 8
+  },
+  {
+   "name": "turn45_pos",
+   "seeds": [
+    233200,
+    233239
+   ],
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": 45,
+   "t0": 3,
+   "t1": 6
+  },
+  {
+   "name": "turn45_neg",
+   "seeds": [
+    233300,
+    233339
+   ],
+   "T": 10,
+   "kind": "slew",
+   "delta_deg": -45,
+   "t0": 3,
+   "t1": 6
+  },
+  {
+   "name": "turn90_pos",
+   "seeds": [
+    233400,
+    233439
+   ],
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": 90,
+   "t0": 2.5,
+   "t1": 8.5
+  },
+  {
+   "name": "turn90_neg",
+   "seeds": [
+    233500,
+    233539
+   ],
+   "T": 12,
+   "kind": "slew",
+   "delta_deg": -90,
+   "t0": 2.5,
+   "t1": 8.5
+  },
+  {
+   "name": "turn180_neg",
+   "seeds": [
+    233600,
+    233639
+   ],
+   "T": 24,
+   "kind": "slew",
+   "delta_deg": -180,
+   "t0": 2,
+   "t1": 20
+  },
+  {
+   "name": "stop",
+   "seeds": [
+    233700,
+    233739
+   ],
+   "T": 12,
+   "kind": "stop"
+  },
+  {
+   "name": "restart",
+   "seeds": [
+    233800,
+    233839
+   ],
+   "T": 14,
+   "kind": "restart"
+  },
+  {
+   "name": "speed_070",
+   "seeds": [
+    233900,
+    233939
+   ],
+   "T": 10,
+   "kind": "speed",
+   "scale": 0.7
+  },
+  {
+   "name": "speed_130",
+   "seeds": [
+    234000,
+    234039
+   ],
+   "T": 10,
+   "kind": "speed",
+   "scale": 1.3
+  },
+  {
+   "name": "slalom",
+   "seeds": [
+    234100,
+    234139
+   ],
+   "T": 24,
+   "kind": "slalom"
+  },
+  {
+   "name": "straight10",
+   "seeds": [
+    234200,
+    234239
+   ],
+   "T": 10,
+   "kind": "straight"
+  },
+  {
+   "name": "straight20",
+   "seeds": [
+    234300,
+    234319
+   ],
+   "T": 20,
+   "kind": "straight"
+  }
+ ],
+ "bounds_if_nominal_task_perfect": {
+  "rule": "Eight seeds on 0.82258 kg and eight on 0.88458 kg, only after that nominal block is a perfect task success. Not pooled with the nominal count.",
+  "turn45_pos": {
+   "lo": [
+    234400,
+    234407
+   ],
+   "hi": [
+    234500,
+    234507
+   ]
+  },
+  "turn45_neg": {
+   "lo": [
+    234410,
+    234417
+   ],
+   "hi": [
+    234510,
+    234517
+   ]
+  },
+  "stop": {
+   "lo": [
+    234420,
+    234427
+   ],
+   "hi": [
+    234520,
+    234527
+   ]
+  },
+  "speed_070": {
+   "lo": [
+    234430,
+    234437
+   ],
+   "hi": [
+    234530,
+    234537
+   ]
+  },
+  "speed_130": {
+   "lo": [
+    234440,
+    234447
+   ],
+   "hi": [
+    234540,
+    234547
+   ]
+  }
+ },
+ "collision_note": "Sole-box contacts and soft command limits. No material, fatigue, or hardware test."
+}

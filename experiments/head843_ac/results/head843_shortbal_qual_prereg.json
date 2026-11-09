@@ -1,0 +1,133 @@
+{
+ "preregistered_at_utc": "2026-11-08T02:17:09Z",
+ "rule": "Counts and seeds fixed before any qualification trial. No retune. No early stop on a favorable or unfavorable interval. No substitution of a smaller sample. No pooling with 127xxx, 130xxx, the 400-seed screen, or the selection block.",
+ "candidate": {
+  "file": "params/head843_shortbal.npy",
+  "sha256": "52d70ff1fffeb1a68085b97401f78154eedc8f8d81fc45088dde3800330073b5",
+  "base_gait_file": "params/head843_traj.npy",
+  "base_gait_sha256": "1842eb17a70ff0c4ea0c7fd472e2842f797b42dff699a132d994a8ca2819cddc",
+  "z_short_balance": {
+   "pitch_on": 0.08724,
+   "k_pitch": 0.93511,
+   "k_rate": 0.22824,
+   "k_yaw": 0.12509
+  },
+  "pitch_sign": 1.0,
+  "cap_rad": 0.06,
+  "yaw_command_clip_rad": 0.03,
+  "hip_yaw_clip_rad": 0.07,
+  "law": "short_step_balance after the slow-yaw integral and k_yaw_phase. Pitch branch only while pitch < -pitch_on and pitch rate < 0: stance thigh forward, swing foot less forward. Heading trim on the phase-stance hip only. No sole force.",
+  "traj_z": {
+   "f": 2.30122,
+   "stride": 0.10267,
+   "lift": 0.35803,
+   "crouch": 0.17153,
+   "lean": -0.1303,
+   "kp_pitch": -1.00649,
+   "ank_off": -0.12967,
+   "body_lean": -0.02927,
+   "k_hip": -0.16853
+  }
+ },
+ "baseline": {
+  "name": "frozen short-step trajectory",
+  "file": "params/head843_traj.npy",
+  "sha256": "1842eb17a70ff0c4ea0c7fd472e2842f797b42dff699a132d994a8ca2819cddc",
+  "note": "Same gait and controller as the 3978/4000 qualification, with short_balance absent. That 3978/4000 result is not rewritten and is not pooled."
+ },
+ "hashes": {
+  "candidate_npy": "52d70ff1fffeb1a68085b97401f78154eedc8f8d81fc45088dde3800330073b5",
+  "baseline_traj_npy": "1842eb17a70ff0c4ea0c7fd472e2842f797b42dff699a132d994a8ca2819cddc",
+  "baseline_search_npy": "9e8b2caa13bd09a883515bdf7cfca6458480fc0eecdfed0a6977d381f7a5b40c",
+  "reliable_npy": "d18f884ff5146eb0ed09cb8ab7562337482dd42c669649b4acd90c24ac083754",
+  "fast_npy": "aeb2c4ba3cd4dbbd0d382272292d09c63d7620422f05b671ac6297fc659c3cad",
+  "efficient_npy": "4f32549810c671d72c40719e1d19af53f83e8d2ededbe9460db668b891e39093",
+  "xml_nom": "a11573878462b5ac5330b76372828c55d735b77047e40eb2f0833461a87ee95e",
+  "xml_lo": "cc443192e694413eb1ce627017a9a67c25588d47b84668894c015db53e74f182",
+  "xml_hi": "767bd96fafedd20d9ec9eab15a93b852f6f2727d146eebdd3161b790abdc71b9",
+  "xml_canonical": "5e62e84b4fbc20270d8331274b33190f4e83dfc6a422a95bad45c19afdf6503b",
+  "scene": "e2d3009f6c35cfdfcefabf7ec9013ee9193547d5c4d16de37db78f0d07a60aba",
+  "manoeuvre": "48ae37b20460568eff53ae8a625c3a848ca016f1e684f667d3ffc7e9d8e8d4cd",
+  "shortbal_eval": "0f639d38106918452c6908cd1d13aadb692da412f1da7c7c7507c9a44bfb19c2",
+  "traj_eval": "09bbc798e1e28c45c00472d4e2d7de3747b45efe90305ccdb5be75338cde59bb",
+  "simlib": "b0e853b8fb70ad4b31ab38115be887cf8235c6ed53747223aab5b9562d40a3a7",
+  "episode": "4293019ded11063a1d597e7216e2134ce24a0f255b857298bc337e84f2ecccad"
+ },
+ "physics": "unchanged fall rule 45 deg or COM height < 0.6 start; randomization mass \u00b110%, friction 0.6-1.0, armature/damping \u00b130%, latency 0-5 steps of 2 ms, backlash 0.4 deg; STS3215 stall clip \u00b11.91 N\u00b7m",
+ "heads": {
+  "nominal_kg": 0.84258,
+  "low_kg": 0.82258,
+  "high_kg": 0.88458
+ },
+ "criterion_nominal_10s": {
+  "interval": "two-sided 95% Wilson, z=1.96",
+  "support": "lower bound >= 0.995 on the candidate nominal 10 s trials only",
+  "scope": "this seed distribution and 10 s horizon on the 0.84258 kg head only; not physical safety; not 20 s; not mass bounds",
+  "also_reported_not_a_second_gate": "Clopper-Pearson exact two-sided 95% lower bound"
+ },
+ "blocks": [
+  {
+   "name": "nom10",
+   "seeds_inclusive": [
+    150000,
+    153999
+   ],
+   "n": 4000,
+   "T_s": 10.0,
+   "xml": "head843",
+   "modes": [
+    "cand",
+    "base"
+   ],
+   "priority": 1
+  },
+  {
+   "name": "nom20",
+   "seeds_inclusive": [
+    154000,
+    154399
+   ],
+   "n": 400,
+   "T_s": 20.0,
+   "xml": "head843",
+   "modes": [
+    "cand",
+    "base"
+   ],
+   "priority": 2
+  },
+  {
+   "name": "lo10",
+   "seeds_inclusive": [
+    155000,
+    155199
+   ],
+   "n": 200,
+   "T_s": 10.0,
+   "xml": "head823",
+   "modes": [
+    "cand",
+    "base"
+   ],
+   "priority": 3
+  },
+  {
+   "name": "hi10",
+   "seeds_inclusive": [
+    156000,
+    156199
+   ],
+   "n": 200,
+   "T_s": 10.0,
+   "xml": "head885",
+   "modes": [
+    "cand",
+    "base"
+   ],
+   "priority": 4
+  }
+ ],
+ "order": "Complete cand nom10 (4000) before base nom10. Then nom20 both, lo10 both, hi10 both. Do not stop because an interval already clears or misses.",
+ "screen_not_qualification": "Seeds 142000-142399 were a 400-seed paired screen. They are not part of this distribution.",
+ "diagnostic_not_qualification": "The 22 misses of seeds 130000-133999 were used only to read the pitch-versus-yaw time order. They are not in this sample."
+}

@@ -1,0 +1,33 @@
+{
+  "base_npy": "params/head843_earlyrate.npy",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "parent_law_sha256": "2ee3faeaab624dce936ac790b924bf1ba5e38ae456072d857a2bdc7ce8f3c4fe",
+  "k_yaw_ff": 0.2,
+  "k_yaw_p": 0.45,
+  "track_settle": true,
+  "yaw_alloc": "right_stance_onset",
+  "step_guard": true,
+  "neg_onset_gate": {
+    "when": "command rate more negative than -2 deg/s, left foot loaded, first 0.28 s of the slew",
+    "action": "hold the hip-yaw tracking command",
+    "note": "Seed 270924 was +9.6 deg at 2.50 s and +16.2 deg at 2.73 s while the left hip was at -0.10 rad. Holding that burst leaves the peak at +14.3 deg. Positive slews are not delayed."
+  },
+  "stance_roll_support": {
+    "joint": "loaded hip roll",
+    "command_rad": -0.08,
+    "pitch_below_rad": -0.14,
+    "only_when_pitch_rate_negative": true,
+    "note": "At -0.10 rad the same command spun seed 284200 through +17 deg during the negative slalom lobe. At -0.14 rad that waypoint is -22.5 deg, and seeds 271181 and 271339 stay upright."
+  },
+  "commands": {
+    "m90_8": {"rate_deg_s": 8, "t0": 2.5, "t1": 13.75, "T": 17.25, "delta_deg": -90},
+    "p90_8": {"rate_deg_s": 8, "t0": 2.5, "t1": 13.75, "T": 17.25, "delta_deg": 90},
+    "m45_8": {"rate_deg_s": 8, "t0": 3.0, "t1": 8.625, "T": 12.125, "delta_deg": -45},
+    "slalom": {"rate_deg_s": 4, "segments_s": [[2, 7, 20], [7, 12, 0], [12, 17, -20], [17, 22, 0]], "T": 24},
+    "p20": {"rate_deg_s": 4, "t0": 3.0, "t1": 8.0, "T": 10, "delta_deg": 20},
+    "m20": {"rate_deg_s": 4, "t0": 3.0, "t1": 8.0, "T": 10, "delta_deg": -20},
+    "p45": {"rate_deg_s": 15, "t0": 3.0, "t1": 6.0, "T": 10, "delta_deg": 45},
+    "stride_1_2": {"scale": 1.2, "T": 10, "yaw_cap_deg": 20, "speed": "within 25% of 0.11 m/s times 1.2"}
+  },
+  "not_qualified_here": "180 deg, 15 deg/s 90 deg, 15 deg/s -45 deg, and stride x1.3 are not in this sample. Seed 270260 still falls with no command."
+}
