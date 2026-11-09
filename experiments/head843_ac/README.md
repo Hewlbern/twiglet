@@ -32,6 +32,12 @@ Law `e13cd9c1ef2f529f3d4401626ef819b7e44df8c9358788879bacb48cf4228887`. After a 
 
 The preregistered restart block, seeds 277000–277999, is 999/1000. Wilson lower bound 99.44%. It does not clear 99.5%. The miss is seed 277378 at −15.27° of yaw, upright, with the stop and the second walk intact. Straight seeds 278000–278199 are 200/200. No mass block was run. cfg_d’s ±20° and +45° counts stay on hash `98facc72…`.
 
+The run36 paired straight walks did not fall. Replayed here, seeds 253059, 258189, and 261613 stay upright. Seed 270260 was not in that set. It falls at 4.33 s when walked straight, at 10 s and at 12 s, and it also falls on the −90° command. That straight-walk fall is a different seed, not a change to the earlier logs.
+
+## cfg_f, later-cycle integral reset
+
+Law `08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc`. At the edge of a restart’s later cycle the slow-yaw integral is set to zero once. On seed 277378 the hips were still the sign of the first walk while yaw ran to −24°. The preregistered block, seeds 280000–280999, is 1000/1000, Wilson lower 99.62%. Yaw on that thousand runs from −14.3° to +10.9°. The 0.82258 kg and 0.88458 kg heads are each 100/100, Wilson lower 96.30%, which is not a 99.5% mass claim. Straight seeds 281000–281199 are 200/200. cfg_e’s 999/1000 stays on its own hash. Seed 271181 still falls. Seed 276309 still finishes a ×1.3 stride at +26°. A 15°/s 90° command is still faster than the 8–10°/s measured with hip yaw at its clip.
+
 ## cfg_c, timed handoff
 
 Preregistered 2026-11-08T07:07:35Z. Hash above. These counts are not retaken and are not pooled with cfg_d.

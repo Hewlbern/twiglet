@@ -1153,3 +1153,23 @@ Stride ×1.3 with the same 0.04 rad cap passes seeds 248518 and 248767 at +17.8�
 On this hash the restart is 999/1000 and is not a 99.5% claim. Nothing else was qualified here. cfg_d still holds ±20° and +45°. cfg_b still holds the slalom, the stop, and stride ×0.7.
 
 Files: `results/head843_manoeuvre_e_prereg.json`, `results/head843_manoeuvre_e_val.json`, `results/head843_manoeuvre_e_screen.json`, `params/head843_manoeuvre_cfg_e.json`, `sim/run_head843_manoeuvre_e_val.py`.
+
+## Provenance of the straight pitch falls
+
+The run36 paired set did not fall when walked straight. Replayed again on this law, with no heading schedule: seed 253059 at 10 s, seed 258189 at 36 s, and seed 261613 at 24 s all stay upright. Seed 270260 was not in that set. It is a later miss from the cfg_d −90° block, and it falls at 4.33 s both on the turn and when walked straight, at 10 s and at 12 s. That is a straight-walk fall outside the qualified early-rate seed ranges, not a correction of the run36 logs. Those logs stay as recorded.
+
+## Later-cycle integral reset (cfg_f)
+
+Preregistered 2026-11-09T00:31:42Z. Law `08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc`. Config `85651e3e491992d04d88b9d5847b837afbb9d4cbe3cf3770ca3422dc1445035b`. The early-rate file is still `d308c5f0…`. cfg_e’s 999/1000 on seeds 277000–277999 stays on hash `e13cd9c1…`.
+
+On seed 277378 the second walk’s hips were still positive while yaw ran to −23.8° at 9.76 s and finished at −15.5°. The slow-yaw integral had kept the first walk’s sign. At the edge of the later cycle that integral is now set to zero once. The 0.04 rad cap on that cycle is unchanged. The first walk and a straight walk do not reset.
+
+Seed 277378 then finishes at +0.2°. Seed 260842 finishes at −5.4°. Seeds 279000–279047 were 48/48. The preregistered block, seeds 280000–280999, is **1000/1000**. Wilson 95% lower bound **99.62%**. Clopper–Pearson 99.63–100%. Yaw runs from −14.3° to +10.9°, median +1.0°. No falls. The low head (0.82258 kg), seeds 281200–281299, and the high head (0.88458 kg), seeds 281300–281399, are each 100/100. That bound’s Wilson lower bound is 96.30%. It is not a 99.5% mass claim.
+
+Straight seeds 281000–281199 are 200/200, Wilson lower 98.12%. Shoulder mean 20.9°, shoulder travel 17.9°, head yaw travel 15.8°. Fingerprints 214000, 214001, and stop seed 233700 still match.
+
+Holding the step-shortening bias across a short step saved seed 271181 and made seed 271339 fall again at 12.5 s, still backward. That decay was reverted. Seed 271181 still falls at 13.9 s on this law. The 15°/s 90° command is still faster than the 8–10°/s the body holds with hip yaw at ±0.10 rad. Fast-stride seed 276309 still finishes at +26.1°. Those three are not qualified here.
+
+On this hash the qualified command is the restart, nominal head, 1000/1000. cfg_d still holds ±20° and +45°. cfg_b still holds the slalom, the stop, and stride ×0.7. Sole contacts are proxy boxes. Nothing here is a hardware or strength result.
+
+Files: `results/head843_manoeuvre_f_prereg.json`, `results/head843_manoeuvre_f_val.json`, `results/head843_manoeuvre_f_screen.json`, `params/head843_manoeuvre_cfg_f.json`, `sim/run_head843_manoeuvre_f_val.py`.

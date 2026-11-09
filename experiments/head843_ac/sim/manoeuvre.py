@@ -1223,7 +1223,15 @@ def rollout(job):
                 # A later restart rise is not the qualified straight start. The
                 # second-walk transient on seed 260842 reached -27 deg while this
                 # trim was still near 0.03 rad. Straight walks do not take this branch.
-                if amp is not None and getattr(amp, "later_cycle", None) and amp.later_cycle(t):
+                in_later = bool(amp is not None and getattr(amp, "later_cycle", None) and amp.later_cycle(t))
+                if in_later and not hint.get("later_on"):
+                    # The first walk's integral is the wrong sign for the second
+                    # start. On seed 277378 the hips were still positive while yaw
+                    # was running to -24 deg. Reset once, at the later-cycle edge.
+                    hint["yi"] = 0.0
+                    hint["yt"] = t
+                hint["later_on"] = in_later
+                if in_later:
                     ulim = max(ulim, 0.04)
                 # At stride x1.3 the 0.02 rad trim is at its clip on most samples
                 # and heading still runs past 20 deg. The straight walk does not
