@@ -1203,3 +1203,17 @@ What the allocation will not do: hip yaw is the only heading degree of freedom. 
 The qualified commands are unchanged and are not pooled. cfg_f restart, seeds 280000–280999, 1000/1000. cfg_d +20°, −20°, and +45°, each 1000/1000. cfg_b slalom, stop, and stride ×0.7, each 1000/1000. cfg_e restart 999/1000.
 
 The fresh screen is `results/head843_manoeuvre_seg4_screen.json`.
+
+## Stance hip-roll support (cfg_g)
+
+Preregistered 2026-11-09T07:10:32Z. Law `2ee3faeaab624dce936ac790b924bf1ba5e38ae456072d857a2bdc7ce8f3c4fe`. Config `80382ed86e832b3755cb47519757f22522882bdd5b0d9256c1384adcc6e0ba10`. The early-rate file is still `d308c5f0…`. cfg_f’s restart 1000/1000 stays on `08e856e0…`.
+
+Knee and ankle torque already reach about ±1.91 N·m during a normal straight step (seed 214000 at 3–5 s). Hip pitch does the same once pitch is past about −8°. Hip roll, the lateral joint, was still around 1 N·m or below on the slalom fall. There is no ankle-roll or ankle-yaw joint. A capture-point planner or a learned residual would still command these same actuators and could not exceed that stall torque once the body is already there.
+
+A −0.08 rad command on the loaded hip roll, only while pitch is below −0.10 rad and the pitch rate is negative, and only when a heading schedule is set, kept seeds 271181 and 271339 upright on the 4°/s slalom. The opposite sign made 271339 fall at 4.3 s. Straight walks do not set a heading, so this does not run on them. Seed 270260 still falls at 4.33 s with no command, and it still falls on a turn.
+
+The preregistered slalom, seeds 284000–284999, rate 4°/s, segments 2–7 / 7–12 / 12–17 / 17–22 s, episode 24 s, is **999/1000**. Wilson 95% lower bound **99.44%**. It does not clear 99.5%. The miss is seed 284200, upright, at +17.0°, +5.9°, **−1.8°**, and +5.9° where the targets are +20, 0, −20, and 0. It never reached the negative lobe. No falls in the thousand. Straight seeds 285000–285199 are 200/200. Shoulder mean 20.9°, shoulder travel 17.8°, head yaw travel 15.8°. No mass block, because the nominal block was not perfect.
+
+±90° at a declared 8°/s still leaves seed 270924 with a 16.1° opposite peak. A 15°/s 90° command remains above the 8–10°/s the body holds at the 0.10 rad hip-yaw clip. Seed 276309 still finishes stride ×1.3 at +26.1°. That stride is outside the qualified envelope. A larger hip-yaw range would be what raises the turn-rate cap. It would not, by itself, add sagittal torque past the ±1.91 N·m rail.
+
+Files: `results/head843_manoeuvre_g_prereg.json`, `results/head843_manoeuvre_g_val.json`, `results/head843_manoeuvre_g_screen.json`, `params/head843_manoeuvre_cfg_g.json`, `sim/run_head843_manoeuvre_g_val.py`.

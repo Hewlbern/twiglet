@@ -1,0 +1,24 @@
+{
+  "base_npy": "params/head843_earlyrate.npy",
+  "base_npy_sha256": "d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892",
+  "parent_law_sha256": "08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc",
+  "k_yaw_ff": 0.2,
+  "k_yaw_p": 0.45,
+  "track_settle": true,
+  "yaw_alloc": "right_stance_onset",
+  "step_guard": true,
+  "stance_roll_support": {
+    "joint": "loaded hip roll",
+    "command_rad": -0.08,
+    "pitch_below_rad": -0.1,
+    "only_when_pitch_rate_negative": true,
+    "only_with_heading_schedule": true,
+    "note": "Knee and ankle already reach about ±1.91 N·m in a normal step, and hip pitch is on that rail once pitch is past about -8 deg. Hip roll is the lateral joint and was still near 1 N·m or below. Negative 0.08 rad on the loaded hip kept slalom seeds 271181 and 271339 upright. Positive 0.08 rad made 271339 fall."
+  },
+  "slalom": {
+    "rate_deg_s": 4.0,
+    "segments_s": [[2, 7, 20], [7, 12, 0], [12, 17, -20], [17, 22, 0]],
+    "T_s": 24
+  },
+  "note": "Straight walks do not set a heading schedule, so the roll support does not run. cfg_f restart and cfg_d turns stay on their own hashes."
+}

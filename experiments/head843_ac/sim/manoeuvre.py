@@ -1293,6 +1293,16 @@ def rollout(job):
                     hint["pa_preL"] = float(q[sv.idx["left_hip_pitch"]])
                     hint["pa_preR"] = float(q[sv.idx["right_hip_pitch"]])
                 short_step_balance(q, sv.idx, ph_now, rpy, gy, y_ref, head_mode, cg["gain"])
+                # Hip pitch, knee, and ankle are already near the ±1.91 N·m rail in a
+                # normal step. Hip roll is the lateral joint and still has torque
+                # left. A -0.08 rad command on the loaded hip, only while pitch is
+                # past -0.10 rad and still falling, kept the recorded slalom falls
+                # upright. The opposite sign made seed 271339 fall. Straight walks
+                # do not set a heading, so this does not run.
+                if href and href.get("stance_roll_support") and float(rpy[1]) < -0.10 and float(gy[1]) < 0.0:
+                    Lf, Rf = sole_forces(m, d)
+                    side = "left_hip_roll" if Lf >= Rf else "right_hip_roll"
+                    q[sv.idx[side]] += -0.08
                 # Turns land the next foot a few millimetres further forward than the
                 # same seed walked straight, and pitch then ratchets backward. Shorten
                 # the swing only after a heading move, and only when a touchdown is
