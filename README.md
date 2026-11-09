@@ -1,4 +1,4 @@
-![Twiglet, rest pose, front three-quarter view](docs/images/hero_current.png)
+![Twiglet, rest pose, front three-quarter view, hair v6.11 (v6b0)](docs/images/hero_current.png)
 
 # Twiglet
 
@@ -11,14 +11,14 @@
 | | | |
 |:-:|:-:|:-:|
 | ![complete, back](docs/images/hero_back.png) | ![wig on the head](docs/images/assembly/s14_wig.png) | ![head shells and nose](docs/images/head_shell_nose_parts.png) |
-| **Back view.** Body v3.34, head v3.30, hair v3.44 | **Hair mesh in this repo: v3.44** | **Head shells and nose, v3.30** |
+| **Back view.** Body v3.34, head v3.30, hair v6.11 (v6b0), neck stand-ins | **Hair mesh in this repo: v3.44** | **Head shells and nose, v3.30** |
 | ![legs on the trunk](docs/images/assembly/s06_legs_on_trunk.png) | ![arms](docs/images/assembly/s09_arms.png) | ![head inside](docs/images/assembly/s12_head_inside.png) |
 | **Legs on the trunk** | **3-DoF arms (STS3032)** | **Head inside: Pi, eyes, ballast** |
 
 ## Highlights
 
 - **Head:** the big wood-textured ball (v3.30 silhouette) with a hollow nose and two 2.1" round touch LCDs as eyes (ESP32-S3; firmware in [`experiments/twiglet_eyes/`](experiments/twiglet_eyes/README.md)), on a 3-servo neck (Open Duck Mini v2-compatible). The walking model uses a **0.843 kg** head (0.84258 kg).
-- **Hair:** the approved keeper is **v6.11 (v6b0)**. That STL is not in this repository, so the pictures above use the hair mesh that is, **v3.44**. A felt hat is not in the model.
+- **Hair:** the approved keeper is **v6.11 (v6b0)**. The README hero renders use that keeper (fringe + felt hat) from the outside viewer assembly. The hair STL is still not checked into this repository; the assembly-step wig image remains the in-repo **v3.44** mesh.
 - **Body:** a slim torso cone with a 10-petal leaf kilt, shin covers and boots (body v3.34).
 - **Arms:** two 3-DoF arms (shoulder, elbow, gripper) on Feetech STS3032 micro bus servos, powered from a 6 V buck regulator.
 - **Simulation:** MuJoCo only, stock **STS3215** leg and neck servos at **1.91 N·m**. Sole contacts are proxy boxes. Nothing here is a hardware or strength result.
