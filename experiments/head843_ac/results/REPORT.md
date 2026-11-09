@@ -1173,3 +1173,15 @@ Holding the step-shortening bias across a short step saved seed 271181 and made 
 On this hash the qualified command is the restart, nominal head, 1000/1000. cfg_d still holds ±20° and +45°. cfg_b still holds the slalom, the stop, and stride ×0.7. Sole contacts are proxy boxes. Nothing here is a hardware or strength result.
 
 Files: `results/head843_manoeuvre_f_prereg.json`, `results/head843_manoeuvre_f_val.json`, `results/head843_manoeuvre_f_screen.json`, `params/head843_manoeuvre_cfg_f.json`, `sim/run_head843_manoeuvre_f_val.py`.
+
+## Swing shortening during the command
+
+No new qualification. The controller file is still `08e856e0…`.
+
+The long steps on seed 271181 are not at the start of the slew. Through the first +20° leg, steps stay near 0.040 m and pitch near −3°. They pass 0.045 m after 7.7 s, during the return toward zero, on both feet. A success on the same route, seed 271000, never lands longer than 0.033 m. Aligning the turn to a double-support edge would not have caught that.
+
+Shortening the swing by 0.02 rad for the whole time the command is moving, before any long step is measured, keeps seeds 271181, 271339, and 271596 upright on the slalom, and seed 268632 finishes a −45° at 8°/s. The same bias cuts the two recorded +90° seeds, also at a declared 8°/s (2.5–13.75 s, episode 17.25 s), to +18° and +34°. At 0.01 rad, seed 271181 still stands, seed 271339 falls again at 5.0 s, and those +90° seeds reach only +50° and +48°. The hip-pitch motion that shortens the step is the same motion the positive turn uses to yaw. No value between those two kept both.
+
+Without that bias, the declared 8°/s command does finish the recorded rate-limited shorts. Seed 270924 still peaks 16.0° the wrong way, and seed 270260 still falls because it falls at 4.33 s with no command at all. A 15°/s 90° command remains faster than the 8–10°/s measured with hip yaw at ±0.10 rad. Seed 276309 still finishes stride ×1.3 at +26.1°. That stride is outside the qualified envelope. The restart qualification on this hash is unchanged.
+
+The 0.02 rad and 0.01 rad trials were not frozen into the file. Straight fingerprints were unchanged while the bias was gated on a heading schedule.

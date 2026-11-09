@@ -36,7 +36,9 @@ The run36 paired straight walks did not fall. Replayed here, seeds 253059, 25818
 
 ## cfg_f, later-cycle integral reset
 
-Law `08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc`. At the edge of a restart’s later cycle the slow-yaw integral is set to zero once. On seed 277378 the hips were still the sign of the first walk while yaw ran to −24°. The preregistered block, seeds 280000–280999, is 1000/1000, Wilson lower 99.62%. Yaw on that thousand runs from −14.3° to +10.9°. The 0.82258 kg and 0.88458 kg heads are each 100/100, Wilson lower 96.30%, which is not a 99.5% mass claim. Straight seeds 281000–281199 are 200/200. cfg_e’s 999/1000 stays on its own hash. Seed 271181 still falls. Seed 276309 still finishes a ×1.3 stride at +26°. A 15°/s 90° command is still faster than the 8–10°/s measured with hip yaw at its clip.
+Law `08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc`. At the edge of a restart’s later cycle the slow-yaw integral is set to zero once. On seed 277378 the hips were still the sign of the first walk while yaw ran to −24°. The preregistered block, seeds 280000–280999, is 1000/1000, Wilson lower 99.62%. Yaw on that thousand runs from −14.3° to +10.9°. The 0.82258 kg and 0.88458 kg heads are each 100/100, Wilson lower 96.30%, which is not a 99.5% mass claim. Straight seeds 281000–281199 are 200/200. cfg_e’s 999/1000 stays on its own hash. Seed 271181 still falls on that hash. Seed 276309 still finishes a ×1.3 stride at +26°. A 15°/s 90° command is still faster than the 8–10°/s measured with hip yaw at its clip.
+
+Shortening the swing by 0.02 rad while a heading command is moving keeps the recorded slalom falls upright and cuts a declared 8°/s +90° (2.5–13.75 s, episode 17.25 s) to about +18° and +34°. At 0.01 rad, seed 271339 falls again and those +90° seeds reach about +50°. That bias was not kept. The law hash above is unchanged. Stride ×1.3 remains outside the qualified envelope because of seed 276309.
 
 ## cfg_c, timed handoff
 
