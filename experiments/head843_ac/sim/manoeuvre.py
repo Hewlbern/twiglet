@@ -219,6 +219,17 @@ class RestartAmp:
                 amp = max(amp, max(0.0, 1.0 - (t - stop_edge) / self.ramp_T))
         return amp
 
+    def later_cycle(self, t):
+        """True from a later restart's rise through its stop. The first walk is excluded."""
+        for i, (t_go, t_stop) in enumerate(self.cycles):
+            if i == 0:
+                continue
+            t_go = self._edge(t_go)
+            stop = self._edge(t_stop)
+            if t_go <= t < stop + self.ramp_T:
+                return True
+        return False
+
 def _smooth(t, t0, dur):
     if t <= t0:
         return 0.0
@@ -1209,6 +1220,16 @@ def rollout(job):
                 yerr = wrap(y_ref - rpy[2])
                 ilim = float(head_mode.get("slow_yaw_ilim", 0.4))
                 ulim = float(head_mode.get("slow_yaw_ulim", 0.02))
+                # A later restart rise is not the qualified straight start. The
+                # second-walk transient on seed 260842 reached -27 deg while this
+                # trim was still near 0.03 rad. Straight walks do not take this branch.
+                if amp is not None and getattr(amp, "later_cycle", None) and amp.later_cycle(t):
+                    ulim = max(ulim, 0.04)
+                # At stride x1.3 the 0.02 rad trim is at its clip on most samples
+                # and heading still runs past 20 deg. The straight walk does not
+                # set stride_scale, so its trim stays 0.02.
+                if float(job.get("stride_scale") or 1.0) > 1.0:
+                    ulim = max(ulim, 0.04)
                 s = math.sin(ph_now)
                 if head_mode.get("phase_yaw") and abs(s) > 0.05:
                     # Same sign on both feet. A positive hip-yaw command yaws the body
@@ -1264,6 +1285,41 @@ def rollout(job):
                     hint["pa_preL"] = float(q[sv.idx["left_hip_pitch"]])
                     hint["pa_preR"] = float(q[sv.idx["right_hip_pitch"]])
                 short_step_balance(q, sv.idx, ph_now, rpy, gy, y_ref, head_mode, cg["gain"])
+                # Turns land the next foot a few millimetres further forward than the
+                # same seed walked straight, and pitch then ratchets backward. Shorten
+                # the swing only after a heading move, and only when a touchdown is
+                # already longer than the straight steps (about 0.045 m). No schedule
+                # means this does not run, so a straight walk is unchanged.
+                if href and href.get("step_guard") and hint.get("saw_heading_move"):
+                    if "sg_ids" not in hint:
+                        hint["sg_ids"] = (
+                            mujoco.mj_name2id(m, mujoco.mjtObj.mjOBJ_GEOM, "sole_foot_assembly"),
+                            mujoco.mj_name2id(m, mujoco.mjtObj.mjOBJ_GEOM, "sole_foot_assembly_2"),
+                        )
+                    Lf, Rf = sole_forces(m, d)
+                    hit = None
+                    if hint.get("sg_Lw", 0.0) < 8.0 <= Lf:
+                        hit = "L"
+                    elif hint.get("sg_Rw", 0.0) < 8.0 <= Rf:
+                        hit = "R"
+                    hint["sg_Lw"], hint["sg_Rw"] = Lf, Rf
+                    if hit is not None:
+                        idL, idR = hint["sg_ids"]
+                        pL, pR = d.geom_xpos[idL], d.geom_xpos[idR]
+                        dx = (pL[0] - pR[0]) if hit == "L" else (pR[0] - pL[0])
+                        dy = (pL[1] - pR[1]) if hit == "L" else (pR[1] - pL[1])
+                        sag = dx * math.cos(float(rpy[2])) + dy * math.sin(float(rpy[2]))
+                        if sag > 0.045:
+                            hint["step_bias"] = min(0.03, 3.75 * (sag - 0.045))
+                        elif sag < 0.042:
+                            hint["step_bias"] = 0.0
+                    bias = float(hint.get("step_bias") or 0.0)
+                    if bias > 0.0:
+                        s = math.sin(ph_now)
+                        wL, wR = max(s, 0.0), max(-s, 0.0)
+                        stL, stR = 1.0 - wL, 1.0 - wR
+                        q[sv.idx["left_hip_pitch"]] += bias * cg["gain"] * (stL - wL)
+                        q[sv.idx["right_hip_pitch"]] += bias * cg["gain"] * (wR - stR)
                 yaw_alloc = href.get("yaw_alloc", "phase") if href else "phase"
                 if scheduling and href and href.get("track_settle") and ycmd is not None and not href.get("track_both") and yaw_alloc in ("phase", "right_stance_onset"):
                     terr = wrap(ycmd - float(rpy[2]))

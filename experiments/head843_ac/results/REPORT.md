@@ -1137,3 +1137,19 @@ Restart seed 260842, which has no heading schedule, reaches −27° of yaw at 10
 On hash `98facc72…`, nominal head, the qualified commands are the +20° arc, the −20° arc, and the +45° turn, each 1000/1000. The −45°, both 90° commands at 15°/s, and this law’s slalom are not. Half-turns were not given a new thousand. cfg_b still holds the slalom, the stop, and stride ×0.7 on its own hash. No mass block was added. Sole contacts are proxy boxes.
 
 The 8°/s screen is `results/head843_manoeuvre_d_rate8_screen.json`.
+
+## Earlier step guard and restart trim (cfg_e)
+
+Preregistered 2026-11-09T00:21:51Z. Law `e13cd9c1ef2f529f3d4401626ef819b7e44df8c9358788879bacb48cf4228887`. Config `1bfda629203e31f8e82224fd4d6baa92df308949a872f205bd163f5d5985a93f`. The early-rate file is still `d308c5f0…`. cfg_d’s hash and its ±20° and +45° counts stay.
+
+On the command-induced falls the touchdown step grows from about 0.040 m to 0.050 m while the same seed walked straight stays near 0.038–0.042 m, and pitch ratchets backward a degree or so per step. Seed 270260 is not in that class: it also falls when walked straight, at 4.33 s. The other recorded falls do not.
+
+After a heading move, a touchdown longer than 0.045 m shortens the next swing, capped at 0.03 rad. Straight walks never set that flag. With it, seed 268632 completes the −45° (final −47.5°, opposite peak 11.4°) and slalom seeds 271339 and 271596 stay upright. Seed 271181 still falls at 13.9 s, after the return toward zero, with pitch already −4.5° at the 12 s waypoint. The 15°/s 90° shorts are unchanged, because their steps are not what limits them. A fresh screen, not a qualification: −45° 47/48 (one finish 17.5° short), slalom 48/48, ±20° and +45° 32/32, ±90° 32/32, straight 32/32. The known 90° shorts and the one slalom fall are still in the mechanism, so those commands were not given a new thousand.
+
+The restart’s second walk was missing the ±0.02 rad trim. Seed 260842 reached −27° at 10.8 s with hip yaw near ±0.03 rad, after the 1 s rise. The later cycle, and only that cycle, now uses a 0.04 rad cap. The first walk and a straight walk stay at 0.02 rad. The four recorded restart misses then finish between −14° and +7°. Seeds 276256–276303 were 48/48. The preregistered block, seeds 277000–277999, is **999/1000**. Wilson 95% lower bound **99.44%**. It does not clear 99.5%. The miss is seed 277378, upright, stopped and restarted, final yaw **−15.27°**. No falls. Yaw on the thousand runs from −15.27° to +11.36°, median +0.4°. Straight regression seeds 278000–278199 are 200/200, Wilson lower 98.12%. Shoulder mean 20.9°, shoulder travel 17.9°, head yaw travel 15.8°. Straight fingerprints 214000 and 214001 and stop seed 233700 still match. No mass block was run, because the nominal restart block was not perfect.
+
+Stride ×1.3 with the same 0.04 rad cap passes seeds 248518 and 248767 at +17.8° and +17.4°. Fresh seeds 276304–276351 are 47/48. Seed 276309 finishes at +26.1°. That command was not preregistered.
+
+On this hash the restart is 999/1000 and is not a 99.5% claim. Nothing else was qualified here. cfg_d still holds ±20° and +45°. cfg_b still holds the slalom, the stop, and stride ×0.7.
+
+Files: `results/head843_manoeuvre_e_prereg.json`, `results/head843_manoeuvre_e_val.json`, `results/head843_manoeuvre_e_screen.json`, `params/head843_manoeuvre_cfg_e.json`, `sim/run_head843_manoeuvre_e_val.py`.
