@@ -1296,10 +1296,13 @@ def rollout(job):
                 # Hip pitch, knee, and ankle are already near the ±1.91 N·m rail in a
                 # normal step. Hip roll is the lateral joint and still has torque
                 # left. A -0.08 rad command on the loaded hip, only while pitch is
-                # past -0.10 rad and still falling, kept the recorded slalom falls
-                # upright. The opposite sign made seed 271339 fall. Straight walks
-                # do not set a heading, so this does not run.
-                if href and href.get("stance_roll_support") and float(rpy[1]) < -0.10 and float(gy[1]) < 0.0:
+                # past -0.14 rad and still falling, kept slalom seeds 271181 and
+                # 271339 upright. The same command at -0.10 rad spun seed 284200.
+                # Straight walks do not set a heading, so this does not run.
+                # -0.10 rad fired during an ordinary -6 deg dip and spun seed 284200
+                # to +17 deg. -0.14 rad still kept the recorded slalom falls upright.
+                roll_pitch = float(href.get("stance_roll_pitch", -0.14)) if href else -0.14
+                if href and href.get("stance_roll_support") and float(rpy[1]) < roll_pitch and float(gy[1]) < 0.0:
                     Lf, Rf = sole_forces(m, d)
                     side = "left_hip_roll" if Lf >= Rf else "right_hip_roll"
                     q[sv.idx[side]] += -0.08
@@ -1342,8 +1345,29 @@ def rollout(job):
                 if scheduling and href and href.get("track_settle") and ycmd is not None and not href.get("track_both") and yaw_alloc in ("phase", "right_stance_onset"):
                     terr = wrap(ycmd - float(rpy[2]))
                     kp = float(href.get("k_yaw_p", 0.45))
-                    extra = max(-0.08, min(0.08, kp * terr))
+                    # hyp_yaw_cap is off unless a hypothetical screen sets it. The
+                    # qualified law keeps the 0.08 rad tracking term.
+                    ex_lim = float(href["hyp_yaw_cap"]) if href.get("hyp_yaw_cap") else 0.08
+                    extra = max(-ex_lim, min(ex_lim, kp * terr))
                     side = "left_hip_yaw" if math.sin(ph_now) <= 0.0 else "right_hip_yaw"
+                    # A negative slew that starts on the left foot commands that hip
+                    # to -0.10 rad and the body yaws positive. Seed 270924 was +9.6 deg
+                    # at 2.50 s and +16.2 deg at 2.73 s. Hold the tracking command
+                    # until the right foot is loaded, and only for the first 0.28 s.
+                    skip_neg = False
+                    if href.get("neg_onset_gate"):
+                        prev_c, pt = hint.get("ycmd_prev"), hint.get("ycmd_t")
+                        srate = 0.0 if prev_c is None or pt is None or t <= pt else wrap(ycmd - prev_c) / (t - pt)
+                        if srate < -math.radians(2.0):
+                            Lf, Rf = sole_forces(m, d)
+                            t_move = hint.get("move_t0")
+                            if Lf >= Rf and t_move is not None and (t - t_move) <= 0.28:
+                                skip_neg = True
+                                hint["neg_onset_hold"] = True
+                    if skip_neg:
+                        extra = 0.0
+                    else:
+                        hint["neg_onset_hold"] = False
                     # Same-sign command on the loaded right hip yaws the body backward
                     # on the first step. The swing right hip keeps that sign: it carries
                     # the rest of the turn. Flip only the first 0.40 s of each slew,
@@ -1358,7 +1382,8 @@ def rollout(job):
                             hint["yaw_flip_right"] = True
                         else:
                             hint["yaw_flip_right"] = False
-                    q[sv.idx[side]] = max(-0.12, min(0.12, q[sv.idx[side]] + extra))
+                    side_lim = float(href["hyp_yaw_cap"]) if href.get("hyp_yaw_cap") else 0.12
+                    q[sv.idx[side]] = max(-side_lim, min(side_lim, q[sv.idx[side]] + extra))
                 if href and href.get("track_both") and ycmd is not None:
                     prev, pt = hint.get("ycmd_prev"), hint.get("ycmd_t")
                     hint["ycmd_prev"], hint["ycmd_t"] = ycmd, t
@@ -1378,11 +1403,15 @@ def rollout(job):
                         hint["ycmd_prev"], hint["ycmd_t"] = ycmd, t
                         if prev is not None and pt is not None and t > pt:
                             rate = wrap(ycmd - prev) / (t - pt)
-                            uff = max(-0.08, min(0.08, kff * rate))
+                            ff_lim = float(href["hyp_yaw_cap"]) if href.get("hyp_yaw_cap") else 0.08
+                            uff = max(-ff_lim, min(ff_lim, kff * rate))
                             side = "left_hip_yaw" if math.sin(ph_now) <= 0.0 else "right_hip_yaw"
                             if href.get("yaw_alloc") == "right_stance_onset" and side == "right_hip_yaw" and hint.get("yaw_flip_right"):
                                 uff = -uff
-                            q[sv.idx[side]] = max(-0.10, min(0.10, q[sv.idx[side]] + uff))
+                            if hint.get("neg_onset_hold"):
+                                uff = 0.0
+                            hold_lim = float(href["hyp_yaw_cap"]) if href.get("hyp_yaw_cap") else 0.10
+                            q[sv.idx[side]] = max(-hold_lim, min(hold_lim, q[sv.idx[side]] + uff))
                 if job.get("pitch_auth"):
                     hint.setdefault("pauth", []).append(dict(
                         t=float(t), pitch=float(rpy[1]), gp=float(gy[1]), ph=float(ph_now),

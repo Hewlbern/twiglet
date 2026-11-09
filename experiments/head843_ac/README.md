@@ -46,6 +46,10 @@ A continuous 4°/s chain of 20° arcs, with a declared 2 s hold between arcs and
 
 Law `2ee3faeaab624dce936ac790b924bf1ba5e38ae456072d857a2bdc7ce8f3c4fe`. Knee and ankle already reach about ±1.91 N·m in a normal straight step, so they were not given the pitch catch. Hip roll still had torque left. A −0.08 rad command on the loaded hip, only while pitch is below −0.10 rad and still falling, kept seeds 271181 and 271339 upright. The opposite sign made 271339 fall. The preregistered slalom, seeds 284000–284999, is 999/1000, Wilson lower 99.44%. The miss is seed 284200, upright, at −1.8° where the target is −20°. No falls. Straight seeds 285000–285199 are 200/200. cfg_f’s restart thousand stays on its own hash. Seed 270924 still peaks 16.1° the wrong way on an 8°/s −90°. Seed 276309 still finishes stride ×1.3 at +26°.
 
+## cfg_h, onset hold
+
+Law `ddf20cc14d2c181e1ef7428078bff7f9160884c1341cae2b75fb782d0ff71fce`. A negative slew waits up to 0.28 s for the right foot before the hip-yaw command is applied. The hip-roll support now waits until pitch is below −0.14 rad. On this hash, nominal head: −90° at 8°/s 1000/1000, slalom 1000/1000, +20° and −20° 1000/1000 each, stride ×1.2 1000/1000 under the 20° speed rule. +90° at 8°/s is 999/1000. −45° at 8°/s is 998/1000. +45° at 15°/s is 999/1000, so cfg_d’s count stays the one for that command. Stride ×1.3 stays outside. `sim/models/twiglet_v3_hyp_torque29.xml` is a labelled copy with hip pitch, knee, and ankle at ±2.9 N·m. The same commands make straight walks yaw by tens of degrees. That file is not the canonical model.
+
 ## cfg_c, timed handoff
 
 Preregistered 2026-11-08T07:07:35Z. Hash above. These counts are not retaken and are not pooled with cfg_d.

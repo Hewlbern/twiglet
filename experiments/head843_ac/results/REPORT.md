@@ -1217,3 +1217,34 @@ The preregistered slalom, seeds 284000–284999, rate 4°/s, segments 2–7 / 7�
 ±90° at a declared 8°/s still leaves seed 270924 with a 16.1° opposite peak. A 15°/s 90° command remains above the 8–10°/s the body holds at the 0.10 rad hip-yaw clip. Seed 276309 still finishes stride ×1.3 at +26.1°. That stride is outside the qualified envelope. A larger hip-yaw range would be what raises the turn-rate cap. It would not, by itself, add sagittal torque past the ±1.91 N·m rail.
 
 Files: `results/head843_manoeuvre_g_prereg.json`, `results/head843_manoeuvre_g_val.json`, `results/head843_manoeuvre_g_screen.json`, `params/head843_manoeuvre_cfg_g.json`, `sim/run_head843_manoeuvre_g_val.py`.
+
+## Onset hold and a later roll gate (cfg_h)
+
+Preregistered 2026-11-09T07:53:34Z. Law `ddf20cc14d2c181e1ef7428078bff7f9160884c1341cae2b75fb782d0ff71fce`. Config `efe2e4a579e8b8d288f8651f3c3519c6c1f2142d4e1046d7ec5abab11dcee982`. cfg_g stays on `2ee3faea…`.
+
+Seed 270924 was already +9.6° at 2.50 s and +16.2° at 2.73 s, while the left hip was commanded −0.10 rad. The right foot was not down yet. Holding the tracking command for at most 0.28 s, only while the command rate is more negative than −2°/s and the left foot is loaded, leaves that peak at +14.3°. Positive slews are not delayed.
+
+The −0.08 rad hip-roll support at −0.10 rad of pitch spun seed 284200 through +17° during the negative slalom lobe. Moving that gate to −0.14 rad puts the 17 s waypoint at −22.5°. Seeds 271181 and 271339 stay upright.
+
+Cleared a per-command Wilson 95% lower bound of 99.5% on this law, nominal head:
+
+- −90° at 8°/s, 2.5–13.75 s, episode 17.25 s, seeds 287000–287999: 1000/1000, lower 99.62%. Low head 99/100, high head 99/100. That is not a 99.5% mass claim.
+- Slalom at 4°/s, seeds 290000–290999: 1000/1000, lower 99.62%. Low head 100/100, high head 99/100. Not a 99.5% mass claim.
+- +20° and −20° at 4°/s, seeds 291000–291999 and 292000–292999: 1000/1000 each, lower 99.62%.
+- Stride ×1.2, seeds 294000–294999: 1000/1000, lower 99.62%, under the existing speed rule. That rule allows 20° of final yaw, not the 15° turn rule. Final yaw on this block ran from −8.8° to +15.0°. Stride ×1.3 is not in this sample. Seed 276309 still finishes ×1.3 at +26.1°.
+
+Did not clear 99.5%:
+
+- +90° at 8°/s, seeds 288000–288999: 999/1000, lower 99.44%. Seed 288059 finishes at +69.9°.
+- −45° at 8°/s, seeds 289000–289999: 998/1000, lower 99.27%. Seed 289342 peaks 16.6° the wrong way. Seed 289569 falls at 4.47 s.
+- +45° at 15°/s, seeds 293000–293999: 999/1000, lower 99.44%. Seed 293011 falls at 4.03 s. cfg_d’s 1000/1000 on that command stays on its own hash.
+
+Regressions, not 99.5% claims: straight 10 s 200/200, straight 20 s 50/50, stop 100/100, restart 100/100, stride ×0.7 100/100. Shoulder mean 20.9°, shoulder travel 17.9°, head yaw travel 15.8°. A −180° screen of eight seeds had one opposite peak of 15.3°. That block was not opened. Seed 270260 still falls at 4.33 s with no command.
+
+## Hypothetical 2.9 N·m sagittal motors
+
+`sim/models/twiglet_v3_hyp_torque29.xml` is a copy. Hip pitch, knee, and ankle ctrlrange are −2.9 to 2.9 N·m. The canonical XML is unchanged (`5e62e84b…`). Hip-yaw motors stay at 1.91 N·m. The same position commands were not retuned.
+
+Seed 270260 no longer trips the fall rule, and it yaws +161° with 0.15 m of progress. Seeds that walk straight on the stock limit yaw from −17° to +105° and slow down. The recorded slalom seeds spin past +190°. A 15°/s 90° command finishes about 30° to 80° short. Raising the hip-yaw command from the stock ±7° soft clip to ±15°, on the same copy, makes the recorded −90° seeds worse and lets eight fresh +90° seeds finish. It is not a reliable turn-rate gain. This is not a hardware result.
+
+Files: `results/head843_manoeuvre_h_prereg.json`, `results/head843_manoeuvre_h_val.json`, `results/head843_manoeuvre_h_screen.json`, `results/head843_hyp_actuator_screen.json`, `params/head843_manoeuvre_cfg_h.json`, `sim/run_head843_manoeuvre_h_val.py`, `sim/run_head843_hyp_actuator.py`.
