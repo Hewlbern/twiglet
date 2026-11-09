@@ -40,6 +40,8 @@ Law `08e856e0a1913a601c7f679d3ca639038d5ca10b52a8d7786176c424e21217dc`. At the e
 
 Shortening the swing by 0.02 rad while a heading command is moving keeps the recorded slalom falls upright and cuts a declared 8°/s +90° (2.5–13.75 s, episode 17.25 s) to about +18° and +34°. At 0.01 rad, seed 271339 falls again and those +90° seeds reach about +50°. That bias was not kept. The law hash above is unchanged. Stride ×1.3 remains outside the qualified envelope because of seed 276309.
 
+A continuous 4°/s chain of 20° arcs, with a declared 2 s hold between arcs and no pose reset, was scored on the same whole-trace rule. Several recorded −90° misses then finish, and the slalom fall seeds stay upright. Seed 269829 falls at 4.9 s during the first +20° arc; its straight walk does not. Seed 268632 reaches +19.2° the wrong way at 4.26 s during the first −20° arc, then finishes near −49°. Fresh seeds 282000–282063 were 16/16 on each profile. That screen is not a qualification, and no new thousand was opened. Hip yaw, clipped at 0.10 rad, is the only heading degree of freedom and tops out near 8–10°/s. Hip pitch is both the step length and the pitch catch.
+
 ## cfg_c, timed handoff
 
 Preregistered 2026-11-08T07:07:35Z. Hash above. These counts are not retaken and are not pooled with cfg_d.

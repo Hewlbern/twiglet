@@ -1185,3 +1185,21 @@ Shortening the swing by 0.02 rad for the whole time the command is moving, befor
 Without that bias, the declared 8°/s command does finish the recorded rate-limited shorts. Seed 270924 still peaks 16.0° the wrong way, and seed 270260 still falls because it falls at 4.33 s with no command at all. A 15°/s 90° command remains faster than the 8–10°/s measured with hip yaw at ±0.10 rad. Seed 276309 still finishes stride ×1.3 at +26.1°. That stride is outside the qualified envelope. The restart qualification on this hash is unchanged.
 
 The 0.02 rad and 0.01 rad trials were not frozen into the file. Straight fingerprints were unchanged while the bias was gated on a heading schedule.
+
+## Segmented 4°/s routes, one continuous walk
+
+No new qualification. Law hash `08e856e0…` is unchanged. The profile was declared before the trials. There is no reset of pose or yaw between arcs. Rate on every ramp is 4°/s. Holds are 2.0 s and are part of the episode.
+
++90°, episode 36.0 s, last ramp ends at 32.5 s: 2–7 s to +20°, 9–14 to +40°, 16–21 to +60°, 23–28 to +80°, 30–32.5 to +90°. The −90° profile negates those targets. −45°, episode 18.75 s: 2–7 s to −20°, 9–15.25 to −45°. The held slalom, episode 31.5 s: 2–7 to +20°, 9–14 to 0°, 16–21 to −20°, 23–28 to 0°.
+
+The same whole-trace rule was applied to the single-heading routes: final unwrapped yaw within 15° of the command and of that sign, opposite peak over the whole trace at most 15°, the band entered by the episode end, cross-track after the last ramp at most 0.40 m, upright.
+
+On the recorded seeds, −90° shorts 270215, 270227, and 270581 finish within 5°, and the 16° wrong-way seed 270924 finishes at −93° with an opposite peak of 12.2°. +90° seed 269737 finishes at +86.6°. Seed 269829 falls at 4.9 s. Its straight walk does not fall. At 4.5 s the pitch is +10° and the yaw is −26° while the command is still the first +20° arc. Seed 268632 stays upright and finishes at −49°, but the opposite peak is +19.2° at 4.26 s, during that first −20° arc. Before 2 s the same trace only reaches +11.4°. Seed 270260 falls at 3.7 s, the same straight-walk fall as at 4.33 s with no command. The three slalom fall seeds stay upright. At the end of the first hold their yaw is about +24° to +28° rather than +20°, and seed 271339’s pitch reaches −10.7°.
+
+Fresh seeds 282000–282063, 16 per profile, were 16/16. That screen is not a qualification. The known fall and the known 19° opposite peak are still in the command, so no thousand was opened.
+
+What the allocation will not do: hip yaw is the only heading degree of freedom. The tracking term adds at most 0.10 rad on the phase-selected hip, inside a joint soft limit of 0.122 rad. At that clip the body yaws at 8–10°/s, so a 15°/s command cannot be tracked by more hip-yaw gain. Step length and the backward-pitch catch are both hip pitch, and that catch is capped at 0.06 rad. Once pitch is past about −8°, hip-pitch torque is already on the ±1.91 N·m rail. Using hip pitch to shorten the step removes the positive yaw rate, which is the trade measured at 0.02 rad and 0.01 rad. Splitting a large heading into 4°/s arcs keeps the command inside the rate the hip can produce, and it does not remove a wrong-way kick on the first arc or a forward pitch fall on a seed whose straight walk is fine. Stride ×1.3 remains outside the envelope: seed 276309 still finishes at +26.1°.
+
+The qualified commands are unchanged and are not pooled. cfg_f restart, seeds 280000–280999, 1000/1000. cfg_d +20°, −20°, and +45°, each 1000/1000. cfg_b slalom, stop, and stride ×0.7, each 1000/1000. cfg_e restart 999/1000.
+
+The fresh screen is `results/head843_manoeuvre_seg4_screen.json`.
