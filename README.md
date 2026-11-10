@@ -1,4 +1,4 @@
-![Twiglet: complete robot, rest pose (render)](docs/images/assembly/s15_complete_front.png)
+![Twiglet, rest pose, front three-quarter view, hair v6.11 (v6b0)](docs/images/hero_current.png)
 
 # Twiglet
 
@@ -10,25 +10,25 @@
 
 | | | |
 |:-:|:-:|:-:|
-| ![complete, back](docs/images/assembly/s15_complete_back.png) | ![wig on the head](docs/images/assembly/s14_wig.png) | ![head shells and nose](docs/images/head_shell_nose_parts.png) |
-| **Complete, back view** | **Head + hair piece v3.44** | **Head shells and nose** |
+| ![complete, back](docs/images/hero_back.png) | ![wig on the head](docs/images/assembly/s14_wig.png) | ![head shells and nose](docs/images/head_shell_nose_parts.png) |
+| **Back view.** Body v3.34, head v3.30, hair v6.11 (v6b0), neck stand-ins | **Hair mesh in this repo: v3.44** | **Head shells and nose, v3.30** |
 | ![legs on the trunk](docs/images/assembly/s06_legs_on_trunk.png) | ![arms](docs/images/assembly/s09_arms.png) | ![head inside](docs/images/assembly/s12_head_inside.png) |
 | **Legs on the trunk** | **3-DoF arms (STS3032)** | **Head inside: Pi, eyes, ballast** |
 
 ## Highlights
 
-- **Head:** a new wood-textured ball head (v3.30) with a hollow nose and two 2.1" round touch LCDs as eyes (ESP32-S3; firmware in [`experiments/twiglet_eyes/`](experiments/twiglet_eyes/README.md)), using a 3-servo neck (Open Duck Mini v2-compatible).
-- **Hair piece:** one printed piece (v3.44, 186 g at 4.5 % infill) that pins and keys onto the head; a felt hat goes over it.
-- **Body:** a slim torso cone with a 10-petal leaf kilt, shin covers and boots (body v3.34, 50 STLs).
+- **Head:** the big wood-textured ball (v3.30 silhouette) with a hollow nose and two 2.1" round touch LCDs as eyes (ESP32-S3; firmware in [`experiments/twiglet_eyes/`](experiments/twiglet_eyes/README.md)), on a 3-servo neck (Open Duck Mini v2-compatible). The walking model uses a **0.843 kg** head (0.84258 kg).
+- **Hair:** the approved keeper is **v6.11 (v6b0)**. The README hero renders use that keeper (fringe + felt hat) from the outside viewer assembly. The hair STL is still not checked into this repository; the assembly-step wig image remains the in-repo **v3.44** mesh.
+- **Body:** a slim torso cone with a 10-petal leaf kilt, shin covers and boots (body v3.34).
 - **Arms:** two 3-DoF arms (shoulder, elbow, gripper) on Feetech STS3032 micro bus servos, powered from a 6 V buck regulator.
-- **Simulation and checks:** MuJoCo model, open-loop gait parameters, standing, push and neck-load tests, plus collision and print-file checks on the real meshes. All of it runs from this repo.
+- **Simulation:** MuJoCo only, stock **STS3215** leg and neck servos at **1.91 N·m**. Sole contacts are proxy boxes. Nothing here is a hardware or strength result.
 
 ## Hardware
 
 | Category | Item | Specification |
 |---|---|---|
 | Body | Size | about 340 × 276 × 499 mm (feet to hair top, rest pose; hat not modelled) |
-| Body | Mass (sim model) | 2.753 kg; head 0.814 kg including the 25 g ballast and the hair piece |
+| Body | Mass (sim model) | 2.781 kg with the 0.843 kg head (0.84258 kg). Low head 0.823 kg on a 2.761 kg model. Heavy head 0.885 kg on a 2.823 kg model. The 25 g ballast is counted once |
 | Motion | Joints | 19: 10 legs + 3 neck (13 × Feetech STS3215), 6 arms (Feetech STS3032) |
 | Computing | Main board | Raspberry Pi Zero 2W (as upstream) |
 | Sensing | IMU | BNO055 (as upstream) |
@@ -40,22 +40,37 @@ Full parts list with links and prices: [docs/BOM.md](docs/BOM.md) (CSV: [docs/BO
 
 ## Simulation results
 
-From [`experiments/`](experiments/README.md), model `experiments/twiglet_sim/models/twiglet_v3_v334_wig344.xml` (body v3.34 + head v3.30 + hair v3.44), re-run from this repo on 5 Oct 2026:
+Walking file [`params/head843_earlyrate.npy`](experiments/head843_ac/params/head843_earlyrate.npy) (`d308c5f003b051b3ddd0b32d15234571bce228eae43843ccc7c86553f067e892`). Each row is its own sample. Counts are not pooled across laws, horizons, or head masses. A scope is qualified only when its own Wilson 95% lower bound is at least 99.5%. The full write-up is [`experiments/head843_ac/results/REPORT.md`](experiments/head843_ac/results/REPORT.md).
 
-| check | result | pass criterion |
-|---|---|---|
-| standing margin (crouch 0.10) | 50.5 mm | no fall, > 30 mm |
-| head + arm motion (e-margin) | 34.1 mm | ≥ 30 mm |
-| neck-pitch static hold | 0.232 N·m = **2.11×** the STS3215 rating | ≥ 2× |
-| main gait, 20 randomized trials | **19/20** at 0.206 m/s | ≥ 19/20 |
-| main gait, 20 held-out seeds | 18/20 at 0.206 m/s | ≥ 18/20 |
-| efficient gait, 20 randomized trials | **20/20** at 0.156 m/s | ≥ 19/20 |
-| hair vs arms inside the soft limits | 0 / 0 / 0 (yaw 0 / −45 / +45) | 0 |
-| 315-pose head range | 154/315 poses with any contact, 0 hair-only | ≤ ~154, 0 hair-only |
-| eye coverage by the hair | 0 / 0 triangles | 0 |
-| print files | watertight, 1 body, fit the P1S | all |
+Every row uses the stock STS3215 limit of 1.91 N·m, in simulation only. Sole contacts are proxy boxes. These counts are not a hardware or strength claim.
 
-The gaits are 12-parameter open-loop/PD vectors ([BEST_WALK_PARAMS_v334r1.npy](BEST_WALK_PARAMS_v334r1.npy), [BEST_WALK_EFF_PARAMS_v333r1.npy](BEST_WALK_EFF_PARAMS_v333r1.npy); see `experiments/twiglet_sim/walk_search.py`), **not** ONNX RL policies like upstream's. Training a policy with [Open_Duck_Playground](https://github.com/apirrone/Open_Duck_Playground) is TODO.
+| Scope | Seeds | Count | Wilson 95% lower | Law |
+|---|---|---:|---:|---|
+| Straight, nominal, 10 s, 0.843 kg | 214000–217999 | 4000/4000 | 99.90% | early-rate |
+| Straight, nominal, 20 s, 0.843 kg | 218000–221999 | 4000/4000 | 99.90% | early-rate |
+| Straight, low head 0.823 kg, 10 s | 210000–213999 | 3999/4000 | 99.86% | early-rate |
+| Straight, heavy head 0.885 kg, 10 s | 222000–222999 | 1000/1000 | 99.62% | early-rate |
+| Stop at 6 s | 245000–245999 | 1000/1000 | 99.62% | [cfg_b](experiments/head843_ac/results/head843_manoeuvre_b_val.json) |
+| Restart | 280000–280999 | 1000/1000 | 99.62% | [cfg_f](experiments/head843_ac/results/head843_manoeuvre_f_val.json) |
+| Slow stride ×0.7 | 247000–247999 | 1000/1000 | 99.62% | [cfg_b](experiments/head843_ac/results/head843_manoeuvre_b_val.json) |
+| Stride ×1.2 | 294000–294999 | 1000/1000 | 99.62% | [cfg_h](experiments/head843_ac/results/head843_manoeuvre_h_val.json). The speed rule allows 20° of final yaw |
+| +20° at 4°/s | 291000–291999 | 1000/1000 | 99.62% | [cfg_h](experiments/head843_ac/results/head843_manoeuvre_h_val.json) |
+| −20° at 4°/s | 292000–292999 | 1000/1000 | 99.62% | [cfg_h](experiments/head843_ac/results/head843_manoeuvre_h_val.json) |
+| +45° at 15°/s | 267000–267999 | 1000/1000 | 99.62% | [cfg_d](experiments/head843_ac/results/head843_manoeuvre_d_val.json) |
+| −90° at 8°/s | 287000–287999 | 1000/1000 | 99.62% | [cfg_h](experiments/head843_ac/results/head843_manoeuvre_h_val.json) |
+| Slalom ±20° at 4°/s | 290000–290999 | 1000/1000 | 99.62% | [cfg_h](experiments/head843_ac/results/head843_manoeuvre_h_val.json) |
+
+Shoulder mean on the straight walks is 20.9°, shoulder travel about 17.9°, head yaw travel about 15.8°. Low and heavy heads were not walked for 20 s.
+
+**Not yet qualified**
+
+- +90°, including 8°/s on cfg_h (999/1000, Wilson lower 99.44%; seed 288059 finishes at +69.9°) and 15°/s on cfg_d (998/1000, lower 99.27%).
+- −45°, at 8°/s (998/1000, lower 99.27%) and at 15°/s (999/1000, lower 99.44%). The fast −45° is the one that missed. +45° at 15°/s is the row above.
+- 180°. An eight-seed −180° screen had one opposite peak of 15.3°. No thousand was opened.
+- Stride ×1.3. Seed 276309 finishes at +26°.
+- Seed **270260** falls at 4.33 s on a straight walk, with no turn command. It is a baseline exception, not a turn miss.
+
+A separate copy, [`twiglet_v3_hyp_torque29.xml`](experiments/head843_ac/sim/models/twiglet_v3_hyp_torque29.xml), raises hip-pitch, knee, and ankle limits from 1.91 N·m to 2.9 N·m. The same position commands were not retuned. Straight walks then yaw by tens of degrees, and seed 270260 stays inside the fall rule while yawing +161°. That file is a what-if, not the canonical model and not a hardware result. The screen is [`head843_hyp_actuator_screen.json`](experiments/head843_ac/results/head843_hyp_actuator_screen.json).
 
 ## Where to find things
 
